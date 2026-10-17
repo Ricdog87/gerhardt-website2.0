@@ -1,0 +1,1605 @@
+{
+  "/ansprechpartner": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/beleuchtung": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Gartenbeleuchtung",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Gerhardt GmbH",
+        "url": "https://gerhardt-gmbh.de"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Rhein-Main-Gebiet"
+      },
+      "description": "Modulare Gartenbeleuchtung (in-lite) — Planung und Installation, im Bestandsgarten nachrüstbar. Rhein-Main-Gebiet."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Gartenbeleuchtung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Für eine schöne Lichtszenerie im Garten liegen wir typischerweise zwischen 5.000 und 15.000 €. Damit haben Sie ein Top‑Licht im Garten. Nach oben ist es je nach Fläche und Anspruch offen; nach unten fangen wir gerne mit einem kleineren Setup an und ergänzen später."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann man die Beleuchtung im Bestandsgarten nachrüsten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, und es ist einfacher als bei der Bewässerung. Wir brauchen nur einen Stromanschluss. Die Leitungen legen wir sauber im Beet oder entlang der Beetkante — der Rasen bleibt unangetastet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich später erweitern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genau dafür ist das System gemacht. Sie fangen mit ein paar Punkten an, entdecken im Betrieb, wo noch Licht hin will, und wir ergänzen. Lampen sind umsetzbar; die Verbindungen sind wasserdicht und verschweißen sich am neuen Punkt selbst wieder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie funktioniert die Steuerung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Steuerung läuft per App. Sie können Zeiten, Zonen und Dimmung jederzeit anpassen. Auf Wunsch integrieren wir die Beleuchtung in ein bestehendes Smarthome‑System."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Marken verbauen Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir arbeiten mit dem modularen In‑Lite‑Niedervoltsystem, das für den Außenbereich zugelassen und dauerhaft wasserdicht ist. Kein Baumarktmaterial — Profikomponenten, die auch nach Jahren im Garten noch tun, was sie sollen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In welcher Region arbeiten Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir arbeiten im gesamten Rhein‑Main‑Gebiet. Unsere Anlagen laufen in Wiesbaden, Mainz, Frankfurt, Königstein im Taunus, Kronberg, Bad Homburg, Oberursel, Bad Soden und Kelkheim. Darüber hinaus sind wir regelmäßig in Hofheim, Rüsselsheim, Idstein und im Rheingau im Einsatz. Für gewerbliche und öffentliche Anlagen bedienen wir den erweiterten Radius bis Darmstadt und Bad Vilbel."
+          }
+        }
+      ]
+    }
+  ],
+  "/bewaesserung": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Bewässerungsanlagen",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Gerhardt GmbH",
+        "url": "https://gerhardt-gmbh.de"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Rhein-Main-Gebiet"
+      },
+      "description": "Planung, Installation und Wartung automatischer Bewässerungsanlagen für Hausgärten und Grünflächen im Rhein-Main-Gebiet."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Bewässerungsanlage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eine Bewässerungsanlage beginnt bei etwa 3.000 € und kann bei großen Anlagen bis in den sechsstelligen Bereich gehen. Jeder Fall ist etwas anders, wir erstellen Ihnen gerne ein individuelles Angebot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In welcher Region arbeiten Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir arbeiten im gesamten Rhein‑Main‑Gebiet. Unsere Anlagen laufen in Wiesbaden (Sonnenberg, Nerotal, Rambach, Bierstadt), Königstein im Taunus, Kronberg (Oberhöchstadt), Bad Homburg, Oberursel, Bad Soden am Taunus und Kelkheim. Darüber hinaus sind wir regelmäßig in Mainz, Hofheim, Eppstein, Glashütten sowie in Frankfurt am Main (Westend, Nordend, Sachsenhausen) im Einsatz. Für gewerbliche und öffentliche Anlagen bedienen wir den erweiterten Radius bis Darmstadt, Rüsselsheim und Bad Vilbel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann man eine Bewässerungsanlage im Bestandsgarten nachrüsten, ohne den Rasen aufzureißen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Wir arbeiten im Bestand mit der Hand: Rasensode abgestochen, Vlies untergelegt, Erde per Hand ausgehoben. Drei Wochen später sieht man nicht mehr, dass wir da waren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Marken verbauen Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir verbauen ausschließlich Profimaterial namhafter Hersteller wie Hunter, Rain Bird und Toro. Keine Gardena‑Anlagen. Die Rohre sind UV‑beständig, die Formteile DVGW‑geprüft, die Verteilerleitungen trinkwassertauglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie lange dauert die Installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eine typische Anlage im Bestandsgarten wird in einer bis zwei Wochen fertig, je nach Größe. Im Neubau erstreckt sich unsere Arbeit über den Rhythmus des Landschaftsbauers, also in mehreren Etappen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie funktioniert die Wetter‑Automatik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Steuerung liest Wetterdaten per App und bezieht Bodensensoren mit ein. Sind zum Beispiel 85 Prozent Regenwahrscheinlichkeit gemeldet, wartet die Anlage einfach ab. Sensoren im Boden messen die tatsächliche Feuchte an repräsentativen Punkten, falls die Wettervorhersage mal daneben liegt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist mit Wartung und Winterisierung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vor dem ersten Frost wird die Anlage entleert und winterfest gemacht. Im Frühjahr nehmen wir sie wieder in Betrieb und prüfen alle Regner. Wir bieten diesen Service für unsere Anlagen an, ein bis zwei Termine pro Jahr, planbar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Für welche Gärten ist eine Anlage nicht sinnvoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wenn die Fläche sehr klein und ungünstig zugeschnitten ist, kann eine feste Anlage überdimensioniert sein. Auch bei stark verwinkelten Gärten oder wenn man in absehbarer Zeit umgestalten möchte, lohnt sich der Aufwand nicht immer. Wir sagen das offen."
+          }
+        }
+      ]
+    }
+  ],
+  "/datenschutz": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/gartentechnik": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/impressum": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/kontakt": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wer steckt hinter Gerhardt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gegründet als Planungsbüro, bauen wir seit über 25 Jahren Gärten, Pools und die Technik dahinter — heute mit eigenem Team im gesamten Rhein‑Main‑Gebiet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo bauen Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Wiesbaden und im gesamten Rhein‑Main‑Gebiet — Wiesbaden, Taunus, Frankfurt und Umgebung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kostet ein Projekt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Komplettprojekte beginnen bei 120.000 €. Der genaue Rahmen ergibt sich aus Größe, Gelände und Technik und wird im Erstgespräch besprochen. Einzelne kleinere Arbeiten übernehmen wir im Rahmen eines Gesamtprojekts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie lange dauert ein Projekt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Je nach Umfang. Eine Poolanlage im Bestand entsteht in einigen Wochen, eine komplette Neuanlage über mehrere Monate. Den Zeitplan legen wir gemeinsam fest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Übernehmen Sie auch die Planung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Wir planen und bauen den gesamten technischen Ausbau — Pool, Wasser, Licht, Bewässerung und Automation — als ein System. Bei architektengeführten Projekten übernehmen wir diesen Teil als Fachplaner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist nach der Übergabe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir bleiben. Wartung und Pflege von Pool, Wassertechnik und Bewässerung gehören zu unserem Portfolio."
+          }
+        }
+      ]
+    }
+  ],
+  "/pools/galerie": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekt-bergparadies": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekt-kronberg": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekt-mainz": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekt-naturstein": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekt-provence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekt-suedtirol": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekt-townhouse": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/pools/projekte": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/rasenroboter": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Rasenroboter",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Gerhardt GmbH",
+        "url": "https://gerhardt-gmbh.de"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Rhein-Main-Gebiet"
+      },
+      "description": "Autorisierter Fachhändler für Husqvarna Automower und Kress Mission RTK. Vermessung, Installation, Wartungsvertrag mit Winterservice."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet ein Rasenroboter mit Installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Mäher selbst kostet zwischen 800 und 5.000 €. Mit professioneller Vor‑Ort‑Einrichtung liegt der Startpunkt für einen kleinen Hausgarten bei rund 1.500 €. Nach oben ist die Skala je nach Fläche und System offen — bei großen oder gewerblichen Anlagen mit RTK‑Präzision können es einige zehntausend Euro werden. Jeder Garten ist anders, wir erstellen Ihnen gerne ein individuelles Angebot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welchen Rasenroboter empfehlen Sie: Husqvarna oder Kress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beide sind gute Systeme. Wir sind autorisierter Fachhändler für Husqvarna Automower® und Kress Mission RTKⁿ und empfehlen die Technik, die zu Ihrem Garten passt. Husqvarna dominiert mit reifer Software, breiter Modellauswahl und der bekanntesten Marke. Kress punktet mit netzwerkbasierter RTK‑Navigation ohne Referenzantenne vor Ort. Welches System besser passt, entscheiden wir bei der Vor‑Ort‑Vermessung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Begrenzungskabel oder EPOS/RTK: was ist besser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kommt auf den Garten an. Begrenzungskabel funktionieren zuverlässig auch dort, wo der Empfang schwach ist: unter dichtem Baumbewuchs, in engen Innenhöfen, zwischen hohen Gebäuden. EPOS und RTK sind für komplexe Gartenlayouts, mehrere Zonen und Gärten, die sich saisonal verändern, die bessere Wahl. Die Grenze lässt sich in der App neu ziehen, ohne graben zu müssen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ab welcher Rasenfläche ist ein Roboter sinnvoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ab etwa 300 m² fangen die Modelle an, wirtschaftlich sinnvoll zu werden. Zwischen 800 m² und 3.500 m² liegt das Standardgebiet für Hausgärten. Für 3.500 bis 8.000 m² kommen professionelle Modelle wie der Husqvarna 535 AWD EPOS oder Kress KR172 zum Einsatz. Für kleine, verwinkelte Flächen unter 300 m² lohnt sich der Aufwand oft nicht. Wir sagen das offen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In welcher Region arbeiten Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir arbeiten im gesamten Rhein‑Main‑Gebiet. Unsere Roboter laufen in Wiesbaden, Mainz, Frankfurt, Königstein im Taunus, Kronberg, Bad Homburg, Oberursel, Bad Soden und Kelkheim. Darüber hinaus sind wir regelmäßig in Hofheim, Rüsselsheim, Idstein und im Rheingau im Einsatz. Für gewerbliche und öffentliche Anlagen bedienen wir den erweiterten Radius bis Darmstadt und Bad Vilbel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was passiert bei starkem Regen, Frost oder Sturm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Regensensor pausiert den Betrieb bei Starkregen automatisch. Bei Sturm bleibt der Roboter in der Ladestation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sind Rasenroboter diebstahlgesichert?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Alle Modelle sind mit PIN‑Code, Alarm und GPS‑Ortung ausgestattet. Beim Verlassen des zugewiesenen Bereichs wird der Motor gesperrt und eine Meldung an die App geschickt. Ohne PIN lässt sich kein installierter Roboter woanders in Betrieb nehmen. Bei der Installation richten wir die Sicherheitsmerkmale mit ein."
+          }
+        }
+      ]
+    }
+  ],
+  "/stellenmarkt": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "/stellenmarkt/backoffice": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Kaufm. Mitarbeiter Backoffice (m/w/d)",
+      "description": "Korrespondenz, Kundenanfragen, Fakturierung — im Zentrum unseres Tagesgeschäfts. — Ihre Aufgaben: Korrespondenz (schriftliche sowie telefonische Kommunikation via Briefe, E-Mails, Telefon etc. mit Mitarbeitern und Vorgesetzten, wie auch extern mit Kunden und Geschäftspartnern) · Bearbeitung von Kundenanfragen per Telefon oder E-Mail · Aufnahme von Störungsfällen inkl. Abarbeitung · Management Arbeitskleidung, Büromaterial / Verbrauchsmaterial · Datenpflege in Datenbanken · Fakturierung und Erstellung von Abrechnungsunterlagen — Anforderungen: Eine erfolgreich abgeschlossene Ausbildung, kaufmännisch bevorzugt oder Tätigkeiten, die gleichwertige Fähigkeiten und Kenntnisse voraussetzen · Fundierte MS-Office-Kenntnisse · Fließende Deutschkenntnisse · Hervorragende Zeitmanagement- und Multitasking-Fähigkeiten mit der Fähigkeit zur Priorisierung · Problemlösungskompetenz und Detailgenauigkeit sowie proaktive Herangehensweise, Eigeninitiative und Engagement · Professionelle Kommunikation auf den Kontaktkanälen Telefon, E-Mail sowie im direkten Kundenkontakt · Hohe Belastbarkeit, Organisationsgeschick · Führerschein Klasse B — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag · Betriebliche Altersvorsorge · Qualifikationen und Weiterbildungen · Quereinsteiger sind herzlich willkommen",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/stellenmarkt/bauleiter": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Junior Bauleiter (m/w/d)",
+      "description": "Aufmaß, Planung und Baustellensteuerung im Hausgarten- und Gewerbebereich. — Ihre Aufgaben: Aufmaß und Planung kleiner und mittlerer Bauvorhaben im Hausgartenbereich und gewerblichen Projekten · Erstellen von Bewässerungsschemas (2D) nach Bedarf für laufende Bauvorhaben · Fachliche Unterstützung der Bauleitung bei der kompletten Abwicklung der Bauvorhaben · Fachliche Unterstützung bei Baustellendokumentation, Aufmaß-Erstellung, Materialdisposition, Abgleich der erbrachten Leistungen mit den beauftragten Leistungen, Ausführungsüberwachung · Angebots- und Nachtragsbearbeitung · Vorbereitung und Erstellen von abrechnungsfähigen Unterlagen · Vertretung der Bauleitung bei Abwesenheit — Anforderungen: Abgeschlossene Ausbildung oder Techniker*in, Meister*in, Architekt*in, Bachelor*in · Gute Kenntnisse in handwerklichen Abläufen · Kreativität und planerisches Gespür · Gepflegtes und freundliches Auftreten · Wenn möglich, CAD-Kenntnisse (AutoCAD) · Gute PC-Kenntnisse (Outlook, Word, Excel und PowerPoint) · Teamfähigkeit · Führerschein Klasse B · Sehr gute Deutschkenntnisse · Eigenverantwortliches Handeln · Offenheit und Neugierde gegenüber neuen Aufgaben und Herausforderungen · Problemlösungskompetenz und Detailgenauigkeit sowie proaktive Herangehensweise, Eigeninitiative und Engagement · Professionelle Kommunikation auf den Kontaktkanälen Telefon, E-Mail sowie im direkten Kundenkontakt · Hervorragende Zeitmanagement- und Multitasking-Fähigkeiten mit der Fähigkeit zur Priorisierung · Hohe Belastbarkeit, Organisationsgeschick — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Krisensicherer Vollzeitarbeitsplatz · Unbefristeter Arbeitsvertrag · Weiterbildungsmöglichkeiten · Spannende Projekte · Lockere Arbeitsatmosphäre · Hohes Maß an eigener Verantwortung · Abwechslungsreiche Tätigkeit in familiärer Atmosphäre · Teamgeist und ein optimales Umfeld für Ihren nächsten Karriereschritt · Langfristige Zusammenarbeit · Betriebliche Altersvorsorge",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/stellenmarkt/initiativbewerbung": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Initiativbewerbung",
+      "description": "Kein passender Job dabei? Wir freuen uns trotzdem über Ihre Bewerbung — und melden uns, wenn Ihr Profil passt oder eine Stelle frei wird.",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/stellenmarkt/monteur-elektro": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Elektro",
+      "description": "Verkabelung, Steuerungen, Inbetriebnahme — für Pools, Brunnen und Bewässerung. — Ihre Aufgaben: Installation von wassertechnischen Anlagen wie öffentliche Brunnenanlagen und private Pools sowie Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Installation, Verkabelung und Sicherstellung der Funktionalität verschiedener elektrischer Systeme · Lesen und Verstehen von Zeichnungen sowie Schalt- und Bauplänen und Entwicklung eigener Strategien zur Problemlösung · Installation von Verteiler- und Sicherheitskomponenten · Identifikation, Reparatur oder Austausch beschädigter Kabel, Geräte oder Komponenten · Regelmäßige Prüfung komplexer Verkabelungen und Schaltkreise auf Funktionalität · Ausfüllen von Bautagesberichten · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Abgeschlossene Ausbildung als Elektriker, Elektroniker, Elektrotechniker oder vergleichbare Qualifikation inkl. Zulassung zur Ausübung Ihres Berufs · Erfahrung im Umgang mit kommerziellen und industriellen elektrischen Systemen · Sicheres Analysieren und Lesen von Schaltplänen, Zeichnungen und Bauplänen · Handwerkliche Kenntnisse und ein technisches Verständnis · Gute Deutschkenntnisse in Wort und Schrift · Führerschein Klasse B (oder mehr) · Nachweisbare Fähigkeit zur Verwendung von Elektrowerkzeugen und notwendigen Handwerksmaterialien · Kundenorientierte, selbständige und eigenverantwortliche Arbeitsweise · Körperliche Belastbarkeit und ausgeprägte Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit · Offener, freundlicher Umgang mit Kollegen und Kunden — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Berufsanfänger sind willkommen",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/stellenmarkt/monteur-installation": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Installation",
+      "description": "Rohrleitungsbau, Druckprüfung, Montage — für Bewässerung, Brunnen und Pools. — Ihre Aufgaben: Installation von wassertechnischen Anlagen wie öffentliche Brunnenanlagen und private Pools sowie Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Verarbeitung von HDPE-, Metall-, PVC- und Mehrschichtverbundrohren in allen Verfahrensweisen · Durchführung der Druckprüfverfahren an Rohrleitungen · Montage und Demontage von Rohrleitungen und Bauteilen sowie Reparaturarbeiten an Leitungen · Lesen und Verstehen von Zeichnungen sowie Bauplänen und Entwicklung eigener Strategien zur Problemlösung · Ausfüllen von Bautagesberichten und Prüfprotokollen · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Abgeschlossene Ausbildung im Rohrleitungsbau oder als Anlagenmechaniker/-in für Sanitär-, Heizungs- und Klimatechnik oder vergleichbare Qualifikation inkl. Zulassung zur Ausübung Ihres Berufs · Ausgeprägtes handwerkliches Geschick sowie gute Kommunikationsfähigkeit mit Kunden und Kollegen · Zuverlässig, pünktlich und selbständige Arbeitsweise · Führerschein Klasse B · Gute Deutschkenntnisse in Wort und Schrift · Körperlich belastbar mit ausgeprägter Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Berufsanfänger sind willkommen",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/stellenmarkt/monteur-schwimmbadbau": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Schwimmbadbau",
+      "description": "Beckenmontage, Poolabdeckung, Wärmepumpen — vom Rohbau bis zur Inbetriebnahme. — Ihre Aufgaben: Installation von wassertechnischen Anlagen wie private Pools und öffentliche Brunnenanlagen sowie Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Verarbeitung von HDPE-, Metall-, PVC- und Mehrschichtverbundrohren in allen Verfahrensweisen · Einbau von Fertigschwimmbecken und Montage von Einbauteilen in Betonbecken · Verrohrung und Installation der gesamten Schwimmbadtechnik inkl. Wärmepumpen · Installation und Kalibrierung von Mess- und Regeltechniken · Einbau von Poolabdeckungen und Rollladensystemen · Lesen und Verstehen von Zeichnungen sowie Bauplänen und Entwicklung eigener Strategien zur Problemlösung · Ausfüllen von Bautagesberichten und Prüfprotokollen · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Abgeschlossene Ausbildung im Handwerk wie z. B. als Rohrleitungsbauer/-in oder Anlagenmechaniker/-in für Sanitär-, Heizungs- und Klimatechnik oder vergleichbare Qualifikation inkl. Zulassung zur Ausübung Ihres Berufs · Grundkenntnisse in der Elektrotechnik · Berufliche Erfahrung im Schwimmbadbau wünschenswert, aber keine Voraussetzung · Ausgeprägtes handwerkliches Geschick sowie gute Kommunikationsfähigkeit mit Kunden und Kollegen · Zuverlässig, pünktlich und selbständige Arbeitsweise · Führerschein Klasse B · Gute Deutschkenntnisse in Wort und Schrift · Körperlich belastbar mit ausgeprägter Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Berufsanfänger sind willkommen",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/stellenmarkt/monteur-wassertechnik": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Monteur für wassertechnische Anlagen (m/w/d)",
+      "description": "Installation von Beregnungsanlagen, Brunnen und Pools — für Gewerbe und Privat. — Ihre Aufgaben: Installation von Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation von wassertechnischen Anlagen wie öffentliche Brunnenanlagen und private Pools · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Ausfüllen von Bautagesberichten · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Eine abgeschlossene Ausbildung (Gartenbau, Handwerk etc.) · Handwerkliche Kenntnisse und ein technisches Verständnis · Deutschkenntnisse in Wort und Schrift · Führerschein Klasse B · Kundenorientierte, selbständige und eigenverantwortliche Arbeitsweise · Körperlich belastbar mit ausgeprägter Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit · Offener, freundlicher Umgang mit Kollegen und Kunden — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Quereinsteiger und Berufsanfänger sind willkommen",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/stellenmarkt/servicetechniker": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Servicetechniker / Kundendiensttechniker (m/w/d)",
+      "description": "Wartung, Reparatur und Inbetriebnahme wassertechnischer Anlagen direkt beim Kunden. — Ihre Aufgaben: Sie unternehmen Wartungs-, Reparatur- und Serviceeinsätze direkt beim Kunden vor Ort · Sie installieren, konfigurieren und nehmen die entsprechenden wassertechnischen Anlagen (Bewässerung, öffentliche Brunnenanlagen, private Pools) in Betrieb · Vorabnahmen der Poolanlagen, Bewässerungsanlagen und Brunnenanlagen · Instandhaltungsarbeiten von Mess- und Regeltechnikanlagen sowie Filtertechnik — Anforderungen: Handwerkliche Kenntnisse und ein technisches Verständnis · Eine abgeschlossene Ausbildung (Elektro, Sanitär, Handwerk etc.) · Bestenfalls erste Erfahrungen als Servicetechniker (m/w/d) · Gute Deutschkenntnisse in Wort und Schrift · Führerschein Klasse B (ein Servicefahrzeug wird gestellt) · Kundenorientierte, selbständige und eigenverantwortliche Arbeitsweise · Körperliche Belastbarkeit und ausgeprägte Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit · Offener, freundlicher Umgang mit Kollegen und Kunden — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag · Betriebliche Altersvorsorge · Qualifikationen und Weiterbildungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "/ueber-uns": [],
+  "/wartung": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Wartung und Service",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Gerhardt GmbH",
+        "url": "https://gerhardt-gmbh.de"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Rhein-Main-Gebiet"
+      },
+      "description": "Wartung von Pool, Wassertechnik, Bewässerung und Beleuchtung — vom Team, das die Anlage gebaut hat. Rhein-Main-Gebiet."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ]
+}

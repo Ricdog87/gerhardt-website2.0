@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "bergparadies",
+    "name": "Bergparadies",
+    "ort": "Wiesbaden",
+    "pool": "3,60 × 8 m, Überlauf (mit Gegenstromanlage)",
+    "projektart": "Bestandsgarten",
+    "kostenrahmen": "ca. 200.000 €"
+  },
+  {
+    "slug": "kronberg",
+    "name": "Kronberg",
+    "ort": "Kronberg",
+    "pool": "3,60 × 7 m, Skimmer",
+    "projektart": "Bestandsgarten",
+    "kostenrahmen": "ca. 150.000 €"
+  },
+  {
+    "slug": "mainz",
+    "name": "Mainz",
+    "ort": "Mainz",
+    "pool": "3,30 × 7 m, Skimmer (mit Gegenstromanlage)",
+    "projektart": "Neubau",
+    "kostenrahmen": "ca. 150.000 €"
+  },
+  {
+    "slug": "naturstein",
+    "name": "Naturstein",
+    "ort": "Wiesbaden",
+    "pool": "4 × 9 m, Skimmer (mit Gegenstromanlage)",
+    "projektart": "Bestandsgarten",
+    "kostenrahmen": "ca. 300.000 €"
+  },
+  {
+    "slug": "provence",
+    "name": "Provence",
+    "ort": "Wiesbaden",
+    "pool": "3 × 9 m, Skimmer",
+    "projektart": "Bestandsgarten",
+    "kostenrahmen": "ca. 150.000 €"
+  },
+  {
+    "slug": "suedtirol",
+    "name": "Südtirol",
+    "ort": "Königstein",
+    "pool": "3,50 × 8 m, Skimmer (mit Gegenstromanlage)",
+    "projektart": "Neubau",
+    "kostenrahmen": "ca. 150.000 €"
+  },
+  {
+    "slug": "townhouse",
+    "name": "Townhouse",
+    "ort": "Wiesbaden",
+    "pool": "3 × 7 m, Skimmer (mit Gegenstromanlage)",
+    "projektart": "Neubau",
+    "kostenrahmen": "ca. 200.000 €"
+  }
+]

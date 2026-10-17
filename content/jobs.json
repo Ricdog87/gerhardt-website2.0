@@ -1,0 +1,218 @@
+[
+  {
+    "path": "/stellenmarkt/backoffice",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Kaufm. Mitarbeiter Backoffice (m/w/d)",
+    "description": "Korrespondenz, Kundenanfragen, Fakturierung — im Zentrum unseres Tagesgeschäfts. — Ihre Aufgaben: Korrespondenz (schriftliche sowie telefonische Kommunikation via Briefe, E-Mails, Telefon etc. mit Mitarbeitern und Vorgesetzten, wie auch extern mit Kunden und Geschäftspartnern) · Bearbeitung von Kundenanfragen per Telefon oder E-Mail · Aufnahme von Störungsfällen inkl. Abarbeitung · Management Arbeitskleidung, Büromaterial / Verbrauchsmaterial · Datenpflege in Datenbanken · Fakturierung und Erstellung von Abrechnungsunterlagen — Anforderungen: Eine erfolgreich abgeschlossene Ausbildung, kaufmännisch bevorzugt oder Tätigkeiten, die gleichwertige Fähigkeiten und Kenntnisse voraussetzen · Fundierte MS-Office-Kenntnisse · Fließende Deutschkenntnisse · Hervorragende Zeitmanagement- und Multitasking-Fähigkeiten mit der Fähigkeit zur Priorisierung · Problemlösungskompetenz und Detailgenauigkeit sowie proaktive Herangehensweise, Eigeninitiative und Engagement · Professionelle Kommunikation auf den Kontaktkanälen Telefon, E-Mail sowie im direkten Kundenkontakt · Hohe Belastbarkeit, Organisationsgeschick · Führerschein Klasse B — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag · Betriebliche Altersvorsorge · Qualifikationen und Weiterbildungen · Quereinsteiger sind herzlich willkommen",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  },
+  {
+    "path": "/stellenmarkt/bauleiter",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Junior Bauleiter (m/w/d)",
+    "description": "Aufmaß, Planung und Baustellensteuerung im Hausgarten- und Gewerbebereich. — Ihre Aufgaben: Aufmaß und Planung kleiner und mittlerer Bauvorhaben im Hausgartenbereich und gewerblichen Projekten · Erstellen von Bewässerungsschemas (2D) nach Bedarf für laufende Bauvorhaben · Fachliche Unterstützung der Bauleitung bei der kompletten Abwicklung der Bauvorhaben · Fachliche Unterstützung bei Baustellendokumentation, Aufmaß-Erstellung, Materialdisposition, Abgleich der erbrachten Leistungen mit den beauftragten Leistungen, Ausführungsüberwachung · Angebots- und Nachtragsbearbeitung · Vorbereitung und Erstellen von abrechnungsfähigen Unterlagen · Vertretung der Bauleitung bei Abwesenheit — Anforderungen: Abgeschlossene Ausbildung oder Techniker*in, Meister*in, Architekt*in, Bachelor*in · Gute Kenntnisse in handwerklichen Abläufen · Kreativität und planerisches Gespür · Gepflegtes und freundliches Auftreten · Wenn möglich, CAD-Kenntnisse (AutoCAD) · Gute PC-Kenntnisse (Outlook, Word, Excel und PowerPoint) · Teamfähigkeit · Führerschein Klasse B · Sehr gute Deutschkenntnisse · Eigenverantwortliches Handeln · Offenheit und Neugierde gegenüber neuen Aufgaben und Herausforderungen · Problemlösungskompetenz und Detailgenauigkeit sowie proaktive Herangehensweise, Eigeninitiative und Engagement · Professionelle Kommunikation auf den Kontaktkanälen Telefon, E-Mail sowie im direkten Kundenkontakt · Hervorragende Zeitmanagement- und Multitasking-Fähigkeiten mit der Fähigkeit zur Priorisierung · Hohe Belastbarkeit, Organisationsgeschick — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Krisensicherer Vollzeitarbeitsplatz · Unbefristeter Arbeitsvertrag · Weiterbildungsmöglichkeiten · Spannende Projekte · Lockere Arbeitsatmosphäre · Hohes Maß an eigener Verantwortung · Abwechslungsreiche Tätigkeit in familiärer Atmosphäre · Teamgeist und ein optimales Umfeld für Ihren nächsten Karriereschritt · Langfristige Zusammenarbeit · Betriebliche Altersvorsorge",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  },
+  {
+    "path": "/stellenmarkt/initiativbewerbung",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Initiativbewerbung",
+    "description": "Kein passender Job dabei? Wir freuen uns trotzdem über Ihre Bewerbung — und melden uns, wenn Ihr Profil passt oder eine Stelle frei wird.",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  },
+  {
+    "path": "/stellenmarkt/monteur-elektro",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Elektro",
+    "description": "Verkabelung, Steuerungen, Inbetriebnahme — für Pools, Brunnen und Bewässerung. — Ihre Aufgaben: Installation von wassertechnischen Anlagen wie öffentliche Brunnenanlagen und private Pools sowie Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Installation, Verkabelung und Sicherstellung der Funktionalität verschiedener elektrischer Systeme · Lesen und Verstehen von Zeichnungen sowie Schalt- und Bauplänen und Entwicklung eigener Strategien zur Problemlösung · Installation von Verteiler- und Sicherheitskomponenten · Identifikation, Reparatur oder Austausch beschädigter Kabel, Geräte oder Komponenten · Regelmäßige Prüfung komplexer Verkabelungen und Schaltkreise auf Funktionalität · Ausfüllen von Bautagesberichten · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Abgeschlossene Ausbildung als Elektriker, Elektroniker, Elektrotechniker oder vergleichbare Qualifikation inkl. Zulassung zur Ausübung Ihres Berufs · Erfahrung im Umgang mit kommerziellen und industriellen elektrischen Systemen · Sicheres Analysieren und Lesen von Schaltplänen, Zeichnungen und Bauplänen · Handwerkliche Kenntnisse und ein technisches Verständnis · Gute Deutschkenntnisse in Wort und Schrift · Führerschein Klasse B (oder mehr) · Nachweisbare Fähigkeit zur Verwendung von Elektrowerkzeugen und notwendigen Handwerksmaterialien · Kundenorientierte, selbständige und eigenverantwortliche Arbeitsweise · Körperliche Belastbarkeit und ausgeprägte Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit · Offener, freundlicher Umgang mit Kollegen und Kunden — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Berufsanfänger sind willkommen",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  },
+  {
+    "path": "/stellenmarkt/monteur-installation",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Installation",
+    "description": "Rohrleitungsbau, Druckprüfung, Montage — für Bewässerung, Brunnen und Pools. — Ihre Aufgaben: Installation von wassertechnischen Anlagen wie öffentliche Brunnenanlagen und private Pools sowie Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Verarbeitung von HDPE-, Metall-, PVC- und Mehrschichtverbundrohren in allen Verfahrensweisen · Durchführung der Druckprüfverfahren an Rohrleitungen · Montage und Demontage von Rohrleitungen und Bauteilen sowie Reparaturarbeiten an Leitungen · Lesen und Verstehen von Zeichnungen sowie Bauplänen und Entwicklung eigener Strategien zur Problemlösung · Ausfüllen von Bautagesberichten und Prüfprotokollen · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Abgeschlossene Ausbildung im Rohrleitungsbau oder als Anlagenmechaniker/-in für Sanitär-, Heizungs- und Klimatechnik oder vergleichbare Qualifikation inkl. Zulassung zur Ausübung Ihres Berufs · Ausgeprägtes handwerkliches Geschick sowie gute Kommunikationsfähigkeit mit Kunden und Kollegen · Zuverlässig, pünktlich und selbständige Arbeitsweise · Führerschein Klasse B · Gute Deutschkenntnisse in Wort und Schrift · Körperlich belastbar mit ausgeprägter Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Berufsanfänger sind willkommen",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  },
+  {
+    "path": "/stellenmarkt/monteur-schwimmbadbau",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Schwimmbadbau",
+    "description": "Beckenmontage, Poolabdeckung, Wärmepumpen — vom Rohbau bis zur Inbetriebnahme. — Ihre Aufgaben: Installation von wassertechnischen Anlagen wie private Pools und öffentliche Brunnenanlagen sowie Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Verarbeitung von HDPE-, Metall-, PVC- und Mehrschichtverbundrohren in allen Verfahrensweisen · Einbau von Fertigschwimmbecken und Montage von Einbauteilen in Betonbecken · Verrohrung und Installation der gesamten Schwimmbadtechnik inkl. Wärmepumpen · Installation und Kalibrierung von Mess- und Regeltechniken · Einbau von Poolabdeckungen und Rollladensystemen · Lesen und Verstehen von Zeichnungen sowie Bauplänen und Entwicklung eigener Strategien zur Problemlösung · Ausfüllen von Bautagesberichten und Prüfprotokollen · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Abgeschlossene Ausbildung im Handwerk wie z. B. als Rohrleitungsbauer/-in oder Anlagenmechaniker/-in für Sanitär-, Heizungs- und Klimatechnik oder vergleichbare Qualifikation inkl. Zulassung zur Ausübung Ihres Berufs · Grundkenntnisse in der Elektrotechnik · Berufliche Erfahrung im Schwimmbadbau wünschenswert, aber keine Voraussetzung · Ausgeprägtes handwerkliches Geschick sowie gute Kommunikationsfähigkeit mit Kunden und Kollegen · Zuverlässig, pünktlich und selbständige Arbeitsweise · Führerschein Klasse B · Gute Deutschkenntnisse in Wort und Schrift · Körperlich belastbar mit ausgeprägter Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Berufsanfänger sind willkommen",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  },
+  {
+    "path": "/stellenmarkt/monteur-wassertechnik",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Monteur für wassertechnische Anlagen (m/w/d)",
+    "description": "Installation von Beregnungsanlagen, Brunnen und Pools — für Gewerbe und Privat. — Ihre Aufgaben: Installation von Beregnungsanlagen auf gewerblichen und privaten Grünanlagen · Installation von wassertechnischen Anlagen wie öffentliche Brunnenanlagen und private Pools · Installation, Konfiguration und Inbetriebnahme der entsprechenden Anlagen · Ausfüllen von Bautagesberichten · Abwechslungsreiche Aufgaben in einem motivierten Team — Anforderungen: Eine abgeschlossene Ausbildung (Gartenbau, Handwerk etc.) · Handwerkliche Kenntnisse und ein technisches Verständnis · Deutschkenntnisse in Wort und Schrift · Führerschein Klasse B · Kundenorientierte, selbständige und eigenverantwortliche Arbeitsweise · Körperlich belastbar mit ausgeprägter Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit · Offener, freundlicher Umgang mit Kollegen und Kunden — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag mit abwechslungsreichen Tätigkeiten · Betriebliche Altersvorsorge · Intensive Einarbeitung und regelmäßige Schulungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet · Auch Quereinsteiger und Berufsanfänger sind willkommen",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  },
+  {
+    "path": "/stellenmarkt/servicetechniker",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Servicetechniker / Kundendiensttechniker (m/w/d)",
+    "description": "Wartung, Reparatur und Inbetriebnahme wassertechnischer Anlagen direkt beim Kunden. — Ihre Aufgaben: Sie unternehmen Wartungs-, Reparatur- und Serviceeinsätze direkt beim Kunden vor Ort · Sie installieren, konfigurieren und nehmen die entsprechenden wassertechnischen Anlagen (Bewässerung, öffentliche Brunnenanlagen, private Pools) in Betrieb · Vorabnahmen der Poolanlagen, Bewässerungsanlagen und Brunnenanlagen · Instandhaltungsarbeiten von Mess- und Regeltechnikanlagen sowie Filtertechnik — Anforderungen: Handwerkliche Kenntnisse und ein technisches Verständnis · Eine abgeschlossene Ausbildung (Elektro, Sanitär, Handwerk etc.) · Bestenfalls erste Erfahrungen als Servicetechniker (m/w/d) · Gute Deutschkenntnisse in Wort und Schrift · Führerschein Klasse B (ein Servicefahrzeug wird gestellt) · Kundenorientierte, selbständige und eigenverantwortliche Arbeitsweise · Körperliche Belastbarkeit und ausgeprägte Fähigkeit zur Problemlösung · Flexible, analytische und sicherheitsorientierte Denkweise · Stressresistenz und Freude an Teamarbeit · Offener, freundlicher Umgang mit Kollegen und Kunden — Was wir bieten: Leistungsgerechte und gesicherte Vergütung · Unbefristeter Arbeitsvertrag · Betriebliche Altersvorsorge · Qualifikationen und Weiterbildungen · Kostenlose Bereitstellung von Arbeitskleidung und Markenwerkzeug · Wohnortnaher Einsatz im Rhein-Main-Gebiet",
+    "datePosted": "2026-08-07",
+    "validThrough": "2027-02-07",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Gerhardt GmbH",
+      "sameAs": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/logo-white.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      }
+    },
+    "directApply": true
+  }
+]

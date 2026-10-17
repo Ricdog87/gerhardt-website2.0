@@ -1,0 +1,691 @@
+{
+  "title": "Stellenmarkt — Gerhardt GmbH",
+  "description": "Offene Stellen bei Gerhardt GmbH im Rhein-Main-Gebiet. Handwerk, Service, Bauleitung und Backoffice — jetzt bewerben.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Sie finden das, was wir tun, genauso spannend wie wir?"
+    },
+    {
+      "tag": "h2",
+      "text": "Kaufm. Mitarbeiter Backoffice (m/w/d)"
+    },
+    {
+      "tag": "h2",
+      "text": "Servicetechniker / Kundendiensttechniker (m/w/d)"
+    },
+    {
+      "tag": "h2",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Elektro"
+    },
+    {
+      "tag": "h2",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Installation"
+    },
+    {
+      "tag": "h2",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Schwimmbadbau"
+    },
+    {
+      "tag": "h2",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d)"
+    },
+    {
+      "tag": "h2",
+      "text": "Junior Bauleiter (m/w/d)"
+    },
+    {
+      "tag": "h2",
+      "text": "Nichts Passendes dabei?"
+    },
+    {
+      "tag": "h2",
+      "text": "Fragen zu einer Stelle?"
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "p",
+      "cls": "page-head__eyebrow",
+      "text": "Stellenmarkt · Wiesbaden"
+    },
+    {
+      "tag": "h1",
+      "cls": "page-head__title",
+      "text": "Sie finden das, was wir tun, genauso spannend wie wir?"
+    },
+    {
+      "tag": "p",
+      "cls": "page-head__lead",
+      "text": "Wir suchen für unseren Standort in Wiesbaden zum nächstmöglichen Eintritt eine/n:"
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Kaufm. Mitarbeiter Backoffice (m/w/d)"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Korrespondenz, Kundenanfragen, Fakturierung — im Zentrum unseres Tagesgeschäfts."
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Servicetechniker / Kundendiensttechniker (m/w/d)"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Wartung, Reparatur und Inbetriebnahme wassertechnischer Anlagen direkt beim Kunden."
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Elektro"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Verkabelung, Steuerungen, Inbetriebnahme — für Pools, Brunnen und Bewässerung."
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Installation"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Rohrleitungsbau, Druckprüfung, Montage — für Bewässerung, Brunnen und Pools."
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Schwimmbadbau"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Beckenmontage, Poolabdeckung, Wärmepumpen — vom Rohbau bis zur Inbetriebnahme."
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Monteur für wassertechnische Anlagen (m/w/d)"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Installation von Beregnungsanlagen, Brunnen und Pools — für Gewerbe und Privat."
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Junior Bauleiter (m/w/d)"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Aufmaß, Planung und Baustellensteuerung im Hausgarten- und Gewerbebereich."
+    },
+    {
+      "tag": "h2",
+      "cls": "job-card__title",
+      "text": "Nichts Passendes dabei?"
+    },
+    {
+      "tag": "p",
+      "cls": "job-card__hook",
+      "text": "Wir freuen uns trotzdem über Ihre Bewerbung. Kurz erzählen, wo Sie sich bei uns sehen — den Rest klären wir gemeinsam."
+    },
+    {
+      "tag": "h2",
+      "cls": "contact-strip__title",
+      "text": "Fragen zu einer Stelle?"
+    },
+    {
+      "tag": "p",
+      "cls": "contact-strip__body",
+      "text": "Rufen Sie an oder schreiben Sie eine E-Mail. Wir melden uns persönlich zurück."
+    },
+    {
+      "tag": "p",
+      "cls": "contact-person__eyebrow",
+      "text": "Ansprechpartnerin"
+    },
+    {
+      "tag": "p",
+      "cls": "contact-person__name",
+      "text": "Frau Müller"
+    },
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt#jobs",
+      "text": "Jetzt bewerben",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt#jobs"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/stellenmarkt/backoffice",
+      "text": "Verwaltung · Vollzeit · Wiesbaden Kaufm. Mitarbeiter Backoffice (m/w/d) Korrespondenz, Kundenanfragen, Fakturierung — im Zentrum unseres Tagesgeschäfts. Details →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/backoffice"
+    },
+    {
+      "href": "/stellenmarkt/servicetechniker",
+      "text": "Service · Vollzeit · Rhein-Main-Gebiet Servicetechniker / Kundendiensttechniker (m/w/d) Wartung, Reparatur und Inbetriebnahme wassertechnischer Anlagen direkt beim Kunden. Details →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/servicetechniker"
+    },
+    {
+      "href": "/stellenmarkt/monteur-elektro",
+      "text": "Handwerk · Vollzeit · Rhein-Main-Gebiet Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Elektro Verkabelung, Steuerungen, Inbetriebnahme — für Pools, Brunnen und Bewässerung. Details →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/monteur-elektro"
+    },
+    {
+      "href": "/stellenmarkt/monteur-installation",
+      "text": "Handwerk · Vollzeit · Rhein-Main-Gebiet Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Installation Rohrleitungsbau, Druckprüfung, Montage — für Bewässerung, Brunnen und Pools. Details →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/monteur-installation"
+    },
+    {
+      "href": "/stellenmarkt/monteur-schwimmbadbau",
+      "text": "Handwerk · Vollzeit · Rhein-Main-Gebiet Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Schwimmbadbau Beckenmontage, Poolabdeckung, Wärmepumpen — vom Rohbau bis zur Inbetriebnahme. Details →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/monteur-schwimmbadbau"
+    },
+    {
+      "href": "/stellenmarkt/monteur-wassertechnik",
+      "text": "Handwerk · Vollzeit · Rhein-Main-Gebiet Monteur für wassertechnische Anlagen (m/w/d) Installation von Beregnungsanlagen, Brunnen und Pools — für Gewerbe und Privat. Details →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/monteur-wassertechnik"
+    },
+    {
+      "href": "/stellenmarkt/bauleiter",
+      "text": "Bauleitung · Vollzeit · Wiesbaden Junior Bauleiter (m/w/d) Aufmaß, Planung und Baustellensteuerung im Hausgarten- und Gewerbebereich. Details →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/bauleiter"
+    },
+    {
+      "href": "/stellenmarkt/initiativbewerbung",
+      "text": "Initiativbewerbung Nichts Passendes dabei? Wir freuen uns trotzdem über Ihre Bewerbung. Kurz erzählen, wo Sie sich bei uns sehen — den Rest klären wir gemeinsam. Bewerben →",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/initiativbewerbung"
+    },
+    {
+      "href": "tel:+4961227077005",
+      "text": "06122 7077005",
+      "abs": "tel:+4961227077005"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/stellenmarkt#jobs",
+      "text": "Jetzt bewerben",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt#jobs"
+    }
+  ],
+  "anchors": [
+    {
+      "href": "/stellenmarkt#jobs",
+      "text": "Jetzt bewerben",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt#jobs",
+      "sameDoc": true,
+      "targetExists": false
+    },
+    {
+      "href": "/stellenmarkt#jobs",
+      "text": "Jetzt bewerben",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt#jobs",
+      "sameDoc": true,
+      "targetExists": false
+    }
+  ],
+  "forms": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "tel": [
+    "tel:+4961227077005",
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(250, 250, 248)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "38.4px",
+      "fontWeight": "700",
+      "lineHeight": "44.16px",
+      "letterSpacing": "-0.384px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "24.8px",
+      "fontWeight": "700",
+      "lineHeight": "29.76px",
+      "letterSpacing": "-0.248px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenJetzt bewerbenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 2763,
+  "loadMs": 6353,
+  "mobile": {
+    "docHeight": 3729,
+    "hScroll": false,
+    "h1": "27.2px"
+  },
+  "path": "/stellenmarkt",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 13993,
+  "rawHasH1": true,
+  "rawTextLen": 1798,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/logo-white.png",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg"
+  ]
+}

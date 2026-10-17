@@ -1,0 +1,586 @@
+{
+  "title": "Realisierte Projekte — Gerhardt GmbH",
+  "description": "Realisierte Poolprojekte im Rhein-Main-Gebiet. Vom Naturstein-Umbau bis zum Neubau — Referenzen der Gerhardt GmbH.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [],
+  "blocks": [
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-naturstein.webp",
+      "attrSrc": "../assets/projekt-naturstein.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Wiesbaden",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        659,
+        439
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-provence.webp",
+      "attrSrc": "../assets/projekt-provence.jpg",
+      "srcset": null,
+      "alt": "Projekt Provence — Wiesbaden",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        725,
+        483
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-bergparadies.webp",
+      "attrSrc": "../assets/projekt-bergparadies.jpg",
+      "srcset": null,
+      "alt": "Projekt Bergparadies — Wiesbaden",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        745,
+        497
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-townhouse.webp",
+      "attrSrc": "../assets/projekt-townhouse.jpg",
+      "srcset": null,
+      "alt": "Projekt Townhouse — Wiesbaden",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        659,
+        439
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-kronberg.webp",
+      "attrSrc": "../assets/projekt-kronberg.jpg",
+      "srcset": null,
+      "alt": "Projekt Kronberg — Kronberg",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        659,
+        439
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-suedtirol.webp",
+      "attrSrc": "../assets/projekt-suedtirol.jpg",
+      "srcset": null,
+      "alt": "Projekt Südtirol — Königstein",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        659,
+        439
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-mainz.webp",
+      "attrSrc": "../assets/projekt-mainz.jpg",
+      "srcset": null,
+      "alt": "Projekt Mainz — Mainz",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        659,
+        439
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/kontakt",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/kontakt"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/pools/projekt-naturstein",
+      "text": "Projekt Naturstein",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein"
+    },
+    {
+      "href": "/pools/projekt-provence",
+      "text": "Projekt Provence",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-provence"
+    },
+    {
+      "href": "/pools/projekt-bergparadies",
+      "text": "Projekt Bergparadies",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-bergparadies"
+    },
+    {
+      "href": "/pools/projekt-townhouse",
+      "text": "Projekt Townhouse",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-townhouse"
+    },
+    {
+      "href": "/pools/projekt-kronberg",
+      "text": "Projekt Kronberg",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-kronberg"
+    },
+    {
+      "href": "/pools/projekt-suedtirol",
+      "text": "Projekt Südtirol",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-suedtirol"
+    },
+    {
+      "href": "/pools/projekt-mainz",
+      "text": "Projekt Mainz",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-mainz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/kontakt",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/kontakt"
+    }
+  ],
+  "anchors": [],
+  "forms": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "tel": [
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(250, 250, 248)"
+    },
+    "h1": null,
+    "h2": null,
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 2476,
+  "loadMs": 6258,
+  "mobile": {
+    "docHeight": 2919,
+    "hScroll": false,
+    "h1": "16px"
+  },
+  "path": "/pools/projekte",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 6068,
+  "rawHasH1": false,
+  "rawTextLen": 161,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/projekt-naturstein.webp",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/projekt-kronberg.webp",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/projekt-townhouse.webp",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/projekt-bergparadies.webp",
+    "https://gerhardt-gmbh.de/assets/projekt-provence.webp",
+    "https://gerhardt-gmbh.de/assets/logo-white.png",
+    "https://gerhardt-gmbh.de/assets/projekt-mainz.webp",
+    "https://gerhardt-gmbh.de/assets/projekt-suedtirol.webp"
+  ]
+}

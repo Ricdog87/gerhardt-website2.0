@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bewässerungsanlagen im Rhein-Main-Gebiet — Gerhardt GmbH</title>
+<meta name="description" content="Fest installierte, automatische Bewässerungsanlagen für Hausgärten und Grünflächen im Rhein-Main-Gebiet. Profimaterial, wetterabhängig gesteuert, auch im Bestand ohne bleibende Spuren.">
+
+<link rel="icon" href="/assets/g-mark.svg?v=2" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/UniversNextProRegular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="assets/fonts/UniversNextProMedium.ttf"  as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="assets/fonts/UniversNextProBold.ttf"    as="font" type="font/ttf" crossorigin>
+
+<link rel="stylesheet" href="assets/css/shell.css?v=125">
+<style>
+    /* ==== HERO — full-bleed carousel with overlaid text (landing pattern) ==== */
+    .hero {
+        position: relative;
+        height: 80vh;
+        min-height: 560px;
+        overflow: hidden;
+        background: #0a1622;
+    }
+    .hero__carousel { position: absolute; inset: 0; }
+    .hero__carousel img {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 1.1s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .hero__carousel img.active { opacity: 1; }
+    .hero__overlay {
+        position: absolute; inset: 0;
+        background:
+            linear-gradient(to bottom, rgba(15,28,46,0.55) 0%, rgba(15,28,46,0.15) 14%, transparent 28%),
+            linear-gradient(to top right, rgba(15,28,46,0.7) 0%, rgba(15,28,46,0.28) 55%, rgba(15,28,46,0.05) 100%);
+        z-index: 1;
+    }
+    .hero__content {
+        position: absolute;
+        left: 15%;
+        bottom: clamp(3.5rem, 12vh, 8rem);
+        max-width: 780px;
+        z-index: 2;
+    }
+    .hero__title {
+        font-size: clamp(2.2rem, 4.6vw, 3.8rem);
+        font-weight: 700;
+        line-height: 1.08;
+        letter-spacing: -0.015em;
+        color: #fff;
+        margin: 0 0 1rem;
+        text-shadow: 0 2px 24px rgba(0,0,0,0.35);
+    }
+    .hero__sub {
+        font-size: clamp(1rem, 1.35vw, 1.2rem);
+        font-weight: 400;
+        line-height: 1.5;
+        color: rgba(255,255,255,0.9);
+        max-width: 620px;
+        margin: 0;
+        text-shadow: 0 1px 12px rgba(0,0,0,0.35);
+    }
+
+    /* ==== BENEFITS — 3-card strip on warm-white below hero ==== */
+    .benefits {
+        background: var(--warm-white);
+        padding: clamp(3rem, 6vw, 5rem) 0;
+        border-bottom: 1px solid var(--border);
+    }
+    .benefits__grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: clamp(2rem, 4vw, 3.5rem);
+    }
+    .benefit { text-align: center; padding: 0 clamp(0.5rem, 1vw, 1rem); }
+    .benefit__icon {
+        width: 36px; height: 36px;
+        margin: 0 auto 1.1rem;
+        display: flex; align-items: center; justify-content: center;
+        color: var(--blue);
+    }
+    .benefit__icon svg { width: 100%; height: 100%; stroke: currentColor; stroke-width: 2; fill: none; }
+    .benefit__title {
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--text);
+        margin: 0 0 0.9rem;
+    }
+    .benefit__body {
+        font-size: 1rem;
+        line-height: 1.65;
+        color: var(--slate);
+        margin: 0;
+    }
+
+    /* ==== GALLERY BAND — dark backdrop, masonry ==== */
+    .lp-gallery {
+        background: var(--navy);
+        padding: clamp(3.5rem, 7vw, 5.5rem) 0 clamp(4rem, 8vw, 6.5rem);
+    }
+    .lp-gallery__head {
+        max-width: 1400px;
+        margin: 0 auto clamp(2rem, 4vw, 3rem);
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+    }
+    .lp-gallery__eyebrow {
+        font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+        color: rgba(255,255,255,0.32); margin: 0 0 0.6rem;
+    }
+    .lp-gallery__title {
+        font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        color: #fff;
+        margin: 0;
+    }
+    .lp-gallery__grid {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4px;
+    }
+    .lp-gallery__item { overflow: hidden; cursor: pointer; }
+    .lp-gallery__item img {
+        width: 100%; height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.6s cubic-bezier(0.25, 0, 0.25, 1);
+    }
+    .lp-gallery__item:hover img { transform: scale(1.03); }
+    .lp-gallery__item--wide { grid-column: span 2; }
+    .lp-gallery__item--tall { grid-row: span 2; }
+
+    /* Light variant — warm-white bg, dark text; used when the gallery lives
+       next to a navy split (alternating rhythm). */
+    .lp-gallery--light {
+        background: var(--warm-white);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+    }
+    .lp-gallery--light .lp-gallery__eyebrow { color: var(--slate); }
+    .lp-gallery--light .lp-gallery__title   { color: var(--text); }
+
+    /* Expandable clip + fade + toggle button */
+    .lp-gallery__clip {
+        position: relative;
+        max-height: 720px;
+        overflow: hidden;
+        transition: max-height 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .lp-gallery__clip::after {
+        content: '';
+        position: absolute;
+        bottom: 0; left: 0; right: 0;
+        height: 180px;
+        pointer-events: none;
+        z-index: 1;
+        transition: opacity 0.4s ease;
+    }
+    .lp-gallery                    .lp-gallery__clip::after { background: linear-gradient(to bottom, rgba(15,28,46,0), var(--navy)); }
+    .lp-gallery--light             .lp-gallery__clip::after { background: linear-gradient(to bottom, rgba(250,250,248,0), var(--warm-white)); }
+    .lp-gallery__clip.is-expanded            { max-height: 8000px; }
+    .lp-gallery__clip.is-expanded::after     { opacity: 0; }
+    .lp-gallery__expand-wrap {
+        text-align: center;
+        padding: clamp(1.5rem, 3vw, 2rem) clamp(1.5rem, 4vw, 3rem) 0;
+    }
+    .lp-gallery__expand {
+        display: inline-block;
+        font-family: var(--font);
+        font-size: 0.78rem;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        background: transparent;
+        padding: 1rem 2.75rem 0.8rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .lp-gallery         .lp-gallery__expand         { color: #fff;        border: 1px solid rgba(255,255,255,0.25); }
+    .lp-gallery         .lp-gallery__expand:hover   { border-color: rgba(255,255,255,0.6); transform: translateY(-2px); }
+    .lp-gallery--light  .lp-gallery__expand         { color: var(--text); border: 1px solid var(--border); }
+    .lp-gallery--light  .lp-gallery__expand:hover   { border-color: var(--text); transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+
+    /* Split navy variant — used when a split lives where a warm section
+       would have been (rhythm-swap). */
+    .lp-split--navy { background: var(--navy); }
+    .lp-split--navy .lp-split__title      { color: #fff; }
+    .lp-split--navy .lp-split__body p     { color: rgba(255,255,255,0.68); }
+    .lp-split--navy .lp-split__body strong { color: #fff; }
+
+    /* ==== SPLIT SECTION — image + text 2-col (Freizeit, Bestand) ==== */
+    .lp-split {
+        padding: clamp(3.5rem, 6vw, 5.5rem) 0;
+    }
+    .lp-split--warm { background: var(--warm-white); }
+    .lp-split__inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: clamp(2.5rem, 5vw, 4rem);
+        align-items: center;
+    }
+    .lp-split__inner--reverse .lp-split__media { order: 2; }
+    .lp-split__media {
+        aspect-ratio: 4 / 5;
+        overflow: hidden;
+        border-radius: 6px;
+    }
+    .lp-split__media img {
+        width: 100%; height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .lp-split__text { max-width: 520px; }
+    .lp-split__eyebrow {
+        font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+        color: var(--blue); margin: 0 0 0.75rem;
+    }
+    .lp-split__title {
+        font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        color: var(--text);
+        margin: 0 0 1.25rem;
+    }
+    .lp-split__body { display: grid; grid-template-columns: 1fr; gap: 0.9rem; }
+    .lp-split__body p {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--slate);
+        margin: 0;
+    }
+
+    /* Freizeit — 2-col prose next to image */
+    .lp-split--freizeit .lp-split__body {
+        grid-template-columns: 1fr 1fr;
+        gap: clamp(1.5rem, 3vw, 2.25rem);
+        max-width: none;
+    }
+    .lp-split--freizeit .lp-split__text { max-width: none; }
+    .lp-split--freizeit .lp-split__inner { grid-template-columns: 5fr 6fr; }
+
+    /* ==== QUOTE BAND — dark, big quote next to image ==== */
+    .lp-quote {
+        background: var(--navy);
+        padding: clamp(4rem, 7vw, 6rem) 0 clamp(4rem, 7vw, 6rem);
+    }
+    .lp-quote__inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: clamp(2.5rem, 5vw, 4rem);
+        align-items: center;
+    }
+    .lp-quote__media {
+        aspect-ratio: 4 / 5;
+        overflow: hidden;
+        border-radius: 6px;
+    }
+    .lp-quote__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .lp-quote__body { color: rgba(255,255,255,0.65); }
+    .lp-quote__title {
+        font-size: clamp(1.5rem, 2.5vw, 1.95rem);
+        font-weight: 400;                                    /* lighter — feels like a spoken line, not a headline */
+        line-height: 1.4;
+        letter-spacing: -0.005em;
+        color: #fff;
+        margin: 0 0 1.25rem;
+    }
+    .lp-quote__attr {
+        font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+        color: var(--blue); margin: 0 0 1.75rem;
+    }
+    .lp-quote__body p {
+        font-size: 0.98rem;
+        line-height: 1.7;
+        color: rgba(255,255,255,0.6);
+        margin: 0 0 0.9rem;
+        max-width: 520px;
+    }
+    .lp-quote__body p:last-child { margin-bottom: 0; }
+
+    /* ==== FAQ + FORM — 2-col ==== */
+    .lp-faq {
+        background: var(--white);
+        padding: clamp(4rem, 7vw, 6rem) 0 clamp(4rem, 8vw, 6.5rem);
+    }
+    .lp-faq__inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        display: grid;
+        grid-template-columns: 1.05fr 1fr;
+        gap: clamp(2.5rem, 5vw, 4.5rem);
+        align-items: start;
+    }
+    .lp-faq__title {
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        color: var(--text);
+        margin: 0 0 1.5rem;
+    }
+    .lp-faq__list { border-top: 1px solid var(--border); }
+    .lp-faq__item {
+        border-bottom: 1px solid var(--border);
+    }
+    .lp-faq__summary {
+        list-style: none;
+        cursor: pointer;
+        padding: 1.1rem 2rem 1.1rem 0;
+        font-size: 1.02rem;
+        font-weight: 500;
+        color: var(--text);
+        position: relative;
+        transition: color 0.2s;
+    }
+    .lp-faq__summary::-webkit-details-marker { display: none; }
+    .lp-faq__summary::after {
+        content: '+';
+        position: absolute;
+        right: 0.25rem; top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: var(--slate);
+        transition: transform 0.25s, color 0.2s;
+        line-height: 1;
+    }
+    .lp-faq__item.is-open .lp-faq__summary::after { content: '−'; color: var(--blue); }
+    .lp-faq__summary:hover { color: var(--blue); }
+
+    /* Smooth accordion: animate max-height (0 → generous ceiling) so numeric
+       interpolation works. Details is kept permanently open by JS so children
+       stay in DOM; visual state driven by .is-open. */
+    .lp-faq__answer-wrap {
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.42s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .lp-faq__item.is-open .lp-faq__answer-wrap { grid-template-rows: 1fr; }
+    .lp-faq__answer {
+        overflow: hidden;   /* clipped while the grid row collapses */
+        min-height: 0;
+        padding: 0 2rem 0 0;
+        font-size: 0.98rem;
+        line-height: 1.65;
+        color: var(--slate);
+    }
+    .lp-faq__answer p { margin: 0 0 0.7rem; }
+    .lp-faq__answer p:last-child { margin: 0 0 1.35rem; }   /* bottom gap must sit on a CHILD: padding on the clipped element survives overflow:hidden and keeps collapsed items open */
+
+    /* Form section (right col) uses shared .contact styles via data-contact-form.
+       Override the max-width so it doesn't box in narrower than its grid cell. */
+    .lp-faq .contact {
+        padding: 0;
+        max-width: none;
+    }
+
+    /* ==== RESPONSIVE ==== */
+    @media (max-width: 900px) {
+        .benefits__grid { grid-template-columns: 1fr; gap: 1.75rem; }
+        .lp-gallery__grid { grid-template-columns: repeat(2, 1fr); }
+        .lp-split__inner { grid-template-columns: 1fr; }
+        .lp-split__inner--reverse .lp-split__media { order: 0; }
+        .lp-split--freizeit .lp-split__inner { grid-template-columns: 1fr; }
+        .lp-split--freizeit .lp-split__body { grid-template-columns: 1fr; }
+        .lp-quote__inner { grid-template-columns: 1fr; }
+        .lp-faq__inner { grid-template-columns: 1fr; gap: 3rem; }
+    }
+    @media (max-width: 780px) {
+        .hero { height: auto; min-height: 78vh; }
+        .hero__title { font-size: clamp(1.8rem, 8vw, 2.8rem); }
+        .hero__content { left: 1.25rem; right: 1.25rem; bottom: 2.5rem; max-width: none; }
+    }
+    @media (max-width: 600px) {
+        .lp-gallery__grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+        .lp-gallery__item--wide { grid-column: span 2; }
+        .lp-gallery__item--tall { grid-row: auto; }
+    }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","serviceType":"Bewässerungsanlagen","provider":{"@type":"LocalBusiness","name":"Gerhardt GmbH","url":"https://gerhardt-gmbh.de"},"areaServed":{"@type":"AdministrativeArea","name":"Rhein-Main-Gebiet"},"description":"Planung, Installation und Wartung automatischer Bewässerungsanlagen für Hausgärten und Grünflächen im Rhein-Main-Gebiet."}</script>
+</head>
+<body class="page-transparent-header">
+
+<header class="header" id="header" data-shell-nav data-active="gartentechnik" data-cta-mode="anfrage" data-cta-href="#anfrage"></header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" data-interval="5500" data-first-delay="4500">
+    <div class="hero__carousel">
+        <picture><source srcset="assets/technik/bewaesserung/hero-01.webp" type="image/webp"><img src="assets/technik/bewaesserung/hero-01.jpg" alt="Bewässerte Rasenfläche mit Sprinkler" class="active"></picture>
+        <picture><source srcset="assets/technik/bewaesserung/hero-02.webp" type="image/webp"><img src="assets/technik/bewaesserung/hero-02.jpg" alt="Automatische Bewässerung im Detail" style="object-position: 50% 40%;"></picture>
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+        <h1 class="hero__title">Bewässerungsanlagen für Hausgärten und Grünflächen</h1>
+        <p class="hero__sub">Fest installiert, wetterabhängig gesteuert, per App zu bedienen. Auch in Bestandsgärten ohne bleibende Spuren zu installieren.</p>
+    </div>
+</section>
+
+<!-- ===== BENEFITS ===== -->
+<section class="benefits">
+    <div class="benefits__grid">
+        <div class="benefit">
+            <div class="benefit__icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15.5 14"/></svg>
+            </div>
+            <h3 class="benefit__title">Zeitsparend</h3>
+            <p class="benefit__body">Der beste Zeitpunkt zum Bewässern ist frühmorgens, bevor die Sonne rauskommt. Da will kein Mensch im Garten stehen. Die Automatik macht das.</p>
+        </div>
+        <div class="benefit">
+            <div class="benefit__icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3 4-6 7-6 11a6 6 0 0 0 12 0c0-4-3-7-6-11z"/></svg>
+            </div>
+            <h3 class="benefit__title">Wassersparend</h3>
+            <p class="benefit__body">Feste Düsen bringen das Wasser gezielt an die Wurzel. Weniger Verbrauch und gesündere Pflanzen als mit Schlauch oder Rasensprenger.</p>
+        </div>
+        <div class="benefit">
+            <div class="benefit__icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><line x1="10" y1="18" x2="14" y2="18"/></svg>
+            </div>
+            <h3 class="benefit__title">Bedienfreundlich</h3>
+            <p class="benefit__body">Bedienung per App &amp; lokaler Steuerung. Unsere modernen Steuerungen nutzen Wetterdaten und Bodensensoren, um optimal zu bewässern — und bei Regen auszusetzen.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FREIZEIT (navy — swaps rhythm with gallery below) ===== -->
+<section class="lp-split lp-split--navy lp-split--freizeit">
+    <div class="lp-split__inner">
+        <figure class="lp-split__media">
+            <picture><source srcset="assets/technik/bewaesserung/freizeit.webp" type="image/webp"><img src="assets/technik/bewaesserung/freizeit.jpg" alt="Rasenberegnung am Pool im Rhein-Main-Gebiet" style="object-position: 50% 60%;"></picture>
+        </figure>
+        <div class="lp-split__text">
+            <p class="lp-split__eyebrow">Automatisch bewässert.</p>
+            <h2 class="lp-split__title">Unsere Systeme schenken Ihnen mehr Freizeit</h2>
+            <div class="lp-split__body">
+                <div>
+                    <p>Ein Garten braucht Wasser, gerade in trockenen Sommern. Wer das mit Schlauch und Gießkanne macht, steht Abend für Abend im Garten, statt ihn zu genießen.</p>
+                    <p>Rasenmähen und Gießen sind die zwei zeitaufwendigsten Arbeiten im Garten. Beide lassen sich automatisieren.</p>
+                </div>
+                <div>
+                    <p>Unsere Anlagen übernehmen das Gießen. Sie laufen frühmorgens, wenn die Verdunstung am geringsten ist. Sie merken, wenn Regen kommt, und setzen aus. Sie versorgen jede Pflanze gleichmäßig.</p>
+                    <p>Keiner muss nachdenken, ob das kleine Rosenbeet an der Ecke schon dran war. Die Anlage weiß es.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== GALLERY BAND (light — expandable) ===== -->
+<section class="lp-gallery lp-gallery--light">
+    <div class="lp-gallery__head">
+        <p class="lp-gallery__eyebrow">Bewässerungsanlagen im Einsatz.</p>
+        <h2 class="lp-gallery__title">Für gesundes Grün</h2>
+    </div>
+    <div class="lp-gallery__clip" id="galleryClip">
+        <div class="lp-gallery__grid">
+            <div class="lp-gallery__item lp-gallery__item--tall"><picture><source srcset="assets/technik/bewaesserung/gallery-01.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-01.jpg" alt="Bewässerung — Detail"></picture></div>
+            <div class="lp-gallery__item lp-gallery__item--wide"><picture><source srcset="assets/technik/bewaesserung/gallery-02.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-02.jpg" alt="Bewässerung — Rasen am Pool"></picture></div>
+            <div class="lp-gallery__item"><picture><source srcset="assets/technik/bewaesserung/gallery-03.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-03.jpg" alt="Bewässerung — Detail"></picture></div>
+            <div class="lp-gallery__item"><picture><source srcset="assets/technik/bewaesserung/gallery-04.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-04.jpg" alt="Bewässerung — Detail"></picture></div>
+            <div class="lp-gallery__item"><picture><source srcset="assets/technik/bewaesserung/gallery-05.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-05.jpg" alt="Bewässerung — Detail"></picture></div>
+            <div class="lp-gallery__item"><picture><source srcset="assets/technik/bewaesserung/gallery-06.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-06.jpg" alt="Bewässerung — Sprinkler im Gegenlicht"></picture></div>
+            <div class="lp-gallery__item lp-gallery__item--wide"><picture><source srcset="assets/technik/bewaesserung/gallery-07.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-07.jpg" alt="Bewässerung — Rasenfläche"></picture></div>
+            <div class="lp-gallery__item"><picture><source srcset="assets/technik/bewaesserung/gallery-08.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-08.jpg" alt="Bewässerung — Detail"></picture></div>
+            <div class="lp-gallery__item"><picture><source srcset="assets/technik/bewaesserung/gallery-09.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-09.jpg" alt="Bewässerung — Detail"></picture></div>
+            <div class="lp-gallery__item"><picture><source srcset="assets/technik/bewaesserung/gallery-10.webp" type="image/webp"><img src="assets/technik/bewaesserung/gallery-10.jpg" alt="Bewässerung — Detail"></picture></div>
+        </div>
+    </div>
+    <div class="lp-gallery__expand-wrap">
+        <button class="lp-gallery__expand" id="galleryExpand" type="button">Mehr Bilder</button>
+    </div>
+</section>
+
+<!-- ===== STEUERUNG (Quote) ===== -->
+<section class="lp-quote">
+    <div class="lp-quote__inner">
+        <div>
+            <blockquote class="lp-quote__title">„Die beste Bewässerungsanlage ist die, die man nie sieht. Die nie sichtbar wird, aber alles grün ist und alles wächst."</blockquote>
+            <p class="lp-quote__attr">Thomas Gerhardt</p>
+            <div class="lp-quote__body">
+                <p>Die Steuerung ist Teil Ihres Heim‑Netzwerks oder Smarthome‑Systems. Über die App sehen Sie jederzeit, was gerade läuft und was nicht. Sie können Zonen einzeln ansteuern, Zeiten anpassen oder alles pausieren.</p>
+                <p>Zusätzlich bezieht das System die Wetterdaten mit ein. Sind heute beispielsweise 85&nbsp;Prozent Regenwahrscheinlichkeit gemeldet, wartet die Anlage einfach ab.</p>
+                <p>Sensoren im Boden messen die tatsächliche Feuchte an repräsentativen Punkten, falls die Wettervorhersage mal daneben liegt. So wird sichergestellt, dass Ihr Garten stets optimal bewässert wird — ohne dass Sie sich darum kümmern müssen.</p>
+            </div>
+        </div>
+        <figure class="lp-quote__media">
+            <picture><source srcset="assets/technik/bewaesserung/steuerung.webp" type="image/webp"><img src="assets/technik/bewaesserung/steuerung.jpg" alt="Sprinkler im Gegenlicht — automatische Bewässerung" style="object-position: 50% 60%;"></picture>
+        </figure>
+    </div>
+</section>
+
+<!-- ===== BESTANDSGARTEN (image-left, text-right, warm-white) ===== -->
+<section class="lp-split lp-split--warm">
+    <div class="lp-split__inner">
+        <figure class="lp-split__media">
+            <picture><source srcset="assets/technik/bewaesserung/bestand.webp" type="image/webp"><img src="assets/technik/bewaesserung/bestand.jpg" alt="Sprinkler im gepflegten Rasen — Bewässerung im Bestandsgarten" style="object-position: 50% 55%;"></picture>
+        </figure>
+        <div class="lp-split__text">
+            <p class="lp-split__eyebrow">Bestandsgarten</p>
+            <h2 class="lp-split__title">Nachrüsten ohne den Rasen aufzureißen</h2>
+            <div class="lp-split__body">
+                <p>Ein häufiges Bedenken vor der Installation: Muss der Rasen dafür aufgerissen werden? Zerstört das den fertigen Garten?</p>
+                <p>Bei uns nicht. Wir arbeiten im Bestand mit der Hand. Die Rasensode wird abgestochen, ein Vlies untergelegt, die Erde per Hand ausgehoben und auf dem Vlies gesammelt. Wenn wir den Graben schließen, kommt genau dieselbe Erde zurück, und die Rasensode obendrauf.</p>
+                <p>Drei Wochen später sieht man nicht mehr, dass wir da waren.</p>
+                <p>Im Neubau planen wir die Bewässerung von Anfang an mit dem Landschaftsbauer zusammen und übernehmen anschließend die komplette Installation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FAQ + FORM ===== -->
+<section class="lp-faq" id="anfrage">
+    <div class="lp-faq__inner">
+        <div>
+            <h2 class="lp-faq__title">Häufige Fragen</h2>
+            <div class="lp-faq__list">
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">Was kostet eine Bewässerungsanlage?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Eine Bewässerungsanlage beginnt bei etwa 3.000&nbsp;€ und kann bei großen Anlagen bis in den sechsstelligen Bereich gehen. Jeder Fall ist etwas anders, wir erstellen Ihnen gerne ein individuelles Angebot.</p>
+                    </div>
+                    </div>
+                </details>
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">In welcher Region arbeiten Sie?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Wir arbeiten im gesamten Rhein‑Main‑Gebiet. Unsere Anlagen laufen in Wiesbaden (Sonnenberg, Nerotal, Rambach, Bierstadt), Königstein im Taunus, Kronberg (Oberhöchstadt), Bad Homburg, Oberursel, Bad Soden am Taunus und Kelkheim.</p>
+                        <p>Darüber hinaus sind wir regelmäßig in Mainz, Hofheim, Eppstein, Glashütten sowie in Frankfurt am Main (Westend, Nordend, Sachsenhausen) im Einsatz. Für gewerbliche und öffentliche Anlagen bedienen wir den erweiterten Radius bis Darmstadt, Rüsselsheim und Bad Vilbel.</p>
+                    </div>
+                    </div>
+                </details>
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">Kann man eine Bewässerungsanlage im Bestandsgarten nachrüsten, ohne den Rasen aufzureißen?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Ja. Wir arbeiten im Bestand mit der Hand: Rasensode abgestochen, Vlies untergelegt, Erde per Hand ausgehoben. Drei Wochen später sieht man nicht mehr, dass wir da waren.</p>
+                    </div>
+                    </div>
+                </details>
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">Welche Marken verbauen Sie?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Wir verbauen ausschließlich Profimaterial namhafter Hersteller wie Hunter, Rain Bird und Toro. Keine Gardena‑Anlagen. Die Rohre sind UV‑beständig, die Formteile DVGW‑geprüft, die Verteilerleitungen trinkwassertauglich.</p>
+                    </div>
+                    </div>
+                </details>
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">Wie lange dauert die Installation?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Eine typische Anlage im Bestandsgarten wird in einer bis zwei Wochen fertig, je nach Größe. Im Neubau erstreckt sich unsere Arbeit über den Rhythmus des Landschaftsbauers, also in mehreren Etappen.</p>
+                    </div>
+                    </div>
+                </details>
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">Wie funktioniert die Wetter‑Automatik?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Die Steuerung liest Wetterdaten per App und bezieht Bodensensoren mit ein. Sind zum Beispiel 85&nbsp;Prozent Regenwahrscheinlichkeit gemeldet, wartet die Anlage einfach ab. Sensoren im Boden messen die tatsächliche Feuchte an repräsentativen Punkten, falls die Wettervorhersage mal daneben liegt.</p>
+                    </div>
+                    </div>
+                </details>
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">Was ist mit Wartung und Winterisierung?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Vor dem ersten Frost wird die Anlage entleert und winterfest gemacht. Im Frühjahr nehmen wir sie wieder in Betrieb und prüfen alle Regner. Wir bieten diesen Service für unsere Anlagen an, ein bis zwei Termine pro Jahr, planbar.</p>
+                    </div>
+                    </div>
+                </details>
+                <details class="lp-faq__item">
+                    <summary class="lp-faq__summary">Für welche Gärten ist eine Anlage nicht sinnvoll?</summary>
+                    <div class="lp-faq__answer-wrap">
+                        <div class="lp-faq__answer">
+                        <p>Wenn die Fläche sehr klein und ungünstig zugeschnitten ist, kann eine feste Anlage überdimensioniert sein. Auch bei stark verwinkelten Gärten oder wenn man in absehbarer Zeit umgestalten möchte, lohnt sich der Aufwand nicht immer. Wir sagen das offen.</p>
+                    </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+        <section class="contact" data-contact-form data-interest="bewaesserung"></section>
+    </div>
+</section>
+
+<footer class="footer" data-shell-footer></footer>
+
+<script src="assets/js/shell.js?v=125" defer></script>
+<script>
+/* Gallery — expandable clip toggle (Poolbau pattern) */
+(function () {
+    var clip = document.getElementById('galleryClip');
+    var btn  = document.getElementById('galleryExpand');
+    if (!clip || !btn) return;
+    btn.addEventListener('click', function () {
+        var expanded = clip.classList.toggle('is-expanded');
+        btn.textContent = expanded ? 'Weniger Bilder' : 'Mehr Bilder';
+    });
+})();
+
+/* FAQ accordion — keep <details> permanently open so children stay rendered,
+   toggle .is-open on click for the CSS grid-template-rows animation. */
+(function () {
+    var items = document.querySelectorAll('.lp-faq__item');
+    items.forEach(function (item) {
+        item.setAttribute('open', '');   // always DOM-open; visual state via .is-open
+        var summary = item.querySelector('.lp-faq__summary');
+        if (!summary) return;
+        summary.addEventListener('click', function (e) {
+            e.preventDefault();
+            var willOpen = !item.classList.contains('is-open');
+            items.forEach(function (other) { other.classList.remove('is-open'); });
+            if (willOpen) item.classList.add('is-open');
+        });
+    });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+{
+  "slug": "bergparadies",
+  "name": "Bergparadies",
+  "ort": "Wiesbaden",
+  "untertitel": "Überlaufpool & Gartenoase",
+  "pool": "3,60 × 8 m, Überlauf (mit Gegenstromanlage)",
+  "projektart": "Bestandsgarten",
+  "kostenrahmen": "ca. 200.000 €",
+  "fakten_roh": {
+    "Pool": "3,60 × 8 m, Überlauf (mit Gegenstromanlage)",
+    "Projektart": "Bestandsgarten",
+    "Kostenrahmen": "ca. 200.000 €"
+  },
+  "headline": "Aus ungenutzt wird Mittelpunkt.",
+  "story": [
+    "Fast 400 m² Garten lagen nahezu ungenutzt. Heute ist hier die Wohlfühloase, die das Haus in den Mittelpunkt rückt. Eingebaut haben wir einen Überlaufpool: die Wasseroberfläche liegt auf einer Höhe mit dem Belag, das Wasser läuft umlaufend in eine Rinne.",
+    "Das hält die Oberfläche sauberer als ein klassisches Skimmerbecken, wie im Freibad, nur privat. Dazu eine Gegenstromanlage, Unterflur-Rollladen und Beleuchtung; die Technik sitzt platzsparend in Außenschränken, weil der Altbau keinen Keller dafür hatte."
+  ],
+  "hero": [
+    {
+      "src": "/assets/projekte/bergparadies/hero-01.jpg",
+      "alt": "Projekt Bergparadies"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/hero-02.jpg",
+      "alt": "Projekt Bergparadies"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/hero-03.jpg",
+      "alt": "Projekt Bergparadies"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/hero-04.jpg",
+      "alt": "Projekt Bergparadies"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/hero-05.jpg",
+      "alt": "Projekt Bergparadies"
+    }
+  ],
+  "story_bild": {
+    "src": "/assets/projekte/bergparadies/story.jpg",
+    "alt": "Projekt Bergparadies"
+  },
+  "galerie": [
+    {
+      "src": "/assets/projekte/bergparadies/gallery-01.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-02.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-03.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-04.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-05.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-06.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-07.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-08.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-09.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-10.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-11.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-12.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-13.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-14.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-15.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-16.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-17.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    },
+    {
+      "src": "/assets/projekte/bergparadies/gallery-18.jpg",
+      "alt": "Projekt Bergparadies — Detail"
+    }
+  ],
+  "baustelle_bis_uebergabe": [
+    {
+      "src": "/assets/projekte/bergparadies/proof-01.jpg",
+      "alt": "Projekt Bergparadies — Baustelle 1",
+      "caption": "Vorher: fast 400 m² Garten lagen nahezu ungenutzt — eine Fläche ohne Mitte."
+    },
+    {
+      "src": "/assets/projekte/bergparadies/proof-02.jpg",
+      "alt": "Projekt Bergparadies — Baustelle 2",
+      "caption": "Bauphase: der Beckenkörper für den Überlaufpool wird gesetzt, die umlaufende Rinne vorbereitet."
+    },
+    {
+      "src": "/assets/projekte/bergparadies/proof-03.jpg",
+      "alt": "Projekt Bergparadies — Baustelle 3",
+      "caption": "Rohbau: Gegenstromanlage, Unterflur‑Rollladen und Beleuchtung. Die Technik zieht in Außenschränke — der Altbau hat keinen Keller dafür."
+    },
+    {
+      "src": "/assets/projekte/bergparadies/proof-04.jpg",
+      "alt": "Projekt Bergparadies — Baustelle 4",
+      "caption": "Nachher: der fertige Überlaufpool, 3,60 × 8 m — die Wasseroberfläche liegt auf einer Höhe mit dem Belag."
+    },
+    {
+      "src": "/assets/projekte/bergparadies/proof-05.jpg",
+      "alt": "Projekt Bergparadies — Baustelle 5",
+      "caption": "Wie im Freibad, nur privat: das umlaufende Wasser hält die Oberfläche sauber. Der Garten wird zum Mittelpunkt."
+    }
+  ],
+  "meta": {
+    "title": "Projekt Bergparadies — Gerhardt GmbH",
+    "description": "Überlaufpool und Gartenoase in Wiesbaden. Aus fast 400 m² ungenutztem Garten wird ein Mittelpunkt mit Freibad‑Wasserqualität."
+  }
+}

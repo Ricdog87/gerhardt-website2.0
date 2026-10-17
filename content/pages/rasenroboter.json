@@ -1,0 +1,1144 @@
+{
+  "title": "Rasenroboter für Hausgärten und Grünflächen — Gerhardt GmbH",
+  "description": "Autorisierter Fachhändler für Husqvarna Automower® und Kress Mission RTKⁿ im Rhein-Main-Gebiet. Vor-Ort-Vermessung, professionelle Installation, Wartungsvertrag mit Winterservice.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Rasenroboter für Hausgärten und Grünflächen"
+    },
+    {
+      "tag": "h3",
+      "text": "Fachhändler‑installiert"
+    },
+    {
+      "tag": "h3",
+      "text": "Vor Ort eingerichtet"
+    },
+    {
+      "tag": "h3",
+      "text": "Ganzjährig betreut"
+    },
+    {
+      "tag": "h2",
+      "text": "Ein Rasen, der sich selbst pflegt"
+    },
+    {
+      "tag": "h2",
+      "text": "Ein Rasen, der immer geschnitten aussieht"
+    },
+    {
+      "tag": "h2",
+      "text": "Der Unterschied liegt in der Einrichtung"
+    },
+    {
+      "tag": "h2",
+      "text": "Häufige Fragen"
+    },
+    {
+      "tag": "h2",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "h1",
+      "cls": "hero__title",
+      "text": "Rasenroboter für Hausgärten und Grünflächen"
+    },
+    {
+      "tag": "p",
+      "cls": "hero__sub",
+      "text": "Autorisierter Fachhändler für Husqvarna Automower® und Kress Mission RTKⁿ im Rhein‑Main‑Gebiet. Vor‑Ort‑Vermessung, professionelle Installation, Wartungsvertrag mit Winterservice."
+    },
+    {
+      "tag": "h3",
+      "cls": "benefit__title",
+      "text": "Fachhändler‑installiert"
+    },
+    {
+      "tag": "p",
+      "cls": "benefit__body",
+      "text": "Wir sind autorisierter Partner für Husqvarna und Kress. Wir empfehlen die Technik, die zu Ihrem Garten passt — nicht die, die im Regal steht."
+    },
+    {
+      "tag": "h3",
+      "cls": "benefit__title",
+      "text": "Vor Ort eingerichtet"
+    },
+    {
+      "tag": "p",
+      "cls": "benefit__body",
+      "text": "Grundstück vermessen, Begrenzung oder RTK‑Referenz gesetzt, Zonen definiert, Ladestation platziert, App und WLAN verbunden. Nichts per Karton, alles im Garten."
+    },
+    {
+      "tag": "h3",
+      "cls": "benefit__title",
+      "text": "Ganzjährig betreut"
+    },
+    {
+      "tag": "p",
+      "cls": "benefit__body",
+      "text": "Wartungsvertrag mit Klingenwechsel, Firmware, Winterservice und Frühjahrs‑Inbetriebnahme. Damit er läuft, wie er soll."
+    },
+    {
+      "tag": "p",
+      "cls": "lp-split__eyebrow",
+      "text": "Weniger Aufwand, besseres Ergebnis."
+    },
+    {
+      "tag": "h2",
+      "cls": "lp-split__title",
+      "text": "Ein Rasen, der sich selbst pflegt"
+    },
+    {
+      "tag": "p",
+      "text": "Rasenmähen und Gießen sind die zwei zeitaufwendigsten Arbeiten im Garten. Beide lassen sich automatisieren."
+    },
+    {
+      "tag": "p",
+      "text": "Ein Rasenroboter läuft nach seinem eigenen Plan. Frühmorgens, abends, nachts. Bei feinem Nieselregen. Auf der Fläche, für die er programmiert ist. In Ihrem Garten, aber ohne dass Sie ihn sehen."
+    },
+    {
+      "tag": "p",
+      "text": "Der zweite Effekt ist der wichtigere: kurz gehalten heißt gesund gehalten. Der Roboter schneidet permanent feine Halmspitzen ab. Das mulcht den Rasen, düngt ihn natürlich und macht ihn über die Jahre dichter."
+    },
+    {
+      "tag": "p",
+      "text": "Sie mähen also nicht nur nicht mehr selbst — Sie haben nebenbei einen besseren Rasen."
+    },
+    {
+      "tag": "p",
+      "cls": "lp-gallery__eyebrow",
+      "text": "Rasenroboter im Einsatz."
+    },
+    {
+      "tag": "h2",
+      "cls": "lp-gallery__title",
+      "text": "Ein Rasen, der immer geschnitten aussieht"
+    },
+    {
+      "tag": "blockquote",
+      "cls": "lp-quote__title",
+      "text": "„Die geilste Anlage ist die, die du nie siehst.“"
+    },
+    {
+      "tag": "p",
+      "cls": "lp-quote__attr",
+      "text": "Thomas Gerhardt"
+    },
+    {
+      "tag": "p",
+      "text": "Ein Rasenroboter braucht eine Grenze. Er muss wissen, wo Ihr Rasen aufhört und der Nachbargarten anfängt. Dafür gibt es drei Wege: ein Begrenzungskabel im Boden, eine EPOS‑Referenzantenne am Haus, oder eine landesweite RTK‑Korrektur per Mobilfunk."
+    },
+    {
+      "tag": "p",
+      "text": "Welcher Weg für Sie richtig ist, entscheidet der Garten — nicht der Prospekt. Unter dichten Bäumen und in engen Innenhöfen arbeitet Begrenzungskabel zuverlässiger, weil kein GPS‑Signal gebraucht wird. Bei komplexen, mehrzonigen oder sich verändernden Gärten gewinnt EPOS oder RTK, weil sich die Grenze in der App neu zeichnen lässt, ohne graben zu müssen."
+    },
+    {
+      "tag": "p",
+      "text": "In der App sehen Sie jederzeit, wo er gerade läuft, wann er lädt, welche Zonen heute gemäht sind. Wetter, Regensensor und Zeitplan sind eingerichtet, nicht Ihre Aufgabe."
+    },
+    {
+      "tag": "p",
+      "cls": "lp-pathviz__label",
+      "text": "Zufallsprinzip"
+    },
+    {
+      "tag": "p",
+      "cls": "lp-pathviz__sub",
+      "text": "Begrenzungskabel — der Roboter fährt bis zur Grenze, dreht in einem zufälligen Winkel ab und fährt weiter. Über die Zeit ist alles gemäht."
+    },
+    {
+      "tag": "p",
+      "cls": "lp-pathviz__label",
+      "text": "Systematisch"
+    },
+    {
+      "tag": "p",
+      "cls": "lp-pathviz__sub",
+      "text": "EPOS · RTK — der Roboter kennt seine Position auf den Zentimeter genau und mäht in geplanten Bahnen. Effizienter auf großen und komplexen Flächen."
+    },
+    {
+      "tag": "p",
+      "cls": "lp-pathviz__caption",
+      "text": "Zwei Wege zum gleichen Ergebnis. Welcher zu Ihrem Garten passt, entscheiden wir vor Ort."
+    },
+    {
+      "tag": "p",
+      "cls": "lp-split__eyebrow",
+      "text": "Installation"
+    },
+    {
+      "tag": "h2",
+      "cls": "lp-split__title",
+      "text": "Der Unterschied liegt in der Einrichtung"
+    },
+    {
+      "tag": "p",
+      "text": "Ein Rasenroboter ist ein langlebiges Werkzeug. Ob er zehn Jahre unauffällig läuft oder alle zwei Wochen einen Service‑Anruf auslöst, entscheidet sich am Installationstag."
+    },
+    {
+      "tag": "p",
+      "text": "Bei uns wird jeder Roboter vor Ort eingemessen und eingerichtet. Nicht per Karton, nicht per Selbstmontage‑Anleitung. Wir prüfen die Fläche, planen die Grenzen, setzen die Ladestation, definieren Zonen und Durchgänge, verbinden App und WLAN, und lassen ihn einen ersten Durchgang fahren, bevor wir gehen."
+    },
+    {
+      "tag": "p",
+      "text": "Die kleinen Dinge machen den Unterschied: eine Ladestation, die eben steht und im Schatten liegt. Passagen von unter einem Meter, die sauber getunt sind. Ein Begrenzungskabel, das tief genug verlegt ist, dass es der Vertikutierer nicht kappt. Bei EPOS und RTK: eine Referenzstation mit Sicht auf den Himmel oder eine Mobilfunkabdeckung, die wir vorher geprüft haben."
+    },
+    {
+      "tag": "p",
+      "text": "Im Neubau planen wir die Installation von Anfang an mit dem Landschaftsbauer zusammen. Im Bestand arbeiten wir mit der Hand und der Rasensode — drei Wochen später sieht man nicht mehr, dass wir da waren."
+    },
+    {
+      "tag": "h2",
+      "cls": "lp-faq__title",
+      "text": "Häufige Fragen"
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Was kostet ein Rasenroboter mit Installation?"
+    },
+    {
+      "tag": "p",
+      "text": "Der Mäher selbst kostet zwischen 800 und 5.000 €. Mit professioneller Vor‑Ort‑Einrichtung liegt der Startpunkt für einen kleinen Hausgarten bei rund 1.500 €. Nach oben ist die Skala je nach Fläche und System offen — bei großen oder gewerblichen Anlagen mit RTK‑Präzision können es einige zehntausend Euro werden. Jeder Garten ist anders, wir erstellen Ihnen gerne ein individuelles Angebot."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Welchen Rasenroboter empfehlen Sie: Husqvarna oder Kress?"
+    },
+    {
+      "tag": "p",
+      "text": "Beide sind gute Systeme. Wir sind autorisierter Fachhändler für Husqvarna Automower® und Kress Mission RTKⁿ und empfehlen die Technik, die zu Ihrem Garten passt."
+    },
+    {
+      "tag": "p",
+      "text": "Husqvarna dominiert mit reifer Software, breiter Modellauswahl und der bekanntesten Marke. Kress punktet mit netzwerkbasierter RTK‑Navigation ohne Referenzantenne vor Ort. Welches System besser passt, entscheiden wir bei der Vor‑Ort‑Vermessung."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Begrenzungskabel oder EPOS/RTK: was ist besser?"
+    },
+    {
+      "tag": "p",
+      "text": "Kommt auf den Garten an. Begrenzungskabel funktionieren zuverlässig auch dort, wo der Empfang schwach ist: unter dichtem Baumbewuchs, in engen Innenhöfen, zwischen hohen Gebäuden."
+    },
+    {
+      "tag": "p",
+      "text": "EPOS und RTK sind für komplexe Gartenlayouts, mehrere Zonen und Gärten, die sich saisonal verändern, die bessere Wahl. Die Grenze lässt sich in der App neu ziehen, ohne graben zu müssen."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Ab welcher Rasenfläche ist ein Roboter sinnvoll?"
+    },
+    {
+      "tag": "p",
+      "text": "Ab etwa 300 m² fangen die Modelle an, wirtschaftlich sinnvoll zu werden. Zwischen 800 m² und 3.500 m² liegt das Standardgebiet für Hausgärten."
+    },
+    {
+      "tag": "p",
+      "text": "Für 3.500 bis 8.000 m² kommen professionelle Modelle wie der Husqvarna 535 AWD EPOS oder Kress KR172 zum Einsatz. Für kleine, verwinkelte Flächen unter 300 m² lohnt sich der Aufwand oft nicht. Wir sagen das offen."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "In welcher Region arbeiten Sie?"
+    },
+    {
+      "tag": "p",
+      "text": "Wir arbeiten im gesamten Rhein‑Main‑Gebiet. Unsere Roboter laufen in Wiesbaden, Mainz, Frankfurt, Königstein im Taunus, Kronberg, Bad Homburg, Oberursel, Bad Soden und Kelkheim."
+    },
+    {
+      "tag": "p",
+      "text": "Darüber hinaus sind wir regelmäßig in Hofheim, Rüsselsheim, Idstein und im Rheingau im Einsatz. Für gewerbliche und öffentliche Anlagen bedienen wir den erweiterten Radius bis Darmstadt und Bad Vilbel."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Was passiert bei starkem Regen, Frost oder Sturm?"
+    },
+    {
+      "tag": "p",
+      "text": "Der Regensensor pausiert den Betrieb bei Starkregen automatisch. Bei Sturm bleibt der Roboter in der Ladestation."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Sind Rasenroboter diebstahlgesichert?"
+    },
+    {
+      "tag": "p",
+      "text": "Ja. Alle Modelle sind mit PIN‑Code, Alarm und GPS‑Ortung ausgestattet. Beim Verlassen des zugewiesenen Bereichs wird der Motor gesperrt und eine Meldung an die App geschickt."
+    },
+    {
+      "tag": "p",
+      "text": "Ohne PIN lässt sich kein installierter Roboter woanders in Betrieb nehmen. Bei der Installation richten wir die Sicherheitsmerkmale mit ein."
+    },
+    {
+      "tag": "h2",
+      "cls": "contact__title",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    },
+    {
+      "tag": "p",
+      "cls": "contact__intro",
+      "text": "Ein paar Angaben zu Ihrem Vorhaben — wir melden uns persönlich."
+    },
+    {
+      "tag": "li",
+      "text": "Pool"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerungsanlage"
+    },
+    {
+      "tag": "li",
+      "text": "Gartenbeleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Sonstiges"
+    },
+    {
+      "tag": "li",
+      "text": "100.000–150.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "150.000–250.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "über 250.000 €"
+    },
+    {
+      "tag": "p",
+      "cls": "contact__privacy",
+      "text": "Mit dem Absenden verarbeiten wir Ihre Angaben, um Ihre Anfrage zu bearbeiten. Einzelheiten finden Sie in unserer Datenschutzerklärung."
+    },
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/hero-01.webp",
+      "attrSrc": "assets/technik/rasenroboter/hero-01.jpg",
+      "srcset": null,
+      "alt": "Gepflegter Rasen mit Rasenroboter im Hausgarten",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        1440,
+        720
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/hero-02.webp",
+      "attrSrc": "assets/technik/rasenroboter/hero-02.jpg",
+      "srcset": null,
+      "alt": "Rasenfläche mit Husqvarna Automower — Hausgarten Rhein-Main",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        1440,
+        720
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/freizeit.webp",
+      "attrSrc": "assets/technik/rasenroboter/freizeit.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter am Poolrand — Hausgarten Rhein-Main",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        393,
+        491
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-01.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-01.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter im Hausgarten — gepflegte Rasenfläche",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        432,
+        1954
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-02.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-02.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter am Poolrand — sauberer Rasenschnitt",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        868,
+        1302
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-03.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-03.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter Bestandsgarten — Rasenkante",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-04.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-04.jpg",
+      "srcset": null,
+      "alt": "Automower Rasen — Beetrand",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-05.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-05.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter — gepflegte Rasenfläche im Garten",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-06.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-06.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter Rhein-Main — Rasen im Gegenlicht",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-07.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-07.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter Hausgarten Rhein-Main-Gebiet",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        868,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-08.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-08.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter Details — Rasenfläche",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-09.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-09.jpg",
+      "srcset": null,
+      "alt": "Rasenroboter Rasenkante — Einfamilienhaus",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-10.webp",
+      "attrSrc": "assets/technik/rasenroboter/gallery-10.jpg",
+      "srcset": null,
+      "alt": "Automatischer Rasenmäher Einfamilienhaus",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/rasenroboter",
+      "attrSrc": "",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        0,
+        0
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter#anfrage"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutzerklärung",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter#anfrage"
+    }
+  ],
+  "anchors": [
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    }
+  ],
+  "forms": [
+    {
+      "action": "/api/contact",
+      "method": "POST",
+      "id": "",
+      "fields": [
+        {
+          "name": "vorname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "nachname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "interesse",
+          "type": "hidden",
+          "required": true
+        },
+        {
+          "name": "strasse",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "plz",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "wohnort",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "budget",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "nachricht",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Rasenroboter",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Gerhardt GmbH",
+        "url": "https://gerhardt-gmbh.de"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Rhein-Main-Gebiet"
+      },
+      "description": "Autorisierter Fachhändler für Husqvarna Automower und Kress Mission RTK. Vermessung, Installation, Wartungsvertrag mit Winterservice."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet ein Rasenroboter mit Installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Mäher selbst kostet zwischen 800 und 5.000 €. Mit professioneller Vor‑Ort‑Einrichtung liegt der Startpunkt für einen kleinen Hausgarten bei rund 1.500 €. Nach oben ist die Skala je nach Fläche und System offen — bei großen oder gewerblichen Anlagen mit RTK‑Präzision können es einige zehntausend Euro werden. Jeder Garten ist anders, wir erstellen Ihnen gerne ein individuelles Angebot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welchen Rasenroboter empfehlen Sie: Husqvarna oder Kress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beide sind gute Systeme. Wir sind autorisierter Fachhändler für Husqvarna Automower® und Kress Mission RTKⁿ und empfehlen die Technik, die zu Ihrem Garten passt. Husqvarna dominiert mit reifer Software, breiter Modellauswahl und der bekanntesten Marke. Kress punktet mit netzwerkbasierter RTK‑Navigation ohne Referenzantenne vor Ort. Welches System besser passt, entscheiden wir bei der Vor‑Ort‑Vermessung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Begrenzungskabel oder EPOS/RTK: was ist besser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kommt auf den Garten an. Begrenzungskabel funktionieren zuverlässig auch dort, wo der Empfang schwach ist: unter dichtem Baumbewuchs, in engen Innenhöfen, zwischen hohen Gebäuden. EPOS und RTK sind für komplexe Gartenlayouts, mehrere Zonen und Gärten, die sich saisonal verändern, die bessere Wahl. Die Grenze lässt sich in der App neu ziehen, ohne graben zu müssen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ab welcher Rasenfläche ist ein Roboter sinnvoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ab etwa 300 m² fangen die Modelle an, wirtschaftlich sinnvoll zu werden. Zwischen 800 m² und 3.500 m² liegt das Standardgebiet für Hausgärten. Für 3.500 bis 8.000 m² kommen professionelle Modelle wie der Husqvarna 535 AWD EPOS oder Kress KR172 zum Einsatz. Für kleine, verwinkelte Flächen unter 300 m² lohnt sich der Aufwand oft nicht. Wir sagen das offen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In welcher Region arbeiten Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir arbeiten im gesamten Rhein‑Main‑Gebiet. Unsere Roboter laufen in Wiesbaden, Mainz, Frankfurt, Königstein im Taunus, Kronberg, Bad Homburg, Oberursel, Bad Soden und Kelkheim. Darüber hinaus sind wir regelmäßig in Hofheim, Rüsselsheim, Idstein und im Rheingau im Einsatz. Für gewerbliche und öffentliche Anlagen bedienen wir den erweiterten Radius bis Darmstadt und Bad Vilbel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was passiert bei starkem Regen, Frost oder Sturm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Regensensor pausiert den Betrieb bei Starkregen automatisch. Bei Sturm bleibt der Roboter in der Ladestation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sind Rasenroboter diebstahlgesichert?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Alle Modelle sind mit PIN‑Code, Alarm und GPS‑Ortung ausgestattet. Beim Verlassen des zugewiesenen Bereichs wird der Motor gesperrt und eine Meldung an die App geschickt. Ohne PIN lässt sich kein installierter Roboter woanders in Betrieb nehmen. Bei der Installation richten wir die Sicherheitsmerkmale mit ein."
+          }
+        }
+      ]
+    }
+  ],
+  "tel": [
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "60.8px",
+      "fontWeight": "700",
+      "lineHeight": "65.664px",
+      "letterSpacing": "-0.912px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "33.6px",
+      "fontWeight": "700",
+      "lineHeight": "40.32px",
+      "letterSpacing": "-0.336px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 6302,
+  "loadMs": 1827,
+  "mobile": {
+    "docHeight": 9049,
+    "hScroll": false,
+    "h1": "31.2px"
+  },
+  "path": "/rasenroboter",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 36577,
+  "rawHasH1": true,
+  "rawTextLen": 6778,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/hero-01.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/freizeit.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/hero-02.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-01.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-02.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-03.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-04.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-05.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-06.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-07.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-08.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-09.webp",
+    "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-10.webp",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-white.png"
+  ]
+}

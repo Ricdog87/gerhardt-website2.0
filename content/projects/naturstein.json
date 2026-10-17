@@ -1,0 +1,154 @@
+{
+  "slug": "naturstein",
+  "name": "Naturstein",
+  "ort": "Wiesbaden",
+  "untertitel": "Sanierung & Gesamtausführung",
+  "pool": "4 × 9 m, Skimmer (mit Gegenstromanlage)",
+  "projektart": "Bestandsgarten",
+  "kostenrahmen": "ca. 300.000 €",
+  "fakten_roh": {
+    "Pool": "4 × 9 m, Skimmer (mit Gegenstromanlage)",
+    "Projektart": "Bestandsgarten",
+    "Kostenrahmen": "ca. 300.000 €"
+  },
+  "headline": "Vom Folienbecken zum High-End-Pool",
+  "story": [
+    "Ein altes Folienbecken. Der Wunsch: ein Pool ohne Kompromisse. Wir haben allein die betonierte Kubatur erhalten und das Becken neu aufgebaut: innenliegende Treppe, ein Unterflur-Rollladen als Sitz- und Liegebank, und eine durchgehende Verkleidung aus Naturstein.",
+    "Dazu eine stufenlos regelbare Gegenstromanlage und eine Salzelektrolyse für Chlor aus reinem Salz. Bewässerung, Mähroboter und Beleuchtung sind als ein System mitgeplant, gesteuert per App."
+  ],
+  "hero": [
+    {
+      "src": "/assets/projekte/naturstein/hero-01.jpg",
+      "alt": "Projekt Naturstein"
+    },
+    {
+      "src": "/assets/projekte/naturstein/hero-02.jpg",
+      "alt": "Projekt Naturstein"
+    },
+    {
+      "src": "/assets/projekte/naturstein/hero-03.jpg",
+      "alt": "Projekt Naturstein"
+    },
+    {
+      "src": "/assets/projekte/naturstein/hero-04.jpg",
+      "alt": "Projekt Naturstein"
+    },
+    {
+      "src": "/assets/projekte/naturstein/hero-05.jpg",
+      "alt": "Projekt Naturstein"
+    }
+  ],
+  "story_bild": {
+    "src": "/assets/projekte/naturstein/story.jpg",
+    "alt": "Projekt Naturstein — sanierter Pool"
+  },
+  "galerie": [
+    {
+      "src": "/assets/projekte/naturstein/gallery-01.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-02.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-03.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-04.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-05.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-06.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-07.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-08.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-09.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-10.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-11.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-12.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-13.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-14.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-15.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-16.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-17.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-18.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    },
+    {
+      "src": "/assets/projekte/naturstein/gallery-19.jpg",
+      "alt": "Projekt Naturstein — Detail"
+    }
+  ],
+  "baustelle_bis_uebergabe": [
+    {
+      "src": "/assets/projekte/naturstein/proof-01.jpg",
+      "alt": "Vorher — altes Folienbecken",
+      "caption": "Vorher: das in die Jahre gekommene Folienbecken im winterlichen Bestandsgarten."
+    },
+    {
+      "src": "/assets/projekte/naturstein/proof-02.jpg",
+      "alt": "Bauphase — neue Natursteinmauer",
+      "caption": "Bauphase: die alte Anlage weicht, eine neue Natursteinmauer fasst den Garten neu ein."
+    },
+    {
+      "src": "/assets/projekte/naturstein/proof-03.jpg",
+      "alt": "Bauphase — neuer Beckenkörper",
+      "caption": "Der neu betonierte Beckenkörper — innenliegende Treppe, Gegenstromdüsen und Beleuchtung sind gesetzt, bereit für die Natursteinverkleidung."
+    },
+    {
+      "src": "/assets/projekte/naturstein/proof-04.jpg",
+      "alt": "Nachher — fertiger Pool bei Tag",
+      "caption": "Nachher: das natursteinverkleidete Becken mit klarem Wasser, gefasst von Mauer und Holzdeck — die fertige Wohlfühloase."
+    },
+    {
+      "src": "/assets/projekte/naturstein/proof-05.jpg",
+      "alt": "Nachher — fertiger Pool am Abend",
+      "caption": "Und am Abend: indirekte Beleuchtung an Pool, Pergola und Mauer taucht den Garten in Stimmung."
+    }
+  ],
+  "meta": {
+    "title": "Projekt Naturstein — Gerhardt GmbH",
+    "description": "Sanierung eines Folienbeckens zu einem Naturstein-Pool im Rhein-Main-Gebiet. Skimmer, Gegenstromanlage, Salzelektrolyse und Automation aus einer Hand."
+  }
+}

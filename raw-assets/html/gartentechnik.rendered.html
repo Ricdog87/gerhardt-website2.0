@@ -1,0 +1,276 @@
+<!DOCTYPE html><html lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gartentechnik — Gerhardt GmbH</title>
+<meta name="description" content="Bewässerung, Beleuchtung, Rasenroboter und Wartung — geplant, gebaut und gepflegt von einem Team im Rhein-Main-Gebiet.">
+
+<link rel="icon" href="/assets/g-mark.svg?v=2" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/UniversNextProRegular.ttf" as="font" type="font/ttf" crossorigin="">
+<link rel="preload" href="assets/fonts/UniversNextProMedium.ttf" as="font" type="font/ttf" crossorigin="">
+<link rel="preload" href="assets/fonts/UniversNextProBold.ttf" as="font" type="font/ttf" crossorigin="">
+
+<link rel="stylesheet" href="assets/css/shell.css?v=125">
+<style>
+    /* ==== HERO — full-bleed carousel + overlaid text ==== */
+    .hero {
+        position: relative;
+        height: 75vh;
+        min-height: 420px;
+        overflow: hidden;
+        background: #0a1622;
+    }
+    .hero__carousel { position: absolute; inset: 0; }
+    .hero__carousel img {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 1.1s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .hero__carousel img.active { opacity: 1; }
+    .hero__overlay {
+        position: absolute; inset: 0;
+        background:
+            linear-gradient(to bottom, rgba(15,28,46,0.55) 0%, rgba(15,28,46,0.15) 14%, transparent 28%),
+            linear-gradient(to top right, rgba(15,28,46,0.7) 0%, rgba(15,28,46,0.28) 55%, rgba(15,28,46,0.05) 100%);
+        z-index: 1;
+    }
+    .hero__content {
+        position: absolute;
+        left: 15%;
+        bottom: clamp(3rem, 10vh, 6rem);
+        max-width: 780px;
+        z-index: 2;
+    }
+    .hero__title {
+        font-size: clamp(2.2rem, 4.6vw, 3.8rem);
+        font-weight: 700;
+        line-height: 1.08;
+        letter-spacing: -0.015em;
+        color: #fff;
+        margin: 0 0 1rem;
+        text-shadow: 0 2px 24px rgba(0,0,0,0.35);
+    }
+    .hero__sub {
+        font-size: clamp(1rem, 1.35vw, 1.2rem);
+        font-weight: 400;
+        line-height: 1.5;
+        color: rgba(255,255,255,0.9);
+        max-width: 640px;
+        margin: 0 0 1.75rem;
+        text-shadow: 0 1px 12px rgba(0,0,0,0.35);
+    }
+    .hero__btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.05rem 1.6rem 0.81rem;
+        background: rgba(255,255,255,0.14);
+        backdrop-filter: saturate(160%) blur(14px);
+        -webkit-backdrop-filter: saturate(160%) blur(14px);
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.86rem;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        line-height: 1;
+        border: 1px solid rgba(255,255,255,0.22);
+        border-radius: 6px;
+        transition: background 0.25s ease, border-color 0.25s ease;
+    }
+    .hero__btn:hover {
+        background: rgba(255,255,255,0.24);
+        border-color: rgba(255,255,255,0.45);
+    }
+
+    /* ==== INTRO — one centered paragraph ==== */
+    .intro {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: clamp(4rem, 8vh, 6rem) clamp(1.5rem, 4vw, 3rem);
+        text-align: center;
+    }
+    .intro__text {
+        font-size: clamp(1.15rem, 1.7vw, 1.4rem);
+        line-height: 1.55;
+        font-weight: 500;
+        color: var(--text);
+        letter-spacing: -0.005em;
+        text-wrap: balance;
+        margin: 0;
+    }
+
+    /* ==== TILES — 2x2 category grid ==== */
+    .tiles {
+        padding: clamp(1rem, 2vh, 2rem) 0 clamp(4rem, 9vh, 7rem);
+    }
+    .tiles__grid {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: clamp(1.5rem, 3vw, 2.5rem);
+    }
+    .tile { display: block; text-decoration: none; color: inherit; }
+    .tile__media {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 3 / 2;
+        overflow: hidden;
+        background: var(--navy);
+        border-radius: 12px;
+    }
+    .tile__media img {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        transition: filter 0.4s ease, transform 0.6s cubic-bezier(0.25, 0, 0.25, 1);
+    }
+    .tile:hover .tile__media img {
+        filter: brightness(1.05);
+        transform: scale(1.02);
+    }
+    .tile__info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1.5rem;
+        padding: 1.1rem 0.15rem 0;
+    }
+    .tile__text { max-width: 480px; }
+    .tile__name {
+        font-size: clamp(1.15rem, 1.5vw, 1.35rem);
+        font-weight: 700;
+        color: var(--text);
+        letter-spacing: -0.005em;
+        margin: 0 0 0.35rem;
+        transition: color 0.2s;
+    }
+    .tile__pitch {
+        font-size: 0.98rem;
+        line-height: 1.55;
+        color: var(--slate);
+        margin: 0;
+    }
+    .tile__arrow {
+        font-size: 1.4rem;
+        color: var(--slate);
+        line-height: 1;
+        flex-shrink: 0;
+        margin-top: 0.35rem;
+        transition: color 0.2s, transform 0.3s ease;
+    }
+    .tile:hover .tile__name { color: var(--blue); }
+    .tile:hover .tile__arrow { color: var(--blue); transform: translateX(4px); }
+
+    /* ==== FORM SECTION ==== */
+    .form-section {
+        background: var(--warm-white);
+        padding: clamp(4rem, 7vw, 6rem) clamp(1.5rem, 4vw, 3rem);
+        border-top: 1px solid var(--border);
+    }
+    .form-section .contact { padding: 0; max-width: 680px; margin: 0 auto; }
+
+    /* ==== RESPONSIVE ==== */
+    @media (max-width: 780px) {
+        .hero { height: auto; min-height: 78vh; }
+        .hero__title { font-size: clamp(1.8rem, 8vw, 2.8rem); }
+        .hero__content { left: 1.25rem; right: 1.25rem; bottom: 2.5rem; max-width: none; }
+        .tiles__grid { grid-template-columns: 1fr; gap: 2rem; }
+        .tile__media { aspect-ratio: 4 / 3; }
+    }
+</style>
+<script src="/assets/js/beacon.js" defer="" data-beacon-loaded=""></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Gerhardt GmbH","url":"https://gerhardt-gmbh.de","logo":"https://gerhardt-gmbh.de/assets/logo-black.png","image":"https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg","telephone":"+49-6122-70770-00","email":"info@gerhardt-gmbh.de","address":{"@type":"PostalAddress","streetAddress":"Max-Planck-Ring 11","addressLocality":"Wiesbaden","postalCode":"65205","addressCountry":"DE"},"areaServed":[{"@type":"AdministrativeArea","name":"Rhein-Main-Gebiet"},{"@type":"City","name":"Wiesbaden"},{"@type":"City","name":"Frankfurt am Main"},{"@type":"City","name":"Mainz"}],"description":"Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.","priceRange":"€€€"}</script></head>
+<body class="page-transparent-header">
+
+<header class="header" id="header" data-shell-nav="" data-active="gartentechnik" data-cta-mode="anfrage" data-cta-href="#anfrage"><a class="header__logo" href="/" aria-label="Gerhardt GmbH — Startseite"><img src="/assets/logo-black.png" alt="Gerhardt GmbH"></a><nav class="header__nav"><div class="nav__item"><a href="/pools">Pools</a></div><div class="nav__item"><a href="/gartentechnik" class="active">Gartentechnik</a></div><div class="nav__item"><a href="/ueber-uns">Unternehmen</a></div></nav><a class="header__cta" href="#anfrage">Beratung anfragen</a><div class="mega"><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Pools</p><ul class="mega__links"><li><a href="/pools" data-preview="/assets/mega-poolbau.jpg">Poolbau &amp; Kosten</a></li><li><a href="/pools/projekte" data-preview="/assets/hero-01-bergparadies.jpg">Realisierte Projekte</a></li><li><a href="/pools/galerie" data-preview="/assets/hero-04-provence.jpg">Bildergalerie</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-pools.jpg" alt=""><img class="mega__image" alt=""></div></div></div><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Gartentechnik</p><ul class="mega__links"><li><a href="/bewaesserung" data-preview="/assets/mega-bewaesserung.jpg">Bewässerung</a></li><li><a href="/beleuchtung" data-preview="/assets/mega-beleuchtung.jpg">Beleuchtung</a></li><li><a href="/rasenroboter" data-preview="/assets/mega-rasenroboter.jpg">Rasenroboter</a></li><li><a href="/wartung" data-preview="/assets/mega-wartung.jpg" data-pos="50% 100%">Wartung &amp; Service</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-technik.jpg" alt=""><img class="mega__image" alt=""></div></div></div><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Unternehmen</p><ul class="mega__links"><li><a href="/ueber-uns" data-preview="/assets/mega-unternehmen.jpg">Über uns</a></li><li><a href="/stellenmarkt" data-preview="/assets/mega-stellenmarkt.jpg">Stellenmarkt</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-unternehmen.jpg" alt=""><img class="mega__image" alt=""></div></div></div></div><button class="header__burger" type="button" aria-label="Menü öffnen" aria-expanded="false"><span class="header__burger-icon" aria-hidden="true"><span></span></span></button></header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" data-interval="4500" data-first-delay="4000">
+    <div class="hero__carousel">
+        <picture><source srcset="assets/technik/bewaesserung/hero-01.webp" type="image/webp"><img src="assets/technik/bewaesserung/hero-01.jpg" alt="Bewässerung — Gerhardt Gartentechnik" "="" class="active"></picture>
+        <picture><source srcset="assets/technik/beleuchtung/hero-01.webp" type="image/webp"><img src="assets/technik/beleuchtung/hero-01.jpg" alt="Beleuchtung — Gerhardt Gartentechnik" "=""></picture>
+        <picture><source srcset="assets/technik/rasenroboter/hero-01.webp" type="image/webp"><img src="assets/technik/rasenroboter/hero-01.jpg" alt="Rasenroboter — Gerhardt Gartentechnik" "=""></picture>
+        <picture><source srcset="assets/technik/wartung/hero-01.webp" type="image/webp"><img src="assets/technik/wartung/hero-01.jpg" alt="Wartung &amp; Service — Gerhardt Gartentechnik" "=""></picture>
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+        <h1 class="hero__title">Alles, was den Garten leichter macht.</h1>
+        <p class="hero__sub">Bewässerung, Beleuchtung, Rasenroboter und Wartung — geplant, gebaut und gepflegt von einem Team im Rhein‑Main‑Gebiet.</p>
+        <a class="hero__btn" href="#leistungen">Unsere Leistungen</a>
+    </div>
+</section>
+
+<!-- ===== INTRO ===== -->
+<section class="intro">
+    <p class="intro__text">Rasenmähen und Gießen sind die zwei zeitaufwendigsten Arbeiten im Garten. Beide lassen sich automatisieren. Und mit Licht und Wasser wird aus einem Garten, den man pflegt, einer, in dem man Zeit verbringt.</p>
+</section>
+
+<!-- ===== CATEGORY TILES ===== -->
+<section class="tiles" id="leistungen">
+    <div class="tiles__grid">
+        <a href="/bewaesserung" class="tile">
+            <div class="tile__media">
+                <picture><source srcset="assets/technik/hub/bewaesserung.webp" type="image/webp"><img src="assets/technik/hub/bewaesserung.jpg" alt="Bewässerungsanlagen — Gerhardt GmbH" loading="lazy"></picture>
+            </div>
+            <div class="tile__info">
+                <div class="tile__text">
+                    <h2 class="tile__name">Bewässerung</h2>
+                    <p class="tile__pitch">Fest installiert, wetterabhängig gesteuert, per App. Auch im Bestand ohne Spuren.</p>
+                </div>
+                <span class="tile__arrow" aria-hidden="true">→</span>
+            </div>
+        </a>
+        <a href="/beleuchtung" class="tile">
+            <div class="tile__media">
+                <picture><source srcset="assets/technik/hub/beleuchtung.webp" type="image/webp"><img src="assets/technik/hub/beleuchtung.jpg" alt="Gartenbeleuchtung — Gerhardt GmbH" loading="lazy"></picture>
+            </div>
+            <div class="tile__info">
+                <div class="tile__text">
+                    <h2 class="tile__name">Beleuchtung</h2>
+                    <p class="tile__pitch">Räume, die es tagsüber nicht gibt. Modular, wachsend, im Bestand ohne bleibende Spuren.</p>
+                </div>
+                <span class="tile__arrow" aria-hidden="true">→</span>
+            </div>
+        </a>
+        <a href="/rasenroboter" class="tile">
+            <div class="tile__media">
+                <picture><source srcset="assets/technik/rasenroboter/hero-01.webp" type="image/webp"><img src="assets/technik/rasenroboter/hero-01.jpg" alt="Rasenroboter — Gerhardt GmbH" loading="lazy"></picture>
+            </div>
+            <div class="tile__info">
+                <div class="tile__text">
+                    <h2 class="tile__name">Rasenroboter</h2>
+                    <p class="tile__pitch">Fachhändler für Husqvarna und Kress. Vor Ort eingerichtet, ganzjährig betreut.</p>
+                </div>
+                <span class="tile__arrow" aria-hidden="true">→</span>
+            </div>
+        </a>
+        <a href="/wartung" class="tile">
+            <div class="tile__media">
+                <picture><source srcset="assets/technik/wartung/hero-01.webp" type="image/webp"><img src="assets/technik/wartung/hero-01.jpg" alt="Wartung und Service — Gerhardt GmbH" loading="lazy"></picture>
+            </div>
+            <div class="tile__info">
+                <div class="tile__text">
+                    <h2 class="tile__name">Wartung &amp; Service</h2>
+                    <p class="tile__pitch">Frühjahrs‑Check, Einwinterung, Pflege. Auch für Anlagen von anderen.</p>
+                </div>
+                <span class="tile__arrow" aria-hidden="true">→</span>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- ===== CONTACT FORM ===== -->
+<section class="form-section" id="anfrage">
+    <div class="contact" data-contact-form=""><h2 class="contact__title">Erzählen Sie uns von Ihrem Projekt.</h2><p class="contact__intro">Ein paar Angaben zu Ihrem Vorhaben — wir melden uns persönlich.</p><div class="contact__success" role="status">Danke — Ihre Anfrage ist bei uns eingegangen. Wir melden uns in den nächsten Werktagen zurück.</div><form class="contact__form" novalidate="" action="/api/contact" method="POST">  <div class="contact__row">    <div class="contact__field">      <label class="contact__label" for="cFirst">Vorname</label>      <input class="contact__input" type="text" id="cFirst" name="vorname" required="" style="">    </div>    <div class="contact__field">      <label class="contact__label" for="cLast">Nachname</label>      <input class="contact__input" type="text" id="cLast" name="nachname" required="" style="">    </div>  </div>  <div class="contact__field">    <label class="contact__label" for="cMail">E‑Mail</label>    <input class="contact__input" type="email" id="cMail" name="email" required="" style="">  </div>  <div class="contact__field">    <label class="contact__label" for="cTel">Telefon <span class="contact__label-note">(optional)</span></label>    <input class="contact__input" type="tel" id="cTel" name="telefon" style="">  </div>  <div class="contact__field">    <label class="contact__label" for="cInterest">Interesse</label><div class="contact__dropdown" data-name="interesse" data-placeholder="Bitte wählen" data-required="true">  <button type="button" class="contact__dropdown-trigger" id="cInterest" aria-haspopup="listbox" aria-expanded="false">    <span class="contact__dropdown-value">Bitte wählen</span>    <svg class="contact__dropdown-arrow" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5"></path></svg>  </button>  <ul class="contact__dropdown-menu" role="listbox"><li role="option" data-value="pool">Pool</li><li role="option" data-value="bewaesserung">Bewässerungsanlage</li><li role="option" data-value="gartenbeleuchtung">Gartenbeleuchtung</li><li role="option" data-value="rasenroboter">Rasenroboter</li><li role="option" data-value="wartung">Wartung &amp; Service</li><li role="option" data-value="sonstiges">Sonstiges</li></ul>  <input type="hidden" name="interesse" required="" style=""></div>  </div>  <div class="contact__field is-hidden" data-ort-wrap="">    <div class="contact__field">      <label class="contact__label" for="cStr">Straße und Hausnummer</label>      <input class="contact__input" type="text" id="cStr" name="strasse" placeholder="Max-Planck-Ring 11" data-addr-required="" style="">    </div>    <div class="contact__row contact__row--plz">      <div class="contact__field">        <label class="contact__label" for="cPlz">PLZ</label>        <input class="contact__input" type="text" id="cPlz" name="plz" inputmode="numeric" placeholder="65183" data-addr-required="" style="">      </div>      <div class="contact__field">        <label class="contact__label" for="cOrt">Wohnort</label>        <input class="contact__input" type="text" id="cOrt" name="wohnort" placeholder="Wiesbaden" data-addr-required="" style="">      </div>    </div>  </div>  <div class="contact__field is-hidden" data-budget-wrap="">    <label class="contact__label" for="cBudget">Budget</label><div class="contact__dropdown" data-name="budget" data-placeholder="Bitte wählen">  <button type="button" class="contact__dropdown-trigger" id="cBudget" aria-haspopup="listbox" aria-expanded="false">    <span class="contact__dropdown-value">Bitte wählen</span>    <svg class="contact__dropdown-arrow" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5"></path></svg>  </button>  <ul class="contact__dropdown-menu" role="listbox"><li role="option" data-value="100-150">100.000–150.000 €</li><li role="option" data-value="150-250">150.000–250.000 €</li><li role="option" data-value="o250">über 250.000 €</li></ul>  <input type="hidden" name="budget" style=""></div>  </div>  <div class="contact__field">    <label class="contact__label" for="cMsg">Ihr Projekt</label>    <textarea class="contact__textarea" id="cMsg" name="nachricht" placeholder="Worum geht es? Größe, Grundstück, Vorstellung …" required="" style=""></textarea>  </div>  <button type="submit" class="contact__submit">Anfrage senden</button>  <p class="contact__privacy">Mit dem Absenden verarbeiten wir Ihre Angaben, um Ihre Anfrage zu bearbeiten. Einzelheiten finden Sie in unserer <a href="/datenschutz">Datenschutzerklärung</a>.</p>  <div class="contact__error" role="alert">Etwas ist schiefgegangen. Bitte per Telefon melden oder erneut versuchen.</div></form></div>
+</section>
+
+<footer class="footer" data-shell-footer=""><div class="container">  <div class="footer__grid">    <div class="footer__brand">      <img class="footer__logo-img" src="/assets/logo-white.png" alt="Gerhardt GmbH">      <p class="footer__heritage">Poolbau · Bewässerung · Wassertechnik</p>      <p class="footer__tagline">Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet.</p>    </div>    <div class="footer__nav-cluster">      <div class="footer__col">        <div class="footer__heading">Pools</div>        <ul class="footer__links">          <li><a href="/pools">Poolbau &amp; Kosten</a></li>          <li><a href="/pools/projekte">Realisierte Projekte</a></li>          <li><a href="/pools/galerie">Bildergalerie</a></li>        </ul>      </div>      <div class="footer__col">        <div class="footer__heading">Gartentechnik</div>        <ul class="footer__links">          <li><a href="/bewaesserung">Bewässerung</a></li>          <li><a href="/beleuchtung">Beleuchtung</a></li>          <li><a href="/rasenroboter">Rasenroboter</a></li>          <li><a href="/wartung">Wartung &amp; Service</a></li>        </ul>      </div>      <div class="footer__col">        <div class="footer__heading">Unternehmen</div>        <ul class="footer__links">          <li><a href="/ueber-uns">Über uns</a></li>          <li><a href="/ansprechpartner">Ansprechpartner</a></li>          <li><a href="/stellenmarkt">Stellenmarkt</a></li>        </ul>      </div>      <div class="footer__col footer__col--kontakt">        <div class="footer__heading">Kontakt</div>        <address class="footer__address">Gerhardt GmbH<br>Max-Planck-Ring 11<br>65205 Wiesbaden</address>        <ul class="footer__contact">          <li><a href="tel:+496122707700">+49 6122 70770-00</a></li>          <li><a href="mailto:info@gerhardt-gmbh.de">info@gerhardt-gmbh.de</a></li>        </ul>        <ul class="footer__social">          <li><a href="https://www.instagram.com/gerhardtgmbh/" target="_blank" rel="noopener">Instagram</a></li>          <li><a href="https://www.facebook.com/profile.php?id=100090561580451" target="_blank" rel="noopener">Facebook</a></li>        </ul>      </div>    </div>  </div>  <div class="footer__copy">© 2026 Gerhardt GmbH · <a href="/impressum">Impressum</a> · <a href="/datenschutz">Datenschutz</a></div></div></footer>
+
+<script src="assets/js/shell.js?v=125" defer=""></script>
+
+
+
+<div class="mobile-menu" aria-hidden="true"><div class="mobile-menu__inner"><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Pools</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/pools">Poolbau &amp; Kosten</a></li><li><a href="/pools/projekte">Realisierte Projekte</a></li><li><a href="/pools/galerie">Bildergalerie</a></li></ul></div></div><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Gartentechnik</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/bewaesserung">Bewässerung</a></li><li><a href="/beleuchtung">Beleuchtung</a></li><li><a href="/rasenroboter">Rasenroboter</a></li><li><a href="/wartung">Wartung &amp; Service</a></li></ul></div></div><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Unternehmen</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/ueber-uns">Über uns</a></li><li><a href="/stellenmarkt">Stellenmarkt</a></li></ul></div></div><a class="mobile-menu__cta" href="#anfrage">Beratung anfragen</a></div></div></body></html>

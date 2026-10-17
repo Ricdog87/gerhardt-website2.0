@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projekt Townhouse — Gerhardt GmbH</title>
+<meta name="description" content="Gartenneubau mit Pool in Wiesbaden. 3 × 7 m Skimmerbecken auf mehreren Ebenen — Turbine, Salzelektrolyse, RGBW-Licht.">
+
+<link rel="icon" href="/assets/g-mark.svg?v=2" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/UniversNextProRegular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="../assets/fonts/UniversNextProMedium.ttf"  as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="../assets/fonts/UniversNextProBold.ttf"    as="font" type="font/ttf" crossorigin>
+
+<link rel="stylesheet" href="../assets/css/shell.css?v=125">
+<style>
+    /* ==== HERO — full-bleed 65vh carousel, only top gradient ==== */
+    .hero {
+        position: relative;
+        height: 75vh;
+        min-height: 480px;
+        overflow: hidden;
+        background: #0a1622;
+    }
+    .hero__carousel { position: absolute; inset: 0; }
+    .hero__carousel img {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .hero__carousel img.active { opacity: 1; }
+    .hero__overlay {
+        position: absolute; inset: 0;
+        background: linear-gradient(to bottom,
+            rgba(15,28,46,0.55) 0%,
+            rgba(15,28,46,0.20) 12%,
+            rgba(15,28,46,0.05) 22%,
+            transparent 32%);
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    /* ==== PROJECT INFO ==== */
+    .project-info {
+        text-align: center;
+        padding: clamp(2.5rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem) clamp(1.75rem, 3vw, 2.5rem);
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .project-info__title {
+        font-size: clamp(2rem, 4vw, 3rem);
+        font-weight: 700;
+        color: var(--text);
+        line-height: 1.08;
+        letter-spacing: -0.02em;
+        margin: 0 0 0.75rem;
+    }
+    .project-info__subtitle {
+        font-size: 0.74rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--slate);
+        margin: 0 0 2.25rem;
+    }
+    .project-info__stats {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 0;
+    }
+    .project-info__stat {
+        padding: 0 clamp(1.25rem, 3vw, 2.5rem);
+        text-align: center;
+    }
+    .project-info__stat + .project-info__stat { border-left: 1px solid var(--border); }
+    .project-info__stat-value {
+        display: block;
+        font-size: clamp(0.98rem, 1.2vw, 1.15rem);
+        font-weight: 400;
+        color: var(--text);
+        line-height: 1.35;
+    }
+    .project-info__stat-label {
+        display: block;
+        font-size: 0.66rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--slate);
+        margin-top: 0.4rem;
+    }
+    .project-info__context {
+        font-size: 0.95rem;
+        color: var(--slate);
+        margin: 2rem 0 0;
+    }
+    .project-info__context a {
+        color: var(--navy);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(15,28,46,0.25);
+        transition: border-color 0.2s;
+    }
+    .project-info__context a:hover { border-color: var(--navy); }
+
+    /* ==== STORY ==== */
+    .story { padding: clamp(2.5rem, 5vw, 4rem) 0 clamp(3rem, 5vw, 4.5rem); }
+    .story__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: clamp(2rem, 4vw, 3.5rem);
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        align-items: center;
+    }
+    .story__media { aspect-ratio: 4 / 5; overflow: hidden; border-radius: 6px; margin: 0; }
+    .story__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .story__text { max-width: 520px; }
+    .story__heading {
+        font-size: clamp(1.5rem, 2.5vw, 2.1rem);
+        font-weight: 700;
+        color: var(--text);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        margin: 0 0 1rem;
+    }
+    .story__body p {
+        font-size: 1.02rem;
+        line-height: 1.7;
+        margin: 0 0 0.85rem;
+        color: var(--slate);
+    }
+    .story__body p:last-child { margin-bottom: 0; }
+    .story__cta {
+        margin-top: 1.5rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--border);
+        font-size: 0.95rem;
+        color: var(--slate);
+    }
+    .story__cta a {
+        color: var(--navy);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(15,28,46,0.25);
+        transition: border-color 0.2s;
+    }
+    .story__cta a:hover { border-color: var(--navy); }
+
+    /* ==== VIDEO ==== */
+    .video-section { background: var(--navy); padding: clamp(3rem, 5vw, 4rem) 0; }
+    .video__inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        text-align: center;
+    }
+    .video__label {
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--blue);
+        margin: 0 0 0.6rem;
+    }
+    .video__title {
+        font-size: clamp(1.4rem, 2.2vw, 1.9rem);
+        font-weight: 700;
+        color: #fff;
+        margin: 0 0 0.4rem;
+        letter-spacing: -0.02em;
+    }
+    .video__subtitle {
+        font-size: 0.92rem;
+        color: rgba(255,255,255,0.45);
+        margin: 0 0 1.75rem;
+    }
+    .video__wrap {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        border-radius: 6px;
+        overflow: hidden;
+        background: rgba(0,0,0,0.4);
+    }
+    .video__wrap iframe {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        border: none;
+        display: none;
+    }
+    .video__wrap.playing iframe { display: block; }
+    .video__wrap.playing .video__poster { display: none; }
+    .video__poster { position: absolute; inset: 0; }
+    .video__poster img { width: 100%; height: 100%; object-fit: cover; }
+    .video__play-btn {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 82px; height: 82px;
+        border-radius: 50%;
+        border: 2px solid rgba(255,255,255,0.4);
+        background: rgba(0,0,0,0.25);
+        display: flex; align-items: center; justify-content: center;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        z-index: 2;
+    }
+    .video__play-btn:hover {
+        transform: translate(-50%, -50%) scale(1.08);
+        background: var(--blue);
+        border-color: var(--blue);
+    }
+    .video__play-btn svg {
+        width: 34px; height: 34px;
+        fill: rgba(255,255,255,0.9);
+        margin-left: 2px;
+    }
+
+    /* ==== GALLERY ==== */
+    .gallery { padding: clamp(3rem, 5vw, 4.5rem) 0 clamp(4rem, 7vw, 6rem); }
+    .gallery__wrapper {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+    }
+    .gallery__label {
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--slate);
+        margin: 0 0 1.5rem;
+    }
+    .gallery__clip {
+        position: relative;
+        max-height: 1050px;
+        overflow: hidden;
+        transition: max-height 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .gallery__clip::after {
+        content: '';
+        position: absolute;
+        bottom: 0; left: 0; right: 0;
+        height: 180px;
+        background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+        pointer-events: none;
+        z-index: 1;
+        transition: opacity 0.4s ease;
+    }
+    /* Large fixed max-height on expand so the transition can actually animate.
+       (max-height: none is not interpolable — would jump instantly.) */
+    .gallery__clip.is-expanded { max-height: 8000px; }
+    .gallery__clip.is-expanded::after { opacity: 0; }
+    .gallery__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4px;
+    }
+    /* No aspect-ratio on tiles — images size naturally at column width,
+       matching the v1 gallery. Wide/tall variants just span cells. */
+    .gallery__item { overflow: hidden; cursor: pointer; }
+    .gallery__item img {
+        width: 100%; height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.6s cubic-bezier(0.25, 0, 0.25, 1);
+    }
+    .gallery__item:hover img { transform: scale(1.03); }
+    .gallery__item--wide { grid-column: span 2; }
+    .gallery__item--tall { grid-row: span 2; }
+    .gallery__expand-wrap { text-align: center; padding: 2rem 0 0; }
+    .gallery__expand {
+        display: inline-block;
+        font-family: var(--font);
+        font-size: 0.78rem;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--text);
+        background: transparent;
+        border: 1px solid var(--border);
+        padding: 1rem 2.75rem 0.8rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery__expand:hover {
+        border-color: var(--text);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    /* Contact form styles now live in shell.css (shared component) */
+
+    /* ==== RESPONSIVE ==== */
+    @media (max-width: 900px) {
+        .story__grid { grid-template-columns: 1fr; }
+        .story__media { display: none; }
+        .gallery__grid { grid-template-columns: repeat(2, 1fr); }
+        .gallery__item--wide { grid-column: span 2; }
+    }
+    @media (max-width: 720px) {
+        .project-info__stats { flex-direction: column; gap: 0; }
+        .project-info__stat { padding: 0.8rem 0; }
+        .project-info__stat + .project-info__stat { border-left: none; border-top: 1px solid var(--border); }
+    }
+    @media (max-width: 600px) {
+        .gallery__grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+        .gallery__item--wide { grid-column: span 2; }
+        .gallery__item--tall { grid-row: auto; }
+    }
+</style>
+</head>
+<body class="page-transparent-header">
+
+<header class="header" id="header" data-shell-nav data-active="pools" data-cta-mode="anfrage" data-cta-href="#anfrage"></header>
+
+<!-- ===== 1. HERO ===== -->
+<section class="hero" data-interval="4500" data-first-delay="4000">
+    <div class="hero__carousel">
+        <picture><source srcset="../assets/projekte/townhouse/hero-01.webp" type="image/webp"><img src="../assets/projekte/townhouse/hero-01.jpg" alt="Projekt Townhouse" class="active" style="object-position: 50% 50%;"></picture>
+        <picture><source srcset="../assets/projekte/townhouse/hero-02.webp" type="image/webp"><img src="../assets/projekte/townhouse/hero-02.jpg" alt="Projekt Townhouse" style="object-position: 50% 81%;"></picture>
+        <picture><source srcset="../assets/projekte/townhouse/hero-03.webp" type="image/webp"><img src="../assets/projekte/townhouse/hero-03.jpg" alt="Projekt Townhouse" style="object-position: 50% 81%;"></picture>
+        <picture><source srcset="../assets/projekte/townhouse/hero-04.webp" type="image/webp"><img src="../assets/projekte/townhouse/hero-04.jpg" alt="Projekt Townhouse" style="object-position: 50% 50%;"></picture>
+        <picture><source srcset="../assets/projekte/townhouse/hero-05.webp" type="image/webp"><img src="../assets/projekte/townhouse/hero-05.jpg" alt="Projekt Townhouse" style="object-position: 50% 50%;"></picture>
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__nav">
+        <button class="hero__nav-btn hero__nav-btn--prev" aria-label="Vorheriges Bild">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <div class="hero__dots">
+            <button class="hero__dot is-active" aria-label="Bild 1"></button>
+            <button class="hero__dot" aria-label="Bild 2"></button>
+            <button class="hero__dot" aria-label="Bild 3"></button>
+            <button class="hero__dot" aria-label="Bild 4"></button>
+            <button class="hero__dot" aria-label="Bild 5"></button>
+        </div>
+        <button class="hero__nav-btn hero__nav-btn--next" aria-label="Nächstes Bild">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+    </div>
+</section>
+
+<!-- ===== 2. PROJECT INFO ===== -->
+<section class="project-info">
+    <h1 class="project-info__title">Projekt Townhouse</h1>
+    <p class="project-info__subtitle"><span style="white-space:nowrap;">Wiesbaden</span> &middot; <span style="white-space:nowrap;">Gartenneubau mit Pool</span></p>
+    <div class="project-info__stats">
+        <div class="project-info__stat">
+            <span class="project-info__stat-value">3 × 7 m, Skimmer<br>(mit Gegenstromanlage)</span>
+            <span class="project-info__stat-label">Pool</span>
+        </div>
+        <div class="project-info__stat">
+            <span class="project-info__stat-value">Neubau</span>
+            <span class="project-info__stat-label">Projektart</span>
+        </div>
+        <div class="project-info__stat">
+            <span class="project-info__stat-value">ca. 200.000 €</span>
+            <span class="project-info__stat-label">Kostenrahmen</span>
+        </div>
+    </div>
+    <p class="project-info__context">Mehr über unseren <a href="./">Poolbau &amp; Kosten</a></p>
+</section>
+
+<!-- ===== 3. STORY ===== -->
+<section class="story">
+    <div class="story__grid">
+        <figure class="story__media">
+            <picture><source srcset="../assets/projekte/townhouse/story.webp" type="image/webp"><img src="../assets/projekte/townhouse/story.jpg" alt="Projekt Townhouse" style="object-position: 50% 50%;"></picture>
+        </figure>
+        <div class="story__text">
+            <h2 class="story__heading">Ein Garten neu gebaut, auf mehreren Ebenen.</h2>
+            <div class="story__body">
+                <p>Ein kompletter Neubau in Wiesbaden. Der ganze Garten wurde neu angelegt, gestaffelt über mehrere Ebenen. Ein kleines Grundstück, das eigentlich sehr viele Plätze hergibt.</p>
+                <p>Im Zentrum ein hellgraues Skimmerbecken, 3 × 7 m, mit innenliegender Treppe und einer Sitzbank aus dem Unterflur&#8209;Rollladen. Turbine&#8209;Gegenstromanlage. Salzelektrolyse für Chlor aus reinem Salz. Dazu versenkte RGBW&#8209;Beleuchtung, eine Dusche vom selben Hersteller, Bewässerung und Mähroboter automatisch.</p>
+                <p class="story__cta">Interesse an einem ähnlichen Projekt? <a href="#kontakt">Gespräch vereinbaren</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="gallery">
+    <div class="gallery__wrapper">
+        <h3 class="gallery__label">Galerie</h3>
+        <div class="gallery__clip" id="galleryClip">
+            <div class="gallery__grid">
+                <div class="gallery__item gallery__item--wide"><picture><source srcset="../assets/projekte/townhouse/gallery-01.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-01.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-02.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-02.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-03.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-03.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-04.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-04.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-05.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-05.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-06.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-06.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item gallery__item--wide"><picture><source srcset="../assets/projekte/townhouse/gallery-07.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-07.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-08.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-08.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-09.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-09.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-10.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-10.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-11.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-11.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item gallery__item--wide"><picture><source srcset="../assets/projekte/townhouse/gallery-12.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-12.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-13.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-13.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-14.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-14.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-15.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-15.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item"><picture><source srcset="../assets/projekte/townhouse/gallery-16.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-16.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+                <div class="gallery__item gallery__item--wide"><picture><source srcset="../assets/projekte/townhouse/gallery-17.webp" type="image/webp"><img src="../assets/projekte/townhouse/gallery-17.jpg" alt="Projekt Townhouse — Detail" loading="lazy"></picture></div>
+            </div>
+        </div>
+        <div class="gallery__expand-wrap">
+            <button class="gallery__expand" id="galleryExpand">Mehr Bilder</button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== BTS — Von der Baustelle zur Übergabe ===== -->
+<section class="proof">
+    <div class="proof__carousel" id="proofCar">
+        <picture><source srcset="../assets/projekte/townhouse/proof-01.webp" type="image/webp"><img src="../assets/projekte/townhouse/proof-01.jpg" alt="Projekt Townhouse — Baustelle 1" class="active"
+             style="object-position: 50% 50%;"
+             data-caption="Vorher: das schmale Grundstück in Wiesbaden — noch ohne Struktur, reine Baufläche."></picture>
+        <picture><source srcset="../assets/projekte/townhouse/proof-02.webp" type="image/webp"><img src="../assets/projekte/townhouse/proof-02.jpg" alt="Projekt Townhouse — Baustelle 2"
+             style="object-position: 50% 62%;"
+             data-caption="Bauphase: der Aushub, während der Garten in Terrassen gestaffelt wird."></picture>
+        <picture><source srcset="../assets/projekte/townhouse/proof-03.webp" type="image/webp"><img src="../assets/projekte/townhouse/proof-03.jpg" alt="Projekt Townhouse — Baustelle 3"
+             style="object-position: 50% 50%;"
+             data-caption="Rohbau: Skimmerbecken, Turbine&#8209;Gegenstromanlage und Salzelektrolyse&#8209;Anschluss sind gesetzt."></picture>
+        <picture><source srcset="../assets/projekte/townhouse/proof-04.webp" type="image/webp"><img src="../assets/projekte/townhouse/proof-04.jpg" alt="Projekt Townhouse — Baustelle 4"
+             style="object-position: 50% 50%;"
+             data-caption="Nachher: das fertige 3 × 7 m Skimmerbecken mit Unterflur&#8209;Rollladen als Sitzbank, aus mehreren Ebenen erreichbar."></picture>
+        <picture><source srcset="../assets/projekte/townhouse/proof-05.webp" type="image/webp"><img src="../assets/projekte/townhouse/proof-05.jpg" alt="Projekt Townhouse — Baustelle 5"
+             style="object-position: 50% 50%;"
+             data-caption="Detail: hellgraue Verkleidung und versenkte RGBW&#8209;Beleuchtung — das ganze Grundstück als eine gestaltete Fläche."></picture>
+    </div>
+    <div class="proof__footer">
+        <div class="proof__footer-inner">
+            <div>
+                <span class="proof__label">Von der Baustelle zur Übergabe</span>
+                <p class="proof__caption" id="proofCaption">Vorher: das schmale Grundstück in Wiesbaden — noch ohne Struktur, reine Baufläche.</p>
+            </div>
+            <span class="proof__counter" id="proofCounter">1 / 5</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===== CONTACT FORM ===== -->
+<section class="contact" id="kontakt" data-contact-form data-interest="pool"></section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" data-shell-footer></footer>
+
+<script src="../assets/js/shell.js?v=125" defer></script>
+<script>
+/* Gallery — expand toggle */
+(function () {
+    var clip = document.getElementById('galleryClip');
+    var btn = document.getElementById('galleryExpand');
+    if (!clip || !btn) return;
+    btn.addEventListener('click', function () {
+        var expanded = clip.classList.toggle('is-expanded');
+        btn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr Bilder';
+    });
+})();
+
+/* Video — click play to load YouTube iframe */
+(function () {
+    var wrap = document.getElementById('videoWrap');
+    var btn = document.getElementById('videoPlayBtn');
+    var iframe = document.getElementById('videoIframe');
+    if (!wrap || !btn || !iframe) return;
+    btn.addEventListener('click', function () {
+        var src = iframe.dataset.src;
+        if (!src) return;
+        iframe.src = src;
+        wrap.classList.add('playing');
+    });
+})();
+</script>
+
+</body>
+</html>

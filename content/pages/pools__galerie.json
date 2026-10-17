@@ -1,0 +1,1793 @@
+{
+  "title": "Bildergalerie — Gerhardt GmbH",
+  "description": "Bildergalerie — Momente aus 25 Jahren Poolbau und Wassertechnik. Rhein-Main-Gebiet.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Momente aus unserem Poolbau."
+    },
+    {
+      "tag": "h2",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "p",
+      "cls": "g-hero__eyebrow",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "h1",
+      "cls": "g-hero__title",
+      "text": "Momente aus unserem Poolbau."
+    },
+    {
+      "tag": "p",
+      "cls": "g-hero__sub",
+      "text": "Baustellen, Anlieferungen, fertige Anlagen — im ganzen Rhein-Main-Gebiet."
+    },
+    {
+      "tag": "h2",
+      "cls": "contact__title",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    },
+    {
+      "tag": "p",
+      "cls": "contact__intro",
+      "text": "Ein paar Angaben zu Ihrem Vorhaben — wir melden uns persönlich."
+    },
+    {
+      "tag": "li",
+      "text": "Pool"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerungsanlage"
+    },
+    {
+      "tag": "li",
+      "text": "Gartenbeleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Sonstiges"
+    },
+    {
+      "tag": "li",
+      "text": "100.000–150.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "150.000–250.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "über 250.000 €"
+    },
+    {
+      "tag": "p",
+      "cls": "contact__privacy",
+      "text": "Mit dem Absenden verarbeiten wir Ihre Angaben, um Ihre Anfrage zu bearbeiten. Einzelheiten finden Sie in unserer Datenschutzerklärung."
+    },
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00167.webp",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00167.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05861.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05861.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01585.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_KOEN_Anlieferung-01585.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01625.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_KOEN_Anlieferung-01625.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05614.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05614.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04707.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04707.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05676.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05676.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01525.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_KOEN_Anlieferung-01525.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04682.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04682.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05529.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05529.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01634.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_KOEN_Anlieferung-01634.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00218.webp",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00218.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04810.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04810.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07236.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07236.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05394.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05394.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07274.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07274.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_KOEN_Anlieferung-.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1797,
+      "rendered": [
+        447,
+        334
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05801.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05801.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00377.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00377.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05866.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05866.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05350.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05350.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00136.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00136.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05279.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05279.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05538.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05538.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05046.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-05046.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04797.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04797.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05022.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-05022.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00203.webp",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00203.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04586.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04586.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05097.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-05097.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07230.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07230.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05834.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05834.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)--3.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)--3.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05145.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-05145.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01526.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_KOEN_Anlieferung-01526.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04973.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-04973.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04749.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04749.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05810.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05810.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung--3.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_KOEN_Anlieferung--3.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04898.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-04898.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05733.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05733.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00156.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04915.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-04915.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05805.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05805.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00367.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00367.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05485.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05485.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04925.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-04925.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04932.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-04932.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04862.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04862.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04819.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04819.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05871.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05871.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00458.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00458.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05070.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-05070.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05802.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05802.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07209.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07209.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04720.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04720.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05005.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-05005.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05681.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05681.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00182.webp",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00182.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05610.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05610.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04630.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04630.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04700.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04700.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05222-2.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05222-2.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05763.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05763.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00445.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00445.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05342.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05342.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00172.webp",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00172.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04725.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04725.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04947.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-04947.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05195.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05195.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05749.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_VE_P-05749.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00396.webp",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00396.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05017.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-05017.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 1066,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05675.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05675.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04800.webp",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_HA_PILM-04800.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 1066,
+      "h": 1600,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05455.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05455.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00425.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00425.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04910.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_FR_PILM-04910.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00158.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00158.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        334
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05204.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_05_WIES_LO_PILM-05204.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        670
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00358.jpg",
+      "attrSrc": "../assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00358.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — Bildergalerie",
+      "loading": "lazy",
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        447,
+        298
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/pools/galerie",
+      "attrSrc": "",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        0,
+        0
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie#anfrage"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutzerklärung",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie#anfrage"
+    }
+  ],
+  "anchors": [
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    }
+  ],
+  "forms": [
+    {
+      "action": "/api/contact",
+      "method": "POST",
+      "id": "",
+      "fields": [
+        {
+          "name": "vorname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "nachname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "interesse",
+          "type": "hidden",
+          "required": true
+        },
+        {
+          "name": "strasse",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "plz",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "wohnort",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "budget",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "nachricht",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "tel": [
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(250, 250, 248)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "51.2px",
+      "fontWeight": "700",
+      "lineHeight": "55.296px",
+      "letterSpacing": "-1.024px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "38.4px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.384px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 15239,
+  "loadMs": 2329,
+  "mobile": {
+    "docHeight": 10942,
+    "hScroll": false,
+    "h1": "32px"
+  },
+  "path": "/pools/galerie",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 30551,
+  "rawHasH1": true,
+  "rawTextLen": 160,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00167.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05861.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04586.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05681.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05005.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00203.webp",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05614.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01625.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01585.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04707.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01525.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05676.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07230.jpg",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05097.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05834.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)--3.jpg",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01526.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05145.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04973.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00182.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04630.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05610.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04700.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05222-2.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05763.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00445.webp",
+    "https://gerhardt-gmbh.de/assets/logo-white.png",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04749.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04682.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05529.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05342.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05810.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01634.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00172.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung--3.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00218.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04898.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04810.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04725.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04947.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07236.jpg",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05733.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05394.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04915.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05195.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05749.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07274.jpg",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00396.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05017.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05805.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00367.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05675.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05801.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00377.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05485.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04925.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05866.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04800.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04932.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05350.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04819.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04862.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05871.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05070.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00458.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05802.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04720.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07209.jpg",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00136.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05279.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05538.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04797.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05022.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05046.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-.jpg",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05455.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00425.webp",
+    "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04910.webp"
+  ]
+}

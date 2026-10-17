@@ -1,0 +1,1108 @@
+{
+  "title": "Projekt Naturstein — Gerhardt GmbH",
+  "description": "Sanierung eines Folienbeckens zu einem Naturstein-Pool im Rhein-Main-Gebiet. Skimmer, Gegenstromanlage, Salzelektrolyse und Automation aus einer Hand.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Projekt Naturstein"
+    },
+    {
+      "tag": "h2",
+      "text": "Vom Folienbecken zum High‑End‑Pool"
+    },
+    {
+      "tag": "h3",
+      "text": "Galerie"
+    },
+    {
+      "tag": "h2",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "h1",
+      "cls": "project-info__title",
+      "text": "Projekt Naturstein"
+    },
+    {
+      "tag": "p",
+      "cls": "project-info__subtitle",
+      "text": "Wiesbaden · Sanierung & Gesamtausführung"
+    },
+    {
+      "tag": "p",
+      "cls": "project-info__context",
+      "text": "Mehr über unseren Poolbau & Kosten"
+    },
+    {
+      "tag": "h2",
+      "cls": "story__heading",
+      "text": "Vom Folienbecken zum High‑End‑Pool"
+    },
+    {
+      "tag": "p",
+      "text": "Ein altes Folienbecken. Der Wunsch: ein Pool ohne Kompromisse. Wir haben allein die betonierte Kubatur erhalten und das Becken neu aufgebaut: innenliegende Treppe, ein Unterflur‑Rollladen als Sitz- und Liegebank, und eine durchgehende Verkleidung aus Naturstein."
+    },
+    {
+      "tag": "p",
+      "text": "Dazu eine stufenlos regelbare Gegenstromanlage und eine Salzelektrolyse für Chlor aus reinem Salz. Bewässerung, Mähroboter und Beleuchtung sind als ein System mitgeplant, gesteuert per App."
+    },
+    {
+      "tag": "p",
+      "cls": "story__cta",
+      "text": "Interesse an einem ähnlichen Projekt? Gespräch vereinbaren"
+    },
+    {
+      "tag": "h3",
+      "cls": "gallery__label",
+      "text": "Galerie"
+    },
+    {
+      "tag": "p",
+      "cls": "proof__caption",
+      "text": "Vorher: das in die Jahre gekommene Folienbecken im winterlichen Bestandsgarten."
+    },
+    {
+      "tag": "h2",
+      "cls": "contact__title",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    },
+    {
+      "tag": "p",
+      "cls": "contact__intro",
+      "text": "Ein paar Angaben zu Ihrem Vorhaben — wir melden uns persönlich."
+    },
+    {
+      "tag": "li",
+      "text": "Pool"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerungsanlage"
+    },
+    {
+      "tag": "li",
+      "text": "Gartenbeleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Sonstiges"
+    },
+    {
+      "tag": "li",
+      "text": "100.000–150.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "150.000–250.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "über 250.000 €"
+    },
+    {
+      "tag": "p",
+      "cls": "contact__privacy",
+      "text": "Mit dem Absenden verarbeiten wir Ihre Angaben, um Ihre Anfrage zu bearbeiten. Einzelheiten finden Sie in unserer Datenschutzerklärung."
+    },
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-01.webp",
+      "attrSrc": "../assets/projekte/naturstein/hero-01.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1440,
+        675
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-02.webp",
+      "attrSrc": "../assets/projekte/naturstein/hero-02.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1440,
+        675
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-03.webp",
+      "attrSrc": "../assets/projekte/naturstein/hero-03.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1440,
+        675
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-04.webp",
+      "attrSrc": "../assets/projekte/naturstein/hero-04.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        1555,
+        729
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-05.webp",
+      "attrSrc": "../assets/projekte/naturstein/hero-05.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1440,
+        675
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/story.webp",
+      "attrSrc": "../assets/projekte/naturstein/story.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — sanierter Pool",
+      "loading": null,
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        524,
+        655
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-01.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-01.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-02.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-02.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        868,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-03.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-03.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        868,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-04.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-04.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-05.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-05.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-06.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-06.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-07.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-07.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-08.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-08.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-09.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-09.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-10.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-10.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-11.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-11.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        868,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-12.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-12.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-13.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-13.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-14.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-14.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-15.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-15.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-16.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-16.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-17.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-17.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        868,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-18.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-18.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-19.webp",
+      "attrSrc": "../assets/projekte/naturstein/gallery-19.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Detail",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        432,
+        648
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-01.webp",
+      "attrSrc": "../assets/projekte/naturstein/proof-01.jpg",
+      "srcset": null,
+      "alt": "Vorher — altes Folienbecken",
+      "loading": null,
+      "w": 2000,
+      "h": 1500,
+      "rendered": [
+        1440,
+        518
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-02.webp",
+      "attrSrc": "../assets/projekte/naturstein/proof-02.jpg",
+      "srcset": null,
+      "alt": "Bauphase — neue Natursteinmauer",
+      "loading": null,
+      "w": 2000,
+      "h": 1500,
+      "rendered": [
+        1440,
+        518
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-03.webp",
+      "attrSrc": "../assets/projekte/naturstein/proof-03.jpg",
+      "srcset": null,
+      "alt": "Bauphase — neuer Beckenkörper",
+      "loading": null,
+      "w": 2000,
+      "h": 1500,
+      "rendered": [
+        1440,
+        518
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-04.webp",
+      "attrSrc": "../assets/projekte/naturstein/proof-04.jpg",
+      "srcset": null,
+      "alt": "Nachher — fertiger Pool bei Tag",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1440,
+        518
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-05.webp",
+      "attrSrc": "../assets/projekte/naturstein/proof-05.jpg",
+      "srcset": null,
+      "alt": "Nachher — fertiger Pool am Abend",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1440,
+        518
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/pools/projekt-naturstein",
+      "attrSrc": "",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        0,
+        0
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein#anfrage"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "./",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools/"
+    },
+    {
+      "href": "#kontakt",
+      "text": "Gespräch vereinbaren",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein#kontakt"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutzerklärung",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein#anfrage"
+    }
+  ],
+  "anchors": [
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein#anfrage",
+      "sameDoc": true,
+      "targetExists": false
+    },
+    {
+      "href": "#kontakt",
+      "text": "Gespräch vereinbaren",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein#kontakt",
+      "sameDoc": true,
+      "targetExists": true
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein#anfrage",
+      "sameDoc": true,
+      "targetExists": false
+    }
+  ],
+  "forms": [
+    {
+      "action": "/api/contact",
+      "method": "POST",
+      "id": "",
+      "fields": [
+        {
+          "name": "vorname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "nachname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "interesse",
+          "type": "hidden",
+          "required": true
+        },
+        {
+          "name": "strasse",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "plz",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "wohnort",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "budget",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "nachricht",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "tel": [
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "lineHeight": "51.84px",
+      "letterSpacing": "-0.96px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "33.6px",
+      "fontWeight": "700",
+      "lineHeight": "40.32px",
+      "letterSpacing": "-0.672px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 5306,
+  "loadMs": 2656,
+  "mobile": {
+    "docHeight": 5794,
+    "hScroll": false,
+    "h1": "32px"
+  },
+  "path": "/pools/projekt-naturstein",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 24648,
+  "rawHasH1": true,
+  "rawTextLen": 946,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-02.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-01.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-05.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-03.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/story.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-01.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-02.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-03.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-04.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-05.webp",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-01.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-02.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-03.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-04.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-05.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-04.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-06.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-08.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-07.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-10.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-09.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-11.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-14.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-13.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-12.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-15.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-16.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-18.webp",
+    "https://gerhardt-gmbh.de/assets/logo-white.png",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-19.webp",
+    "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-17.webp"
+  ]
+}

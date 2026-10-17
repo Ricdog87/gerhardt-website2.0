@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerhardt GmbH — Poolbau und Gartentechnik im Rhein-Main-Gebiet</title>
+<meta name="description" content="Gerhardt GmbH — Poolbau, Gartentechnik und Service im Rhein-Main-Gebiet. Wählen Sie einen Bereich.">
+
+<link rel="icon" href="/assets/g-mark.svg?v=2" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/UniversNextProRegular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="assets/fonts/UniversNextProMedium.ttf"  as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="assets/fonts/UniversNextProBold.ttf"    as="font" type="font/ttf" crossorigin>
+
+<link rel="stylesheet" href="assets/css/shell.css?v=125">
+<style>
+    /* ==== HOME SPLIT — two-way divider, 50/50 → 60/40 on hover ==== */
+    .home-split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+        height: 100dvh;                     /* iOS: stable across address-bar toggles */
+        min-height: 560px;
+        overflow: hidden;
+        transition: grid-template-columns 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    /* Hover-driven grid shift — desktop only. On touch iOS can fire phantom
+       :hover during momentum scroll, briefly reshaping the split. Gate them. */
+    @media (min-width: 781px) and (hover: hover) {
+        .home-split:has(.split-item:nth-child(1):hover) { grid-template-columns: 3fr 2fr; }
+        .home-split:has(.split-item:nth-child(2):hover) { grid-template-columns: 2fr 3fr; }
+    }
+
+    .split-item {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        text-decoration: none;
+        color: #fff;
+        border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .split-item:last-child { border-right: none; }
+
+    .split-item__img {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        transition: transform 0.7s cubic-bezier(0.25, 0, 0.25, 1), filter 0.35s ease;
+    }
+    .split-item:hover .split-item__img { transform: scale(1.05); }
+
+    .split-item__overlay {
+        position: absolute; inset: 0;
+        z-index: 1;
+        background: linear-gradient(to bottom,
+            rgba(15,28,46,0.42) 0%,
+            rgba(15,28,46,0.55) 100%);
+        transition: background 0.35s ease;
+    }
+    /* When a sibling is hovered, dim this one */
+    .home-split:has(.split-item:hover) .split-item:not(:hover) .split-item__overlay {
+        background: linear-gradient(to bottom,
+            rgba(15,28,46,0.65) 0%,
+            rgba(15,28,46,0.78) 100%);
+    }
+    .home-split:has(.split-item:hover) .split-item:not(:hover) .split-item__img {
+        filter: brightness(0.85);
+    }
+
+    .split-item__content {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        text-align: center;
+    }
+    .split-item__title {
+        display: inline-block;
+        position: relative;
+        font-size: clamp(2rem, 4.2vw, 3.4rem);
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: -0.015em;
+        line-height: 1.05;
+        margin: 0;
+        padding-bottom: 0.6rem;
+        text-shadow: 0 1px 8px rgba(0,0,0,0.35);
+    }
+    /* Hairline underline — draws in from left on hover */
+    .split-item__title::after {
+        content: '';
+        position: absolute;
+        left: 0; right: 0;
+        bottom: 0;
+        height: 2px;
+        background: #fff;
+        transform: scaleX(0);
+        transform-origin: left center;
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .split-item:hover .split-item__title::after { transform: scaleX(1); }
+
+    /* Mobile: stacked columns, no hover reshape */
+    @media (max-width: 780px) {
+        .home-split {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            min-height: 100vh;
+            min-height: 100dvh;
+        }
+        .split-item {
+            flex: 1 1 auto;
+            min-height: 50vh;
+            min-height: 50dvh;
+            border-right: none;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        /* The transparent header sits INSIDE the first panel, so an even
+           50/50 split leaves Poolbau a header-height less breathing room
+           than Gartentechnik. Move the seam down by half the header: both
+           panels end up with the same free area, and the pair still totals
+           exactly one viewport — no stray scroll at the fold. */
+        .split-item:first-child { min-height: calc(50dvh + var(--header-h) / 2); }
+        .split-item:last-child  { min-height: calc(50dvh - var(--header-h) / 2); }
+
+        /* Centre the label in the space that's actually free, rather than in
+           the full panel — otherwise it drifts up under the logo. */
+        .split-item:first-child .split-item__content {
+            padding-top: calc(2rem + var(--header-h));
+        }
+
+        .split-item:last-child { border-bottom: none; }
+        .split-item__title { font-size: clamp(1.8rem, 6vw, 2.4rem); }
+    }
+</style>
+</head>
+<body class="page-transparent-header">
+
+<header class="header" id="header" data-shell-nav data-cta-mode="anfrage" data-cta-href="/kontakt"></header>
+
+<!-- ===== HOME SPLIT ===== -->
+<section class="home-split" aria-label="Bereich wählen">
+    <a class="split-item" href="/pools" aria-label="Poolbau">
+        <img class="split-item__img" src="assets/hero-01-bergparadies.jpg" alt="Poolbau — Gerhardt GmbH" style="object-position: 50% 50%;">
+        <div class="split-item__overlay"></div>
+        <div class="split-item__content">
+            <h2 class="split-item__title">Poolbau</h2>
+        </div>
+    </a>
+    <a class="split-item" href="/gartentechnik" aria-label="Gartentechnik">
+        <img class="split-item__img" src="assets/technik/hub/bewaesserung.jpg" alt="Gartentechnik — Gerhardt GmbH" style="object-position: 50% 50%;">
+        <div class="split-item__overlay"></div>
+        <div class="split-item__content">
+            <h2 class="split-item__title">Gartentechnik</h2>
+        </div>
+    </a>
+</section>
+
+<footer class="footer" data-shell-footer></footer>
+
+<script src="assets/js/shell.js?v=125" defer></script>
+
+</body>
+</html>

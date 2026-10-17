@@ -1,0 +1,150 @@
+{
+  "slug": "provence",
+  "name": "Provence",
+  "ort": "Wiesbaden",
+  "untertitel": "Pool im Bestandsgarten",
+  "pool": "3 × 9 m, Skimmer",
+  "projektart": "Bestandsgarten",
+  "kostenrahmen": "ca. 150.000 €",
+  "fakten_roh": {
+    "Pool": "3 × 9 m, Skimmer",
+    "Projektart": "Bestandsgarten",
+    "Kostenrahmen": "ca. 150.000 €"
+  },
+  "headline": "Als wäre er schon immer hier gewesen.",
+  "story": [
+    "Ein gewachsener Bestandsgarten. Der Wunsch: ein Pool, der wirkt, als hätte er schon immer dazugehört. Wo früher eine Boulebahn lag, liegt heute ein hellgraues Skimmerbecken, 3 × 9 m, näher ans Haus gerückt: trockenen Fußes hinein und hinaus.",
+    "Innenliegende Treppe, eine Sitzbank mit Unterflur-Rollladen für Wärme und Sicherheit, RGB-Beleuchtung und ein versteckter Technikschrank. Bewässerung, Mähroboter und Licht laufen automatisch, das ganze Jahr bei 28 °C."
+  ],
+  "hero": [
+    {
+      "src": "/assets/projekte/provence/hero-01.jpg",
+      "alt": "Projekt Provence"
+    },
+    {
+      "src": "/assets/projekte/provence/hero-02.jpg",
+      "alt": "Projekt Provence"
+    },
+    {
+      "src": "/assets/projekte/provence/hero-03.jpg",
+      "alt": "Projekt Provence"
+    },
+    {
+      "src": "/assets/projekte/provence/hero-04.jpg",
+      "alt": "Projekt Provence"
+    },
+    {
+      "src": "/assets/projekte/provence/hero-05.jpg",
+      "alt": "Projekt Provence"
+    }
+  ],
+  "story_bild": {
+    "src": "/assets/projekte/provence/story.jpg",
+    "alt": "Projekt Provence"
+  },
+  "galerie": [
+    {
+      "src": "/assets/projekte/provence/gallery-01.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-02.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-03.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-04.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-05.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-06.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-07.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-08.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-09.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-10.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-11.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-12.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-13.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-14.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-15.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-16.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-17.jpg",
+      "alt": "Projekt Provence — Detail"
+    },
+    {
+      "src": "/assets/projekte/provence/gallery-18.jpg",
+      "alt": "Projekt Provence — Detail"
+    }
+  ],
+  "baustelle_bis_uebergabe": [
+    {
+      "src": "/assets/projekte/provence/proof-01.jpg",
+      "alt": "Projekt Provence — Baustelle 1",
+      "caption": "Vorher: der Bestandsgarten mit alter Boulebahn — der Ort, an dem heute der Pool liegt."
+    },
+    {
+      "src": "/assets/projekte/provence/proof-02.jpg",
+      "alt": "Projekt Provence — Baustelle 2",
+      "caption": "Bauphase: die Boulebahn ist weg, der Beckenkörper wird ausgeschachtet — näher ans Haus gerückt."
+    },
+    {
+      "src": "/assets/projekte/provence/proof-03.jpg",
+      "alt": "Projekt Provence — Baustelle 3",
+      "caption": "Rohbau: innenliegende Treppe, Unterflur‑Rollladen und Gegenstromanlage sind installiert, bereit für die hellgraue Verkleidung."
+    },
+    {
+      "src": "/assets/projekte/provence/proof-04.jpg",
+      "alt": "Projekt Provence — Baustelle 4",
+      "caption": "Nachher: das fertige 3 × 9 m Skimmerbecken — als wäre es schon immer Teil des Gartens gewesen."
+    },
+    {
+      "src": "/assets/projekte/provence/proof-05.jpg",
+      "alt": "Projekt Provence — Baustelle 5",
+      "caption": "Detail: RGB‑Beleuchtung und versteckter Technikschrank. Bewässerung, Mähroboter und Licht laufen automatisch."
+    }
+  ],
+  "meta": {
+    "title": "Projekt Provence — Gerhardt GmbH",
+    "description": "Skimmerpool im Bestandsgarten in Wiesbaden. 3 × 9 m, Unterflur-Rollladen und versteckte Technik — als wäre er schon immer hier gewesen."
+  }
+}

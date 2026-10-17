@@ -1,0 +1,146 @@
+{
+  "slug": "townhouse",
+  "name": "Townhouse",
+  "ort": "Wiesbaden",
+  "untertitel": "Gartenneubau mit Pool",
+  "pool": "3 × 7 m, Skimmer (mit Gegenstromanlage)",
+  "projektart": "Neubau",
+  "kostenrahmen": "ca. 200.000 €",
+  "fakten_roh": {
+    "Pool": "3 × 7 m, Skimmer (mit Gegenstromanlage)",
+    "Projektart": "Neubau",
+    "Kostenrahmen": "ca. 200.000 €"
+  },
+  "headline": "Ein Garten neu gebaut, auf mehreren Ebenen.",
+  "story": [
+    "Ein kompletter Neubau in Wiesbaden. Der ganze Garten wurde neu angelegt, gestaffelt über mehrere Ebenen. Ein kleines Grundstück, das eigentlich sehr viele Plätze hergibt.",
+    "Im Zentrum ein hellgraues Skimmerbecken, 3 × 7 m, mit innenliegender Treppe und einer Sitzbank aus dem Unterflur-Rollladen. Turbine-Gegenstromanlage. Salzelektrolyse für Chlor aus reinem Salz. Dazu versenkte RGBW-Beleuchtung, eine Dusche vom selben Hersteller, Bewässerung und Mähroboter automatisch."
+  ],
+  "hero": [
+    {
+      "src": "/assets/projekte/townhouse/hero-01.jpg",
+      "alt": "Projekt Townhouse"
+    },
+    {
+      "src": "/assets/projekte/townhouse/hero-02.jpg",
+      "alt": "Projekt Townhouse"
+    },
+    {
+      "src": "/assets/projekte/townhouse/hero-03.jpg",
+      "alt": "Projekt Townhouse"
+    },
+    {
+      "src": "/assets/projekte/townhouse/hero-04.jpg",
+      "alt": "Projekt Townhouse"
+    },
+    {
+      "src": "/assets/projekte/townhouse/hero-05.jpg",
+      "alt": "Projekt Townhouse"
+    }
+  ],
+  "story_bild": {
+    "src": "/assets/projekte/townhouse/story.jpg",
+    "alt": "Projekt Townhouse"
+  },
+  "galerie": [
+    {
+      "src": "/assets/projekte/townhouse/gallery-01.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-02.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-03.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-04.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-05.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-06.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-07.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-08.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-09.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-10.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-11.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-12.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-13.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-14.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-15.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-16.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    },
+    {
+      "src": "/assets/projekte/townhouse/gallery-17.jpg",
+      "alt": "Projekt Townhouse — Detail"
+    }
+  ],
+  "baustelle_bis_uebergabe": [
+    {
+      "src": "/assets/projekte/townhouse/proof-01.jpg",
+      "alt": "Projekt Townhouse — Baustelle 1",
+      "caption": "Vorher: das schmale Grundstück in Wiesbaden — noch ohne Struktur, reine Baufläche."
+    },
+    {
+      "src": "/assets/projekte/townhouse/proof-02.jpg",
+      "alt": "Projekt Townhouse — Baustelle 2",
+      "caption": "Bauphase: der Aushub, während der Garten in Terrassen gestaffelt wird."
+    },
+    {
+      "src": "/assets/projekte/townhouse/proof-03.jpg",
+      "alt": "Projekt Townhouse — Baustelle 3",
+      "caption": "Rohbau: Skimmerbecken, Turbine‑Gegenstromanlage und Salzelektrolyse‑Anschluss sind gesetzt."
+    },
+    {
+      "src": "/assets/projekte/townhouse/proof-04.jpg",
+      "alt": "Projekt Townhouse — Baustelle 4",
+      "caption": "Nachher: das fertige 3 × 7 m Skimmerbecken mit Unterflur‑Rollladen als Sitzbank, aus mehreren Ebenen erreichbar."
+    },
+    {
+      "src": "/assets/projekte/townhouse/proof-05.jpg",
+      "alt": "Projekt Townhouse — Baustelle 5",
+      "caption": "Detail: hellgraue Verkleidung und versenkte RGBW‑Beleuchtung — das ganze Grundstück als eine gestaltete Fläche."
+    }
+  ],
+  "meta": {
+    "title": "Projekt Townhouse — Gerhardt GmbH",
+    "description": "Gartenneubau mit Pool in Wiesbaden. 3 × 7 m Skimmerbecken auf mehreren Ebenen — Turbine, Salzelektrolyse, RGBW-Licht."
+  }
+}

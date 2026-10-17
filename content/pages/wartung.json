@@ -1,0 +1,807 @@
+{
+  "title": "Wartung & Service für Ihre Gartentechnik — Gerhardt GmbH",
+  "description": "Frühjahrs-Check, Einwinterung, laufende Pflege und Reparatur für Bewässerung, Pool, Beleuchtung und Rasenroboter. Auch für Anlagen, die schon standen, bevor wir kamen.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Wartung & Service für Ihre Gartentechnik"
+    },
+    {
+      "tag": "h3",
+      "text": "Planbar"
+    },
+    {
+      "tag": "h3",
+      "text": "Alles aus einer Hand"
+    },
+    {
+      "tag": "h3",
+      "text": "Auch fremde Anlagen"
+    },
+    {
+      "tag": "h2",
+      "text": "Frühjahr und Winter, planbar und pünktlich"
+    },
+    {
+      "tag": "h3",
+      "text": "Frühjahrs‑Check"
+    },
+    {
+      "tag": "h3",
+      "text": "Einwinterung"
+    },
+    {
+      "tag": "h2",
+      "text": "Damit der Pool bleibt, wie er am ersten Tag war"
+    },
+    {
+      "tag": "h2",
+      "text": "Was schon da ist, muss nicht neu gebaut werden"
+    },
+    {
+      "tag": "h2",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "h1",
+      "cls": "hero__title",
+      "text": "Wartung & Service für Ihre Gartentechnik"
+    },
+    {
+      "tag": "p",
+      "cls": "hero__sub",
+      "text": "Frühjahrs‑Check, Einwinterung, laufende Pflege und Reparatur — für Bewässerung, Pool, Beleuchtung und Rasenroboter. Auch für Anlagen, die schon standen, bevor wir kamen."
+    },
+    {
+      "tag": "h3",
+      "cls": "benefit__title",
+      "text": "Planbar"
+    },
+    {
+      "tag": "p",
+      "cls": "benefit__body",
+      "text": "Zwei feste Termine im Jahr — Frühjahr und Winter. Sie müssen an nichts denken, wir melden uns vorher."
+    },
+    {
+      "tag": "h3",
+      "cls": "benefit__title",
+      "text": "Alles aus einer Hand"
+    },
+    {
+      "tag": "p",
+      "cls": "benefit__body",
+      "text": "Bewässerung, Pool, Rasenroboter, Beleuchtung, Wassertechnik. Ein Anruf, ein Ansprechpartner, ein Termin."
+    },
+    {
+      "tag": "h3",
+      "cls": "benefit__title",
+      "text": "Auch fremde Anlagen"
+    },
+    {
+      "tag": "p",
+      "cls": "benefit__body",
+      "text": "Wenn Sie eine bestehende Technik übernommen haben, warten wir sie auch — vorausgesetzt, wir kommen mit dem Material klar."
+    },
+    {
+      "tag": "p",
+      "cls": "intro__lead",
+      "text": "Eine Anlage einmal richtig bauen ist die eine Hälfte. Sie über Jahre laufen lassen die andere. Wir übernehmen den zweiten Teil — für die Anlagen, die wir gebaut haben, und für die, die schon standen, als Sie das Haus übernommen haben."
+    },
+    {
+      "tag": "p",
+      "cls": "seasons__eyebrow",
+      "text": "Zweimal im Jahr"
+    },
+    {
+      "tag": "h2",
+      "cls": "seasons__title",
+      "text": "Frühjahr und Winter, planbar und pünktlich"
+    },
+    {
+      "tag": "h3",
+      "cls": "season__title",
+      "text": "Frühjahrs‑Check"
+    },
+    {
+      "tag": "p",
+      "cls": "season__body",
+      "text": "Wenn's im März wieder wärmer wird, kommen wir vorbei und nehmen alles in Betrieb. Bewässerung: Dichtheitsprüfung, Steuerung neu einstellen, jeden Regner einzeln justieren. Pool: Filter, Pumpen, Wasserwerte. Rasenroboter: Reinigung, Ladestation, Klingenwechsel. Am Ende läuft alles, bevor Sie's zum ersten Mal brauchen."
+    },
+    {
+      "tag": "h3",
+      "cls": "season__title",
+      "text": "Einwinterung"
+    },
+    {
+      "tag": "p",
+      "cls": "season__body",
+      "text": "Vor dem ersten Frost drehen wir alles wieder ab. Wasser raus aus Bewässerung und Leitungen — nichts friert, nichts platzt. Pool wird gereinigt, Wasserstand abgesenkt, pH stabilisiert, Wintermittel rein, Abdeckung drauf. Rasenroboter kommt zu uns in die Halle, wird gewartet und eingelagert. Im März bringen wir ihn zurück."
+    },
+    {
+      "tag": "p",
+      "cls": "lp-split__eyebrow",
+      "text": "Laufende Pflege"
+    },
+    {
+      "tag": "h2",
+      "cls": "lp-split__title",
+      "text": "Damit der Pool bleibt, wie er am ersten Tag war"
+    },
+    {
+      "tag": "p",
+      "text": "Ein Pool, den keiner pflegt, sieht nach drei Wochen aus wie ein Pool, den keiner pflegt. Wir kommen regelmäßig vorbei — Becken, Boden, Wände, Filter, Wasserwerte. Alles in Ordnung, jederzeit reinspringen."
+    },
+    {
+      "tag": "p",
+      "text": "Rhythmus richtet sich nach Nutzung und Jahreszeit. Wir schlagen einen Plan vor, Sie sagen, was passt."
+    },
+    {
+      "tag": "p",
+      "cls": "reparatur__eyebrow",
+      "text": "Reparatur & Modernisierung"
+    },
+    {
+      "tag": "h2",
+      "cls": "reparatur__title",
+      "text": "Was schon da ist, muss nicht neu gebaut werden"
+    },
+    {
+      "tag": "p",
+      "text": "Wir schauen uns die Anlage an und sagen Ihnen, was noch tut, was ersetzt gehört und was sich modernisieren lässt. Für Bewässerung, Pools, Rasenroboter, Beleuchtung und Wassertechnik."
+    },
+    {
+      "tag": "p",
+      "text": "Reparatur, Erweiterung oder komplettes Upgrade — je nachdem, was wirtschaftlich Sinn macht. Wir sagen offen, wenn ein Neubau günstiger wäre als eine Rettung."
+    },
+    {
+      "tag": "h2",
+      "cls": "contact__title",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    },
+    {
+      "tag": "p",
+      "cls": "contact__intro",
+      "text": "Ein paar Angaben zu Ihrem Vorhaben — wir melden uns persönlich."
+    },
+    {
+      "tag": "li",
+      "text": "Pool"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerungsanlage"
+    },
+    {
+      "tag": "li",
+      "text": "Gartenbeleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Sonstiges"
+    },
+    {
+      "tag": "li",
+      "text": "100.000–150.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "150.000–250.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "über 250.000 €"
+    },
+    {
+      "tag": "p",
+      "cls": "contact__privacy",
+      "text": "Mit dem Absenden verarbeiten wir Ihre Angaben, um Ihre Anfrage zu bearbeiten. Einzelheiten finden Sie in unserer Datenschutzerklärung."
+    },
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/wartung/hero-01.webp",
+      "attrSrc": "assets/technik/wartung/hero-01.jpg",
+      "srcset": null,
+      "alt": "Wartung und Service für Gartentechnik im Rhein-Main-Gebiet",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        1440,
+        720
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/wartung/hero-02.webp",
+      "attrSrc": "assets/technik/wartung/hero-02.jpg",
+      "srcset": null,
+      "alt": "Wartungsservice — Detail",
+      "loading": null,
+      "w": 800,
+      "h": 400,
+      "rendered": [
+        1440,
+        720
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/technik/wartung/pflege.webp",
+      "attrSrc": "assets/technik/wartung/pflege.jpg",
+      "srcset": null,
+      "alt": "Poolpflege — Gerhardt Service",
+      "loading": null,
+      "w": 800,
+      "h": 800,
+      "rendered": [
+        440,
+        550
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/wartung#anfrage"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutzerklärung",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/wartung#anfrage"
+    }
+  ],
+  "anchors": [
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/wartung#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/wartung#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    }
+  ],
+  "forms": [
+    {
+      "action": "/api/contact",
+      "method": "POST",
+      "id": "",
+      "fields": [
+        {
+          "name": "vorname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "nachname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "interesse",
+          "type": "hidden",
+          "required": true
+        },
+        {
+          "name": "strasse",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "plz",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "wohnort",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "budget",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "nachricht",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Wartung und Service",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Gerhardt GmbH",
+        "url": "https://gerhardt-gmbh.de"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Rhein-Main-Gebiet"
+      },
+      "description": "Wartung von Pool, Wassertechnik, Bewässerung und Beleuchtung — vom Team, das die Anlage gebaut hat. Rhein-Main-Gebiet."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "tel": [
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "60.8px",
+      "fontWeight": "700",
+      "lineHeight": "65.664px",
+      "letterSpacing": "-0.912px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "35.2px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.352px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 4550,
+  "loadMs": 1720,
+  "mobile": {
+    "docHeight": 6201,
+    "hScroll": false,
+    "h1": "31.2px"
+  },
+  "path": "/wartung",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 16535,
+  "rawHasH1": true,
+  "rawTextLen": 2423,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/technik/wartung/hero-01.webp",
+    "https://gerhardt-gmbh.de/assets/technik/wartung/hero-02.webp",
+    "https://gerhardt-gmbh.de/assets/technik/wartung/pflege.webp",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-white.png"
+  ]
+}

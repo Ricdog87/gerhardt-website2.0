@@ -1,0 +1,308 @@
+{
+  "title": "Über uns — Gerhardt GmbH",
+  "description": "Gerhardt GmbH — seit 1998 im Rhein-Main-Gebiet. Bewässerung, Poolbau, Beleuchtung, Rasenroboter und Wassertechnik. Referenzen aus öffentlichem, gewerblichem und privatem Raum.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Wir bauen im Rhein‑Main‑Gebiet, was Gärten schöner macht und einfacher hält."
+    },
+    {
+      "tag": "h2",
+      "text": "Ein paar Worte über uns"
+    },
+    {
+      "tag": "h2",
+      "text": "So arbeiten wir"
+    },
+    {
+      "tag": "h2",
+      "text": "Projekte jeder Größenordnung"
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "p",
+      "cls": "u-hero__eyebrow",
+      "text": "Seit 1998"
+    },
+    {
+      "tag": "h1",
+      "cls": "u-hero__title",
+      "text": "Wir bauen im Rhein‑Main‑Gebiet, was Gärten schöner macht und einfacher hält."
+    },
+    {
+      "tag": "p",
+      "cls": "u-hero__lead",
+      "text": "Bewässerung, Poolbau, Beleuchtung, Rasenroboter, Wassertechnik — von der Planung bis zur Wartung, für private Gärten genauso wie für öffentliche und gewerbliche Projekte."
+    },
+    {
+      "tag": "p",
+      "cls": "u-story__eyebrow",
+      "text": "Historie"
+    },
+    {
+      "tag": "h2",
+      "cls": "u-story__title",
+      "text": "Ein paar Worte über uns"
+    },
+    {
+      "tag": "p",
+      "text": "Das Unternehmen wurde 1998 von Thomas Gerhardt in Ingelheim gegründet. Professionelle Bewässerungssysteme waren das Hauptgeschäftsfeld — das spiegelte sich auch im Gründungsnamen „Gerhardt Bewässerungssysteme GmbH“. Über die Jahre kamen Springbrunnentechnik, Brunnenbohrung und Gartenbeleuchtung dazu."
+    },
+    {
+      "tag": "p",
+      "text": "Mit dem Umzug 2010 nach Wiesbaden‑Delkenheim firmiert das Unternehmen als „Gerhardt GmbH“. Bewässerung im privaten, öffentlichen und gewerblichen Raum bleibt ein wichtiger Teil unserer Arbeit. Im Privatbereich geht es uns aber längst um mehr als gesunde Pflanzen und sparsamen Umgang mit Wasser."
+    },
+    {
+      "tag": "p",
+      "text": "2015 kam der Poolbau dazu — ein weiterer Schritt, um den Privatgarten zur perfekten Wohlfühloase zu machen. Heute planen und bauen wir alles, was mit Wasser, Licht und Automation im Garten zu tun hat — und pflegen, was wir gebaut haben."
+    },
+    {
+      "tag": "p",
+      "cls": "u-video__eyebrow",
+      "text": "Ein Blick auf Gerhardt"
+    },
+    {
+      "tag": "h2",
+      "cls": "u-video__title",
+      "text": "So arbeiten wir"
+    },
+    {
+      "tag": "p",
+      "cls": "u-refs__eyebrow",
+      "text": "Öffentlich & gewerblich"
+    },
+    {
+      "tag": "h2",
+      "cls": "u-refs__title",
+      "text": "Projekte jeder Größenordnung"
+    },
+    {
+      "tag": "p",
+      "cls": "u-refs__lead",
+      "text": "Bei großen öffentlichen und gewerblichen Projekten sind unser Know‑how und unsere langjährige Erfahrung besonders gefragt. Wir finden für fast jedes Vorhaben eine passende Lösung und arbeiten eng mit Architekten, Planern und ausführenden Unternehmen zusammen."
+    },
+    {
+      "tag": "li",
+      "text": "Neue Mitte, Bad Vilbel"
+    },
+    {
+      "tag": "li",
+      "text": "Altana AG, Bad Homburg"
+    },
+    {
+      "tag": "li",
+      "text": "Künstlerviertel, Wiesbaden"
+    },
+    {
+      "tag": "li",
+      "text": "Lufthansa, Seeheim‑Jugenheim"
+    },
+    {
+      "tag": "li",
+      "text": "Boehringer Pharma AG, Ingelheim"
+    },
+    {
+      "tag": "li",
+      "text": "Gallusanlage, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Liliencarré, Wiesbaden"
+    },
+    {
+      "tag": "li",
+      "text": "Schützenhofquelle, Wiesbaden"
+    },
+    {
+      "tag": "li",
+      "text": "Platz der Deutschen Einheit, Langen"
+    },
+    {
+      "tag": "li",
+      "text": "Rathausplatz, Frankenthal"
+    },
+    {
+      "tag": "li",
+      "text": "Kennedyplatz, Darmstadt"
+    },
+    {
+      "tag": "li",
+      "text": "Kreisel, Bad Vilbel"
+    },
+    {
+      "tag": "li",
+      "text": "Innenhöfe am Klinikum Hanau"
+    },
+    {
+      "tag": "li",
+      "text": "ESWE Versorgungs AG, Wiesbaden"
+    },
+    {
+      "tag": "li",
+      "text": "Fachhochschule Mainz"
+    },
+    {
+      "tag": "li",
+      "text": "Verlagsgruppe Rhein‑Main, Mainz"
+    },
+    {
+      "tag": "li",
+      "text": "Forum Mittelrhein, Koblenz"
+    },
+    {
+      "tag": "li",
+      "text": "Skyline Plaza, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "DWG Dienstleistungs- und Wohngebäude, Ingelheim"
+    },
+    {
+      "tag": "li",
+      "text": "Hessischer Rundfunk, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Markus‑Krankenhaus, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "St. Martin Tower, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Merck KGaA, Darmstadt"
+    },
+    {
+      "tag": "li",
+      "text": "Daimler Chrysler, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Deutsche Börse, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Allianz, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Niederwalddenkmal, Rüdesheim"
+    },
+    {
+      "tag": "li",
+      "text": "Deutscher Wetterdienst, Offenbach am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Staatskanzlei, Mainz"
+    },
+    {
+      "tag": "li",
+      "text": "Bonoboland Zoo, Frankfurt am Main"
+    },
+    {
+      "tag": "li",
+      "text": "Frankfurt School of Finance, Frankfurt am Main"
+    },
+    {
+      "tag": "blockquote",
+      "cls": "u-phil__quote",
+      "text": "„Wir sehen den Garten als Rückzugsort. Mit automatischen Systemen wollen wir unseren Kunden mehr Freizeit darin ermöglichen — und mit Wassertechnik und Beleuchtung eine Atmosphäre schaffen, in der man diese Zeit auch wirklich genießt.“"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/unternehmen/thomas.webp",
+      "attrSrc": "assets/unternehmen/thomas.jpg",
+      "srcset": null,
+      "alt": "Thomas Gerhardt — Gründer und Inhaber",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        363,
+        454
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [],
+  "anchors": [],
+  "forms": [],
+  "jsonld": [],
+  "tel": [],
+  "mail": [],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(250, 250, 248)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "57.6px",
+      "fontWeight": "700",
+      "lineHeight": "62.208px",
+      "letterSpacing": "-0.864px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "33.6px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.336px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.8432px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "",
+  "headerText": "",
+  "docHeight": 3769,
+  "loadMs": 106714,
+  "mobile": {
+    "docHeight": 6659,
+    "hScroll": false,
+    "h1": "35.2px"
+  },
+  "path": "/ueber-uns",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 12192,
+  "rawHasH1": true,
+  "rawTextLen": 2795,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/unternehmen/thomas.webp",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-white.png",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg"
+  ]
+}

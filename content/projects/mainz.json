@@ -1,0 +1,150 @@
+{
+  "slug": "mainz",
+  "name": "Mainz",
+  "ort": "Mainz",
+  "untertitel": "Komplettsystem-Neubau",
+  "pool": "3,30 × 7 m, Skimmer (mit Gegenstromanlage)",
+  "projektart": "Neubau",
+  "kostenrahmen": "ca. 150.000 €",
+  "fakten_roh": {
+    "Pool": "3,30 × 7 m, Skimmer (mit Gegenstromanlage)",
+    "Projektart": "Neubau",
+    "Kostenrahmen": "ca. 150.000 €"
+  },
+  "headline": "Alter Bau. Neuer Garten. Komplettsystem.",
+  "story": [
+    "Ein Altbau in Mainz wurde restauriert. Der Garten dazu ist komplett neu angelegt. Pool, Bewässerung, Beleuchtung und Mähroboter sind von Anfang an als ein System geplant.",
+    "Eine gemeinsame Steuerung, ein Ansprechpartner, eine Wartung. Der Alltagsvorteil zeigt sich vor allem dann, wenn nichts auffällt."
+  ],
+  "hero": [
+    {
+      "src": "/assets/projekte/mainz/hero-01.jpg",
+      "alt": "Projekt Mainz"
+    },
+    {
+      "src": "/assets/projekte/mainz/hero-02.jpg",
+      "alt": "Projekt Mainz"
+    },
+    {
+      "src": "/assets/projekte/mainz/hero-03.jpg",
+      "alt": "Projekt Mainz"
+    },
+    {
+      "src": "/assets/projekte/mainz/hero-04.jpg",
+      "alt": "Projekt Mainz"
+    },
+    {
+      "src": "/assets/projekte/mainz/hero-05.jpg",
+      "alt": "Projekt Mainz"
+    }
+  ],
+  "story_bild": {
+    "src": "/assets/projekte/mainz/story.jpg",
+    "alt": "Projekt Mainz"
+  },
+  "galerie": [
+    {
+      "src": "/assets/projekte/mainz/gallery-07.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-03.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-15.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-11.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-01.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-18.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-04.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-09.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-13.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-06.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-02.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-17.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-10.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-14.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-05.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-12.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-08.jpg",
+      "alt": "Projekt Mainz — Detail"
+    },
+    {
+      "src": "/assets/projekte/mainz/gallery-16.jpg",
+      "alt": "Projekt Mainz — Detail"
+    }
+  ],
+  "baustelle_bis_uebergabe": [
+    {
+      "src": "/assets/projekte/mainz/proof-01.jpg",
+      "alt": "Projekt Mainz — Baustelle 1",
+      "caption": "Vorher: der Garten hinter dem restaurierten Altbau — leere Fläche, bereit für das Komplettsystem."
+    },
+    {
+      "src": "/assets/projekte/mainz/proof-02.jpg",
+      "alt": "Projekt Mainz — Baustelle 2",
+      "caption": "Bauphase: das Skimmerbecken wird eingebaut, Bewässerung und Beleuchtung werden parallel mitverlegt."
+    },
+    {
+      "src": "/assets/projekte/mainz/proof-03.jpg",
+      "alt": "Projekt Mainz — Baustelle 3",
+      "caption": "Rohbau: Technik für Pool, Bewässerung, Mähroboter und Licht — eine gemeinsame Steuerung, ein Ansprechpartner."
+    },
+    {
+      "src": "/assets/projekte/mainz/proof-04.jpg",
+      "alt": "Projekt Mainz — Baustelle 4",
+      "caption": "Nachher: das fertige 3,30 × 7 m Skimmerbecken mit Gegenstromanlage — das Komplettsystem läuft automatisch."
+    },
+    {
+      "src": "/assets/projekte/mainz/proof-05.jpg",
+      "alt": "Projekt Mainz — Baustelle 5",
+      "caption": "Der Alltagsvorteil zeigt sich, wenn nichts auffällt — und alles funktioniert."
+    }
+  ],
+  "meta": {
+    "title": "Projekt Mainz — Gerhardt GmbH",
+    "description": "Komplettsystem‑Neubau in Mainz. Pool, Bewässerung, Beleuchtung und Mähroboter von Anfang an als ein System geplant — ein Ansprechpartner, eine Wartung."
+  }
+}

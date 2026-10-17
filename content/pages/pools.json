@@ -1,0 +1,1383 @@
+{
+  "title": "Poolbau im Rhein-Main-Gebiet — Gerhardt GmbH",
+  "description": "Poolbau, Wassertechnik und Gartenintegration im Rhein-Main-Gebiet. Naturstein, Überlauf, Bestand — als ein System, seit über 10 Jahren.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Wir bauen Traum‑Pools."
+    },
+    {
+      "tag": "h2",
+      "text": "Poolbau als ein System."
+    },
+    {
+      "tag": "h2",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "h2",
+      "text": "Häufige Fragen"
+    },
+    {
+      "tag": "h2",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "p",
+      "cls": "lk-hero__eyebrow",
+      "text": "Poolbau · Rhein-Main-Gebiet"
+    },
+    {
+      "tag": "h1",
+      "cls": "lk-hero__title",
+      "text": "Wir bauen Traum‑Pools."
+    },
+    {
+      "tag": "p",
+      "cls": "block__label",
+      "text": "Alles aus einer Hand"
+    },
+    {
+      "tag": "h2",
+      "cls": "block__title",
+      "text": "Poolbau als ein System."
+    },
+    {
+      "tag": "li",
+      "text": "Pool, Wasseraufbereitung und Wärmepumpe"
+    },
+    {
+      "tag": "li",
+      "text": "Pool‑Beleuchtung und Automation, per App gesteuert"
+    },
+    {
+      "tag": "li",
+      "text": "Gegenstromanlage auf Wunsch"
+    },
+    {
+      "tag": "li",
+      "text": "Gebaut von einem eingespielten Team"
+    },
+    {
+      "tag": "p",
+      "cls": "block__price-amount",
+      "text": "ab 120.000 €"
+    },
+    {
+      "tag": "p",
+      "cls": "block__price-note",
+      "text": "Realistischer Projektrahmen (2026)"
+    },
+    {
+      "tag": "blockquote",
+      "cls": "founder__quote",
+      "text": "„Ich verspreche jedem Kunden vorher: Ich sehe das fertige Ergebnis vor mir — und es wird genau so, wie Sie es sich wünschen.“"
+    },
+    {
+      "tag": "p",
+      "cls": "founder__attr",
+      "text": "Thomas Gerhardt — Inhaber"
+    },
+    {
+      "tag": "h2",
+      "cls": "pfeat__title",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "h2",
+      "cls": "lp-faq__title",
+      "text": "Häufige Fragen"
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Wer steckt hinter Gerhardt?"
+    },
+    {
+      "tag": "p",
+      "text": "Gegründet als Planungsbüro, bauen wir seit über 25 Jahren Gärten, Pools und die Technik dahinter — heute mit eigenem Team im gesamten Rhein‑Main‑Gebiet."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Wo bauen Sie?"
+    },
+    {
+      "tag": "p",
+      "text": "In Wiesbaden und im gesamten Rhein‑Main‑Gebiet — Wiesbaden, Taunus, Frankfurt und Umgebung."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Was kostet ein Projekt?"
+    },
+    {
+      "tag": "p",
+      "text": "Komplettprojekte beginnen bei 120.000 €. Der genaue Rahmen ergibt sich aus Größe, Gelände und Technik und wird im Erstgespräch besprochen. Einzelne kleinere Arbeiten übernehmen wir im Rahmen eines Gesamtprojekts."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Wie lange dauert ein Projekt?"
+    },
+    {
+      "tag": "p",
+      "text": "Je nach Umfang. Eine Poolanlage im Bestand entsteht in einigen Wochen, eine komplette Neuanlage über mehrere Monate. Den Zeitplan legen wir gemeinsam fest."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Übernehmen Sie auch die Planung?"
+    },
+    {
+      "tag": "p",
+      "text": "Ja. Wir planen und bauen den gesamten technischen Ausbau — Pool, Wasser, Licht, Bewässerung und Automation — als ein System. Bei architektengeführten Projekten übernehmen wir diesen Teil als Fachplaner."
+    },
+    {
+      "tag": "summary",
+      "cls": "lp-faq__summary",
+      "text": "Was ist nach der Übergabe?"
+    },
+    {
+      "tag": "p",
+      "text": "Wir bleiben. Wartung und Pflege von Pool, Wassertechnik und Bewässerung gehören zu unserem Portfolio."
+    },
+    {
+      "tag": "h2",
+      "cls": "contact__title",
+      "text": "Erzählen Sie uns von Ihrem Projekt."
+    },
+    {
+      "tag": "p",
+      "cls": "contact__intro",
+      "text": "Ein paar Angaben zu Ihrem Vorhaben — wir melden uns persönlich."
+    },
+    {
+      "tag": "li",
+      "text": "Pool"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerungsanlage"
+    },
+    {
+      "tag": "li",
+      "text": "Gartenbeleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Sonstiges"
+    },
+    {
+      "tag": "li",
+      "text": "100.000–150.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "150.000–250.000 €"
+    },
+    {
+      "tag": "li",
+      "text": "über 250.000 €"
+    },
+    {
+      "tag": "p",
+      "cls": "contact__privacy",
+      "text": "Mit dem Absenden verarbeiten wir Ihre Angaben, um Ihre Anfrage zu bearbeiten. Einzelheiten finden Sie in unserer Datenschutzerklärung."
+    },
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.webp",
+      "attrSrc": "../assets/hero-01-bergparadies.jpg",
+      "srcset": null,
+      "alt": "Poolbau — Bergparadies Wiesbaden",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1344,
+        595
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/hero-02-naturstein.webp",
+      "attrSrc": "../assets/hero-02-naturstein.jpg",
+      "srcset": null,
+      "alt": "Poolbau — Naturstein Wiesbaden",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        1344,
+        595
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/hero-03-townhouse.webp",
+      "attrSrc": "../assets/hero-03-townhouse.jpg",
+      "srcset": null,
+      "alt": "Poolbau — Townhouse Wiesbaden",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        1344,
+        595
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/hero-04-provence.webp",
+      "attrSrc": "../assets/hero-04-provence.jpg",
+      "srcset": null,
+      "alt": "Poolbau — Provence Wiesbaden",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        1344,
+        595
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/hero-05-bergparadies-alt.webp",
+      "attrSrc": "../assets/hero-05-bergparadies-alt.jpg",
+      "srcset": null,
+      "alt": "Poolbau — Bergparadies Wiesbaden",
+      "loading": null,
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1344,
+        595
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_VE_P-05733.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_VE_P-05733.jpg",
+      "srcset": null,
+      "alt": "Komplettprojekt — Garten mit Pool",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        541,
+        677
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04602.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_HA_PILM-04602.jpg",
+      "srcset": null,
+      "alt": "Komplettprojekt — Poolanlage",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        541,
+        677
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05339.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_LO_PILM-05339.jpg",
+      "srcset": null,
+      "alt": "Komplettprojekt — Naturstein-Pool",
+      "loading": null,
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        541,
+        677
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--3.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_KOEN_Anlieferung--3.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04713.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_HA_PILM-04713.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01632.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01632.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04641.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_HA_PILM-04641.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        788,
+        525
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01616.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01616.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        392,
+        525
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--2.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_KOEN_Anlieferung--2.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1497,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00393.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00393.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00360.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00360.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00389.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00389.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        788,
+        525
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1497,
+      "rendered": [
+        788,
+        590
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05680.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_LO_PILM-05680.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1600,
+      "h": 2400,
+      "rendered": [
+        392,
+        590
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00156.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00207.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00207.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        788,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00185.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00185.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        392,
+        261
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00136.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00136.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        392,
+        261
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07274.jpg",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07274.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        392,
+        261
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-.jpg",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00110.jpg",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM (test)-00110.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00093.jpg",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM (test)-00093.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00248.jpg",
+      "attrSrc": "../assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM (test)-00248.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04862.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_HA_PILM-04862.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04926.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_FR_PILM-04926.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04947.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_FR_PILM-04947.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-05046.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_FR_PILM-05046.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        788,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_VE_P-05749.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_VE_P-05749.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        788,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05647.webp",
+      "attrSrc": "../assets/poolbau-kosten/2026_05_WIES_LO_PILM-05647.jpg",
+      "srcset": null,
+      "alt": "Gerhardt — im Prozess",
+      "loading": "lazy",
+      "w": 1333,
+      "h": 2000,
+      "rendered": [
+        392,
+        588
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-naturstein.webp",
+      "attrSrc": "../assets/projekt-naturstein.jpg",
+      "srcset": null,
+      "alt": "Projekt Naturstein — Wiesbaden",
+      "loading": "lazy",
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        1304,
+        555
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-provence.webp",
+      "attrSrc": "../assets/projekt-provence.jpg",
+      "srcset": null,
+      "alt": "Projekt Provence — Wiesbaden",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1304,
+        555
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/projekt-bergparadies.webp",
+      "attrSrc": "../assets/projekt-bergparadies.jpg",
+      "srcset": null,
+      "alt": "Projekt Bergparadies — Wiesbaden",
+      "loading": "lazy",
+      "w": 2000,
+      "h": 1333,
+      "rendered": [
+        1304,
+        555
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/pools",
+      "attrSrc": "",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        0,
+        0
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools#anfrage"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "#system",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools#system"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Eigenes Projekt anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools#anfrage"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Mehr Bilder",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/pools/projekt-naturstein",
+      "text": "Projekt Naturstein→",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-naturstein"
+    },
+    {
+      "href": "/pools/projekt-provence",
+      "text": "Projekt Provence→",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-provence"
+    },
+    {
+      "href": "/pools/projekt-bergparadies",
+      "text": "Projekt Bergparadies→",
+      "abs": "https://gerhardt-gmbh.de/pools/projekt-bergparadies"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Alle Projekte ansehen",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutzerklärung",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools#anfrage"
+    }
+  ],
+  "anchors": [
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    },
+    {
+      "href": "#system",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools#system",
+      "sameDoc": true,
+      "targetExists": true
+    },
+    {
+      "href": "#anfrage",
+      "text": "Eigenes Projekt anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    },
+    {
+      "href": "#anfrage",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/pools#anfrage",
+      "sameDoc": true,
+      "targetExists": true
+    }
+  ],
+  "forms": [
+    {
+      "action": "/api/contact",
+      "method": "POST",
+      "id": "",
+      "fields": [
+        {
+          "name": "vorname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "nachname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "interesse",
+          "type": "hidden",
+          "required": true
+        },
+        {
+          "name": "strasse",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "plz",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "wohnort",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "budget",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "nachricht",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wer steckt hinter Gerhardt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gegründet als Planungsbüro, bauen wir seit über 25 Jahren Gärten, Pools und die Technik dahinter — heute mit eigenem Team im gesamten Rhein‑Main‑Gebiet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo bauen Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Wiesbaden und im gesamten Rhein‑Main‑Gebiet — Wiesbaden, Taunus, Frankfurt und Umgebung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kostet ein Projekt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Komplettprojekte beginnen bei 120.000 €. Der genaue Rahmen ergibt sich aus Größe, Gelände und Technik und wird im Erstgespräch besprochen. Einzelne kleinere Arbeiten übernehmen wir im Rahmen eines Gesamtprojekts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie lange dauert ein Projekt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Je nach Umfang. Eine Poolanlage im Bestand entsteht in einigen Wochen, eine komplette Neuanlage über mehrere Monate. Den Zeitplan legen wir gemeinsam fest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Übernehmen Sie auch die Planung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Wir planen und bauen den gesamten technischen Ausbau — Pool, Wasser, Licht, Bewässerung und Automation — als ein System. Bei architektengeführten Projekten übernehmen wir diesen Teil als Fachplaner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist nach der Übergabe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir bleiben. Wartung und Pflege von Pool, Wassertechnik und Bewässerung gehören zu unserem Portfolio."
+          }
+        }
+      ]
+    }
+  ],
+  "tel": [
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "51.2px",
+      "fontWeight": "700",
+      "lineHeight": "55.296px",
+      "letterSpacing": "-1.024px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "41.6px",
+      "fontWeight": "700",
+      "lineHeight": "47.84px",
+      "letterSpacing": "-0.832px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 6973,
+  "loadMs": 3089,
+  "mobile": {
+    "docHeight": 7234,
+    "hScroll": false,
+    "h1": "32px"
+  },
+  "path": "/pools",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 36939,
+  "rawHasH1": true,
+  "rawTextLen": 1875,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/hero-02-naturstein.webp",
+    "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.webp",
+    "https://gerhardt-gmbh.de/assets/hero-03-townhouse.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_VE_P-05733.webp",
+    "https://gerhardt-gmbh.de/assets/hero-05-bergparadies-alt.webp",
+    "https://gerhardt-gmbh.de/assets/hero-04-provence.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05339.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04602.webp",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--3.webp",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01632.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04641.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04713.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--2.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01616.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00360.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00393.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00389.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00185.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05680.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00207.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07274.jpg",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00136.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-.jpg",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00110.jpg",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00248.jpg",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00093.jpg",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04926.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-05046.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04862.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04947.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05647.webp",
+    "https://gerhardt-gmbh.de/assets/projekt-naturstein.webp",
+    "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_VE_P-05749.webp",
+    "https://gerhardt-gmbh.de/assets/projekt-bergparadies.webp",
+    "https://gerhardt-gmbh.de/assets/projekt-provence.webp",
+    "https://gerhardt-gmbh.de/assets/logo-white.png"
+  ]
+}

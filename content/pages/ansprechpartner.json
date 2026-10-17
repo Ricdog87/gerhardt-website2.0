@@ -1,0 +1,932 @@
+{
+  "title": "Ansprechpartner — Gerhardt GmbH",
+  "description": "Direkter Draht zu Geschäftsführung, Bauleitung, Service, Buchhaltung und Backoffice bei Gerhardt GmbH — Wiesbaden.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Direkter Draht zu Ihrem Ansprechpartner."
+    },
+    {
+      "tag": "h2",
+      "text": "Zentrale / Empfang"
+    },
+    {
+      "tag": "h2",
+      "text": "Geschäftsführung"
+    },
+    {
+      "tag": "h2",
+      "text": "Bauleitung"
+    },
+    {
+      "tag": "h2",
+      "text": "Gerhardt Service GmbH"
+    },
+    {
+      "tag": "h2",
+      "text": "Assistenz der Geschäftsleitung"
+    },
+    {
+      "tag": "h2",
+      "text": "Buchhaltung"
+    },
+    {
+      "tag": "h2",
+      "text": "Backoffice"
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "p",
+      "cls": "ap-hero__eyebrow",
+      "text": "Ansprechpartner"
+    },
+    {
+      "tag": "h1",
+      "cls": "ap-hero__title",
+      "text": "Direkter Draht zu Ihrem Ansprechpartner."
+    },
+    {
+      "tag": "p",
+      "cls": "ap-hero__sub",
+      "text": "Sie wissen schon, mit wem Sie sprechen möchten? Hier finden Sie uns direkt."
+    },
+    {
+      "tag": "h2",
+      "cls": "ap-section__title",
+      "text": "Zentrale / Empfang"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Allgemeine Informationen"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-00"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: info@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "h2",
+      "cls": "ap-section__title",
+      "text": "Geschäftsführung"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Thomas Gerhardt"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-00"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: t.gerhardt@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Mike Baruth"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-02"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Mobil: 0163 6282802"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: m.baruth@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "h2",
+      "cls": "ap-section__title",
+      "text": "Bauleitung"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Dipl.-Ing. Alexander Wingenbach"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-03"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Mobil: 0163 6282803"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: a.wingenbach@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Jennifer Lahann"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__role",
+      "text": "Assistenz der Bauleitung"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-07"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Mobil: 0163 6282804"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: j.lahann@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "h2",
+      "cls": "ap-section__title",
+      "text": "Gerhardt Service GmbH"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Natascha Gerhardt"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-06"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Mobil: 0163 6282815"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: n.gerhardt@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Dieter Ludescher"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-12"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Mobil: 0163 6282812"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: d.ludescher@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "h2",
+      "cls": "ap-section__title",
+      "text": "Assistenz der Geschäftsleitung"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "ppa. Stephanie Müller"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-05"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Mobil: 0163 6282805"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: kalkulation@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "h2",
+      "cls": "ap-section__title",
+      "text": "Buchhaltung"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Rüdiger Pfeifer"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-08"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: r.pfeifer@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Sabine Pfeffer"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-14"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: s.pfeffer@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "h2",
+      "cls": "ap-section__title",
+      "text": "Backoffice"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__name",
+      "text": "Aziz Jabli"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "Telefon: 06122 70770-09"
+    },
+    {
+      "tag": "p",
+      "cls": "ap-person__line",
+      "text": "E-Mail: a.jabli@gerhardt-gmbh.de"
+    },
+    {
+      "tag": "li",
+      "text": "Poolbau & Kosten"
+    },
+    {
+      "tag": "li",
+      "text": "Realisierte Projekte"
+    },
+    {
+      "tag": "li",
+      "text": "Bildergalerie"
+    },
+    {
+      "tag": "li",
+      "text": "Bewässerung"
+    },
+    {
+      "tag": "li",
+      "text": "Beleuchtung"
+    },
+    {
+      "tag": "li",
+      "text": "Rasenroboter"
+    },
+    {
+      "tag": "li",
+      "text": "Wartung & Service"
+    },
+    {
+      "tag": "li",
+      "text": "Über uns"
+    },
+    {
+      "tag": "li",
+      "text": "Stellenmarkt"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/gerhardt-service-logo.png",
+      "attrSrc": "assets/gerhardt-service-logo.png",
+      "srcset": null,
+      "alt": "Gerhardt Service GmbH",
+      "loading": null,
+      "w": 1374,
+      "h": 656,
+      "rendered": [
+        200,
+        95
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/kontakt",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/kontakt"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+4961227077000",
+      "text": "06122 70770-00",
+      "abs": "tel:+4961227077000"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077000",
+      "text": "06122 70770-00",
+      "abs": "tel:+4961227077000"
+    },
+    {
+      "href": "mailto:t.gerhardt@gerhardt-gmbh.de",
+      "text": "t.gerhardt@gerhardt-gmbh.de",
+      "abs": "mailto:t.gerhardt@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077002",
+      "text": "06122 70770-02",
+      "abs": "tel:+4961227077002"
+    },
+    {
+      "href": "tel:+4901636282802",
+      "text": "0163 6282802",
+      "abs": "tel:+4901636282802"
+    },
+    {
+      "href": "mailto:m.baruth@gerhardt-gmbh.de",
+      "text": "m.baruth@gerhardt-gmbh.de",
+      "abs": "mailto:m.baruth@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077003",
+      "text": "06122 70770-03",
+      "abs": "tel:+4961227077003"
+    },
+    {
+      "href": "tel:+4901636282803",
+      "text": "0163 6282803",
+      "abs": "tel:+4901636282803"
+    },
+    {
+      "href": "mailto:a.wingenbach@gerhardt-gmbh.de",
+      "text": "a.wingenbach@gerhardt-gmbh.de",
+      "abs": "mailto:a.wingenbach@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077007",
+      "text": "06122 70770-07",
+      "abs": "tel:+4961227077007"
+    },
+    {
+      "href": "tel:+4901636282804",
+      "text": "0163 6282804",
+      "abs": "tel:+4901636282804"
+    },
+    {
+      "href": "mailto:j.lahann@gerhardt-gmbh.de",
+      "text": "j.lahann@gerhardt-gmbh.de",
+      "abs": "mailto:j.lahann@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077006",
+      "text": "06122 70770-06",
+      "abs": "tel:+4961227077006"
+    },
+    {
+      "href": "tel:+4901636282815",
+      "text": "0163 6282815",
+      "abs": "tel:+4901636282815"
+    },
+    {
+      "href": "mailto:n.gerhardt@gerhardt-gmbh.de",
+      "text": "n.gerhardt@gerhardt-gmbh.de",
+      "abs": "mailto:n.gerhardt@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077012",
+      "text": "06122 70770-12",
+      "abs": "tel:+4961227077012"
+    },
+    {
+      "href": "tel:+4901636282812",
+      "text": "0163 6282812",
+      "abs": "tel:+4901636282812"
+    },
+    {
+      "href": "mailto:d.ludescher@gerhardt-gmbh.de",
+      "text": "d.ludescher@gerhardt-gmbh.de",
+      "abs": "mailto:d.ludescher@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077005",
+      "text": "06122 70770-05",
+      "abs": "tel:+4961227077005"
+    },
+    {
+      "href": "tel:+4901636282805",
+      "text": "0163 6282805",
+      "abs": "tel:+4901636282805"
+    },
+    {
+      "href": "mailto:kalkulation@gerhardt-gmbh.de",
+      "text": "kalkulation@gerhardt-gmbh.de",
+      "abs": "mailto:kalkulation@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077008",
+      "text": "06122 70770-08",
+      "abs": "tel:+4961227077008"
+    },
+    {
+      "href": "mailto:r.pfeifer@gerhardt-gmbh.de",
+      "text": "r.pfeifer@gerhardt-gmbh.de",
+      "abs": "mailto:r.pfeifer@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077014",
+      "text": "06122 70770-14",
+      "abs": "tel:+4961227077014"
+    },
+    {
+      "href": "mailto:s.pfeffer@gerhardt-gmbh.de",
+      "text": "s.pfeffer@gerhardt-gmbh.de",
+      "abs": "mailto:s.pfeffer@gerhardt-gmbh.de"
+    },
+    {
+      "href": "tel:+4961227077009",
+      "text": "06122 70770-09",
+      "abs": "tel:+4961227077009"
+    },
+    {
+      "href": "mailto:a.jabli@gerhardt-gmbh.de",
+      "text": "a.jabli@gerhardt-gmbh.de",
+      "abs": "mailto:a.jabli@gerhardt-gmbh.de"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/kontakt",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/kontakt"
+    }
+  ],
+  "anchors": [],
+  "forms": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "tel": [
+    "tel:+4961227077000",
+    "tel:+4961227077002",
+    "tel:+4901636282802",
+    "tel:+4961227077003",
+    "tel:+4901636282803",
+    "tel:+4961227077007",
+    "tel:+4901636282804",
+    "tel:+4961227077006",
+    "tel:+4901636282815",
+    "tel:+4961227077012",
+    "tel:+4901636282812",
+    "tel:+4961227077005",
+    "tel:+4901636282805",
+    "tel:+4961227077008",
+    "tel:+4961227077014",
+    "tel:+4961227077009",
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de",
+    "mailto:t.gerhardt@gerhardt-gmbh.de",
+    "mailto:m.baruth@gerhardt-gmbh.de",
+    "mailto:a.wingenbach@gerhardt-gmbh.de",
+    "mailto:j.lahann@gerhardt-gmbh.de",
+    "mailto:n.gerhardt@gerhardt-gmbh.de",
+    "mailto:d.ludescher@gerhardt-gmbh.de",
+    "mailto:kalkulation@gerhardt-gmbh.de",
+    "mailto:r.pfeifer@gerhardt-gmbh.de",
+    "mailto:s.pfeffer@gerhardt-gmbh.de",
+    "mailto:a.jabli@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(250, 250, 248)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "lineHeight": "52.8px",
+      "letterSpacing": "-0.96px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "13.6px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.904px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 2447,
+  "loadMs": 1674,
+  "mobile": {
+    "docHeight": 3663,
+    "hScroll": false,
+    "h1": "32px"
+  },
+  "path": "/ansprechpartner",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 9991,
+  "rawHasH1": true,
+  "rawTextLen": 1283,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/gerhardt-service-logo.png",
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-white.png"
+  ]
+}

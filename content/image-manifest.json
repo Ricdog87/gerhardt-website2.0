@@ -1,0 +1,2767 @@
+[
+  {
+    "path": "/assets/gerhardt-service-logo.png",
+    "url": "https://gerhardt-gmbh.de/assets/gerhardt-service-logo.png",
+    "status": 200,
+    "bytes": 25479,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/hero-01-bergparadies.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+    "status": 200,
+    "bytes": 775392,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/hero-01-bergparadies.webp",
+    "url": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.webp",
+    "status": 200,
+    "bytes": 770232,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/hero-02-naturstein.webp",
+    "url": "https://gerhardt-gmbh.de/assets/hero-02-naturstein.webp",
+    "status": 200,
+    "bytes": 1323826,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/hero-03-townhouse.webp",
+    "url": "https://gerhardt-gmbh.de/assets/hero-03-townhouse.webp",
+    "status": 200,
+    "bytes": 1283744,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/hero-04-provence.webp",
+    "url": "https://gerhardt-gmbh.de/assets/hero-04-provence.webp",
+    "status": 200,
+    "bytes": 845704,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/hero-05-bergparadies-alt.webp",
+    "url": "https://gerhardt-gmbh.de/assets/hero-05-bergparadies-alt.webp",
+    "status": 200,
+    "bytes": 451388,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/logo-black.png",
+    "url": "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "status": 200,
+    "bytes": 125933,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/logo-white.png",
+    "url": "https://gerhardt-gmbh.de/assets/logo-white.png",
+    "status": 200,
+    "bytes": 6816,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/mega-pools.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "status": 200,
+    "bytes": 1276449,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/mega-technik.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "status": 200,
+    "bytes": 759802,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/mega-unternehmen.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "status": 200,
+    "bytes": 228283,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-.jpg",
+    "status": 200,
+    "bytes": 784560,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07274.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07274.jpg",
+    "status": 200,
+    "bytes": 1212726,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00136.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00136.webp",
+    "status": 200,
+    "bytes": 741666,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+    "status": 200,
+    "bytes": 718544,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00185.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00185.webp",
+    "status": 200,
+    "bytes": 1264164,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00207.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_BAUSTELLEN_DIVERS-00207.webp",
+    "status": 200,
+    "bytes": 1136852,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM (test)-00093.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00093.jpg",
+    "status": 200,
+    "bytes": 479928,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM (test)-00110.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00110.jpg",
+    "status": 200,
+    "bytes": 390774,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM (test)-00248.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_03_WIESBADEN-GER_PILM%20(test)-00248.jpg",
+    "status": 200,
+    "bytes": 400133,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--2.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--2.webp",
+    "status": 200,
+    "bytes": 925072,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--3.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung--3.webp",
+    "status": 200,
+    "bytes": 420294,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01616.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01616.webp",
+    "status": 200,
+    "bytes": 662146,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01632.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_KOEN_Anlieferung-01632.webp",
+    "status": 200,
+    "bytes": 422722,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-.webp",
+    "status": 200,
+    "bytes": 864102,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00360.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00360.webp",
+    "status": 200,
+    "bytes": 465092,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00389.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00389.webp",
+    "status": 200,
+    "bytes": 217280,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00393.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_04_MANN_LO_Anlieferung-00393.webp",
+    "status": 200,
+    "bytes": 447522,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04926.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04926.webp",
+    "status": 200,
+    "bytes": 407312,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04947.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-04947.webp",
+    "status": 200,
+    "bytes": 756896,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_FR_PILM-05046.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_FR_PILM-05046.webp",
+    "status": 200,
+    "bytes": 762590,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04602.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04602.webp",
+    "status": 200,
+    "bytes": 747744,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04641.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04641.webp",
+    "status": 200,
+    "bytes": 532256,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04713.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04713.webp",
+    "status": 200,
+    "bytes": 470982,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04862.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_HA_PILM-04862.webp",
+    "status": 200,
+    "bytes": 615314,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05339.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05339.webp",
+    "status": 200,
+    "bytes": 1070514,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05647.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05647.webp",
+    "status": 200,
+    "bytes": 603814,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05680.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_LO_PILM-05680.webp",
+    "status": 200,
+    "bytes": 1324566,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_VE_P-05733.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_VE_P-05733.webp",
+    "status": 200,
+    "bytes": 1122652,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/poolbau-kosten/2026_05_WIES_VE_P-05749.webp",
+    "url": "https://gerhardt-gmbh.de/assets/poolbau-kosten/2026_05_WIES_VE_P-05749.webp",
+    "status": 200,
+    "bytes": 762290,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)--3.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)--3.jpg",
+    "status": 200,
+    "bytes": 493740,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-.jpg",
+    "status": 200,
+    "bytes": 784560,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07209.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07209.jpg",
+    "status": 200,
+    "bytes": 425436,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07230.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07230.jpg",
+    "status": 200,
+    "bytes": 463162,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07236.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07236.jpg",
+    "status": 200,
+    "bytes": 406861,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07274.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_BAD%20CAMBERG%20(Bodenplatte%20giessen)-07274.jpg",
+    "status": 200,
+    "bytes": 1212726,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00136.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00136.jpg",
+    "status": 200,
+    "bytes": 782598,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00136.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00136.webp",
+    "status": 200,
+    "bytes": 741666,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00156.webp",
+    "status": 200,
+    "bytes": 718544,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00158.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00158.jpg",
+    "status": 200,
+    "bytes": 744198,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00167.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00167.webp",
+    "status": 200,
+    "bytes": 375720,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00172.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00172.webp",
+    "status": 200,
+    "bytes": 264032,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00182.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00182.webp",
+    "status": 200,
+    "bytes": 462954,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00203.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00203.webp",
+    "status": 200,
+    "bytes": 727180,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00218.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_03_BAUSTELLEN_DIVERS-00218.webp",
+    "status": 200,
+    "bytes": 124164,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_KOEN_Anlieferung--3.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung--3.webp",
+    "status": 200,
+    "bytes": 420294,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_KOEN_Anlieferung-.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-.webp",
+    "status": 200,
+    "bytes": 1447336,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_KOEN_Anlieferung-01525.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01525.webp",
+    "status": 200,
+    "bytes": 208896,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_KOEN_Anlieferung-01526.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01526.webp",
+    "status": 200,
+    "bytes": 200456,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_KOEN_Anlieferung-01585.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01585.webp",
+    "status": 200,
+    "bytes": 555794,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_KOEN_Anlieferung-01625.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01625.webp",
+    "status": 200,
+    "bytes": 304322,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_KOEN_Anlieferung-01634.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_KOEN_Anlieferung-01634.webp",
+    "status": 200,
+    "bytes": 127882,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-.jpg",
+    "status": 200,
+    "bytes": 918329,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00358.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00358.jpg",
+    "status": 200,
+    "bytes": 208633,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00367.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00367.webp",
+    "status": 200,
+    "bytes": 170786,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00377.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00377.webp",
+    "status": 200,
+    "bytes": 77948,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00396.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00396.webp",
+    "status": 200,
+    "bytes": 170876,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00425.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00425.jpg",
+    "status": 200,
+    "bytes": 322690,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00425.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00425.webp",
+    "status": 200,
+    "bytes": 278666,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00445.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00445.webp",
+    "status": 200,
+    "bytes": 331150,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00458.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00458.jpg",
+    "status": 200,
+    "bytes": 259909,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00458.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_04_MANN_LO_Anlieferung-00458.webp",
+    "status": 200,
+    "bytes": 191178,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04898.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04898.webp",
+    "status": 200,
+    "bytes": 331660,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04910.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04910.jpg",
+    "status": 200,
+    "bytes": 485397,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04910.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04910.webp",
+    "status": 200,
+    "bytes": 459260,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04915.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04915.webp",
+    "status": 200,
+    "bytes": 197440,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04925.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04925.webp",
+    "status": 200,
+    "bytes": 245186,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04932.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04932.webp",
+    "status": 200,
+    "bytes": 79598,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04947.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04947.webp",
+    "status": 200,
+    "bytes": 756896,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-04973.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-04973.webp",
+    "status": 200,
+    "bytes": 268780,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05005.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05005.webp",
+    "status": 200,
+    "bytes": 217518,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05017.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05017.webp",
+    "status": 200,
+    "bytes": 360468,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05022.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05022.jpg",
+    "status": 200,
+    "bytes": 454478,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05022.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05022.webp",
+    "status": 200,
+    "bytes": 422792,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05046.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05046.jpg",
+    "status": 200,
+    "bytes": 788330,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05046.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05046.webp",
+    "status": 200,
+    "bytes": 762590,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05070.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05070.jpg",
+    "status": 200,
+    "bytes": 782903,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05070.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05070.webp",
+    "status": 200,
+    "bytes": 659628,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05097.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05097.webp",
+    "status": 200,
+    "bytes": 370164,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_FR_PILM-05145.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_FR_PILM-05145.webp",
+    "status": 200,
+    "bytes": 528810,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04586.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04586.webp",
+    "status": 200,
+    "bytes": 746728,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04630.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04630.webp",
+    "status": 200,
+    "bytes": 384794,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04682.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04682.webp",
+    "status": 200,
+    "bytes": 634240,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04700.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04700.webp",
+    "status": 200,
+    "bytes": 287140,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04707.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04707.webp",
+    "status": 200,
+    "bytes": 494490,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04720.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04720.jpg",
+    "status": 200,
+    "bytes": 370914,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04720.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04720.webp",
+    "status": 200,
+    "bytes": 345536,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04725.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04725.webp",
+    "status": 200,
+    "bytes": 445288,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04749.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04749.webp",
+    "status": 200,
+    "bytes": 60854,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04797.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04797.jpg",
+    "status": 200,
+    "bytes": 184798,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04797.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04797.webp",
+    "status": 200,
+    "bytes": 115900,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04800.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04800.webp",
+    "status": 200,
+    "bytes": 248878,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04810.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04810.webp",
+    "status": 200,
+    "bytes": 1330472,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04819.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04819.jpg",
+    "status": 200,
+    "bytes": 349287,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04819.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04819.webp",
+    "status": 200,
+    "bytes": 290386,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04862.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04862.jpg",
+    "status": 200,
+    "bytes": 759802,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_HA_PILM-04862.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_HA_PILM-04862.webp",
+    "status": 200,
+    "bytes": 615314,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05195.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05195.webp",
+    "status": 200,
+    "bytes": 299724,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05204.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05204.jpg",
+    "status": 200,
+    "bytes": 724214,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05222-2.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05222-2.webp",
+    "status": 200,
+    "bytes": 482214,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05279.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05279.jpg",
+    "status": 200,
+    "bytes": 491063,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05279.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05279.webp",
+    "status": 200,
+    "bytes": 494506,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05342.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05342.webp",
+    "status": 200,
+    "bytes": 327986,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05350.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05350.webp",
+    "status": 200,
+    "bytes": 1001590,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05394.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05394.webp",
+    "status": 200,
+    "bytes": 611548,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05455.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05455.jpg",
+    "status": 200,
+    "bytes": 382462,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05455.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05455.webp",
+    "status": 200,
+    "bytes": 314278,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05485.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05485.webp",
+    "status": 200,
+    "bytes": 139716,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05529.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05529.webp",
+    "status": 200,
+    "bytes": 256534,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05538.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05538.jpg",
+    "status": 200,
+    "bytes": 214055,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05538.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05538.webp",
+    "status": 200,
+    "bytes": 150272,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05610.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05610.webp",
+    "status": 200,
+    "bytes": 1323826,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05614.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05614.webp",
+    "status": 200,
+    "bytes": 1119124,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05675.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05675.webp",
+    "status": 200,
+    "bytes": 310180,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05676.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05676.webp",
+    "status": 200,
+    "bytes": 929842,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_LO_PILM-05681.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_LO_PILM-05681.webp",
+    "status": 200,
+    "bytes": 1308564,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05733.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05733.webp",
+    "status": 200,
+    "bytes": 1122652,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05749.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05749.webp",
+    "status": 200,
+    "bytes": 762290,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05763.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05763.webp",
+    "status": 200,
+    "bytes": 889590,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05801.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05801.webp",
+    "status": 200,
+    "bytes": 765374,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05802.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05802.jpg",
+    "status": 200,
+    "bytes": 583012,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05802.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05802.webp",
+    "status": 200,
+    "bytes": 592438,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05805.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05805.webp",
+    "status": 200,
+    "bytes": 116532,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05810.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05810.webp",
+    "status": 200,
+    "bytes": 297104,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05834.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05834.webp",
+    "status": 200,
+    "bytes": 1164314,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05861.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05861.webp",
+    "status": 200,
+    "bytes": 317024,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05866.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05866.webp",
+    "status": 200,
+    "bytes": 270938,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05871.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05871.jpg",
+    "status": 200,
+    "bytes": 754171,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/pools-galerie/2026_05_WIES_VE_P-05871.webp",
+    "url": "https://gerhardt-gmbh.de/assets/pools-galerie/2026_05_WIES_VE_P-05871.webp",
+    "status": 200,
+    "bytes": 827790,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekt-bergparadies.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekt-bergparadies.webp",
+    "status": 200,
+    "bytes": 770232,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekt-kronberg.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekt-kronberg.webp",
+    "status": 200,
+    "bytes": 1156564,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekt-mainz.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekt-mainz.webp",
+    "status": 200,
+    "bytes": 781618,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekt-naturstein.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekt-naturstein.webp",
+    "status": 200,
+    "bytes": 1323826,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekt-provence.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekt-provence.webp",
+    "status": 200,
+    "bytes": 581384,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekt-suedtirol.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekt-suedtirol.webp",
+    "status": 200,
+    "bytes": 1359864,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekt-townhouse.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekt-townhouse.webp",
+    "status": 200,
+    "bytes": 528810,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-01.webp",
+    "status": 200,
+    "bytes": 630266,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-02.webp",
+    "status": 200,
+    "bytes": 900374,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-03.webp",
+    "status": 200,
+    "bytes": 1040584,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-04.webp",
+    "status": 200,
+    "bytes": 510970,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-05.webp",
+    "status": 200,
+    "bytes": 194088,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-06.webp",
+    "status": 200,
+    "bytes": 472426,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-07.webp",
+    "status": 200,
+    "bytes": 838468,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-08.webp",
+    "status": 200,
+    "bytes": 793012,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-09.webp",
+    "status": 200,
+    "bytes": 524712,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-10.webp",
+    "status": 200,
+    "bytes": 485822,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-11.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-11.webp",
+    "status": 200,
+    "bytes": 265608,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-12.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-12.webp",
+    "status": 200,
+    "bytes": 628004,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-13.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-13.webp",
+    "status": 200,
+    "bytes": 300194,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-14.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-14.webp",
+    "status": 200,
+    "bytes": 489978,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-15.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-15.webp",
+    "status": 200,
+    "bytes": 156210,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-16.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-16.webp",
+    "status": 200,
+    "bytes": 456796,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-17.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-17.webp",
+    "status": 200,
+    "bytes": 282484,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/gallery-18.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/gallery-18.webp",
+    "status": 200,
+    "bytes": 757460,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/hero-01.webp",
+    "status": 200,
+    "bytes": 757460,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/hero-02.webp",
+    "status": 200,
+    "bytes": 563282,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/hero-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/hero-03.webp",
+    "status": 200,
+    "bytes": 436278,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/hero-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/hero-04.webp",
+    "status": 200,
+    "bytes": 630266,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/hero-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/hero-05.webp",
+    "status": 200,
+    "bytes": 815004,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/proof-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/proof-01.webp",
+    "status": 200,
+    "bytes": 544462,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/proof-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/proof-02.webp",
+    "status": 200,
+    "bytes": 551576,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/proof-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/proof-03.webp",
+    "status": 200,
+    "bytes": 619594,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/proof-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/proof-04.webp",
+    "status": 200,
+    "bytes": 757460,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/proof-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/proof-05.webp",
+    "status": 200,
+    "bytes": 630266,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/bergparadies/story.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/bergparadies/story.webp",
+    "status": 200,
+    "bytes": 575088,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-01.webp",
+    "status": 200,
+    "bytes": 603384,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-02.webp",
+    "status": 200,
+    "bytes": 535352,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-03.webp",
+    "status": 200,
+    "bytes": 530474,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-04.webp",
+    "status": 200,
+    "bytes": 649104,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-05.webp",
+    "status": 200,
+    "bytes": 608914,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-06.webp",
+    "status": 200,
+    "bytes": 562668,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-07.webp",
+    "status": 200,
+    "bytes": 509740,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-08.webp",
+    "status": 200,
+    "bytes": 153530,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-09.webp",
+    "status": 200,
+    "bytes": 630228,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-10.webp",
+    "status": 200,
+    "bytes": 669876,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-11.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-11.webp",
+    "status": 200,
+    "bytes": 143362,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-12.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-12.webp",
+    "status": 200,
+    "bytes": 337824,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-13.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-13.webp",
+    "status": 200,
+    "bytes": 215684,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-14.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-14.webp",
+    "status": 200,
+    "bytes": 737110,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-15.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-15.webp",
+    "status": 200,
+    "bytes": 509700,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-16.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-16.webp",
+    "status": 200,
+    "bytes": 323860,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-17.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-17.webp",
+    "status": 200,
+    "bytes": 409772,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/gallery-18.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/gallery-18.webp",
+    "status": 200,
+    "bytes": 351926,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/hero-01.webp",
+    "status": 200,
+    "bytes": 1156564,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/hero-02.webp",
+    "status": 200,
+    "bytes": 1113468,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/hero-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/hero-03.webp",
+    "status": 200,
+    "bytes": 1001644,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/hero-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/hero-04.webp",
+    "status": 200,
+    "bytes": 1088774,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/hero-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/hero-05.webp",
+    "status": 200,
+    "bytes": 1004912,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/kronberg/story.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/kronberg/story.webp",
+    "status": 200,
+    "bytes": 1237546,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-01.webp",
+    "status": 200,
+    "bytes": 357858,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-02.webp",
+    "status": 200,
+    "bytes": 232974,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-03.webp",
+    "status": 200,
+    "bytes": 606208,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-04.webp",
+    "status": 200,
+    "bytes": 382712,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-05.webp",
+    "status": 200,
+    "bytes": 478548,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-06.webp",
+    "status": 200,
+    "bytes": 319664,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-07.webp",
+    "status": 200,
+    "bytes": 887684,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-08.webp",
+    "status": 200,
+    "bytes": 201004,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-09.webp",
+    "status": 200,
+    "bytes": 682720,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-10.webp",
+    "status": 200,
+    "bytes": 252164,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-11.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-11.webp",
+    "status": 200,
+    "bytes": 265824,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-12.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-12.webp",
+    "status": 200,
+    "bytes": 445924,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-13.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-13.webp",
+    "status": 200,
+    "bytes": 957490,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-14.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-14.webp",
+    "status": 200,
+    "bytes": 480072,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-15.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-15.webp",
+    "status": 200,
+    "bytes": 545924,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-16.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-16.webp",
+    "status": 200,
+    "bytes": 318444,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-17.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-17.webp",
+    "status": 200,
+    "bytes": 165318,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/gallery-18.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/gallery-18.webp",
+    "status": 200,
+    "bytes": 323242,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/hero-01.webp",
+    "status": 200,
+    "bytes": 911180,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/hero-02.webp",
+    "status": 200,
+    "bytes": 781618,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/hero-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/hero-03.webp",
+    "status": 200,
+    "bytes": 511244,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/hero-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/hero-04.webp",
+    "status": 200,
+    "bytes": 465072,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/hero-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/hero-05.webp",
+    "status": 200,
+    "bytes": 1055464,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/proof-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/proof-01.webp",
+    "status": 200,
+    "bytes": 462174,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/proof-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/proof-02.webp",
+    "status": 200,
+    "bytes": 564492,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/proof-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/proof-03.webp",
+    "status": 200,
+    "bytes": 154608,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/proof-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/proof-04.webp",
+    "status": 200,
+    "bytes": 478548,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/proof-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/proof-05.webp",
+    "status": 200,
+    "bytes": 853518,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/mainz/story.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/mainz/story.webp",
+    "status": 200,
+    "bytes": 413252,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-01.webp",
+    "status": 200,
+    "bytes": 1003834,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-02.webp",
+    "status": 200,
+    "bytes": 756728,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-03.webp",
+    "status": 200,
+    "bytes": 818738,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-04.webp",
+    "status": 200,
+    "bytes": 414894,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-05.webp",
+    "status": 200,
+    "bytes": 212626,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-06.webp",
+    "status": 200,
+    "bytes": 745486,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-07.webp",
+    "status": 200,
+    "bytes": 1049126,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-08.webp",
+    "status": 200,
+    "bytes": 352474,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-09.webp",
+    "status": 200,
+    "bytes": 703580,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-10.webp",
+    "status": 200,
+    "bytes": 515578,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-11.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-11.webp",
+    "status": 200,
+    "bytes": 1027548,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-12.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-12.webp",
+    "status": 200,
+    "bytes": 729450,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-13.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-13.webp",
+    "status": 200,
+    "bytes": 637720,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-14.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-14.webp",
+    "status": 200,
+    "bytes": 756820,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-15.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-15.webp",
+    "status": 200,
+    "bytes": 892170,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-16.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-16.webp",
+    "status": 200,
+    "bytes": 880680,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-17.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-17.webp",
+    "status": 200,
+    "bytes": 647546,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-18.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-18.webp",
+    "status": 200,
+    "bytes": 436776,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/gallery-19.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/gallery-19.webp",
+    "status": 200,
+    "bytes": 564634,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-01.webp",
+    "status": 200,
+    "bytes": 894622,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-02.webp",
+    "status": 200,
+    "bytes": 808280,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/hero-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-03.webp",
+    "status": 200,
+    "bytes": 391236,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/hero-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-04.webp",
+    "status": 200,
+    "bytes": 727156,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/hero-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/hero-05.webp",
+    "status": 200,
+    "bytes": 647546,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/proof-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-01.webp",
+    "status": 200,
+    "bytes": 843152,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/proof-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-02.webp",
+    "status": 200,
+    "bytes": 853292,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/proof-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-03.webp",
+    "status": 200,
+    "bytes": 830804,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/proof-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-04.webp",
+    "status": 200,
+    "bytes": 642238,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/proof-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/proof-05.webp",
+    "status": 200,
+    "bytes": 774278,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/naturstein/story.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/naturstein/story.webp",
+    "status": 200,
+    "bytes": 703580,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-01.webp",
+    "status": 200,
+    "bytes": 532256,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-02.webp",
+    "status": 200,
+    "bytes": 470982,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-03.webp",
+    "status": 200,
+    "bytes": 1066584,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-04.webp",
+    "status": 200,
+    "bytes": 529710,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-05.webp",
+    "status": 200,
+    "bytes": 635532,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-06.webp",
+    "status": 200,
+    "bytes": 85320,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-07.webp",
+    "status": 200,
+    "bytes": 66384,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-08.webp",
+    "status": 200,
+    "bytes": 508854,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-09.webp",
+    "status": 200,
+    "bytes": 678618,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-10.webp",
+    "status": 200,
+    "bytes": 634240,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-11.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-11.webp",
+    "status": 200,
+    "bytes": 907888,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-12.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-12.webp",
+    "status": 200,
+    "bytes": 257132,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-13.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-13.webp",
+    "status": 200,
+    "bytes": 334334,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-14.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-14.webp",
+    "status": 200,
+    "bytes": 1330472,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-15.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-15.webp",
+    "status": 200,
+    "bytes": 437856,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-16.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-16.webp",
+    "status": 200,
+    "bytes": 746728,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-17.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-17.webp",
+    "status": 200,
+    "bytes": 510424,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/gallery-18.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/gallery-18.webp",
+    "status": 200,
+    "bytes": 445288,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/hero-01.webp",
+    "status": 200,
+    "bytes": 746728,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/hero-02.webp",
+    "status": 200,
+    "bytes": 1014222,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/hero-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/hero-03.webp",
+    "status": 200,
+    "bytes": 845246,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/hero-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/hero-04.webp",
+    "status": 200,
+    "bytes": 821128,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/hero-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/hero-05.webp",
+    "status": 200,
+    "bytes": 615314,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/proof-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/proof-01.webp",
+    "status": 200,
+    "bytes": 623850,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/proof-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/proof-02.webp",
+    "status": 200,
+    "bytes": 586596,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/proof-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/proof-03.webp",
+    "status": 200,
+    "bytes": 582592,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/proof-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/proof-04.webp",
+    "status": 200,
+    "bytes": 532256,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/proof-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/proof-05.webp",
+    "status": 200,
+    "bytes": 615498,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/provence/story.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/provence/story.webp",
+    "status": 200,
+    "bytes": 876534,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-01.webp",
+    "status": 200,
+    "bytes": 750674,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-02.webp",
+    "status": 200,
+    "bytes": 817708,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-03.webp",
+    "status": 200,
+    "bytes": 945156,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-04.webp",
+    "status": 200,
+    "bytes": 834604,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-05.webp",
+    "status": 200,
+    "bytes": 722686,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-06.webp",
+    "status": 200,
+    "bytes": 688584,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-07.webp",
+    "status": 200,
+    "bytes": 413102,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-08.webp",
+    "status": 200,
+    "bytes": 446262,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-09.webp",
+    "status": 200,
+    "bytes": 320148,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-10.webp",
+    "status": 200,
+    "bytes": 443064,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-11.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-11.webp",
+    "status": 200,
+    "bytes": 343110,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-12.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-12.webp",
+    "status": 200,
+    "bytes": 133510,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-13.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-13.webp",
+    "status": 200,
+    "bytes": 472782,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-14.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-14.webp",
+    "status": 200,
+    "bytes": 784462,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-15.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-15.webp",
+    "status": 200,
+    "bytes": 517466,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-16.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-16.webp",
+    "status": 200,
+    "bytes": 398412,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-17.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-17.webp",
+    "status": 200,
+    "bytes": 234340,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/gallery-18.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/gallery-18.webp",
+    "status": 200,
+    "bytes": 347838,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/hero-01.webp",
+    "status": 200,
+    "bytes": 1359864,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/hero-02.webp",
+    "status": 200,
+    "bytes": 624854,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/hero-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/hero-03.webp",
+    "status": 200,
+    "bytes": 929598,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/hero-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/hero-04.webp",
+    "status": 200,
+    "bytes": 201818,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/hero-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/hero-05.webp",
+    "status": 200,
+    "bytes": 1286590,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/proof-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/proof-01.webp",
+    "status": 200,
+    "bytes": 636238,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/proof-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/proof-02.webp",
+    "status": 200,
+    "bytes": 506758,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/proof-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/proof-03.webp",
+    "status": 200,
+    "bytes": 1299770,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/proof-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/proof-04.webp",
+    "status": 200,
+    "bytes": 945156,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/proof-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/proof-05.webp",
+    "status": 200,
+    "bytes": 343110,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/suedtirol/story.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/suedtirol/story.webp",
+    "status": 200,
+    "bytes": 496956,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-01.webp",
+    "status": 200,
+    "bytes": 595942,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-02.webp",
+    "status": 200,
+    "bytes": 361676,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-03.webp",
+    "status": 200,
+    "bytes": 153388,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-04.webp",
+    "status": 200,
+    "bytes": 528810,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-05.webp",
+    "status": 200,
+    "bytes": 437968,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-06.webp",
+    "status": 200,
+    "bytes": 972476,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-07.webp",
+    "status": 200,
+    "bytes": 336098,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-08.webp",
+    "status": 200,
+    "bytes": 756896,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-09.webp",
+    "status": 200,
+    "bytes": 128722,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-10.webp",
+    "status": 200,
+    "bytes": 407312,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-11.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-11.webp",
+    "status": 200,
+    "bytes": 233480,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-12.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-12.webp",
+    "status": 200,
+    "bytes": 1031768,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-13.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-13.webp",
+    "status": 200,
+    "bytes": 603066,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-14.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-14.webp",
+    "status": 200,
+    "bytes": 723516,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-15.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-15.webp",
+    "status": 200,
+    "bytes": 731734,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-16.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-16.webp",
+    "status": 200,
+    "bytes": 347502,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/gallery-17.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/gallery-17.webp",
+    "status": 200,
+    "bytes": 559954,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/hero-01.webp",
+    "status": 200,
+    "bytes": 1031768,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/hero-02.webp",
+    "status": 200,
+    "bytes": 809684,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/hero-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/hero-03.webp",
+    "status": 200,
+    "bytes": 891526,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/hero-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/hero-04.webp",
+    "status": 200,
+    "bytes": 751106,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/hero-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/hero-05.webp",
+    "status": 200,
+    "bytes": 965450,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/proof-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/proof-01.webp",
+    "status": 200,
+    "bytes": 603116,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/proof-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/proof-02.webp",
+    "status": 200,
+    "bytes": 500956,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/proof-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/proof-03.webp",
+    "status": 200,
+    "bytes": 527012,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/proof-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/proof-04.webp",
+    "status": 200,
+    "bytes": 595942,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/proof-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/proof-05.webp",
+    "status": 200,
+    "bytes": 1088370,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/projekte/townhouse/story.webp",
+    "url": "https://gerhardt-gmbh.de/assets/projekte/townhouse/story.webp",
+    "status": 200,
+    "bytes": 659628,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/bestand.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/bestand.webp",
+    "status": 200,
+    "bytes": 147786,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/freizeit.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/freizeit.webp",
+    "status": 200,
+    "bytes": 307764,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-01.webp",
+    "status": 200,
+    "bytes": 82834,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-02.webp",
+    "status": 200,
+    "bytes": 290186,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-03.webp",
+    "status": 200,
+    "bytes": 147786,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-04.webp",
+    "status": 200,
+    "bytes": 51106,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-05.webp",
+    "status": 200,
+    "bytes": 307764,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-06.webp",
+    "status": 200,
+    "bytes": 118226,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-07.webp",
+    "status": 200,
+    "bytes": 128434,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-08.webp",
+    "status": 200,
+    "bytes": 96810,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-09.webp",
+    "status": 200,
+    "bytes": 115114,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/gallery-10.webp",
+    "status": 200,
+    "bytes": 82834,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/hero-01.webp",
+    "status": 200,
+    "bytes": 460910,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/hero-02.webp",
+    "status": 200,
+    "bytes": 230302,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/beleuchtung/steuerung.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/beleuchtung/steuerung.webp",
+    "status": 200,
+    "bytes": 118226,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/bestand.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/bestand.webp",
+    "status": 200,
+    "bytes": 752928,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/freizeit.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/freizeit.webp",
+    "status": 200,
+    "bytes": 615314,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-01.webp",
+    "status": 200,
+    "bytes": 337134,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-02.webp",
+    "status": 200,
+    "bytes": 615314,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-03.webp",
+    "status": 200,
+    "bytes": 347592,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-04.webp",
+    "status": 200,
+    "bytes": 334334,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-05.webp",
+    "status": 200,
+    "bytes": 436852,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-06.webp",
+    "status": 200,
+    "bytes": 677540,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-07.webp",
+    "status": 200,
+    "bytes": 730980,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-08.webp",
+    "status": 200,
+    "bytes": 765804,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-09.webp",
+    "status": 200,
+    "bytes": 478388,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/gallery-10.webp",
+    "status": 200,
+    "bytes": 233116,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/hero-01.webp",
+    "status": 200,
+    "bytes": 730980,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/hero-02.webp",
+    "status": 200,
+    "bytes": 615498,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/bewaesserung/steuerung.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/bewaesserung/steuerung.webp",
+    "status": 200,
+    "bytes": 677540,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/hub/beleuchtung.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/hub/beleuchtung.webp",
+    "status": 200,
+    "bytes": 118226,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/hub/bewaesserung.jpg",
+    "url": "https://gerhardt-gmbh.de/assets/technik/hub/bewaesserung.jpg",
+    "status": 200,
+    "bytes": 738747,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/technik/hub/bewaesserung.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/hub/bewaesserung.webp",
+    "status": 200,
+    "bytes": 647010,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/freizeit.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/freizeit.webp",
+    "status": 200,
+    "bytes": 518438,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-01.webp",
+    "status": 200,
+    "bytes": 1273412,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-02.webp",
+    "status": 200,
+    "bytes": 922900,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-03.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-03.webp",
+    "status": 200,
+    "bytes": 1146436,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-04.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-04.webp",
+    "status": 200,
+    "bytes": 1330472,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-05.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-05.webp",
+    "status": 200,
+    "bytes": 1325060,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-06.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-06.webp",
+    "status": 200,
+    "bytes": 764356,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-07.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-07.webp",
+    "status": 200,
+    "bytes": 771568,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-08.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-08.webp",
+    "status": 200,
+    "bytes": 1589142,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-09.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-09.webp",
+    "status": 200,
+    "bytes": 712478,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/gallery-10.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/gallery-10.webp",
+    "status": 200,
+    "bytes": 790920,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/hero-01.webp",
+    "status": 200,
+    "bytes": 821128,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/rasenroboter/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/rasenroboter/hero-02.webp",
+    "status": 200,
+    "bytes": 573354,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/wartung/hero-01.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/wartung/hero-01.webp",
+    "status": 200,
+    "bytes": 461802,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/wartung/hero-02.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/wartung/hero-02.webp",
+    "status": 200,
+    "bytes": 151038,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/technik/wartung/pflege.webp",
+    "url": "https://gerhardt-gmbh.de/assets/technik/wartung/pflege.webp",
+    "status": 200,
+    "bytes": 213588,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/unternehmen/thomas.webp",
+    "url": "https://gerhardt-gmbh.de/assets/unternehmen/thomas.webp",
+    "status": 200,
+    "bytes": 765980,
+    "type": "image/webp"
+  }
+]

@@ -1,0 +1,336 @@
+<!DOCTYPE html><html lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stellenmarkt — Gerhardt GmbH</title>
+<meta name="description" content="Offene Stellen bei Gerhardt GmbH im Rhein-Main-Gebiet. Handwerk, Service, Bauleitung und Backoffice — jetzt bewerben.">
+
+<link rel="icon" href="/assets/g-mark.svg?v=2" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/UniversNextProRegular.ttf" as="font" type="font/ttf" crossorigin="">
+<link rel="preload" href="../assets/fonts/UniversNextProMedium.ttf" as="font" type="font/ttf" crossorigin="">
+<link rel="preload" href="../assets/fonts/UniversNextProBold.ttf" as="font" type="font/ttf" crossorigin="">
+
+<link rel="stylesheet" href="../assets/css/shell.css?v=125">
+<style>
+    /* Page shell: solid header, warm bg (no hero image on Stellenmarkt) */
+    body.page-warm .header {
+        background: rgba(255,255,255,0.94);
+        color: var(--text);
+        box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 6px 18px -10px rgba(0,0,0,0.08);
+    }
+    .page-head {
+        max-width: 820px;                                        /* narrower reading column */
+        margin: 0 auto;
+        padding: calc(var(--header-h) + clamp(2rem, 5vh, 3.5rem)) clamp(1.5rem, 4vw, 3rem) clamp(2rem, 4vw, 3rem);
+    }
+    .page-head--wide { max-width: 1100px; }                     /* landing needs wider */
+    .page-head__eyebrow {
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--blue);
+        margin: 0 0 1.5rem;                                   /* extra breathing room to title */
+    }
+    .page-head__title {
+        font-size: clamp(1.7rem, 3vw, 2.4rem);                  /* smaller — no longer competes with the H2 sections */
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: -0.01em;
+        color: var(--text);
+        margin: 0 0 1rem;
+    }
+    .page-head__title--large {
+        font-size: clamp(2rem, 4vw, 3.2rem);                    /* landing keeps larger claim */
+        line-height: 1.08;
+        letter-spacing: -0.015em;
+    }
+    .page-head__lead {
+        font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+        line-height: 1.55;
+        color: var(--text);                                   /* darker for stronger contrast */
+        margin: 0;
+    }
+
+    /* ==== POSITION LIST — stacked, full-width, list-feel ==== */
+    .jobs {
+        max-width: 820px;                              /* matches detail-page reading column */
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem) clamp(3rem, 6vw, 4.5rem);
+    }
+    .jobs__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    /* Reserve a future left column for a per-position image (currently unused). */
+    .job-card {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: clamp(1.25rem, 3vw, 2rem);
+        align-items: center;
+        padding: 1.75rem 2rem;
+        background: var(--white);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        text-decoration: none;
+        color: var(--text);
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .job-card:hover {
+        border-color: var(--blue);
+        box-shadow: 0 8px 20px -12px rgba(15,28,46,0.15);
+    }
+    .job-card__body {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;                         /* single consistent rhythm */
+        min-width: 0;
+    }
+    .job-card__meta {
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--slate);
+        line-height: 1;                      /* strip inherent line-height so gap looks even */
+        margin-bottom: 0.6rem;               /* extra breathing room before title */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .job-card__meta-bereich { color: var(--blue); }
+    .job-card__meta-sep { opacity: 0.4; }
+    .job-card__title {
+        font-size: clamp(1.2rem, 2vw, 1.55rem);
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        color: var(--text);
+        margin: 0;
+    }
+    .job-card__hook {
+        font-size: 0.98rem;
+        line-height: 1.5;
+        color: var(--slate);
+        margin: 0;                           /* rely on parent flex gap, no extra margin */
+        max-width: 640px;
+    }
+    .job-card__cta {
+        font-size: 0.82rem;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--blue);
+        white-space: nowrap;
+        align-self: center;
+    }
+
+    /* Initiativbewerbung — dashed border, warm-white bg */
+    .job-card--init {
+        background: var(--warm-white);
+        border-style: dashed;
+    }
+    .job-card--init .job-card__meta-bereich { color: var(--slate); }
+
+    /* ==== CONTACT BLOCK ==== */
+    .contact-strip {
+        background: var(--warm-white);
+        border-top: 1px solid var(--border);
+        padding: clamp(3rem, 6vw, 4.5rem) 0;
+    }
+    .contact-strip__inner {
+        max-width: 820px;                              /* matches jobs + detail reading column */
+        margin: 0 auto;
+        padding: 0 clamp(1.5rem, 4vw, 3rem);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: clamp(2rem, 4vw, 3rem);
+        align-items: center;
+    }
+    .contact-strip__title {
+        font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        color: var(--text);
+        margin: 0 0 0.6rem;
+    }
+    .contact-strip__body {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: var(--slate);
+        margin: 0;
+    }
+    .contact-person {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        padding: 1.5rem 1.75rem;
+        background: var(--white);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+    }
+    .contact-person__eyebrow {
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--slate);
+        margin: 0 0 0.3rem;
+    }
+    .contact-person__name {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--text);
+        margin: 0;
+    }
+    .contact-person__line {
+        font-size: 0.95rem;
+        color: var(--slate);
+    }
+    .contact-person__line a {
+        color: var(--navy);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(15,28,46,0.25);
+        transition: border-color 0.2s;
+    }
+    .contact-person__line a:hover { border-color: var(--navy); }
+
+    @media (max-width: 780px) {
+        .job-card { grid-template-columns: 1fr; padding: 1.4rem 1.5rem; }
+        .job-card__cta { display: none; }                 /* whole card is clickable — arrow adds noise on mobile */
+        .contact-strip__inner { grid-template-columns: 1fr; }
+    }
+</style>
+<script src="/assets/js/beacon.js" defer="" data-beacon-loaded=""></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Gerhardt GmbH","url":"https://gerhardt-gmbh.de","logo":"https://gerhardt-gmbh.de/assets/logo-black.png","image":"https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg","telephone":"+49-6122-70770-00","email":"info@gerhardt-gmbh.de","address":{"@type":"PostalAddress","streetAddress":"Max-Planck-Ring 11","addressLocality":"Wiesbaden","postalCode":"65205","addressCountry":"DE"},"areaServed":[{"@type":"AdministrativeArea","name":"Rhein-Main-Gebiet"},{"@type":"City","name":"Wiesbaden"},{"@type":"City","name":"Frankfurt am Main"},{"@type":"City","name":"Mainz"}],"description":"Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.","priceRange":"€€€"}</script></head>
+<body class="page-warm">
+
+<header class="header" id="header" data-shell-nav="" data-active="unternehmen" data-cta-mode="bewerben" data-cta-href="/stellenmarkt#jobs"><a class="header__logo" href="/" aria-label="Gerhardt GmbH — Startseite"><img src="/assets/logo-black.png" alt="Gerhardt GmbH"></a><nav class="header__nav"><div class="nav__item"><a href="/pools">Pools</a></div><div class="nav__item"><a href="/gartentechnik">Gartentechnik</a></div><div class="nav__item"><a href="/ueber-uns" class="active">Unternehmen</a></div></nav><a class="header__cta" href="/stellenmarkt#jobs">Jetzt bewerben</a><div class="mega"><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Pools</p><ul class="mega__links"><li><a href="/pools" data-preview="/assets/mega-poolbau.jpg">Poolbau &amp; Kosten</a></li><li><a href="/pools/projekte" data-preview="/assets/hero-01-bergparadies.jpg">Realisierte Projekte</a></li><li><a href="/pools/galerie" data-preview="/assets/hero-04-provence.jpg">Bildergalerie</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-pools.jpg" alt=""><img class="mega__image" alt=""></div></div></div><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Gartentechnik</p><ul class="mega__links"><li><a href="/bewaesserung" data-preview="/assets/mega-bewaesserung.jpg">Bewässerung</a></li><li><a href="/beleuchtung" data-preview="/assets/mega-beleuchtung.jpg">Beleuchtung</a></li><li><a href="/rasenroboter" data-preview="/assets/mega-rasenroboter.jpg">Rasenroboter</a></li><li><a href="/wartung" data-preview="/assets/mega-wartung.jpg" data-pos="50% 100%">Wartung &amp; Service</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-technik.jpg" alt=""><img class="mega__image" alt=""></div></div></div><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Unternehmen</p><ul class="mega__links"><li><a href="/ueber-uns" data-preview="/assets/mega-unternehmen.jpg">Über uns</a></li><li><a href="/stellenmarkt" data-preview="/assets/mega-stellenmarkt.jpg">Stellenmarkt</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-unternehmen.jpg" alt=""><img class="mega__image" alt=""></div></div></div></div><button class="header__burger" type="button" aria-label="Menü öffnen" aria-expanded="false"><span class="header__burger-icon" aria-hidden="true"><span></span></span></button></header>
+
+<section class="page-head">
+    <p class="page-head__eyebrow">Stellenmarkt · Wiesbaden</p>
+    <h1 class="page-head__title">Sie finden das, was wir tun, genauso spannend wie wir?</h1>
+    <p class="page-head__lead">Wir suchen für unseren Standort in Wiesbaden zum nächstmöglichen Eintritt eine/n:</p>
+</section>
+
+<section class="jobs" id="stellen">
+    <div class="jobs__grid">
+        <a href="/stellenmarkt/backoffice" class="job-card">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Verwaltung</span>
+                    <span class="job-card__meta-sep">·</span>
+                    <span>Vollzeit · Wiesbaden</span>
+                </div>
+                <h2 class="job-card__title">Kaufm. Mitarbeiter Backoffice (m/w/d)</h2>
+                <p class="job-card__hook">Korrespondenz, Kundenanfragen, Fakturierung — im Zentrum unseres Tagesgeschäfts.</p>
+            </div>
+            <span class="job-card__cta">Details →</span>
+        </a>
+        <a href="/stellenmarkt/servicetechniker" class="job-card">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Service</span>
+                    <span class="job-card__meta-sep">·</span>
+                    <span>Vollzeit · Rhein-Main-Gebiet</span>
+                </div>
+                <h2 class="job-card__title">Servicetechniker / Kundendiensttechniker (m/w/d)</h2>
+                <p class="job-card__hook">Wartung, Reparatur und Inbetriebnahme wassertechnischer Anlagen direkt beim Kunden.</p>
+            </div>
+            <span class="job-card__cta">Details →</span>
+        </a>
+        <a href="/stellenmarkt/monteur-elektro" class="job-card">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Handwerk</span>
+                    <span class="job-card__meta-sep">·</span>
+                    <span>Vollzeit · Rhein-Main-Gebiet</span>
+                </div>
+                <h2 class="job-card__title">Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Elektro</h2>
+                <p class="job-card__hook">Verkabelung, Steuerungen, Inbetriebnahme — für Pools, Brunnen und Bewässerung.</p>
+            </div>
+            <span class="job-card__cta">Details →</span>
+        </a>
+        <a href="/stellenmarkt/monteur-installation" class="job-card">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Handwerk</span>
+                    <span class="job-card__meta-sep">·</span>
+                    <span>Vollzeit · Rhein-Main-Gebiet</span>
+                </div>
+                <h2 class="job-card__title">Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Installation</h2>
+                <p class="job-card__hook">Rohrleitungsbau, Druckprüfung, Montage — für Bewässerung, Brunnen und Pools.</p>
+            </div>
+            <span class="job-card__cta">Details →</span>
+        </a>
+        <a href="/stellenmarkt/monteur-schwimmbadbau" class="job-card">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Handwerk</span>
+                    <span class="job-card__meta-sep">·</span>
+                    <span>Vollzeit · Rhein-Main-Gebiet</span>
+                </div>
+                <h2 class="job-card__title">Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Schwimmbadbau</h2>
+                <p class="job-card__hook">Beckenmontage, Poolabdeckung, Wärmepumpen — vom Rohbau bis zur Inbetriebnahme.</p>
+            </div>
+            <span class="job-card__cta">Details →</span>
+        </a>
+        <a href="/stellenmarkt/monteur-wassertechnik" class="job-card">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Handwerk</span>
+                    <span class="job-card__meta-sep">·</span>
+                    <span>Vollzeit · Rhein-Main-Gebiet</span>
+                </div>
+                <h2 class="job-card__title">Monteur für wassertechnische Anlagen (m/w/d)</h2>
+                <p class="job-card__hook">Installation von Beregnungsanlagen, Brunnen und Pools — für Gewerbe und Privat.</p>
+            </div>
+            <span class="job-card__cta">Details →</span>
+        </a>
+        <a href="/stellenmarkt/bauleiter" class="job-card">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Bauleitung</span>
+                    <span class="job-card__meta-sep">·</span>
+                    <span>Vollzeit · Wiesbaden</span>
+                </div>
+                <h2 class="job-card__title">Junior Bauleiter (m/w/d)</h2>
+                <p class="job-card__hook">Aufmaß, Planung und Baustellensteuerung im Hausgarten- und Gewerbebereich.</p>
+            </div>
+            <span class="job-card__cta">Details →</span>
+        </a>
+        <a href="/stellenmarkt/initiativbewerbung" class="job-card job-card--init">
+            <div class="job-card__body">
+                <div class="job-card__meta">
+                    <span class="job-card__meta-bereich">Initiativbewerbung</span>
+                </div>
+                <h2 class="job-card__title">Nichts Passendes dabei?</h2>
+                <p class="job-card__hook">Wir freuen uns trotzdem über Ihre Bewerbung. Kurz erzählen, wo Sie sich bei uns sehen — den Rest klären wir gemeinsam.</p>
+            </div>
+            <span class="job-card__cta">Bewerben →</span>
+        </a>
+    </div>
+</section>
+
+<section class="contact-strip" id="kontakt">
+    <div class="contact-strip__inner">
+        <div>
+            <h2 class="contact-strip__title">Fragen zu einer Stelle?</h2>
+            <p class="contact-strip__body">Rufen Sie an oder schreiben Sie eine E-Mail. Wir melden uns persönlich zurück.</p>
+        </div>
+        <div class="contact-person">
+            <p class="contact-person__eyebrow">Ansprechpartnerin</p>
+            <p class="contact-person__name">Frau Müller</p>
+            <span class="contact-person__line"><a href="tel:+4961227077005">06122 7077005</a></span>
+            <span class="contact-person__line"><a href="mailto:info@gerhardt-gmbh.de">info@gerhardt-gmbh.de</a></span>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" data-shell-footer=""><div class="container">  <div class="footer__grid">    <div class="footer__brand">      <img class="footer__logo-img" src="/assets/logo-white.png" alt="Gerhardt GmbH">      <p class="footer__heritage">Poolbau · Bewässerung · Wassertechnik</p>      <p class="footer__tagline">Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet.</p>    </div>    <div class="footer__nav-cluster">      <div class="footer__col">        <div class="footer__heading">Pools</div>        <ul class="footer__links">          <li><a href="/pools">Poolbau &amp; Kosten</a></li>          <li><a href="/pools/projekte">Realisierte Projekte</a></li>          <li><a href="/pools/galerie">Bildergalerie</a></li>        </ul>      </div>      <div class="footer__col">        <div class="footer__heading">Gartentechnik</div>        <ul class="footer__links">          <li><a href="/bewaesserung">Bewässerung</a></li>          <li><a href="/beleuchtung">Beleuchtung</a></li>          <li><a href="/rasenroboter">Rasenroboter</a></li>          <li><a href="/wartung">Wartung &amp; Service</a></li>        </ul>      </div>      <div class="footer__col">        <div class="footer__heading">Unternehmen</div>        <ul class="footer__links">          <li><a href="/ueber-uns">Über uns</a></li>          <li><a href="/ansprechpartner">Ansprechpartner</a></li>          <li><a href="/stellenmarkt">Stellenmarkt</a></li>        </ul>      </div>      <div class="footer__col footer__col--kontakt">        <div class="footer__heading">Kontakt</div>        <address class="footer__address">Gerhardt GmbH<br>Max-Planck-Ring 11<br>65205 Wiesbaden</address>        <ul class="footer__contact">          <li><a href="tel:+496122707700">+49 6122 70770-00</a></li>          <li><a href="mailto:info@gerhardt-gmbh.de">info@gerhardt-gmbh.de</a></li>        </ul>        <ul class="footer__social">          <li><a href="https://www.instagram.com/gerhardtgmbh/" target="_blank" rel="noopener">Instagram</a></li>          <li><a href="https://www.facebook.com/profile.php?id=100090561580451" target="_blank" rel="noopener">Facebook</a></li>        </ul>      </div>    </div>  </div>  <div class="footer__copy">© 2026 Gerhardt GmbH · <a href="/impressum">Impressum</a> · <a href="/datenschutz">Datenschutz</a></div></div></footer>
+
+<script src="../assets/js/shell.js?v=125" defer=""></script>
+
+
+<div class="mobile-menu" aria-hidden="true"><div class="mobile-menu__inner"><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Pools</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/pools">Poolbau &amp; Kosten</a></li><li><a href="/pools/projekte">Realisierte Projekte</a></li><li><a href="/pools/galerie">Bildergalerie</a></li></ul></div></div><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Gartentechnik</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/bewaesserung">Bewässerung</a></li><li><a href="/beleuchtung">Beleuchtung</a></li><li><a href="/rasenroboter">Rasenroboter</a></li><li><a href="/wartung">Wartung &amp; Service</a></li></ul></div></div><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Unternehmen</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/ueber-uns">Über uns</a></li><li><a href="/stellenmarkt">Stellenmarkt</a></li></ul></div></div><a class="mobile-menu__cta" href="/stellenmarkt#jobs">Jetzt bewerben</a></div></div></body></html>

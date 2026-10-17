@@ -1,0 +1,353 @@
+{
+  "title": "Initiativbewerbung — Stellenmarkt Gerhardt GmbH",
+  "description": "Kein passender Job dabei? Wir freuen uns trotzdem über Ihre Bewerbung — und melden uns, wenn Ihr Profil passt oder eine Stelle frei wird. Jetzt bei Gerhardt GmbH im Rhein-Main-Gebiet bewerben.",
+  "canonical": null,
+  "robots": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Initiativbewerbung"
+    },
+    {
+      "tag": "h2",
+      "text": "Jetzt bewerben"
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "p",
+      "cls": "page-head__eyebrow",
+      "text": "Initiativbewerbung · Alle Bereiche · Wiesbaden"
+    },
+    {
+      "tag": "h1",
+      "cls": "page-head__title",
+      "text": "Initiativbewerbung"
+    },
+    {
+      "tag": "p",
+      "cls": "page-head__lead",
+      "text": "Kein passender Job dabei? Wir freuen uns trotzdem über Ihre Bewerbung — und melden uns, wenn Ihr Profil passt oder eine Stelle frei wird."
+    },
+    {
+      "tag": "p",
+      "text": "Schreiben Sie uns kurz, was Sie mitbringen, in welchem Bereich Sie sich bei uns sehen, und wann Sie starten könnten."
+    },
+    {
+      "tag": "p",
+      "text": "Wir sichten Initiativbewerbungen fortlaufend. Passt Ihr Profil zu einer bestehenden Rolle oder wird eine Stelle frei, melden wir uns direkt bei Ihnen."
+    },
+    {
+      "tag": "p",
+      "text": "Großen Wert legen wir auf langjährige, motivierte und eigene Mitarbeiter. Das Gerhardt‑Team ist über Jahre zusammengewachsen und lebt ein kollegiales Miteinander bis hin zur Geschäftsführung."
+    },
+    {
+      "tag": "p",
+      "text": "Wir freuen uns auf Ihre Bewerbung. Bei weiteren Fragen steht Ihnen Frau Müller unter 06122 7077005 oder per E‑Mail an info@gerhardt-gmbh.de gerne zur Verfügung."
+    },
+    {
+      "tag": "h2",
+      "cls": "apply__title",
+      "text": "Jetzt bewerben"
+    },
+    {
+      "tag": "p",
+      "cls": "apply__intro",
+      "text": "Für die Position Initiativbewerbung."
+    },
+    {
+      "tag": "li",
+      "text": "Herr"
+    },
+    {
+      "tag": "li",
+      "text": "Frau"
+    },
+    {
+      "tag": "li",
+      "text": "Divers"
+    },
+    {
+      "tag": "li",
+      "text": "weniger als 1 Jahr"
+    },
+    {
+      "tag": "li",
+      "text": "1 bis 2 Jahre"
+    },
+    {
+      "tag": "li",
+      "text": "3 bis 5 Jahre"
+    },
+    {
+      "tag": "li",
+      "text": "6 bis 10 Jahre"
+    },
+    {
+      "tag": "li",
+      "text": "mehr als 10 Jahre"
+    },
+    {
+      "tag": "li",
+      "text": "ab sofort"
+    },
+    {
+      "tag": "li",
+      "text": "in etwa 4 Wochen"
+    },
+    {
+      "tag": "li",
+      "text": "innerhalb von 3 Monaten"
+    },
+    {
+      "tag": "li",
+      "text": "frühestens in 3 Monaten"
+    },
+    {
+      "tag": "p",
+      "cls": "apply__privacy",
+      "text": "Mit dem Absenden verarbeiten wir Ihre Angaben, um Ihre Bewerbung zu bearbeiten. Einzelheiten finden Sie in unserer Datenschutzerklärung."
+    }
+  ],
+  "images": [],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "./",
+      "text": "← Alle offenen Stellen",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt/"
+    },
+    {
+      "href": "tel:+4961227077005",
+      "text": "06122 7077005",
+      "abs": "tel:+4961227077005"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutzerklärung",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    }
+  ],
+  "anchors": [],
+  "forms": [
+    {
+      "action": "/api/apply",
+      "method": "POST",
+      "id": "",
+      "fields": [
+        {
+          "name": "position_slug",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "position_title",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "anrede",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "vorname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "nachname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "plz",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "ort",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "ausbildung",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "berufserfahrung",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "verfuegbarkeit",
+          "type": "hidden",
+          "required": false
+        },
+        {
+          "name": "eigenschaften[]",
+          "type": "checkbox",
+          "required": false
+        },
+        {
+          "name": "eigenschaften[]",
+          "type": "checkbox",
+          "required": false
+        },
+        {
+          "name": "eigenschaften[]",
+          "type": "checkbox",
+          "required": false
+        },
+        {
+          "name": "eigenschaften[]",
+          "type": "checkbox",
+          "required": false
+        },
+        {
+          "name": "eigenschaften[]",
+          "type": "checkbox",
+          "required": false
+        },
+        {
+          "name": "eigenschaften[]",
+          "type": "checkbox",
+          "required": false
+        },
+        {
+          "name": "eigenschaften[]",
+          "type": "checkbox",
+          "required": false
+        },
+        {
+          "name": "nachricht",
+          "type": "textarea",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Initiativbewerbung",
+      "description": "Kein passender Job dabei? Wir freuen uns trotzdem über Ihre Bewerbung — und melden uns, wenn Ihr Profil passt oder eine Stelle frei wird.",
+      "datePosted": "2026-08-07",
+      "validThrough": "2027-02-07",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Gerhardt GmbH",
+        "sameAs": "https://gerhardt-gmbh.de",
+        "logo": "https://gerhardt-gmbh.de/logo-white.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Max-Planck-Ring 11",
+          "addressLocality": "Wiesbaden",
+          "postalCode": "65205",
+          "addressCountry": "DE"
+        }
+      },
+      "directApply": true
+    }
+  ],
+  "tel": [
+    "tel:+4961227077005"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(250, 250, 248)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "38.4px",
+      "fontWeight": "700",
+      "lineHeight": "44.16px",
+      "letterSpacing": "-0.384px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "30.4px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.304px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "1.6128px",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": null
+  },
+  "footerText": "",
+  "headerText": "",
+  "docHeight": 2279,
+  "loadMs": 6105,
+  "mobile": {
+    "docHeight": 3762,
+    "hScroll": false,
+    "h1": "27.2px"
+  },
+  "path": "/stellenmarkt/initiativbewerbung",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 26840,
+  "rawHasH1": true,
+  "rawTextLen": 2026,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-white.png",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg"
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "title": "Datenschutzerklärung — Gerhardt GmbH",
+  "description": "Datenschutzerklärung der Gerhardt GmbH.",
+  "canonical": null,
+  "robots": "noindex,follow",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null
+  },
+  "lang": "de",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Datenschutzerklärung"
+    },
+    {
+      "tag": "h2",
+      "text": "Verantwortliche Stelle"
+    },
+    {
+      "tag": "h2",
+      "text": "Hosting"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Nutzungsanalyse"
+    },
+    {
+      "tag": "h2",
+      "text": "Kontaktformular"
+    },
+    {
+      "tag": "h2",
+      "text": "Stellenmarkt / Bewerbungen"
+    },
+    {
+      "tag": "h2",
+      "text": "YouTube"
+    },
+    {
+      "tag": "h2",
+      "text": "Schriftarten"
+    },
+    {
+      "tag": "h2",
+      "text": "SSL-/TLS-Verschlüsselung"
+    },
+    {
+      "tag": "h2",
+      "text": "Ihre Rechte"
+    },
+    {
+      "tag": "h2",
+      "text": "Widerspruch gegen Werbe-E-Mails"
+    }
+  ],
+  "blocks": [
+    {
+      "tag": "h1",
+      "cls": "legal__title",
+      "text": "Datenschutzerklärung"
+    },
+    {
+      "tag": "p",
+      "cls": "legal__intro",
+      "text": "Wir freuen uns über Ihr Interesse an unserem Unternehmen. Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Nachfolgend informieren wir Sie darüber, wie wir mit Ihren Daten umgehen, wenn Sie unsere Website besuchen."
+    },
+    {
+      "tag": "h2",
+      "text": "Verantwortliche Stelle"
+    },
+    {
+      "tag": "p",
+      "text": "Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet."
+    },
+    {
+      "tag": "h2",
+      "text": "Hosting"
+    },
+    {
+      "tag": "p",
+      "text": "Diese Website wird bei Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA gehostet. Beim Besuch der Website werden automatisch technische Daten (IP‑Adresse, Browsertyp, Betriebssystem, Zugriffszeit) in Server‑Log‑Dateien erfasst. Diese Daten sind technisch notwendig, um die Website auszuliefern, und werden nicht mit anderen Datenquellen zusammengeführt."
+    },
+    {
+      "tag": "p",
+      "text": "Die Erfassung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und Optimierung seiner Website."
+    },
+    {
+      "tag": "h2",
+      "text": "Cookies"
+    },
+    {
+      "tag": "p",
+      "text": "Diese Website verwendet keine Tracking‑Cookies und keine Analyse‑Cookies von Drittanbietern. Es werden keine Cookies gesetzt, die eine Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO oder § 25 Abs. 1 TDDDG erfordern."
+    },
+    {
+      "tag": "h2",
+      "text": "Nutzungsanalyse"
+    },
+    {
+      "tag": "p",
+      "text": "Wir erfassen anonymisierte Nutzungsdaten, um die Website zu verbessern und die Leistung unserer Inhalte zu messen. Dabei werden folgende Daten erhoben:"
+    },
+    {
+      "tag": "li",
+      "text": "Aufgerufene Seiten und Verweildauer"
+    },
+    {
+      "tag": "li",
+      "text": "Scrolltiefe (prozentual)"
+    },
+    {
+      "tag": "li",
+      "text": "Gerätetyp (Mobil, Tablet, Desktop) und Bildschirmbreite"
+    },
+    {
+      "tag": "li",
+      "text": "Verweisende Website (z. B. Google, Instagram, Facebook)"
+    },
+    {
+      "tag": "li",
+      "text": "UTM‑Parameter aus der URL (Kampagnenkennung)"
+    },
+    {
+      "tag": "li",
+      "text": "Interaktionen mit Videos und Bildergalerien"
+    },
+    {
+      "tag": "p",
+      "text": "Es werden keine IP‑Adressen gespeichert, kein Browser‑Fingerprinting durchgeführt und keine Daten an Drittanbieter‑Analysedienste (z. B. Google Analytics) übermittelt. Die Speicherung erfolgt bei Supabase Inc. auf Servern innerhalb der Europäischen Union."
+    },
+    {
+      "tag": "p",
+      "text": "Sofern Sie über das Kontaktformular eine Anfrage absenden, wird die technische Sitzungskennung mit dieser Anfrage verknüpft, damit nachvollziehbar ist, über welche Seiten die Anfrage zustande kam. In allen übrigen Fällen ist eine Zuordnung zu einer identifizierbaren Person nicht möglich."
+    },
+    {
+      "tag": "p",
+      "text": "Die Erfassung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt in der Verbesserung und wirtschaftlichen Optimierung unseres Internetangebots."
+    },
+    {
+      "tag": "h2",
+      "text": "Kontaktformular"
+    },
+    {
+      "tag": "p",
+      "text": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular (Name, E‑Mail‑Adresse, Telefonnummer, Adressdaten (Straße, Hausnummer, PLZ, Ort), gewähltes Interesse, ggf. Budget, Nachricht) zwecks Bearbeitung der Anfrage per E‑Mail an die zuständige Stelle bei Gerhardt weitergeleitet."
+    },
+    {
+      "tag": "p",
+      "text": "Versand über einen Dienstleister. Da diese Website über keinen eigenen Mailserver verfügt, erfolgt der Versand über den Transaktions‑E‑Mail‑Dienst Resend Inc., 2261 Market Street, San Francisco, CA 94114, USA. Der Dienst stellt die zuverlässige Zustellung Ihrer Anfrage sicher und protokolliert den Zustellstatus, damit eine fehlgeschlagene Übermittlung erkannt wird und Ihre Anfrage nicht unbemerkt verloren geht. Die übermittelte Nachricht wird dort für maximal 30 Tage gespeichert und anschließend automatisch gelöscht; die eigentliche Aufbewahrung Ihrer Anfrage erfolgt im Postfach der Gerhardt GmbH. Die Übermittlung in die USA erfolgt auf Grundlage der Standardvertragsklauseln der EU‑Kommission bzw. des EU‑US Data Privacy Framework. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der zuverlässigen Zustellung von Anfragen)."
+    },
+    {
+      "tag": "p",
+      "text": "Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO)."
+    },
+    {
+      "tag": "p",
+      "text": "Die per E‑Mail übermittelten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern oder der Zweck für die Datenspeicherung entfällt. Zwingende gesetzliche Bestimmungen — insbesondere Aufbewahrungsfristen — bleiben unberührt."
+    },
+    {
+      "tag": "h2",
+      "text": "Stellenmarkt / Bewerbungen"
+    },
+    {
+      "tag": "p",
+      "text": "Wenn Sie sich über das Bewerbungsformular auf eine ausgeschriebene Stelle bewerben oder eine Initiativbewerbung senden, verarbeiten wir Ihre Angaben (Name, Kontaktdaten, Angaben zu Ausbildung, Berufserfahrung und Verfügbarkeit sowie Ihre Nachricht) ausschließlich zum Zweck der Bearbeitung Ihrer Bewerbung. Die Verarbeitung erfolgt gemäß Art. 88 DSGVO in Verbindung mit § 26 BDSG. Der technische Versand erfolgt über denselben Dienstleister wie beim Kontaktformular (siehe dort)."
+    },
+    {
+      "tag": "p",
+      "text": "Nach Abschluss des Bewerbungsverfahrens werden Ihre Daten spätestens nach sechs Monaten gelöscht, sofern Sie nicht in eine längere Speicherung eingewilligt haben oder gesetzliche Aufbewahrungspflichten bestehen."
+    },
+    {
+      "tag": "h2",
+      "text": "YouTube"
+    },
+    {
+      "tag": "p",
+      "text": "Diese Website bindet Videos der Plattform YouTube ein. Betreiber ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland."
+    },
+    {
+      "tag": "p",
+      "text": "Wir verwenden den erweiterten Datenschutzmodus von YouTube (youtube‑nocookie.com). YouTube speichert dabei keine Cookies auf Ihrem Endgerät, solange Sie kein Video abspielen. Beim Aufruf einer Seite mit eingebettetem Video wird jedoch eine Verbindung zu den Servern von YouTube aufgebaut, um die Videovorschau zu laden. Dabei wird dem YouTube‑Server mitgeteilt, welche unserer Seiten Sie besucht haben."
+    },
+    {
+      "tag": "p",
+      "text": "Erst wenn Sie ein Video aktiv starten, kann YouTube weitere Daten (u. a. zur Nutzung des Videos) verarbeiten. Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer Online‑Angebote und stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar."
+    },
+    {
+      "tag": "p",
+      "text": "Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von YouTube: https://policies.google.com/privacy?hl=de"
+    },
+    {
+      "tag": "h2",
+      "text": "Schriftarten"
+    },
+    {
+      "tag": "p",
+      "text": "Zur einheitlichen Darstellung von Schriftarten verwenden wir auf dieser Website selbst gehostete Schriftfamilien. Es findet keine Verbindung zu Google Fonts oder anderen externen Font‑Anbietern statt. Ihre IP‑Adresse wird beim Laden der Schriftarten nicht an Dritte übermittelt."
+    },
+    {
+      "tag": "h2",
+      "text": "SSL-/TLS-Verschlüsselung"
+    },
+    {
+      "tag": "p",
+      "text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL‑ bzw. TLS‑Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://\" auf „https://\" wechselt und an dem Schloss‑Symbol in Ihrer Browserzeile."
+    },
+    {
+      "tag": "h2",
+      "text": "Ihre Rechte"
+    },
+    {
+      "tag": "p",
+      "text": "Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an die oben genannte Stelle wenden."
+    },
+    {
+      "tag": "p",
+      "text": "Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen."
+    },
+    {
+      "tag": "p",
+      "text": "Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde zu, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes."
+    },
+    {
+      "tag": "h2",
+      "text": "Widerspruch gegen Werbe-E-Mails"
+    },
+    {
+      "tag": "p",
+      "text": "Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam‑E‑Mails, vor."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "attrSrc": "/assets/logo-black.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 3669,
+      "h": 748,
+      "rendered": [
+        294,
+        60
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+      "attrSrc": "/assets/mega-pools.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+      "attrSrc": "/assets/mega-technik.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 2400,
+      "h": 1600,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+      "attrSrc": "/assets/mega-unternehmen.jpg",
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 1750,
+      "h": 800,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "",
+      "attrSrc": null,
+      "srcset": null,
+      "alt": "",
+      "loading": null,
+      "w": 0,
+      "h": 0,
+      "rendered": [
+        504,
+        315
+      ]
+    },
+    {
+      "src": "https://gerhardt-gmbh.de/assets/logo-white.png",
+      "attrSrc": "/assets/logo-white.png",
+      "srcset": null,
+      "alt": "Gerhardt GmbH",
+      "loading": null,
+      "w": 401,
+      "h": 107,
+      "rendered": [
+        255,
+        68
+      ]
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "",
+      "abs": "https://gerhardt-gmbh.de/"
+    },
+    {
+      "href": "/pools",
+      "text": "Pools",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/gartentechnik",
+      "text": "Gartentechnik",
+      "abs": "https://gerhardt-gmbh.de/gartentechnik"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Unternehmen",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/kontakt",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/kontakt"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "06122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://policies.google.com/privacy?hl=de",
+      "text": "https://policies.google.com/privacy?hl=de",
+      "abs": "https://policies.google.com/privacy?hl=de"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/ansprechpartner",
+      "text": "Ansprechpartner",
+      "abs": "https://gerhardt-gmbh.de/ansprechpartner"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "tel:+496122707700",
+      "text": "+49 6122 70770-00",
+      "abs": "tel:+496122707700"
+    },
+    {
+      "href": "mailto:info@gerhardt-gmbh.de",
+      "text": "info@gerhardt-gmbh.de",
+      "abs": "mailto:info@gerhardt-gmbh.de"
+    },
+    {
+      "href": "https://www.instagram.com/gerhardtgmbh/",
+      "text": "Instagram",
+      "abs": "https://www.instagram.com/gerhardtgmbh/"
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=100090561580451",
+      "text": "Facebook",
+      "abs": "https://www.facebook.com/profile.php?id=100090561580451"
+    },
+    {
+      "href": "/impressum",
+      "text": "Impressum",
+      "abs": "https://gerhardt-gmbh.de/impressum"
+    },
+    {
+      "href": "/datenschutz",
+      "text": "Datenschutz",
+      "abs": "https://gerhardt-gmbh.de/datenschutz"
+    },
+    {
+      "href": "/pools",
+      "text": "Poolbau & Kosten",
+      "abs": "https://gerhardt-gmbh.de/pools"
+    },
+    {
+      "href": "/pools/projekte",
+      "text": "Realisierte Projekte",
+      "abs": "https://gerhardt-gmbh.de/pools/projekte"
+    },
+    {
+      "href": "/pools/galerie",
+      "text": "Bildergalerie",
+      "abs": "https://gerhardt-gmbh.de/pools/galerie"
+    },
+    {
+      "href": "/bewaesserung",
+      "text": "Bewässerung",
+      "abs": "https://gerhardt-gmbh.de/bewaesserung"
+    },
+    {
+      "href": "/beleuchtung",
+      "text": "Beleuchtung",
+      "abs": "https://gerhardt-gmbh.de/beleuchtung"
+    },
+    {
+      "href": "/rasenroboter",
+      "text": "Rasenroboter",
+      "abs": "https://gerhardt-gmbh.de/rasenroboter"
+    },
+    {
+      "href": "/wartung",
+      "text": "Wartung & Service",
+      "abs": "https://gerhardt-gmbh.de/wartung"
+    },
+    {
+      "href": "/ueber-uns",
+      "text": "Über uns",
+      "abs": "https://gerhardt-gmbh.de/ueber-uns"
+    },
+    {
+      "href": "/stellenmarkt",
+      "text": "Stellenmarkt",
+      "abs": "https://gerhardt-gmbh.de/stellenmarkt"
+    },
+    {
+      "href": "/kontakt",
+      "text": "Beratung anfragen",
+      "abs": "https://gerhardt-gmbh.de/kontakt"
+    }
+  ],
+  "anchors": [],
+  "forms": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gerhardt GmbH",
+      "url": "https://gerhardt-gmbh.de",
+      "logo": "https://gerhardt-gmbh.de/assets/logo-black.png",
+      "image": "https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg",
+      "telephone": "+49-6122-70770-00",
+      "email": "info@gerhardt-gmbh.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Max-Planck-Ring 11",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65205",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rhein-Main-Gebiet"
+        },
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        }
+      ],
+      "description": "Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.",
+      "priceRange": "€€€"
+    }
+  ],
+  "tel": [
+    "tel:+496122707700"
+  ],
+  "mail": [
+    "mailto:info@gerhardt-gmbh.de"
+  ],
+  "styles": {
+    "body": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgb(250, 250, 248)"
+    },
+    "h1": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "41.6px",
+      "fontWeight": "700",
+      "lineHeight": "47.84px",
+      "letterSpacing": "-0.624px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "h2": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.1px",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "p": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "15.68px",
+      "fontWeight": "400",
+      "lineHeight": "26.656px",
+      "letterSpacing": "normal",
+      "color": "rgb(26, 35, 50)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    "a": {
+      "fontFamily": "\"Univers Next Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "15.68px",
+      "fontWeight": "400",
+      "lineHeight": "26.656px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 102, 203)",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  },
+  "footerText": "Poolbau · Bewässerung · Wassertechnik Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet. Pools Poolbau & Kosten Realisierte Projekte Bildergalerie Gartentechnik Bewässerung Beleuchtung Rasenroboter Wartung & Service Unternehmen Über uns Ansprechpartner Stellenmarkt Kontakt Gerhardt GmbHMax-Planck-Ring 1165205 Wiesbaden +49 6122 70770-00 info@gerhardt-gmbh.de Instagram Facebook © 2026 Gerhardt GmbH · Impressum · Datenschutz",
+  "headerText": "PoolsGartentechnikUnternehmenBeratung anfragenPoolsPoolbau & KostenRealisierte ProjekteBildergalerieGartentechnikBewässerungBeleuchtungRasenroboterWartung & ServiceUnternehmenÜber unsStellenmarkt",
+  "docHeight": 4462,
+  "loadMs": 1550,
+  "mobile": {
+    "docHeight": 7664,
+    "hScroll": false,
+    "h1": "28.8px"
+  },
+  "path": "/datenschutz",
+  "status": 200,
+  "redirect": null,
+  "rawHtmlBytes": 11821,
+  "rawHasH1": true,
+  "rawTextLen": 8251,
+  "networkImages": [
+    "https://gerhardt-gmbh.de/assets/logo-black.png",
+    "https://gerhardt-gmbh.de/assets/mega-unternehmen.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-pools.jpg",
+    "https://gerhardt-gmbh.de/assets/mega-technik.jpg",
+    "https://gerhardt-gmbh.de/assets/logo-white.png"
+  ]
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Realisierte Projekte — Gerhardt GmbH</title>
+<meta name="description" content="Realisierte Poolprojekte im Rhein-Main-Gebiet. Vom Naturstein-Umbau bis zum Neubau — Referenzen der Gerhardt GmbH.">
+
+<link rel="icon" href="/assets/g-mark.svg?v=2" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/UniversNextProRegular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="../assets/fonts/UniversNextProMedium.ttf"  as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="../assets/fonts/UniversNextProBold.ttf"    as="font" type="font/ttf" crossorigin>
+
+<link rel="stylesheet" href="../assets/css/shell.css?v=125">
+<style>
+    /* ==== PROJECT GRID — contained cards, uniform size ==== */
+    .pgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: clamp(1rem, 1.8vw, 1.6rem);
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: calc(var(--header-h) + clamp(1rem, 3vh, 2rem)) clamp(1.5rem, 4vw, 3rem) clamp(4rem, 7vw, 6rem);
+    }
+    .pcard { display: block; text-decoration: none; color: var(--text); }
+
+    .pcard__media {
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 3 / 2;
+        background: var(--navy);
+        border-radius: 6px;
+    }
+
+    /* Base scale/origin driven by per-card CSS variables so hover can MULTIPLY
+       the base zoom instead of being overridden by inline transform. */
+    .pcard__media img {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        transform: scale(var(--card-zoom, 1));
+        transform-origin: var(--card-origin, center);
+        transition: filter 0.5s ease, transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .pcard:hover .pcard__media img {
+        filter: brightness(1.05);
+        transform: scale(calc(var(--card-zoom, 1) * 1.03));
+    }
+
+    .pcard__media::after {
+        content: '';
+        position: absolute; inset: 0;
+        pointer-events: none;
+        opacity: 0.8;
+        background: linear-gradient(to top, rgba(15,28,46,0.9) 0%, rgba(15,28,46,0.45) 16%, rgba(15,28,46,0.12) 34%, rgba(15,28,46,0) 56%);
+        transition: opacity 0.5s ease;
+    }
+    .pcard:hover .pcard__media::after { opacity: 1; }
+
+    .pcard__name {
+        position: absolute;
+        left: 0; bottom: 0;
+        z-index: 2;
+        padding: clamp(1rem, 2vw, 1.6rem);
+        color: var(--white);
+        font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: -0.01em;
+        text-shadow: 0 1px 14px rgba(0,0,0,0.35);
+    }
+
+    @media (max-width: 600px)  {
+        .pgrid { grid-template-columns: 1fr; }
+    }
+</style>
+</head>
+<body class="page-warm">
+
+<header class="header" id="header" data-shell-nav data-active="pools" data-cta-mode="anfrage" data-cta-href="/kontakt"></header>
+
+<section class="pgrid">
+
+    <a href="/pools/projekt-naturstein" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-naturstein.webp" type="image/webp"><img src="../assets/projekt-naturstein.jpg" alt="Projekt Naturstein — Wiesbaden" loading="lazy" style="object-position: 50% 62%;"></picture>
+            <div class="pcard__name">Projekt Naturstein</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-provence" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-provence.webp" type="image/webp"><img src="../assets/projekt-provence.jpg" alt="Projekt Provence — Wiesbaden" loading="lazy" style="object-position: 50% 100%; --card-zoom: 1.10; --card-origin: 50% 100%;"></picture>
+            <div class="pcard__name">Projekt Provence</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-bergparadies" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-bergparadies.webp" type="image/webp"><img src="../assets/projekt-bergparadies.jpg" alt="Projekt Bergparadies — Wiesbaden" loading="lazy" style="object-position: 50% 100%; --card-zoom: 1.13; --card-origin: 50% 100%;"></picture>
+            <div class="pcard__name">Projekt Bergparadies</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-townhouse" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-townhouse.webp" type="image/webp"><img src="../assets/projekt-townhouse.jpg" alt="Projekt Townhouse — Wiesbaden" loading="lazy" style="object-position: 50% 52%;"></picture>
+            <div class="pcard__name">Projekt Townhouse</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-kronberg" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-kronberg.webp" type="image/webp"><img src="../assets/projekt-kronberg.jpg" alt="Projekt Kronberg — Kronberg" loading="lazy" style="object-position: 50% 50%;"></picture>
+            <div class="pcard__name">Projekt Kronberg</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-suedtirol" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-suedtirol.webp" type="image/webp"><img src="../assets/projekt-suedtirol.jpg" alt="Projekt Südtirol — Königstein" loading="lazy" style="object-position: 50% 50%;"></picture>
+            <div class="pcard__name">Projekt Südtirol</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-mainz" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-mainz.webp" type="image/webp"><img src="../assets/projekt-mainz.jpg" alt="Projekt Mainz — Mainz" loading="lazy" style="object-position: 50% 50%;"></picture>
+            <div class="pcard__name">Projekt Mainz</div>
+        </div>
+    </a>
+
+</section>
+
+<footer class="footer" data-shell-footer></footer>
+
+<script src="../assets/js/shell.js?v=125" defer></script>
+
+</body>
+</html>

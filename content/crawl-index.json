@@ -1,0 +1,152 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "title": "Gerhardt GmbH — Poolbau und Gartentechnik im Rhein-Main-Gebiet"
+  },
+  {
+    "path": "/pools",
+    "status": 200,
+    "title": "Poolbau im Rhein-Main-Gebiet — Gerhardt GmbH"
+  },
+  {
+    "path": "/gartentechnik",
+    "status": 200,
+    "title": "Gartentechnik — Gerhardt GmbH"
+  },
+  {
+    "path": "/ueber-uns",
+    "status": 200,
+    "title": "Über uns — Gerhardt GmbH"
+  },
+  {
+    "path": "/bewaesserung",
+    "status": 200,
+    "title": "Bewässerungsanlagen im Rhein-Main-Gebiet — Gerhardt GmbH"
+  },
+  {
+    "path": "/beleuchtung",
+    "status": 200,
+    "title": "Gartenbeleuchtung im Rhein-Main-Gebiet — Gerhardt GmbH"
+  },
+  {
+    "path": "/rasenroboter",
+    "status": 200,
+    "title": "Rasenroboter für Hausgärten und Grünflächen — Gerhardt GmbH"
+  },
+  {
+    "path": "/wartung",
+    "status": 200,
+    "title": "Wartung & Service für Ihre Gartentechnik — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekte",
+    "status": 200,
+    "title": "Realisierte Projekte — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/galerie",
+    "status": 200,
+    "title": "Bildergalerie — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekt-bergparadies",
+    "status": 200,
+    "title": "Projekt Bergparadies — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekt-kronberg",
+    "status": 200,
+    "title": "Projekt Kronberg — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekt-mainz",
+    "status": 200,
+    "title": "Projekt Mainz — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekt-naturstein",
+    "status": 200,
+    "title": "Projekt Naturstein — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekt-provence",
+    "status": 200,
+    "title": "Projekt Provence — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekt-suedtirol",
+    "status": 200,
+    "title": "Projekt Südtirol — Gerhardt GmbH"
+  },
+  {
+    "path": "/pools/projekt-townhouse",
+    "status": 200,
+    "title": "Projekt Townhouse — Gerhardt GmbH"
+  },
+  {
+    "path": "/ansprechpartner",
+    "status": 200,
+    "title": "Ansprechpartner — Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt",
+    "status": 200,
+    "title": "Stellenmarkt — Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/bauleiter",
+    "status": 200,
+    "title": "Junior Bauleiter (m/w/d) — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/servicetechniker",
+    "status": 200,
+    "title": "Servicetechniker / Kundendiensttechniker (m/w/d) — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/monteur-installation",
+    "status": 200,
+    "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Installation — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/monteur-elektro",
+    "status": 200,
+    "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Elektro — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/monteur-wassertechnik",
+    "status": 200,
+    "title": "Monteur für wassertechnische Anlagen (m/w/d) — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/monteur-schwimmbadbau",
+    "status": 200,
+    "title": "Monteur für wassertechnische Anlagen (m/w/d) — Fachrichtung Schwimmbadbau — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/backoffice",
+    "status": 200,
+    "title": "Kaufm. Mitarbeiter Backoffice (m/w/d) — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/stellenmarkt/initiativbewerbung",
+    "status": 200,
+    "title": "Initiativbewerbung — Stellenmarkt Gerhardt GmbH"
+  },
+  {
+    "path": "/kontakt",
+    "status": 200,
+    "title": "Beratung anfragen — Gerhardt GmbH"
+  },
+  {
+    "path": "/impressum",
+    "status": 200,
+    "title": "Impressum — Gerhardt GmbH"
+  },
+  {
+    "path": "/datenschutz",
+    "status": 200,
+    "title": "Datenschutzerklärung — Gerhardt GmbH"
+  }
+]

@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Realisierte Projekte — Gerhardt GmbH</title>
+<meta name="description" content="Realisierte Poolprojekte im Rhein-Main-Gebiet. Vom Naturstein-Umbau bis zum Neubau — Referenzen der Gerhardt GmbH.">
+
+<link rel="icon" href="/assets/g-mark.svg?v=2" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/UniversNextProRegular.ttf" as="font" type="font/ttf" crossorigin="">
+<link rel="preload" href="../assets/fonts/UniversNextProMedium.ttf" as="font" type="font/ttf" crossorigin="">
+<link rel="preload" href="../assets/fonts/UniversNextProBold.ttf" as="font" type="font/ttf" crossorigin="">
+
+<link rel="stylesheet" href="../assets/css/shell.css?v=125">
+<style>
+    /* ==== PROJECT GRID — contained cards, uniform size ==== */
+    .pgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: clamp(1rem, 1.8vw, 1.6rem);
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: calc(var(--header-h) + clamp(1rem, 3vh, 2rem)) clamp(1.5rem, 4vw, 3rem) clamp(4rem, 7vw, 6rem);
+    }
+    .pcard { display: block; text-decoration: none; color: var(--text); }
+
+    .pcard__media {
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 3 / 2;
+        background: var(--navy);
+        border-radius: 6px;
+    }
+
+    /* Base scale/origin driven by per-card CSS variables so hover can MULTIPLY
+       the base zoom instead of being overridden by inline transform. */
+    .pcard__media img {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        transform: scale(var(--card-zoom, 1));
+        transform-origin: var(--card-origin, center);
+        transition: filter 0.5s ease, transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .pcard:hover .pcard__media img {
+        filter: brightness(1.05);
+        transform: scale(calc(var(--card-zoom, 1) * 1.03));
+    }
+
+    .pcard__media::after {
+        content: '';
+        position: absolute; inset: 0;
+        pointer-events: none;
+        opacity: 0.8;
+        background: linear-gradient(to top, rgba(15,28,46,0.9) 0%, rgba(15,28,46,0.45) 16%, rgba(15,28,46,0.12) 34%, rgba(15,28,46,0) 56%);
+        transition: opacity 0.5s ease;
+    }
+    .pcard:hover .pcard__media::after { opacity: 1; }
+
+    .pcard__name {
+        position: absolute;
+        left: 0; bottom: 0;
+        z-index: 2;
+        padding: clamp(1rem, 2vw, 1.6rem);
+        color: var(--white);
+        font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: -0.01em;
+        text-shadow: 0 1px 14px rgba(0,0,0,0.35);
+    }
+
+    @media (max-width: 600px)  {
+        .pgrid { grid-template-columns: 1fr; }
+    }
+</style>
+<script src="/assets/js/beacon.js" defer="" data-beacon-loaded=""></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Gerhardt GmbH","url":"https://gerhardt-gmbh.de","logo":"https://gerhardt-gmbh.de/assets/logo-black.png","image":"https://gerhardt-gmbh.de/assets/hero-01-bergparadies.jpg","telephone":"+49-6122-70770-00","email":"info@gerhardt-gmbh.de","address":{"@type":"PostalAddress","streetAddress":"Max-Planck-Ring 11","addressLocality":"Wiesbaden","postalCode":"65205","addressCountry":"DE"},"areaServed":[{"@type":"AdministrativeArea","name":"Rhein-Main-Gebiet"},{"@type":"City","name":"Wiesbaden"},{"@type":"City","name":"Frankfurt am Main"},{"@type":"City","name":"Mainz"}],"description":"Poolbau, Bewässerung, Beleuchtung, Rasenroboter und Wassertechnik im Rhein-Main-Gebiet — seit über 25 Jahren.","priceRange":"€€€"}</script></head>
+<body class="page-warm">
+
+<header class="header" id="header" data-shell-nav="" data-active="pools" data-cta-mode="anfrage" data-cta-href="/kontakt"><a class="header__logo" href="/" aria-label="Gerhardt GmbH — Startseite"><img src="/assets/logo-black.png" alt="Gerhardt GmbH"></a><nav class="header__nav"><div class="nav__item"><a href="/pools" class="active">Pools</a></div><div class="nav__item"><a href="/gartentechnik">Gartentechnik</a></div><div class="nav__item"><a href="/ueber-uns">Unternehmen</a></div></nav><a class="header__cta" href="/kontakt">Beratung anfragen</a><div class="mega"><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Pools</p><ul class="mega__links"><li><a href="/pools" data-preview="/assets/mega-poolbau.jpg">Poolbau &amp; Kosten</a></li><li><a href="/pools/projekte" data-preview="/assets/hero-01-bergparadies.jpg">Realisierte Projekte</a></li><li><a href="/pools/galerie" data-preview="/assets/hero-04-provence.jpg">Bildergalerie</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-pools.jpg" alt=""><img class="mega__image" alt=""></div></div></div><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Gartentechnik</p><ul class="mega__links"><li><a href="/bewaesserung" data-preview="/assets/mega-bewaesserung.jpg">Bewässerung</a></li><li><a href="/beleuchtung" data-preview="/assets/mega-beleuchtung.jpg">Beleuchtung</a></li><li><a href="/rasenroboter" data-preview="/assets/mega-rasenroboter.jpg">Rasenroboter</a></li><li><a href="/wartung" data-preview="/assets/mega-wartung.jpg" data-pos="50% 100%">Wartung &amp; Service</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-technik.jpg" alt=""><img class="mega__image" alt=""></div></div></div><div class="mega__panel"><div class="mega__inner"><div><p class="mega__eyebrow">Unternehmen</p><ul class="mega__links"><li><a href="/ueber-uns" data-preview="/assets/mega-unternehmen.jpg">Über uns</a></li><li><a href="/stellenmarkt" data-preview="/assets/mega-stellenmarkt.jpg">Stellenmarkt</a></li></ul></div><div class="mega__image-wrap"><img class="mega__image active" src="/assets/mega-unternehmen.jpg" alt=""><img class="mega__image" alt=""></div></div></div></div><button class="header__burger" type="button" aria-label="Menü öffnen" aria-expanded="false"><span class="header__burger-icon" aria-hidden="true"><span></span></span></button></header>
+
+<section class="pgrid">
+
+    <a href="/pools/projekt-naturstein" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-naturstein.webp" type="image/webp"><img src="../assets/projekt-naturstein.jpg" alt="Projekt Naturstein — Wiesbaden" loading="lazy" style="object-position: 50% 62%;"></picture>
+            <div class="pcard__name">Projekt Naturstein</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-provence" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-provence.webp" type="image/webp"><img src="../assets/projekt-provence.jpg" alt="Projekt Provence — Wiesbaden" loading="lazy" style="object-position: 50% 100%; --card-zoom: 1.10; --card-origin: 50% 100%;"></picture>
+            <div class="pcard__name">Projekt Provence</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-bergparadies" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-bergparadies.webp" type="image/webp"><img src="../assets/projekt-bergparadies.jpg" alt="Projekt Bergparadies — Wiesbaden" loading="lazy" style="object-position: 50% 100%; --card-zoom: 1.13; --card-origin: 50% 100%;"></picture>
+            <div class="pcard__name">Projekt Bergparadies</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-townhouse" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-townhouse.webp" type="image/webp"><img src="../assets/projekt-townhouse.jpg" alt="Projekt Townhouse — Wiesbaden" loading="lazy" style="object-position: 50% 52%;"></picture>
+            <div class="pcard__name">Projekt Townhouse</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-kronberg" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-kronberg.webp" type="image/webp"><img src="../assets/projekt-kronberg.jpg" alt="Projekt Kronberg — Kronberg" loading="lazy" style="object-position: 50% 50%;"></picture>
+            <div class="pcard__name">Projekt Kronberg</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-suedtirol" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-suedtirol.webp" type="image/webp"><img src="../assets/projekt-suedtirol.jpg" alt="Projekt Südtirol — Königstein" loading="lazy" style="object-position: 50% 50%;"></picture>
+            <div class="pcard__name">Projekt Südtirol</div>
+        </div>
+    </a>
+
+    <a href="/pools/projekt-mainz" class="pcard">
+        <div class="pcard__media">
+            <picture><source srcset="../assets/projekt-mainz.webp" type="image/webp"><img src="../assets/projekt-mainz.jpg" alt="Projekt Mainz — Mainz" loading="lazy" style="object-position: 50% 50%;"></picture>
+            <div class="pcard__name">Projekt Mainz</div>
+        </div>
+    </a>
+
+</section>
+
+<footer class="footer" data-shell-footer=""><div class="container">  <div class="footer__grid">    <div class="footer__brand">      <img class="footer__logo-img" src="/assets/logo-white.png" alt="Gerhardt GmbH">      <p class="footer__heritage">Poolbau · Bewässerung · Wassertechnik</p>      <p class="footer__tagline">Ihr technischer Ausrüster im grünen Bereich — Pool, Bewässerung, Licht und Automation. Seit 1998 im Rhein‑Main‑Gebiet.</p>    </div>    <div class="footer__nav-cluster">      <div class="footer__col">        <div class="footer__heading">Pools</div>        <ul class="footer__links">          <li><a href="/pools">Poolbau &amp; Kosten</a></li>          <li><a href="/pools/projekte">Realisierte Projekte</a></li>          <li><a href="/pools/galerie">Bildergalerie</a></li>        </ul>      </div>      <div class="footer__col">        <div class="footer__heading">Gartentechnik</div>        <ul class="footer__links">          <li><a href="/bewaesserung">Bewässerung</a></li>          <li><a href="/beleuchtung">Beleuchtung</a></li>          <li><a href="/rasenroboter">Rasenroboter</a></li>          <li><a href="/wartung">Wartung &amp; Service</a></li>        </ul>      </div>      <div class="footer__col">        <div class="footer__heading">Unternehmen</div>        <ul class="footer__links">          <li><a href="/ueber-uns">Über uns</a></li>          <li><a href="/ansprechpartner">Ansprechpartner</a></li>          <li><a href="/stellenmarkt">Stellenmarkt</a></li>        </ul>      </div>      <div class="footer__col footer__col--kontakt">        <div class="footer__heading">Kontakt</div>        <address class="footer__address">Gerhardt GmbH<br>Max-Planck-Ring 11<br>65205 Wiesbaden</address>        <ul class="footer__contact">          <li><a href="tel:+496122707700">+49 6122 70770-00</a></li>          <li><a href="mailto:info@gerhardt-gmbh.de">info@gerhardt-gmbh.de</a></li>        </ul>        <ul class="footer__social">          <li><a href="https://www.instagram.com/gerhardtgmbh/" target="_blank" rel="noopener">Instagram</a></li>          <li><a href="https://www.facebook.com/profile.php?id=100090561580451" target="_blank" rel="noopener">Facebook</a></li>        </ul>      </div>    </div>  </div>  <div class="footer__copy">© 2026 Gerhardt GmbH · <a href="/impressum">Impressum</a> · <a href="/datenschutz">Datenschutz</a></div></div></footer>
+
+<script src="../assets/js/shell.js?v=125" defer=""></script>
+
+
+
+<div class="mobile-menu" aria-hidden="true"><div class="mobile-menu__inner"><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Pools</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/pools">Poolbau &amp; Kosten</a></li><li><a href="/pools/projekte">Realisierte Projekte</a></li><li><a href="/pools/galerie">Bildergalerie</a></li></ul></div></div><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Gartentechnik</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/bewaesserung">Bewässerung</a></li><li><a href="/beleuchtung">Beleuchtung</a></li><li><a href="/rasenroboter">Rasenroboter</a></li><li><a href="/wartung">Wartung &amp; Service</a></li></ul></div></div><div class="mobile-menu__section"><button type="button" class="mobile-menu__toggle" aria-expanded="false"><span>Unternehmen</span><span class="mobile-menu__toggle-icon" aria-hidden="true"></span></button><div class="mobile-menu__sublist"><ul class="mobile-menu__sublist-inner"><li><a href="/ueber-uns">Über uns</a></li><li><a href="/stellenmarkt">Stellenmarkt</a></li></ul></div></div><a class="mobile-menu__cta" href="/kontakt">Beratung anfragen</a></div></div></body></html>

@@ -1,0 +1,150 @@
+{
+  "slug": "suedtirol",
+  "name": "Südtirol",
+  "ort": "Königstein",
+  "untertitel": "Anthrazit-Pool im Neubau",
+  "pool": "3,50 × 8 m, Skimmer (mit Gegenstromanlage)",
+  "projektart": "Neubau",
+  "kostenrahmen": "ca. 150.000 €",
+  "fakten_roh": {
+    "Pool": "3,50 × 8 m, Skimmer (mit Gegenstromanlage)",
+    "Projektart": "Neubau",
+    "Kostenrahmen": "ca. 150.000 €"
+  },
+  "headline": "Ein Anthrazit-Pool, weil das Haus dunkles Holz hat.",
+  "story": [
+    "Ein Neubau in Königstein. Haus und Garten wurden zusammen geplant. Der Wunsch war, die Farbe des dunklen Holzes am Haus auch im Pool zu haben. Daher Anthrazit.",
+    "8 × 3,50 m, Skimmer mit Gegenstromanlage. Tröpfchenbewässerung für die Pflanzung, versenkte Beregner für den Rasen, In-Light für die Nacht. Alles im Grunde von Anfang an mitgeplant."
+  ],
+  "hero": [
+    {
+      "src": "/assets/projekte/suedtirol/hero-01.jpg",
+      "alt": "Projekt Südtirol"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/hero-02.jpg",
+      "alt": "Projekt Südtirol"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/hero-03.jpg",
+      "alt": "Projekt Südtirol"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/hero-04.jpg",
+      "alt": "Projekt Südtirol"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/hero-05.jpg",
+      "alt": "Projekt Südtirol"
+    }
+  ],
+  "story_bild": {
+    "src": "/assets/projekte/suedtirol/story.jpg",
+    "alt": "Projekt Südtirol"
+  },
+  "galerie": [
+    {
+      "src": "/assets/projekte/suedtirol/gallery-01.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-02.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-03.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-04.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-05.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-06.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-07.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-08.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-09.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-10.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-11.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-12.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-13.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-14.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-15.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-16.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-17.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    },
+    {
+      "src": "/assets/projekte/suedtirol/gallery-18.jpg",
+      "alt": "Projekt Südtirol — Detail"
+    }
+  ],
+  "baustelle_bis_uebergabe": [
+    {
+      "src": "/assets/projekte/suedtirol/proof-01.jpg",
+      "alt": "Projekt Südtirol — Baustelle 1",
+      "caption": "Vorher: Baugrube im Königsteiner Neubau — Haus und Garten von Anfang an zusammen geplant."
+    },
+    {
+      "src": "/assets/projekte/suedtirol/proof-02.jpg",
+      "alt": "Projekt Südtirol — Baustelle 2",
+      "caption": "Bauphase: der Anthrazit‑Beckenkörper wird aufgebaut. Die Farbe passt zum dunklen Holz am Haus."
+    },
+    {
+      "src": "/assets/projekte/suedtirol/proof-03.jpg",
+      "alt": "Projekt Südtirol — Baustelle 3",
+      "caption": "Nachher: der fertige 8 × 3,50 m Skimmerpool mit Gegenstromanlage, direkt am Haus."
+    },
+    {
+      "src": "/assets/projekte/suedtirol/proof-04.jpg",
+      "alt": "Projekt Südtirol — Baustelle 4",
+      "caption": "Detail: das anthrazitfarbene Wasser wirkt tief, gefasst vom umlaufenden Belag."
+    },
+    {
+      "src": "/assets/projekte/suedtirol/proof-05.jpg",
+      "alt": "Projekt Südtirol — Baustelle 5",
+      "caption": "Am Abend: In‑Light‑Beleuchtung entlang der Pflanzung — Tröpfchenbewässerung und Beregner arbeiten unsichtbar."
+    }
+  ],
+  "meta": {
+    "title": "Projekt Südtirol — Gerhardt GmbH",
+    "description": "Anthrazit‑Pool im Neubau in Königstein. 8 × 3,50 m Skimmer mit Gegenstromanlage — Haus und Garten von Anfang an zusammen geplant."
+  }
+}
