@@ -1,0 +1,31 @@
+---
+import { company } from '../config/site';
+---
+
+<div class="sticky-cta fixed inset-x-0 bottom-0 z-40 grid grid-cols-2 border-t border-stone-200 bg-stone-50 md:hidden" data-visible="false">
+  <a href={company.phoneHref} class="flex h-16 items-center justify-center border-r border-stone-200 text-[0.9375rem] font-medium text-ink-900">
+    Anrufen
+  </a>
+  <a href="/anfrage" class="flex h-16 items-center justify-center bg-ink-900 text-[0.9375rem] font-medium text-stone-50">
+    Projekt anfragen
+  </a>
+</div>
+
+<style>
+  .sticky-cta {
+    padding-bottom: env(safe-area-inset-bottom);
+    transition: transform 400ms var(--ease-out-soft);
+  }
+  .sticky-cta[data-visible='false'] { transform: translateY(100%); }
+</style>
+
+<script>
+  const bar = document.querySelector<HTMLElement>('.sticky-cta');
+  if (bar) {
+    const update = () => {
+      bar.dataset.visible = String(window.scrollY > window.innerHeight * 0.6);
+    };
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+  }
+</script>

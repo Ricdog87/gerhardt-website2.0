@@ -1,0 +1,88 @@
+---
+import Photo from '../Photo.astro';
+import SectionIntro from '../SectionIntro.astro';
+import pool from '../../assets/images/system/pool-innenliegende-treppe-detail.webp';
+import waerme from '../../assets/images/system/waermepumpe-pool-mainz.webp';
+import licht from '../../assets/images/system/gartenbeleuchtung-pollerleuchten-abend.jpg';
+import bewaesserung from '../../assets/images/system/bewaesserung-versenkte-regner-rasen.webp';
+import automation from '../../assets/images/system/poolsteuerung-display-wasserwerte.webp';
+
+const parts = [
+  {
+    title: 'Pool',
+    text: 'Skimmer oder Überlauf, im Bestand oder im Neubau. Innenliegende Treppe, Unterflur-Rollladen, Gegenstromanlage auf Wunsch.',
+    img: pool,
+    alt: 'Innenliegende Treppe in einem hellen Skimmerbecken',
+    position: '50% 50%',
+  },
+  {
+    title: 'Wasser und Wärme',
+    text: 'Filter, Wasseraufbereitung und Wärmepumpe. Auf Wunsch Salzelektrolyse für Chlor aus reinem Salz.',
+    img: waerme,
+    alt: 'Wärmepumpe für die Poolheizung auf einem Kiesbett neben dem Haus, Mainz',
+    position: '50% 55%',
+  },
+  {
+    title: 'Licht',
+    text: 'Unterwasserlicht und Gartenbeleuchtung, mit dem Pool geplant. Licht schafft Räume, die es tagsüber nicht gibt.',
+    img: licht,
+    alt: 'Pollerleuchten zwischen Lavendel in der Dämmerung',
+    position: '42% 50%',
+  },
+  {
+    title: 'Bewässerung',
+    text: 'Fest installiert, wetterabhängig gesteuert. Auch im Bestandsgarten ohne bleibende Spuren.',
+    img: bewaesserung,
+    alt: 'Versenkte Regner bewässern den Rasen neben einem Pool',
+    position: '50% 50%',
+  },
+  {
+    title: 'Automation',
+    text: 'Pool, Licht, Bewässerung und Mähroboter in einer Steuerung, bedienbar per App.',
+    img: automation,
+    alt: 'Display der Poolsteuerung mit pH-Wert, Wassertemperatur und Salzgehalt',
+    position: '60% 50%',
+  },
+];
+---
+
+<section id="system" class="section" aria-labelledby="system-title">
+  <div class="container-page">
+    <SectionIntro titleId="system-title" label="Ein System" title="Pool, Wasser, Licht und Garten. Aus einer Hand.">
+      <p>
+        Wir planen und bauen den gesamten technischen Ausbau als ein System, mit einer Steuerung und einem Ansprechpartner. Bei
+        architektengeführten Projekten übernehmen wir diesen Teil als Fachplaner.
+      </p>
+    </SectionIntro>
+  </div>
+
+  <div class="mt-14 md:mt-20">
+    <ol
+      class="system-track container-page flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 md:grid md:grid-cols-5 md:gap-6 md:overflow-visible md:pb-0"
+      aria-label="Bausteine des Systems"
+    >
+      {parts.map((p, i) => (
+        <li class="w-[72vw] max-w-[20rem] shrink-0 snap-start md:w-auto md:max-w-none" data-reveal style={`--reveal-delay: ${i * 70}ms`}>
+          <div class="aspect-[4/5] overflow-hidden bg-stone-200">
+            <Photo
+              src={p.img}
+              alt={p.alt}
+              widths={[320, 480, 640]}
+              sizes="(min-width: 1440px) 260px, (min-width: 768px) 18vw, 72vw"
+              class="h-full w-full object-cover"
+              style={`object-position: ${p.position}`}
+            />
+          </div>
+          <p class="label mt-5 text-ink-600">{String(i + 1).padStart(2, '0')}</p>
+          <h3 class="mt-2 font-display text-[1.5rem] leading-tight">{p.title}</h3>
+          <p class="mt-3 text-small text-ink-600">{p.text}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+<style>
+  .system-track { scrollbar-width: none; scroll-padding-inline: var(--gutter); }
+  .system-track::-webkit-scrollbar { display: none; }
+</style>

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "wer",
+    "order": 1,
+    "frage": "Wer steckt hinter Gerhardt?",
+    "antwort": "Thomas Gerhardt hat das Unternehmen 1998 gegründet, Sitz ist Wiesbaden-Delkenheim. Seit 2015 bauen wir Pools, heute mit eigenem Team und eigener Bauleitung im gesamten Rhein-Main-Gebiet."
+  },
+  {
+    "id": "wo",
+    "order": 2,
+    "frage": "Wo bauen Sie?",
+    "antwort": "In Wiesbaden und im gesamten Rhein-Main-Gebiet: Wiesbaden, Taunus, Frankfurt, Mainz und Umgebung."
+  },
+  {
+    "id": "kosten",
+    "order": 3,
+    "frage": "Was kostet ein Projekt?",
+    "antwort": "Komplettprojekte beginnen bei 120.000 €. Der genaue Rahmen ergibt sich aus Größe, Gelände und Technik und wird im Erstgespräch besprochen. Einzelne kleinere Arbeiten übernehmen wir im Rahmen eines Gesamtprojekts."
+  },
+  {
+    "id": "dauer",
+    "order": 4,
+    "frage": "Wie lange dauert ein Projekt?",
+    "antwort": "Je nach Umfang. Eine Poolanlage im Bestand entsteht in einigen Wochen, eine komplette Neuanlage über mehrere Monate. Den Zeitplan legen wir gemeinsam fest."
+  },
+  {
+    "id": "planung",
+    "order": 5,
+    "frage": "Übernehmen Sie auch die Planung?",
+    "antwort": "Ja. Wir planen und bauen den gesamten technischen Ausbau als ein System: Pool, Wasser, Licht, Bewässerung und Automation. Bei architektengeführten Projekten übernehmen wir diesen Teil als Fachplaner."
+  },
+  {
+    "id": "danach",
+    "order": 6,
+    "frage": "Was passiert nach der Übergabe?",
+    "antwort": "Wir bleiben. Wartung und Pflege von Pool, Wassertechnik und Bewässerung übernehmen wir auf Wunsch: Frühjahrs-Check, Einwinterung und laufende Pflege."
+  },
+  {
+    "id": "nicht-lohnend",
+    "order": 7,
+    "frage": "Wann lohnt sich ein Projekt nicht?",
+    "antwort": "",
+    "platzhalter": "FAQ_NICHT_LOHNEND"
+  }
+]

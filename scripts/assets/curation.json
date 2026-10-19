@@ -1,0 +1,91 @@
+{
+  "_hinweis": "Quelle relativ zu raw-assets/images/assets, Ziel relativ zu src/assets/images. Dateien werden unverändert kopiert; Formate und Größen erzeugt astro:assets beim Build.",
+  "files": [
+    {
+      "from": "pools-galerie/2026_05_WIES_LO_PILM-05610.webp",
+      "to": "hero/naturstein-pool-wiesbaden-daemmerung.webp"
+    },
+    {
+      "from": "pools-galerie/2026_05_WIES_LO_PILM-05681.webp",
+      "to": "hero/natursteinmauer-pool-liegen-wiesbaden-abend.webp"
+    },
+    {
+      "from": "pools-galerie/2026_05_WIES_LO_PILM-05614.webp",
+      "to": "hero/naturstein-pool-treppe-wiesbaden-abend.webp"
+    },
+    {
+      "from": "projekte/bergparadies/gallery-06.webp",
+      "to": "projekte/ueberlaufpool-wiesbaden-bergparadies-villa.webp"
+    },
+    {
+      "from": "projekte/naturstein/story.webp",
+      "to": "projekte/naturstein-pool-wiesbaden-terrasse.webp"
+    },
+    {
+      "from": "hero-04-provence.webp",
+      "to": "projekte/skimmerpool-wiesbaden-provence-garten.webp"
+    },
+    {
+      "from": "projekte/kronberg/hero-02.webp",
+      "to": "projekte/skimmerpool-kronberg-holzdeck.webp"
+    },
+    {
+      "from": "projekte/suedtirol/hero-01.webp",
+      "to": "projekte/anthrazit-pool-koenigstein-suedtirol-holzdeck.webp"
+    },
+    {
+      "from": "projekte/townhouse/hero-01.webp",
+      "to": "projekte/skimmerpool-wiesbaden-townhouse-terrasse.webp"
+    },
+    {
+      "from": "projekte/mainz/hero-05.webp",
+      "to": "projekte/skimmerpool-mainz-garten.webp"
+    },
+    {
+      "from": "unternehmen/thomas.webp",
+      "to": "team/thomas-gerhardt-inhaber.webp"
+    },
+    {
+      "from": "projekte/provence/gallery-06.webp",
+      "to": "system/pool-innenliegende-treppe-detail.webp"
+    },
+    {
+      "from": "projekte/mainz/gallery-15.webp",
+      "to": "system/waermepumpe-pool-mainz.webp"
+    },
+    {
+      "from": "poolbau-kosten/2026_03_WIESBADEN-GER_PILM (test)-00248.jpg",
+      "to": "system/gartenbeleuchtung-pollerleuchten-abend.jpg"
+    },
+    {
+      "from": "projekte/provence/hero-05.webp",
+      "to": "system/bewaesserung-versenkte-regner-rasen.webp"
+    },
+    {
+      "from": "projekte/mainz/gallery-17.webp",
+      "to": "system/poolsteuerung-display-wasserwerte.webp"
+    },
+    {
+      "from": "poolbau-kosten/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07274.jpg",
+      "to": "ablauf/bodenplatte-poolbau-bad-camberg.jpg"
+    },
+    {
+      "from": "pools-galerie/2026_04_KOEN_Anlieferung--3.webp",
+      "to": "ablauf/poolbecken-anlieferung-kran.webp"
+    },
+    {
+      "from": "poolbau-kosten/2026_04_MANN_LO_Anlieferung-00393.webp",
+      "to": "ablauf/monteur-gerhardt-baugrube-daemmung.webp"
+    },
+    {
+      "from": "logo-black.png",
+      "to": "brand/logo-gerhardt.png",
+      "bearbeitung": "auf 1100 px Breite skaliert"
+    },
+    {
+      "from": "logo-black.png",
+      "to": "brand/logo-gerhardt-weiss.png",
+      "bearbeitung": "aus logo-black.png abgeleitet: auf 1100 px skaliert, alle Pixel weiß, Transparenz erhalten (gleiche Geometrie wie farbiges Logo)"
+    }
+  ]
+}

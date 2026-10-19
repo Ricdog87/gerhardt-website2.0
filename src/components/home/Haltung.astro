@@ -1,0 +1,33 @@
+---
+import { company } from '../../config/site';
+
+const facts = [
+  { value: String(company.founded), label: 'Gegründet von Thomas Gerhardt, seit 2010 in Wiesbaden' },
+  { value: String(company.poolSince), label: 'Seit diesem Jahr bauen wir Pools, mit eigenem Team und eigener Bauleitung' },
+  { value: 'Ein System', label: 'Pool, Wasser, Licht und Bewässerung aus einer Hand' },
+];
+---
+
+<section class="section" aria-labelledby="haltung-title">
+  <div class="container-page grid gap-y-10 md:grid-cols-12 md:gap-x-6">
+    <p class="label text-sand-700 md:col-span-3 md:pt-3" data-reveal>Haltung</p>
+    <div class="md:col-span-9 lg:col-span-8">
+      <h2 id="haltung-title" class="sr-only">Unsere Haltung</h2>
+      <p class="font-display text-[clamp(1.75rem,1.2rem+2.1vw,3.125rem)] leading-[1.18] font-[320] tracking-[-0.015em]" data-reveal>
+        Ein Pool verändert, wie ein Haus gelebt wird. Deshalb planen wir ihn als Teil der Architektur, mit Material, Licht und
+        Technik, die zu Haus und Garten passen. Ein Team plant und baut. Ein Ansprechpartner bleibt, auch nach der Übergabe.
+      </p>
+    </div>
+  </div>
+
+  <div class="container-page mt-16 md:mt-24">
+    <dl class="grid border-t border-stone-200 sm:grid-cols-3">
+      {facts.map((f, i) => (
+        <div class="border-b border-stone-200 py-6 sm:border-b-0 sm:py-8 sm:pr-8" data-reveal style={`--reveal-delay: ${i * 90}ms`}>
+          <dt class="font-display text-title">{f.value}</dt>
+          <dd class="mt-2 max-w-[30ch] text-small text-ink-600">{f.label}</dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</section>

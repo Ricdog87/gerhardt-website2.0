@@ -1,0 +1,25 @@
+{
+  "name": "Kronberg",
+  "order": 5,
+  "ort": "Kronberg",
+  "region": "taunus",
+  "projektart": "bestand",
+  "projektartLabel": "Bestandsgarten",
+  "untertitel": "Skimmer im Bestand",
+  "pool": { "masse": "3,60 × 7 m", "typ": "skimmer" },
+  "kostenrahmen": 150000,
+  "kostenLabel": "ca. 150.000 €",
+  "headline": "Ein Skimmer, in den Bestand eingefügt.",
+  "story": [
+    "Ein Bestandsgarten in Kronberg. Der Polypropylen-Skimmer, 7 × 3,60 m, ist in den vorhandenen Grundriss eingefügt. Er gehört zum Garten wie die Terrasse dazu.",
+    "Die Beleuchtung ist als Teil des Systems mitgeplant. Wenn es dunkel wird, ist der Pool nicht der einzige Punkt, der noch leuchtet."
+  ],
+  "leistungen": [
+    "Polypropylen-Skimmerbecken 3,60 × 7 m",
+    "Einbau in den vorhandenen Grundriss",
+    "Beleuchtung als Teil des Systems"
+  ],
+  "cover": "../../assets/images/projekte/skimmerpool-kronberg-holzdeck.webp",
+  "coverAlt": "Türkisfarbenes Skimmerbecken mit Holzdeck zwischen dichten Pflanzbeeten, Projekt in Kronberg",
+  "alteUrl": "/pools/projekt-kronberg"
+}

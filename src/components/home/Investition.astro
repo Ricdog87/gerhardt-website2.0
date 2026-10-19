@@ -1,0 +1,45 @@
+---
+import { getEntry } from 'astro:content';
+import SectionIntro from '../SectionIntro.astro';
+import { priceAnchor } from '../../config/site';
+
+const ids = ['suedtirol', 'townhouse', 'naturstein'] as const;
+const refs = await Promise.all(ids.map((id) => getEntry('projekte', id)));
+if (refs.some((r) => !r)) throw new Error('Referenzprojekt für Investitionsrahmen fehlt');
+---
+
+<section id="investition" class="section" aria-labelledby="investition-title">
+  <div class="container-page">
+    <SectionIntro titleId="investition-title" label="Investition" title={`Komplettprojekte ${priceAnchor.label}.`}>
+      <p>
+        Der genaue Rahmen ergibt sich aus Größe, Gelände und Technik und wird im Erstgespräch besprochen. Zur Orientierung drei
+        abgeschlossene Projekte und was dazugehörte.
+      </p>
+    </SectionIntro>
+
+    <div class="mt-14 grid gap-y-12 md:mt-20 md:grid-cols-3 md:gap-x-6">
+      {refs.map((entry, i) => {
+        const p = entry!.data;
+        return (
+          <article class="border-t border-ink-900 pt-7" data-reveal style={`--reveal-delay: ${i * 90}ms`}>
+            <p class="font-display text-headline">{p.kostenLabel}</p>
+            <h3 class="mt-5 font-sans text-[1.0625rem] font-semibold tracking-normal">
+              {p.name} <span class="font-normal text-ink-600">· {p.ort} · {p.projektartLabel}</span>
+            </h3>
+            <ul class="mt-5 divide-y divide-stone-200 border-y border-stone-200 text-small text-ink-600">
+              {p.leistungen.map((l) => <li class="py-2.5">{l}</li>)}
+            </ul>
+            <a href={`/projekte/${entry!.id}`} class="link-underline mt-5 inline-block text-small">Projekt {p.name} ansehen</a>
+          </article>
+        );
+      })}
+    </div>
+
+    <div class="mt-14 flex flex-col gap-6 border-t border-stone-200 pt-8 md:flex-row md:items-center md:justify-between">
+      <p class="max-w-[60ch] text-small text-ink-600">
+        Gerundete Kostenrahmen abgeschlossener Projekte. Realistischer Projektrahmen 2026: {priceAnchor.label}.
+      </p>
+      <a href="/anfrage" class="btn btn-dark shrink-0">Rahmen besprechen</a>
+    </div>
+  </div>
+</section>

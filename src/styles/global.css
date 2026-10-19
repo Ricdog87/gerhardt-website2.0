@@ -1,0 +1,175 @@
+@import "tailwindcss";
+@import "@fontsource-variable/fraunces/opsz.css";
+@import "@fontsource-variable/hanken-grotesk/wght.css";
+
+/* Designsystem: Kalkstein, Anthrazit, tiefes Petrol. Fotos tragen die Seite. */
+@theme {
+  --color-*: initial;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-stone-50: #f6f3ee;   /* Hintergrund, Kalkstein */
+  --color-stone-200: #e4ddd2;  /* Flächen, Linien */
+  --color-sand-500: #b9a88f;   /* Akzent, nur Linien und Flächen (2,1:1 auf stone-50) */
+  --color-sand-700: #746650;   /* Akzent als Text auf hell (5,1:1) */
+  --color-ink-900: #1c1d1f;    /* Text, Anthrazit */
+  --color-ink-600: #55575b;    /* Sekundärtext (6,5:1 auf stone-50) */
+  --color-water-800: #1f3a40;  /* dunkle Sektionen, Footer */
+  --color-water-200: #b8c2c2;  /* Sekundärtext auf water-800 (6,6:1) */
+
+  --font-display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Hanken Grotesk Variable", "Helvetica Neue", Arial, sans-serif;
+
+  /* Fluide Skala: H1 44→96 px, H2 32→56 px, Fließtext 17→19 px */
+  --text-display: clamp(2.75rem, 1.55rem + 4.9vw, 6rem);
+  --text-display--line-height: 1.02;
+  --text-headline: clamp(2rem, 1.45rem + 2.25vw, 3.5rem);
+  --text-headline--line-height: 1.08;
+  --text-title: clamp(1.5rem, 1.25rem + 1vw, 2.125rem);
+  --text-title--line-height: 1.15;
+  --text-lead: clamp(1.25rem, 1.08rem + 0.7vw, 1.75rem);
+  --text-lead--line-height: 1.45;
+  --text-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --text-body--line-height: 1.6;
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.5;
+  --text-label: 0.75rem;
+  --text-label--line-height: 1.4;
+
+  --ease-out-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+:root {
+  --gutter: clamp(1rem, 0.4rem + 3vw, 4rem);
+  --section: clamp(4.5rem, 2.6rem + 6.5vw, 9rem); /* 72 px mobil → ≥120 px Desktop */
+  --header-h: 5rem;
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-h);
+  }
+
+  body {
+    background: var(--color-stone-50);
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    font-feature-settings: "kern", "liga";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 330;
+    letter-spacing: -0.02em;
+    font-optical-sizing: auto;
+    text-wrap: balance;
+  }
+
+  p { text-wrap: pretty; }
+
+  ::selection { background: var(--color-water-800); color: var(--color-stone-50); }
+
+  :focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+    border-radius: 1px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 90rem; /* 1440 px Inhalt */
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+
+  .section { padding-block: var(--section); }
+
+  .label {
+    font-family: var(--font-sans);
+    font-size: var(--text-label);
+    line-height: var(--text-label--line-height);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .measure { max-width: 68ch; }
+
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.3em;
+    text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+    transition: text-decoration-color 200ms var(--ease-out-soft);
+  }
+  .link-underline:hover { text-decoration-color: currentColor; }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    min-height: 3.25rem;
+    padding: 0.875rem 1.75rem;
+    font-size: 0.9375rem;
+    font-weight: 560;
+    letter-spacing: 0.02em;
+    border: 1px solid transparent;
+    transition: background-color 250ms var(--ease-out-soft), color 250ms var(--ease-out-soft), border-color 250ms var(--ease-out-soft);
+  }
+  .btn-dark { background: var(--color-ink-900); color: var(--color-stone-50); }
+  .btn-dark:hover { background: var(--color-water-800); }
+  .btn-light { background: var(--color-stone-50); color: var(--color-ink-900); }
+  .btn-light:hover { background: var(--color-stone-200); }
+  .btn-ghost-light { border-color: color-mix(in srgb, var(--color-stone-50) 55%, transparent); color: var(--color-stone-50); }
+  .btn-ghost-light:hover { border-color: var(--color-stone-50); }
+
+  /* Sichtbare Platzhalter für fehlende Inhalte, siehe CONTENT-TODO.md */
+  .placeholder {
+    background: color-mix(in srgb, var(--color-sand-500) 22%, transparent);
+    color: inherit;
+    padding: 0.05em 0.35em;
+    border-bottom: 1px dashed var(--color-sand-700);
+    font-family: var(--font-sans);
+    font-size: 0.85em;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+}
+
+/* Einblenden beim Scrollen. Ohne JavaScript bleibt alles sichtbar. */
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-reveal] {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    transition: opacity 600ms var(--ease-out-soft), transform 600ms var(--ease-out-soft);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .js [data-reveal="image"] {
+    opacity: 1;
+    transform: none;
+    clip-path: inset(0 0 100% 0);
+    transition: clip-path 900ms var(--ease-out-soft);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .js [data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+    clip-path: inset(0 0 0 0);
+  }
+}

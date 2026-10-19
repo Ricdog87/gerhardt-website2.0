@@ -1,0 +1,32 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('recht');
+  return pages.map((page) => ({ params: { recht: page.id }, props: { page } }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+
+<Base title={page.data.title} description={page.data.description}>
+  <article class="section pt-[calc(var(--header-h)+var(--section))]">
+    <div class="container-page">
+      <h1 class="text-headline">{page.data.title}</h1>
+      <div class="legal mt-12 max-w-[68ch]">
+        <Content />
+      </div>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .legal :global(h2) { margin-top: 3rem; font-size: var(--text-title); line-height: var(--text-title--line-height); }
+  .legal :global(h3) { margin-top: 2rem; font-family: var(--font-sans); font-size: 1.0625rem; font-weight: 600; letter-spacing: 0; }
+  .legal :global(p), .legal :global(ul) { margin-top: 1rem; color: var(--color-ink-600); }
+  .legal :global(ul) { list-style: disc; padding-left: 1.25rem; }
+  .legal :global(strong) { color: var(--color-ink-900); font-weight: 600; }
+  .legal :global(a) { text-decoration: underline; text-underline-offset: 0.25em; }
+</style>

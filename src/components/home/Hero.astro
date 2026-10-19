@@ -1,0 +1,91 @@
+---
+import Photo from '../Photo.astro';
+import { company, heroHeadlines } from '../../config/site';
+import dusk from '../../assets/images/hero/naturstein-pool-wiesbaden-daemmerung.webp';
+import wall from '../../assets/images/hero/natursteinmauer-pool-liegen-wiesbaden-abend.webp';
+import steps from '../../assets/images/hero/naturstein-pool-treppe-wiesbaden-abend.webp';
+
+const slides = [
+  { src: dusk, alt: 'Pool mit Unterwasserlicht in der Dämmerung, dahinter eine beleuchtete Natursteinmauer und Liegen, Wiesbaden', position: '50% 60%' },
+  { src: wall, alt: 'Beleuchtete Natursteinmauer mit vier Liegen am Pool am Abend, Wiesbaden', position: '50% 55%' },
+  { src: steps, alt: 'Pool mit innenliegender Treppe und Holzdeck am Abend, im Hintergrund angestrahlte Bäume, Wiesbaden', position: '45% 60%' },
+];
+---
+
+<section class="hero relative isolate h-svh min-h-[38rem] overflow-hidden bg-water-800 text-stone-50" aria-labelledby="hero-title">
+  <div class="absolute inset-0 -z-10" data-hero-slides>
+    {slides.map((s, i) => (
+      <Photo
+        src={s.src}
+        alt={s.alt}
+        widths={[768, 1080, 1440, 1920, 2400]}
+        sizes="100vw"
+        loading={i === 0 ? 'eager' : 'lazy'}
+        fetchpriority={i === 0 ? 'high' : 'low'}
+        class="hero-slide absolute inset-0 h-full w-full object-cover"
+        style={`object-position: ${s.position}`}
+        data-active={i === 0 ? 'true' : 'false'}
+        aria-hidden={i === 0 ? undefined : 'true'}
+      />
+    ))}
+    <div class="absolute inset-0 bg-[rgb(9_17_19/0.42)]"></div>
+  </div>
+
+  <div class="container-page flex h-full flex-col justify-end pt-(--header-h) pb-[clamp(2.5rem,7vh,5.5rem)]">
+    <h1 id="hero-title" class="text-display max-w-[13ch]" data-headlines={JSON.stringify(heroHeadlines)}>
+      {heroHeadlines.A}
+    </h1>
+    <p class="mt-6 max-w-[44ch] text-lead text-stone-50/90">
+      Planung, Bau und Technik aus einer Hand. Für Bestandsgärten und Neubauten in Wiesbaden, im Taunus und in Frankfurt.
+    </p>
+    <div class="mt-9 flex flex-wrap gap-3 sm:gap-4">
+      <a href="/anfrage" class="btn btn-light">Projekt anfragen</a>
+      <a href="#projekte" class="btn btn-ghost-light">Projekte ansehen</a>
+    </div>
+    <p class="label mt-10 text-stone-50/80 sm:mt-14">
+      Seit {company.founded} <span aria-hidden="true">·</span> Planung, Bau und Service <span aria-hidden="true">·</span> Rhein-Main
+    </p>
+  </div>
+</section>
+
+<style>
+  .hero-slide {
+    opacity: 0;
+    transition: opacity 1800ms var(--ease-out-soft);
+  }
+  .hero-slide[data-active='true'] { opacity: 1; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-slide[data-active='true'] { animation: hero-zoom 16s linear both; }
+  }
+  @keyframes hero-zoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.06); }
+  }
+</style>
+
+<script>
+  // Headline-Varianten zum Vergleichen: ?hero=B oder ?hero=C
+  const title = document.getElementById('hero-title');
+  const variant = new URLSearchParams(location.search).get('hero')?.toUpperCase();
+  if (title && variant) {
+    const headlines = JSON.parse(title.dataset.headlines ?? '{}');
+    if (headlines[variant]) title.textContent = headlines[variant];
+  }
+
+  // Ruhiger Crossfade alle 7 s, kein Autoplay bei reduzierter Bewegung
+  const slides = [...document.querySelectorAll<HTMLElement>('.hero-slide')];
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (slides.length > 1 && !reduced) {
+    let current = 0;
+    window.setInterval(() => {
+      if (document.hidden) return;
+      const next = (current + 1) % slides.length;
+      const img = slides[next].querySelector('img') ?? slides[next];
+      if (img instanceof HTMLImageElement && !img.complete) return;
+      slides[current].dataset.active = 'false';
+      slides[next].dataset.active = 'true';
+      current = next;
+    }, 7000);
+  }
+</script>

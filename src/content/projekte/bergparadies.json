@@ -1,0 +1,28 @@
+{
+  "name": "Bergparadies",
+  "order": 1,
+  "ort": "Wiesbaden",
+  "region": "wiesbaden",
+  "projektart": "bestand",
+  "projektartLabel": "Bestandsgarten",
+  "untertitel": "Überlaufpool im Bestandsgarten",
+  "pool": { "masse": "3,60 × 8 m", "typ": "ueberlauf", "gegenstromanlage": true },
+  "kostenrahmen": 200000,
+  "kostenLabel": "ca. 200.000 €",
+  "headline": "Aus ungenutzt wird Mittelpunkt.",
+  "story": [
+    "Fast 400 m² Garten lagen nahezu ungenutzt. Heute ist hier der Ort, der das Haus in den Mittelpunkt rückt. Eingebaut haben wir einen Überlaufpool: Die Wasseroberfläche liegt auf einer Höhe mit dem Belag, das Wasser läuft umlaufend in eine Rinne.",
+    "Das hält die Oberfläche sauberer als ein klassisches Skimmerbecken, wie im Freibad, nur privat. Dazu eine Gegenstromanlage, Unterflur-Rollladen und Beleuchtung. Die Technik sitzt platzsparend in Außenschränken, weil der Altbau keinen Keller dafür hatte."
+  ],
+  "leistungen": [
+    "Überlaufpool 3,60 × 8 m mit umlaufender Rinne",
+    "Gegenstromanlage",
+    "Unterflur-Rollladen",
+    "Beleuchtung",
+    "Technik in Außenschränken"
+  ],
+  "cover": "../../assets/images/projekte/ueberlaufpool-wiesbaden-bergparadies-villa.webp",
+  "coverAlt": "Überlaufpool mit hellem Plattenbelag im Rasen, dahinter eine Altbauvilla, Projekt Bergparadies in Wiesbaden",
+  "coverPosition": "50% 60%",
+  "alteUrl": "/pools/projekt-bergparadies"
+}

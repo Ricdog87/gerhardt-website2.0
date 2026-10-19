@@ -1,0 +1,29 @@
+{
+  "name": "Townhouse",
+  "order": 4,
+  "ort": "Wiesbaden",
+  "region": "wiesbaden",
+  "projektart": "neubau",
+  "projektartLabel": "Neubau",
+  "untertitel": "Gartenneubau mit Pool",
+  "pool": { "masse": "3 × 7 m", "typ": "skimmer", "gegenstromanlage": true },
+  "kostenrahmen": 200000,
+  "kostenLabel": "ca. 200.000 €",
+  "headline": "Ein Garten neu gebaut, auf mehreren Ebenen.",
+  "story": [
+    "Ein kompletter Neubau in Wiesbaden. Der ganze Garten wurde neu angelegt, gestaffelt über mehrere Ebenen. Ein kleines Grundstück, das eigentlich sehr viele Plätze hergibt.",
+    "Im Zentrum ein hellgraues Skimmerbecken, 3 × 7 m, mit innenliegender Treppe und einer Sitzbank aus dem Unterflur-Rollladen. Turbinen-Gegenstromanlage. Salzelektrolyse für Chlor aus reinem Salz. Dazu versenkte RGBW-Beleuchtung, eine Dusche vom selben Hersteller, Bewässerung und Mähroboter automatisch."
+  ],
+  "leistungen": [
+    "Garten auf mehreren Ebenen neu angelegt",
+    "Skimmerbecken 3 × 7 m, hellgrau",
+    "Innenliegende Treppe, Sitzbank aus dem Unterflur-Rollladen",
+    "Turbinen-Gegenstromanlage",
+    "Salzelektrolyse",
+    "Versenkte RGBW-Beleuchtung, Dusche",
+    "Bewässerung und Mähroboter automatisch"
+  ],
+  "cover": "../../assets/images/projekte/skimmerpool-wiesbaden-townhouse-terrasse.webp",
+  "coverAlt": "Skimmerbecken zwischen hellen Terrassenplatten und Pflanzbeeten vor einem modernen Wohnhaus, Projekt Townhouse in Wiesbaden",
+  "alteUrl": "/pools/projekt-townhouse"
+}

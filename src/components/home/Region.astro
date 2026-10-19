@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import SectionIntro from '../SectionIntro.astro';
+
+const projekte = (await getCollection('projekte')).sort((a, b) => a.data.order - b.data.order);
+
+const regions = [
+  { key: 'wiesbaden', name: 'Wiesbaden', places: ['Sonnenberg', 'Nerotal', 'Rambach', 'Bierstadt'] },
+  { key: 'taunus', name: 'Taunus', places: ['Königstein', 'Kronberg', 'Bad Homburg', 'Oberursel', 'Bad Soden', 'Kelkheim'] },
+  { key: 'frankfurt', name: 'Frankfurt', places: ['Westend', 'Nordend', 'Sachsenhausen'] },
+  { key: 'mainz', name: 'Mainz', places: [] },
+] as { key: string; name: string; places: string[] }[];
+---
+
+<section class="section bg-stone-200" aria-labelledby="region-title">
+  <div class="container-page">
+    <SectionIntro titleId="region-title" label="Region" title="Von Wiesbaden aus im ganzen Rhein-Main-Gebiet.">
+      <p>Unser Sitz ist Wiesbaden-Delkenheim. Von hier aus planen und bauen wir in Wiesbaden, im Taunus, in Frankfurt und in Mainz.</p>
+    </SectionIntro>
+
+    <div class="mt-14 grid gap-y-10 sm:grid-cols-2 md:mt-20 lg:grid-cols-4 lg:gap-x-6">
+      {regions.map((r, i) => {
+        const here = projekte.filter((p) => p.data.region === r.key);
+        return (
+          <div class="border-t border-ink-900/20 pt-6" data-reveal style={`--reveal-delay: ${i * 80}ms`}>
+            <h3 class="text-headline">{r.name}</h3>
+            {r.places.length > 0 && <p class="mt-4 text-ink-600">{r.places.join(' · ')}</p>}
+            {here.length > 0 && (
+              <p class="mt-5 text-small">
+                <span class="label mr-2 text-sand-700">Projekte</span>
+                {here.map((p, j) => (
+                  <>
+                    <a href={`/projekte/${p.id}`} class="link-underline">{p.data.name}</a>
+                    {j < here.length - 1 && ', '}
+                  </>
+                ))}
+              </p>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>

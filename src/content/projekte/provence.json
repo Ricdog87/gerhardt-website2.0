@@ -1,0 +1,28 @@
+{
+  "name": "Provence",
+  "order": 3,
+  "ort": "Wiesbaden",
+  "region": "wiesbaden",
+  "projektart": "bestand",
+  "projektartLabel": "Bestandsgarten",
+  "untertitel": "Pool im Bestandsgarten",
+  "pool": { "masse": "3 × 9 m", "typ": "skimmer" },
+  "kostenrahmen": 150000,
+  "kostenLabel": "ca. 150.000 €",
+  "headline": "Als wäre er schon immer hier gewesen.",
+  "story": [
+    "Ein gewachsener Bestandsgarten. Der Wunsch: ein Pool, der wirkt, als hätte er schon immer dazugehört. Wo früher eine Boulebahn lag, liegt heute ein hellgraues Skimmerbecken, 3 × 9 m, näher ans Haus gerückt: trockenen Fußes hinein und hinaus.",
+    "Innenliegende Treppe, eine Sitzbank mit Unterflur-Rollladen für Wärme und Sicherheit, RGB-Beleuchtung und ein versteckter Technikschrank. Bewässerung, Mähroboter und Licht laufen automatisch, das ganze Jahr bei 28 °C."
+  ],
+  "leistungen": [
+    "Skimmerbecken 3 × 9 m, hellgrau",
+    "Innenliegende Treppe",
+    "Sitzbank mit Unterflur-Rollladen",
+    "RGB-Beleuchtung",
+    "Versteckter Technikschrank",
+    "Bewässerung, Mähroboter und Licht automatisch"
+  ],
+  "cover": "../../assets/images/projekte/skimmerpool-wiesbaden-provence-garten.webp",
+  "coverAlt": "Langgestrecktes Skimmerbecken im Rasen neben der Terrasse eines weißen Wohnhauses, Projekt Provence in Wiesbaden",
+  "alteUrl": "/pools/projekt-provence"
+}

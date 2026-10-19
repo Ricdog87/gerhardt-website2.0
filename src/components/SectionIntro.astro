@@ -1,0 +1,20 @@
+---
+interface Props {
+  label: string;
+  title: string;
+  titleId?: string;
+  dark?: boolean;
+  class?: string;
+}
+const { label, title, titleId, dark = false, class: className = '' } = Astro.props;
+---
+
+<div class:list={['max-w-[44rem]', className]}>
+  <p class:list={['label', dark ? 'text-sand-500' : 'text-sand-700']} data-reveal>{label}</p>
+  <h2 id={titleId} class="mt-5 text-headline" data-reveal style="--reveal-delay: 80ms">{title}</h2>
+  {Astro.slots.has('default') && (
+    <div class:list={['mt-6 measure', dark ? 'text-water-200' : 'text-ink-600']} data-reveal style="--reveal-delay: 160ms">
+      <slot />
+    </div>
+  )}
+</div>

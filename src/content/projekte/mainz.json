@@ -1,0 +1,25 @@
+{
+  "name": "Mainz",
+  "order": 7,
+  "ort": "Mainz",
+  "region": "mainz",
+  "projektart": "neubau",
+  "projektartLabel": "Neubau",
+  "untertitel": "Komplettsystem im Neubau",
+  "pool": { "masse": "3,30 × 7 m", "typ": "skimmer", "gegenstromanlage": true },
+  "kostenrahmen": 150000,
+  "kostenLabel": "ca. 150.000 €",
+  "headline": "Alter Bau. Neuer Garten. Komplettsystem.",
+  "story": [
+    "Ein Altbau in Mainz wurde restauriert. Der Garten dazu ist komplett neu angelegt. Pool, Bewässerung, Beleuchtung und Mähroboter sind von Anfang an als ein System geplant.",
+    "Eine gemeinsame Steuerung, ein Ansprechpartner, eine Wartung. Der Alltagsvorteil zeigt sich vor allem dann, wenn nichts auffällt."
+  ],
+  "leistungen": [
+    "Skimmerbecken 3,30 × 7 m mit Gegenstromanlage",
+    "Bewässerung, Beleuchtung, Mähroboter",
+    "Gemeinsame Steuerung und Wartung"
+  ],
+  "cover": "../../assets/images/projekte/skimmerpool-mainz-garten.webp",
+  "coverAlt": "Hellblaues Skimmerbecken mit Treppe in einem neu angelegten Garten mit Holzzaun, Projekt in Mainz",
+  "alteUrl": "/pools/projekt-mainz"
+}

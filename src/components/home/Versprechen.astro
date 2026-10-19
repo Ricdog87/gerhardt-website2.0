@@ -1,0 +1,39 @@
+---
+import Photo from '../Photo.astro';
+import portrait from '../../assets/images/team/thomas-gerhardt-inhaber.webp';
+import { company } from '../../config/site';
+---
+
+<section id="versprechen" class="section bg-stone-200" aria-labelledby="versprechen-title">
+  <div class="container-page grid items-center gap-y-12 md:grid-cols-12 md:gap-x-6">
+    <div class="md:col-span-5" data-reveal="image">
+      <Photo
+        src={portrait}
+        alt="Thomas Gerhardt, Inhaber der Gerhardt GmbH, im Garten"
+        widths={[480, 768, 1080]}
+        sizes="(min-width: 1440px) 560px, (min-width: 768px) 40vw, 100vw"
+        class="aspect-[4/5] h-auto w-full object-cover"
+        style="object-position: 50% 30%"
+      />
+    </div>
+
+    <figure class="md:col-span-6 md:col-start-7">
+      <p class="label text-sand-700" data-reveal>Das Versprechen</p>
+      <h2 id="versprechen-title" class="sr-only">Das Versprechen des Inhabers</h2>
+      <blockquote class="mt-6" data-reveal style="--reveal-delay: 80ms">
+        <p class="font-display text-[clamp(1.625rem,1.15rem+1.9vw,2.875rem)] leading-[1.2] font-[320] tracking-[-0.015em]">
+          „Ich verspreche jedem Kunden vorher: Ich sehe das fertige Ergebnis vor mir — und es wird genau so, wie Sie es sich
+          wünschen.“
+        </p>
+      </blockquote>
+      <figcaption class="mt-8 border-t border-ink-900/15 pt-6" data-reveal style="--reveal-delay: 160ms">
+        <span class="block font-medium">{company.owner}</span>
+        <span class="block text-small text-ink-600">Inhaber und Gründer</span>
+        <span class="mt-5 block max-w-[46ch] text-small text-ink-600">
+          Thomas Gerhardt hat das Unternehmen {company.founded} gegründet. Seit {company.poolSince} baut die {company.name} Pools,
+          mit eigenem Team und eigener Bauleitung.
+        </span>
+      </figcaption>
+    </figure>
+  </div>
+</section>

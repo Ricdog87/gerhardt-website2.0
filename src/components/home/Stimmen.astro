@@ -1,0 +1,19 @@
+---
+// Bauherren-Zitate. Wird nur gerendert, wenn flags.testimonials aktiv ist und freigegebene Zitate vorliegen.
+// Bis dahin bewusst keine Beispieltexte (CONTENT-TODO C3).
+import Placeholder from '../Placeholder.astro';
+import SectionIntro from '../SectionIntro.astro';
+---
+
+<section class="section" aria-labelledby="stimmen-title">
+  <div class="container-page">
+    <SectionIntro titleId="stimmen-title" label="Stimmen von Bauherren" title="Was Bauherren sagen." />
+    <div class="mt-14 grid gap-10 md:grid-cols-3">
+      {[1, 2, 3].map(() => (
+        <figure class="border-t border-stone-200 pt-6">
+          <blockquote class="font-display text-title"><Placeholder name="TESTIMONIALS" /></blockquote>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>

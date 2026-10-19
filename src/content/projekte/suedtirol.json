@@ -1,0 +1,27 @@
+{
+  "name": "Südtirol",
+  "order": 6,
+  "ort": "Königstein",
+  "region": "taunus",
+  "projektart": "neubau",
+  "projektartLabel": "Neubau",
+  "untertitel": "Anthrazit-Pool im Neubau",
+  "pool": { "masse": "3,50 × 8 m", "typ": "skimmer", "gegenstromanlage": true },
+  "kostenrahmen": 150000,
+  "kostenLabel": "ca. 150.000 €",
+  "headline": "Ein Anthrazit-Pool, weil das Haus dunkles Holz hat.",
+  "story": [
+    "Ein Neubau in Königstein. Haus und Garten wurden zusammen geplant. Der Wunsch war, die Farbe des dunklen Holzes am Haus auch im Pool zu haben. Daher Anthrazit.",
+    "8 × 3,50 m, Skimmer mit Gegenstromanlage. Tröpfchenbewässerung für die Pflanzung, versenkte Regner für den Rasen, Licht für die Nacht. Alles von Anfang an mitgeplant."
+  ],
+  "leistungen": [
+    "Skimmerbecken 3,50 × 8 m in Anthrazit",
+    "Gegenstromanlage",
+    "Tröpfchenbewässerung für die Pflanzung",
+    "Versenkte Regner für den Rasen",
+    "Beleuchtung"
+  ],
+  "cover": "../../assets/images/projekte/anthrazit-pool-koenigstein-suedtirol-holzdeck.webp",
+  "coverAlt": "Anthrazitfarbenes Becken mit Holzdeck neben einer Trockenmauer, Projekt Südtirol in Königstein",
+  "alteUrl": "/pools/projekt-suedtirol"
+}

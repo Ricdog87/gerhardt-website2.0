@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import { company, indexable } from '../config/site';
+
+// Bis zum Go-live sind manche verlinkte Seiten noch nicht gebaut. In der Vorschau sagt die Seite das offen.
+const preview = !indexable;
+---
+
+<Base title={preview ? 'Seite im Aufbau' : 'Seite nicht gefunden'} description="Diese Seite ist nicht verfügbar.">
+  <section class="section pt-[calc(var(--header-h)+var(--section))]">
+    <div class="container-page max-w-[52rem]">
+      <p class="label text-sand-700">{preview ? 'Relaunch · Vorschau' : 'Fehler 404'}</p>
+      <h1 class="mt-5 text-headline">{preview ? 'Diese Seite entsteht gerade.' : 'Diese Seite gibt es nicht.'}</h1>
+      <p class="mt-6 text-ink-600 measure">
+        {preview
+          ? 'Sie sehen eine Vorschau der neuen Website. Projektseiten, Anfrage-Strecke und weitere Unterseiten folgen in den nächsten Phasen.'
+          : 'Vielleicht wurde sie verschoben. Auf der Startseite finden Sie Projekte, Ablauf und Kontakt.'}
+      </p>
+      <div class="mt-10 flex flex-wrap items-center gap-6">
+        <a href="/" class="btn btn-dark">Zur Startseite</a>
+        <a href={company.phoneHref} class="link-underline text-small tabular-nums">{company.phone}</a>
+      </div>
+    </div>
+  </section>
+</Base>

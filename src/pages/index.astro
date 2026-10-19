@@ -1,0 +1,61 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/home/Hero.astro';
+import Haltung from '../components/home/Haltung.astro';
+import Projekte from '../components/home/Projekte.astro';
+import Versprechen from '../components/home/Versprechen.astro';
+import System from '../components/home/System.astro';
+import Ablauf from '../components/home/Ablauf.astro';
+import Investition from '../components/home/Investition.astro';
+import Stimmen from '../components/home/Stimmen.astro';
+import Region from '../components/home/Region.astro';
+import Faq from '../components/home/Faq.astro';
+import AbschlussCta from '../components/home/AbschlussCta.astro';
+import { company, flags } from '../config/site';
+import ogImage from '../assets/images/hero/naturstein-pool-wiesbaden-daemmerung.webp';
+import { getImage } from 'astro:assets';
+
+const og = await getImage({ src: ogImage, width: 1200, height: 630, format: 'jpg', fit: 'cover' });
+
+const business = {
+  '@context': 'https://schema.org',
+  '@type': 'HomeAndConstructionBusiness',
+  name: company.name,
+  url: Astro.site?.href,
+  telephone: '+49-6122-70770-00',
+  email: company.email,
+  foundingDate: String(company.founded),
+  founder: { '@type': 'Person', name: company.owner },
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: company.street,
+    postalCode: company.zip,
+    addressLocality: company.city,
+    addressCountry: 'DE',
+  },
+  areaServed: ['Wiesbaden', 'Königstein im Taunus', 'Kronberg im Taunus', 'Bad Homburg vor der Höhe', 'Oberursel', 'Bad Soden am Taunus', 'Kelkheim', 'Frankfurt am Main', 'Mainz'].map(
+    (name) => ({ '@type': 'City', name }),
+  ),
+  sameAs: [company.instagram, company.facebook],
+};
+---
+
+<Base
+  title="Poolbau Wiesbaden, Taunus und Frankfurt · Gerhardt GmbH"
+  description="Pools, die zum Haus gehören. Planung, Bau und Technik aus einer Hand für Bestandsgärten und Neubauten in Wiesbaden, im Taunus und in Frankfurt. Komplettprojekte ab 120.000 €."
+  overlayHeader
+  ogImage={og.src}
+>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(business)} />
+  <Hero />
+  <Haltung />
+  <Projekte />
+  <Versprechen />
+  <System />
+  <Ablauf />
+  <Investition />
+  {flags.testimonials && <Stimmen />}
+  <Region />
+  <Faq />
+  <AbschlussCta />
+</Base>

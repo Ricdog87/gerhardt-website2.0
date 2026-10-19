@@ -1,0 +1,60 @@
+---
+import { Image } from 'astro:assets';
+import logoWhite from '../assets/images/brand/logo-gerhardt-weiss.png';
+import Placeholder from './Placeholder.astro';
+import { company, legalLinks, navigation } from '../config/site';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-water-800 pb-28 text-stone-50 md:pb-0">
+  <div class="container-page grid gap-y-12 border-t border-stone-50/15 py-16 md:grid-cols-12 md:gap-x-6 md:py-20">
+    <div class="md:col-span-4">
+      <Image src={logoWhite} alt={company.name} width={176} densities={[1, 2]} class="h-auto w-[176px]" />
+      <p class="mt-6 max-w-[30ch] text-small text-water-200">
+        Poolbau, Wassertechnik und Gartentechnik im Rhein-Main-Gebiet. Seit {company.founded}.
+      </p>
+    </div>
+
+    <div class="md:col-span-3 md:col-start-6">
+      <p class="label text-sand-500">Kontakt</p>
+      <address class="mt-5 space-y-1 text-small not-italic">
+        <span class="block">{company.name}</span>
+        <span class="block">{company.street}</span>
+        <span class="block">{company.zip} {company.city}</span>
+      </address>
+      <p class="mt-5 space-y-1 text-small">
+        <a href={company.phoneHref} class="link-underline block w-fit tabular-nums">{company.phone}</a>
+        <a href={`mailto:${company.email}`} class="link-underline block w-fit">{company.email}</a>
+      </p>
+      <p class="mt-5 text-small text-water-200">Erreichbarkeit: <Placeholder name="ERREICHBARKEIT" /></p>
+    </div>
+
+    <nav aria-label="Footer" class="md:col-span-2">
+      <p class="label text-sand-500">Poolbau</p>
+      <ul class="mt-5 space-y-2 text-small">
+        {navigation.map((item) => (
+          <li><a href={item.href} class="link-underline">{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="md:col-span-2">
+      <p class="label text-sand-500">Unternehmen</p>
+      <ul class="mt-5 space-y-2 text-small">
+        <li><a href="/stellenmarkt" class="link-underline">Stellenmarkt</a></li>
+        <li><a href={company.instagram} class="link-underline" rel="noopener">Instagram</a></li>
+        <li><a href={company.facebook} class="link-underline" rel="noopener">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-page flex flex-col gap-3 border-t border-stone-50/15 py-6 text-[0.8125rem] text-water-200 sm:flex-row sm:justify-between">
+    <p>© {year} {company.name}</p>
+    <ul class="flex gap-6">
+      {legalLinks.map((l) => (
+        <li><a href={l.href} class="link-underline">{l.label}</a></li>
+      ))}
+    </ul>
+  </div>
+</footer>

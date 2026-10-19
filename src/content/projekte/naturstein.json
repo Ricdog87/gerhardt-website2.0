@@ -1,0 +1,31 @@
+{
+  "name": "Naturstein",
+  "order": 2,
+  "ort": "Wiesbaden",
+  "region": "wiesbaden",
+  "projektart": "bestand",
+  "sanierung": true,
+  "projektartLabel": "Bestandsgarten · Sanierung",
+  "untertitel": "Sanierung und Gesamtausführung",
+  "pool": { "masse": "4 × 9 m", "typ": "skimmer", "gegenstromanlage": true },
+  "kostenrahmen": 300000,
+  "kostenLabel": "ca. 300.000 €",
+  "headline": "Vom Folienbecken zum Naturstein-Pool.",
+  "story": [
+    "Ein altes Folienbecken. Der Wunsch: ein Pool ohne Kompromisse. Wir haben allein die betonierte Kubatur erhalten und das Becken neu aufgebaut: innenliegende Treppe, ein Unterflur-Rollladen als Sitz- und Liegebank und eine durchgehende Verkleidung aus Naturstein.",
+    "Dazu eine stufenlos regelbare Gegenstromanlage und eine Salzelektrolyse für Chlor aus reinem Salz. Bewässerung, Mähroboter und Beleuchtung sind als ein System mitgeplant, gesteuert per App."
+  ],
+  "leistungen": [
+    "Rückbau bis auf die betonierte Kubatur, Neuaufbau 4 × 9 m",
+    "Innenliegende Treppe",
+    "Unterflur-Rollladen als Sitz- und Liegebank",
+    "Verkleidung aus Naturstein",
+    "Gegenstromanlage, stufenlos regelbar",
+    "Salzelektrolyse",
+    "Bewässerung, Mähroboter und Beleuchtung, gesteuert per App"
+  ],
+  "cover": "../../assets/images/projekte/naturstein-pool-wiesbaden-terrasse.webp",
+  "coverAlt": "Pool mit Plattenbelag vor einer hohen Natursteinmauer mit Liegen, Projekt Naturstein in Wiesbaden",
+  "coverPosition": "50% 55%",
+  "alteUrl": "/pools/projekt-naturstein"
+}

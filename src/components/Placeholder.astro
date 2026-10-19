@@ -1,0 +1,9 @@
+---
+// Sichtbarer Platzhalter für Inhalte, die der Kunde noch liefern muss. Jeder Name steht in CONTENT-TODO.md.
+interface Props {
+  name: string;
+}
+const { name } = Astro.props;
+---
+
+<mark class="placeholder" title="Inhalt folgt, siehe CONTENT-TODO.md">[[{name}]]</mark>

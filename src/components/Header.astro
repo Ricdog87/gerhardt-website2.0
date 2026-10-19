@@ -1,0 +1,142 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/brand/logo-gerhardt.png';
+import logoWhite from '../assets/images/brand/logo-gerhardt-weiss.png';
+import { company, navigation } from '../config/site';
+
+interface Props {
+  overlay?: boolean;
+}
+const { overlay = false } = Astro.props;
+---
+
+<header
+  class="site-header fixed inset-x-0 top-0 z-50"
+  data-overlay={overlay ? 'true' : 'false'}
+  data-solid={overlay ? 'false' : 'true'}
+>
+  <div class="container-page flex h-(--header-h) items-center justify-between gap-6">
+    <a href="/" class="logo relative block shrink-0" aria-label={`${company.name}, zur Startseite`}>
+      <Image src={logo} alt="" width={176} densities={[1, 2]} class="logo-color h-auto w-[148px] md:w-[176px]" loading="eager" />
+      <Image src={logoWhite} alt="" width={176} densities={[1, 2]} class="logo-white absolute inset-0 h-auto w-[148px] md:w-[176px]" loading="eager" />
+    </a>
+
+    <nav aria-label="Hauptnavigation" class="hidden lg:block">
+      <ul class="flex items-center gap-8 text-small">
+        {navigation.map((item) => (
+          <li><a href={item.href} class="nav-link py-2">{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-5">
+      <a href={company.phoneHref} class="nav-link hidden text-small tabular-nums xl:inline">{company.phone}</a>
+      <a href="/anfrage" class="header-cta btn hidden min-h-11 px-5 py-2.5 text-[0.875rem] sm:inline-flex">Projekt anfragen</a>
+      <button
+        type="button"
+        class="menu-toggle label flex h-11 items-center gap-3 lg:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="menu-toggle-text">Menü</span>
+        <span class="relative block h-3 w-6" aria-hidden="true">
+          <span class="bar absolute inset-x-0 top-0 h-px bg-current"></span>
+          <span class="bar absolute inset-x-0 bottom-0 h-px bg-current"></span>
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="mobile-menu fixed inset-0 top-(--header-h) bg-stone-50 lg:hidden" hidden>
+    <nav aria-label="Mobile Navigation" class="container-page flex h-full flex-col justify-between pt-8 pb-28">
+      <ul class="space-y-1">
+        {navigation.map((item) => (
+          <li><a href={item.href} class="mobile-link block py-2 font-display text-[2.25rem] leading-tight text-ink-900">{item.label}</a></li>
+        ))}
+      </ul>
+      <div class="space-y-3 border-t border-stone-200 pt-6 text-ink-600">
+        <a href={company.phoneHref} class="block text-lead text-ink-900 tabular-nums">{company.phone}</a>
+        <a href={`mailto:${company.email}`} class="block">{company.email}</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    --header-fg: var(--color-ink-900);
+    color: var(--header-fg);
+    border-bottom: 1px solid transparent;
+    transition: background-color 350ms var(--ease-out-soft), color 350ms var(--ease-out-soft), border-color 350ms var(--ease-out-soft);
+  }
+  .site-header[data-solid='true'] {
+    background: var(--color-stone-50);
+    border-bottom-color: var(--color-stone-200);
+  }
+  .site-header[data-solid='false'] {
+    --header-fg: var(--color-stone-50);
+    background: transparent;
+  }
+
+  .logo-white { opacity: 0; transition: opacity 350ms var(--ease-out-soft); }
+  .logo-color { transition: opacity 350ms var(--ease-out-soft); }
+  .site-header[data-solid='false'] .logo-white { opacity: 1; }
+  .site-header[data-solid='false'] .logo-color { opacity: 0; }
+
+  .nav-link {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 300ms var(--ease-out-soft);
+  }
+  .nav-link:hover { background-size: 100% 1px; }
+
+  .header-cta { background: var(--color-ink-900); color: var(--color-stone-50); }
+  .header-cta:hover { background: var(--color-water-800); }
+  .site-header[data-solid='false'] .header-cta { background: var(--color-stone-50); color: var(--color-ink-900); }
+  .site-header[data-solid='false'] .header-cta:hover { background: var(--color-stone-200); }
+
+  .menu-toggle .bar { transition: transform 300ms var(--ease-out-soft); }
+  .menu-toggle[aria-expanded='true'] .bar:first-child { transform: translateY(5.5px) rotate(45deg); }
+  .menu-toggle[aria-expanded='true'] .bar:last-child { transform: translateY(-5.5px) rotate(-45deg); }
+
+  @media (max-width: 47.99rem) {
+    .site-header { --header-h: 4rem; }
+  }
+</style>
+
+<script>
+  const header = document.querySelector<HTMLElement>('.site-header');
+  const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  if (header) {
+    const overlay = header.dataset.overlay === 'true';
+    let menuOpen = false;
+    const update = () => {
+      const solid = !overlay || menuOpen || window.scrollY > 24;
+      header.dataset.solid = String(solid);
+    };
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+
+    const setMenu = (open: boolean) => {
+      if (!toggle || !menu) return;
+      menuOpen = open;
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.querySelector('.menu-toggle-text')!.textContent = open ? 'Schließen' : 'Menü';
+      menu.hidden = !open;
+      document.documentElement.style.overflow = open ? 'hidden' : '';
+      update();
+    };
+    toggle?.addEventListener('click', () => setMenu(!menuOpen));
+    menu?.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => setMenu(false)));
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menuOpen) {
+        setMenu(false);
+        toggle?.focus();
+      }
+    });
+  }
+</script>
