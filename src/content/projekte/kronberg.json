@@ -6,7 +6,10 @@
   "projektart": "bestand",
   "projektartLabel": "Bestandsgarten",
   "untertitel": "Skimmer im Bestand",
-  "pool": { "masse": "3,60 × 7 m", "typ": "skimmer" },
+  "pool": {
+    "masse": "3,60 × 7 m",
+    "typ": "skimmer"
+  },
   "kostenrahmen": 150000,
   "kostenLabel": "ca. 150.000 €",
   "headline": "Ein Skimmer, in den Bestand eingefügt.",
@@ -21,5 +24,8 @@
   ],
   "cover": "../../assets/images/projekte/skimmerpool-kronberg-holzdeck.webp",
   "coverAlt": "Türkisfarbenes Skimmerbecken mit Holzdeck zwischen dichten Pflanzbeeten, Projekt in Kronberg",
-  "alteUrl": "/pools/projekt-kronberg"
+  "alteUrl": "/pools/projekt-kronberg",
+  "hero": "../../assets/images/projekte/skimmerpool-kronberg-holzdeck.webp",
+  "heroAlt": "Türkisfarbenes Skimmerbecken mit Holzdeck zwischen dichten Pflanzbeeten, Projekt in Kronberg",
+  "heroPosition": "50% 50%"
 }

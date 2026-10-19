@@ -6,9 +6,10 @@ import { priceAnchor } from '../../config/site';
 const ids = ['suedtirol', 'townhouse', 'naturstein'] as const;
 const refs = await Promise.all(ids.map((id) => getEntry('projekte', id)));
 if (refs.some((r) => !r)) throw new Error('Referenzprojekt für Investitionsrahmen fehlt');
+const fmt = new Intl.NumberFormat('de-DE');
 ---
 
-<section id="investition" class="section" aria-labelledby="investition-title">
+<section id="investition" class="section bg-stone-50" data-scene="light" aria-labelledby="investition-title">
   <div class="container-page">
     <SectionIntro titleId="investition-title" label="Investition" title={`Komplettprojekte ${priceAnchor.label}.`}>
       <p>
@@ -22,7 +23,9 @@ if (refs.some((r) => !r)) throw new Error('Referenzprojekt für Investitionsrahm
         const p = entry!.data;
         return (
           <article class="border-t border-ink-900 pt-7" data-reveal style={`--reveal-delay: ${i * 90}ms`}>
-            <p class="font-display text-headline">{p.kostenLabel}</p>
+            <p class="font-display text-[clamp(2.5rem,1.4rem+2.8vw,4.5rem)] leading-none font-[300] whitespace-nowrap tabular-nums">
+              <span class="text-[0.45em] align-[0.6em] text-ink-600">ca.</span> <span data-count={p.kostenrahmen}>{fmt.format(p.kostenrahmen)}</span><span class="text-[0.55em]"> €</span>
+            </p>
             <h3 class="mt-5 font-sans text-[1.0625rem] font-semibold tracking-normal">
               {p.name} <span class="font-normal text-ink-600">· {p.ort} · {p.projektartLabel}</span>
             </h3>

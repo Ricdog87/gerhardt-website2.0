@@ -1,91 +1,236 @@
 ---
 import Photo from '../Photo.astro';
+import { getImage } from 'astro:assets';
 import { company, heroHeadlines } from '../../config/site';
 import dusk from '../../assets/images/hero/naturstein-pool-wiesbaden-daemmerung.webp';
 import wall from '../../assets/images/hero/natursteinmauer-pool-liegen-wiesbaden-abend.webp';
 import steps from '../../assets/images/hero/naturstein-pool-treppe-wiesbaden-abend.webp';
+import logoWhite from '../../assets/images/brand/logo-gerhardt-weiss.png';
 
 const slides = [
   { src: dusk, alt: 'Pool mit Unterwasserlicht in der Dämmerung, dahinter eine beleuchtete Natursteinmauer und Liegen, Wiesbaden', position: '50% 60%' },
   { src: wall, alt: 'Beleuchtete Natursteinmauer mit vier Liegen am Pool am Abend, Wiesbaden', position: '50% 55%' },
   { src: steps, alt: 'Pool mit innenliegender Treppe und Holzdeck am Abend, im Hintergrund angestrahlte Bäume, Wiesbaden', position: '45% 60%' },
 ];
+const introLogo = await getImage({ src: logoWhite, width: 440, format: 'webp' });
+const pad = (n: number) => String(n).padStart(2, '0');
 ---
 
-<section class="hero relative isolate h-svh min-h-[38rem] overflow-hidden bg-water-800 text-stone-50" aria-labelledby="hero-title">
-  <div class="absolute inset-0 -z-10" data-hero-slides>
-    {slides.map((s, i) => (
-      <Photo
-        src={s.src}
-        alt={s.alt}
-        widths={[768, 1080, 1440, 1920, 2400]}
-        sizes="100vw"
-        loading={i === 0 ? 'eager' : 'lazy'}
-        fetchpriority={i === 0 ? 'high' : 'low'}
-        class="hero-slide absolute inset-0 h-full w-full object-cover"
-        style={`object-position: ${s.position}`}
-        data-active={i === 0 ? 'true' : 'false'}
-        aria-hidden={i === 0 ? undefined : 'true'}
-      />
-    ))}
-    <div class="absolute inset-0 bg-[rgb(9_17_19/0.42)]"></div>
+<section
+  class="hero grain relative isolate h-svh min-h-[40rem] overflow-hidden bg-ink-950 text-stone-50"
+  data-scene="dark"
+  aria-labelledby="hero-title"
+>
+  <div class="absolute inset-0 -z-10" data-hero-camera>
+    <div class="absolute inset-0" data-hero-media>
+      {slides.map((s, i) => (
+        <div class="hero-slide absolute inset-0 overflow-hidden" data-slide={i}>
+          <Photo
+            src={s.src}
+            alt={s.alt}
+            widths={[768, 1080, 1440, 1920, 2400]}
+            sizes="100vw"
+            loading={i === 0 ? 'eager' : 'lazy'}
+            fetchpriority={i === 0 ? 'high' : 'low'}
+            class="hero-img absolute inset-0 h-full w-full object-cover"
+            style={`object-position: ${s.position}`}
+            aria-hidden={i === 0 ? undefined : 'true'}
+          />
+        </div>
+      ))}
+    </div>
   </div>
+  <div class="hero-shade pointer-events-none absolute inset-0 -z-10" data-hero-shade></div>
 
-  <div class="container-page flex h-full flex-col justify-end pt-(--header-h) pb-[clamp(2.5rem,7vh,5.5rem)]">
-    <h1 id="hero-title" class="text-display max-w-[13ch]" data-headlines={JSON.stringify(heroHeadlines)}>
+  <div class="container-page flex h-full flex-col justify-end pt-(--header-h) pb-[clamp(1.5rem,5vh,3.5rem)]" data-hero-content>
+    <p class="label text-stone-50/80" data-hero-in>Poolbau · Wiesbaden · Taunus · Frankfurt</p>
+    <h1 id="hero-title" class="mt-5 text-cinema max-w-[11ch] font-[300]" data-split="manual" data-headlines={JSON.stringify(heroHeadlines)}>
       {heroHeadlines.A}
     </h1>
-    <p class="mt-6 max-w-[44ch] text-lead text-stone-50/90">
-      Planung, Bau und Technik aus einer Hand. Für Bestandsgärten und Neubauten in Wiesbaden, im Taunus und in Frankfurt.
-    </p>
-    <div class="mt-9 flex flex-wrap gap-3 sm:gap-4">
-      <a href="/anfrage" class="btn btn-light">Projekt anfragen</a>
-      <a href="#projekte" class="btn btn-ghost-light">Projekte ansehen</a>
+
+    <div class="mt-8 grid gap-7 md:mt-10 md:grid-cols-12 md:items-end">
+      <p class="max-w-[42ch] text-lead text-stone-50/85 md:col-span-6" data-hero-in>
+        Planung, Bau und Technik aus einer Hand. Für Bestandsgärten und Neubauten in Wiesbaden, im Taunus und in Frankfurt.
+      </p>
+      <div class="flex flex-wrap gap-3 md:col-span-6 md:justify-end" data-hero-in>
+        <a href="/anfrage" class="btn btn-light" data-magnetic>Projekt anfragen</a>
+        <a href="#projekte" class="btn btn-ghost-light" data-magnetic>Projekte ansehen</a>
+      </div>
     </div>
-    <p class="label mt-10 text-stone-50/80 sm:mt-14">
-      Seit {company.founded} <span aria-hidden="true">·</span> Planung, Bau und Service <span aria-hidden="true">·</span> Rhein-Main
-    </p>
+
+    <div class="mt-10 flex items-center justify-between gap-6 border-t border-stone-50/20 pt-5 text-stone-50/75 md:mt-14" data-hero-in>
+      <p class="label">Seit {company.founded} <span aria-hidden="true">·</span> Planung, Bau und Service</p>
+      <p class="label hidden items-center gap-3 md:flex" aria-hidden="true">
+        Scrollen <span class="scroll-cue relative block h-8 w-px overflow-hidden bg-stone-50/25"><span class="absolute inset-x-0 top-0 h-1/2 bg-stone-50"></span></span>
+      </p>
+      <p class="label flex items-center gap-3 tabular-nums" aria-hidden="true">
+        <span data-hero-index>01</span>
+        <span class="relative block h-px w-14 bg-stone-50/30 md:w-20"><span class="absolute inset-0 origin-left scale-x-[0.33] bg-stone-50" data-hero-progress></span></span>
+        <span>{pad(slides.length)}</span>
+      </p>
+    </div>
   </div>
 </section>
 
-<style>
-  .hero-slide {
-    opacity: 0;
-    transition: opacity 1800ms var(--ease-out-soft);
-  }
-  .hero-slide[data-active='true'] { opacity: 1; }
+<div class="intro-curtain" data-intro-curtain aria-hidden="true">
+  <div class="intro-half" data-curtain="top" style="top: 0"></div>
+  <div class="intro-half" data-curtain="bottom" style="bottom: 0"></div>
+  <div class="intro-mark">
+    <img src={introLogo.src} width={220} height={45} alt="" class="intro-logo" data-intro-logo />
+    <span class="intro-line" data-intro-line></span>
+  </div>
+</div>
 
-  @media (prefers-reduced-motion: no-preference) {
-    .hero-slide[data-active='true'] { animation: hero-zoom 16s linear both; }
+<style>
+  /* Vorhang nur beim ersten Besuch pro Sitzung und nur mit Bewegung. Fällt das Skript aus, blendet er nach 4,5 s aus. */
+  .intro-curtain { display: none; }
+  :global(.motion.intro) .intro-curtain {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    pointer-events: none;
+    animation: intro-fallback 0.6s 4.5s forwards;
   }
-  @keyframes hero-zoom {
-    from { transform: scale(1); }
-    to { transform: scale(1.06); }
+  @keyframes intro-fallback { to { opacity: 0; visibility: hidden; } }
+  .intro-half { position: absolute; left: 0; right: 0; height: 50.5%; background: var(--color-ink-950); }
+  .intro-mark { position: absolute; inset: 0; display: grid; place-items: center; }
+  .intro-mark > * { grid-area: 1 / 1; }
+  .intro-logo { width: min(220px, 52vw); height: auto; opacity: 0; transform: translateY(12px); }
+  .intro-line { width: 9rem; height: 1px; margin-top: 6rem; background: rgb(246 243 238 / 0.55); transform: scaleX(0); transform-origin: left; }
+
+  .hero-slide:not(:first-child) { clip-path: inset(0 0 0 100%); }
+
+  /* Filmische Abdunklung: Vignette plus Grund für die Schrift */
+  .hero-shade {
+    background:
+      radial-gradient(120% 90% at 50% 40%, transparent 45%, rgb(5 10 12 / 0.55) 100%),
+      linear-gradient(to bottom, rgb(5 10 12 / 0.35) 0%, rgb(5 10 12 / 0) 22%, rgb(5 10 12 / 0) 45%, rgb(5 10 12 / 0.72) 100%);
+  }
+
+  .scroll-cue > span { animation: cue 2.2s var(--ease-expo) infinite; }
+  @keyframes cue {
+    0% { transform: translateY(-100%); }
+    60%, 100% { transform: translateY(200%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .scroll-cue > span { animation: none; }
   }
 </style>
 
 <script>
-  // Headline-Varianten zum Vergleichen: ?hero=B oder ?hero=C
+  import { gsap, splitLines, reduced, startMotion, getLenis, EXPO } from '../../scripts/motion';
+
+  startMotion();
+
+  const hero = document.querySelector<HTMLElement>('.hero');
   const title = document.getElementById('hero-title');
+
+  // Headline-Varianten zum Vergleichen: ?hero=B oder ?hero=C
   const variant = new URLSearchParams(location.search).get('hero')?.toUpperCase();
   if (title && variant) {
     const headlines = JSON.parse(title.dataset.headlines ?? '{}');
     if (headlines[variant]) title.textContent = headlines[variant];
   }
 
-  // Ruhiger Crossfade alle 7 s, kein Autoplay bei reduzierter Bewegung
-  const slides = [...document.querySelectorAll<HTMLElement>('.hero-slide')];
-  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (slides.length > 1 && !reduced) {
+  if (hero && title && !reduced) {
+    const media = hero.querySelector<HTMLElement>('[data-hero-media]')!;
+    const camera = hero.querySelector<HTMLElement>('[data-hero-camera]')!;
+    const content = hero.querySelector<HTMLElement>('[data-hero-content]')!;
+    const shade = hero.querySelector<HTMLElement>('[data-hero-shade]')!;
+    const fadeIns = hero.querySelectorAll<HTMLElement>('[data-hero-in]');
+    const headline = splitLines(title, { trigger: false });
+
+    const reveal = () => {
+      const tl = gsap.timeline();
+      tl.fromTo(media, { scale: 1.28 }, { scale: 1, duration: 2.6, ease: EXPO }, 0)
+        .add(() => headline()?.play(), 0.25)
+        .fromTo(
+          fadeIns,
+          { autoAlpha: 0, y: 28 },
+          { autoAlpha: 1, y: 0, duration: 1.3, ease: EXPO, stagger: 0.12, clearProps: 'transform' },
+          0.55,
+        );
+      return tl;
+    };
+
+    // Intro wie ein Filmanfang, einmal pro Sitzung. Der Vorhang steht schon im HTML (Klasse .intro aus dem Kopf-Skript).
+    const curtain = document.querySelector<HTMLElement>('[data-intro-curtain]');
+    const playIntro = document.documentElement.classList.contains('intro') && curtain && window.scrollY < 50;
+
+    if (!playIntro) {
+      curtain?.remove();
+      reveal();
+    } else {
+      try {
+        sessionStorage.setItem('gerhardt-intro', '1');
+      } catch {
+        /* privater Modus: Intro läuft dann bei jedem Besuch */
+      }
+      getLenis()?.stop();
+      const logo = curtain.querySelector('[data-intro-logo]');
+      const line = curtain.querySelector('[data-intro-line]');
+      gsap
+        .timeline()
+        .to(logo, { opacity: 1, y: 0, duration: 0.7, ease: 'power2.out' }, 0.05)
+        .to(line, { scaleX: 1, duration: 0.8, ease: 'expo.inOut' }, 0.1)
+        .to([logo, line], { opacity: 0, duration: 0.3, ease: 'power2.in' }, 0.8)
+        .to(curtain.querySelector('[data-curtain="top"]'), { yPercent: -100, duration: 1.15, ease: 'expo.inOut' }, 0.95)
+        .to(curtain.querySelector('[data-curtain="bottom"]'), { yPercent: 100, duration: 1.15, ease: 'expo.inOut' }, 0.95)
+        .add(reveal(), 1.0)
+        // Scrollen freigeben, sobald der Vorhang aufgeht; danach den Vorhang entfernen
+        .add(() => getLenis()?.start(), 1.6)
+        .add(() => curtain.remove(), 2.15);
+    }
+
+    // Kamerafahrt beim Scrollen: Bild fährt näher, Schrift zieht nach oben weg
+    gsap
+      .timeline({ scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: true } })
+      .to(camera, { scale: 1.16, yPercent: 10, ease: 'none' }, 0)
+      .to(content, { yPercent: -22, autoAlpha: 0, ease: 'none' }, 0)
+      .to(shade, { opacity: 1.4, ease: 'none' }, 0);
+
+    // Bildwechsel als horizontaler Wipe mit langsamer Fahrt im Bild
+    const slides = [...hero.querySelectorAll<HTMLElement>('.hero-slide')];
+    const index = hero.querySelector<HTMLElement>('[data-hero-index]');
+    const progress = hero.querySelector<HTMLElement>('[data-hero-progress]');
+    const HOLD = 7;
     let current = 0;
-    window.setInterval(() => {
-      if (document.hidden) return;
-      const next = (current + 1) % slides.length;
-      const img = slides[next].querySelector('img') ?? slides[next];
-      if (img instanceof HTMLImageElement && !img.complete) return;
-      slides[current].dataset.active = 'false';
-      slides[next].dataset.active = 'true';
-      current = next;
-    }, 7000);
+
+    const drift = (slide: HTMLElement) =>
+      gsap.fromTo(slide.querySelector('img'), { scale: 1.12, xPercent: 0 }, { scale: 1, duration: HOLD + 2, ease: 'none' });
+    const runProgress = () => progress && gsap.fromTo(progress, { scaleX: 0 }, { scaleX: 1, duration: HOLD, ease: 'none' });
+
+    drift(slides[0]);
+    runProgress();
+
+    const next = () => {
+      const from = slides[current];
+      const toIndex = (current + 1) % slides.length;
+      const to = slides[toIndex];
+      const img = to.querySelector('img');
+      if (document.hidden || (img && !img.complete)) {
+        gsap.delayedCall(1, next);
+        return;
+      }
+      gsap.set(to, { zIndex: 2, clipPath: 'inset(0% 0% 0% 100%)' });
+      gsap.set(from, { zIndex: 1 });
+      gsap
+        .timeline({
+          onComplete: () => {
+            gsap.set(from, { zIndex: 0, clipPath: 'inset(0% 0% 0% 100%)' });
+            gsap.set(from.querySelector('img'), { xPercent: 0 });
+          },
+        })
+        .to(to, { clipPath: 'inset(0% 0% 0% 0%)', duration: 1.8, ease: 'expo.inOut' }, 0)
+        .to(from.querySelector('img'), { xPercent: -10, duration: 1.8, ease: 'expo.inOut' }, 0);
+      drift(to);
+      current = toIndex;
+      if (index) index.textContent = String(current + 1).padStart(2, '0');
+      runProgress();
+      gsap.delayedCall(HOLD, next);
+    };
+    if (slides.length > 1) gsap.delayedCall(HOLD, next);
+
   }
 </script>

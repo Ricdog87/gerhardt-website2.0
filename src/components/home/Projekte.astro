@@ -1,31 +1,101 @@
 ---
 import { getEntry } from 'astro:content';
-import ProjectCard from '../ProjectCard.astro';
-import SectionIntro from '../SectionIntro.astro';
+import Photo from '../Photo.astro';
 
-const [bergparadies, naturstein, provence] = await Promise.all([
-  getEntry('projekte', 'bergparadies'),
-  getEntry('projekte', 'naturstein'),
-  getEntry('projekte', 'provence'),
-]);
-if (!bergparadies || !naturstein || !provence) throw new Error('Projekt für die Startseite fehlt');
+const ids = ['bergparadies', 'naturstein', 'provence'] as const;
+const projects = await Promise.all(ids.map((id) => getEntry('projekte', id)));
+if (projects.some((p) => !p)) throw new Error('Projekt für die Startseite fehlt');
+const pad = (n: number) => String(n).padStart(2, '0');
 ---
 
-<section id="projekte" class="section pt-0" aria-labelledby="projekte-title">
-  <div class="container-page">
-    <div class="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-      <SectionIntro titleId="projekte-title" label="Ausgewählte Projekte" title="Drei Gärten, drei Ausgangslagen." />
-      <a href="/projekte" class="link-underline shrink-0 text-small" data-reveal>Alle Projekte</a>
+<section id="projekte" class="projects bg-ink-950 text-stone-50" data-scene="ink" aria-labelledby="projekte-title">
+  <div class="container-page flex flex-col gap-8 pt-(--section) pb-14 md:flex-row md:items-end md:justify-between md:pb-20">
+    <div class="max-w-[48rem]">
+      <p class="label text-sand-500" data-reveal>Ausgewählte Projekte</p>
+      <h2 id="projekte-title" class="mt-5 text-display" data-split>Drei Gärten, drei Ausgangslagen.</h2>
     </div>
-
-    <div class="mt-14 grid gap-y-14 md:mt-20 md:grid-cols-12 md:gap-x-6">
-      <div class="md:col-span-7">
-        <ProjectCard project={bergparadies} sizes="(min-width: 1440px) 790px, (min-width: 768px) 56vw, 100vw" />
-      </div>
-      <div class="grid content-start gap-y-14 md:col-span-4 md:col-start-9 md:pt-32">
-        <ProjectCard project={naturstein} sizes="(min-width: 1440px) 450px, (min-width: 768px) 32vw, 100vw" delay={120} />
-        <ProjectCard project={provence} ratio="3/2" sizes="(min-width: 1440px) 450px, (min-width: 768px) 32vw, 100vw" delay={120} />
-      </div>
-    </div>
+    <a href="/projekte" class="link-underline shrink-0 text-small text-stone-50/80" data-reveal>Alle Projekte</a>
   </div>
+
+  {projects.map((entry, i) => {
+    const p = entry!.data;
+    const typ = p.pool.typ === 'ueberlauf' ? 'Überlaufpool' : 'Skimmerpool';
+    return (
+      <article class="scene relative" data-project-scene>
+        <a href={`/projekte/${entry!.id}`} class="scene-stage grain relative block h-[88svh] overflow-hidden md:h-svh" data-cursor="Ansehen">
+          <div class="scene-frame absolute inset-0 overflow-hidden" data-scene-frame>
+            <Photo
+              src={p.hero}
+              alt={p.heroAlt}
+              widths={[768, 1080, 1440, 1920, 2400]}
+              sizes="100vw"
+              class="scene-img absolute inset-0 h-full w-full object-cover"
+              style={`object-position: ${p.heroPosition}`}
+            />
+            <div class="scene-shade absolute inset-0" data-scene-shade></div>
+          </div>
+
+          <div class="container-page absolute inset-x-0 bottom-0 pb-[clamp(2rem,7vh,5rem)]">
+            <p class="label text-stone-50/80" data-scene-in>
+              {pad(i + 1)} / {pad(projects.length)} <span aria-hidden="true">·</span> {p.ort} <span aria-hidden="true">·</span> {typ}
+            </p>
+            <div class="mt-4 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+              <div>
+                <h3 class="text-cinema font-[300]" data-scene-title>{p.name}</h3>
+                <p class="mt-4 max-w-[30ch] font-display text-title font-[300] text-stone-50/90" data-scene-in>{p.headline}</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-6 border-t border-stone-50/25 pt-5 text-small sm:gap-10 lg:min-w-[30rem]" data-scene-in>
+                <div><dt class="label text-stone-50/60">Pool</dt><dd class="mt-2">{p.pool.masse}</dd></div>
+                <div><dt class="label text-stone-50/60">Projektart</dt><dd class="mt-2">{p.projektartLabel}</dd></div>
+                <div><dt class="label text-stone-50/60">Kostenrahmen</dt><dd class="mt-2">{p.kostenLabel}</dd></div>
+              </dl>
+            </div>
+          </div>
+        </a>
+      </article>
+    );
+  })}
 </section>
+
+<style>
+  .scene-shade {
+    background:
+      radial-gradient(130% 90% at 50% 35%, transparent 40%, rgb(5 10 12 / 0.5) 100%),
+      linear-gradient(to bottom, rgb(5 10 12 / 0) 35%, rgb(5 10 12 / 0.78) 100%);
+  }
+
+  /* Desktop mit Bewegung: jede Szene bleibt stehen, während sich das Bild öffnet */
+  @media (min-width: 64rem) {
+    :global(.motion) .scene { height: 240svh; }
+    :global(.motion) .scene-stage { position: sticky; top: 0; }
+  }
+</style>
+
+<script>
+  import { gsap, SplitText, reduced, startMotion } from '../../scripts/motion';
+
+  startMotion();
+
+  if (!reduced) {
+    const mm = gsap.matchMedia();
+    mm.add('(min-width: 64rem)', () => {
+      document.querySelectorAll<HTMLElement>('[data-project-scene]').forEach((scene) => {
+        const frame = scene.querySelector<HTMLElement>('[data-scene-frame]')!;
+        const img = scene.querySelector<HTMLElement>('.scene-img')!;
+        const shade = scene.querySelector<HTMLElement>('[data-scene-shade]')!;
+        const title = scene.querySelector<HTMLElement>('[data-scene-title]')!;
+        const ins = scene.querySelectorAll<HTMLElement>('[data-scene-in]');
+        const split = SplitText.create(title, { type: 'chars', mask: 'chars' });
+
+        gsap
+          .timeline({ scrollTrigger: { trigger: scene, start: 'top top', end: 'bottom bottom', scrub: 0.8 } })
+          .fromTo(frame, { clipPath: 'inset(16% 26% 16% 26%)' }, { clipPath: 'inset(0% 0% 0% 0%)', ease: 'power2.inOut', duration: 0.55 }, 0)
+          .fromTo(img, { scale: 1.4 }, { scale: 1, ease: 'power2.out', duration: 0.75 }, 0)
+          .fromTo(shade, { opacity: 0 }, { opacity: 1, ease: 'none', duration: 0.3 }, 0.3)
+          .from(split.chars, { yPercent: 110, ease: 'expo.out', stagger: 0.012, duration: 0.25 }, 0.42)
+          .from(ins, { autoAlpha: 0, y: 30, ease: 'expo.out', stagger: 0.05, duration: 0.25 }, 0.5)
+          .to({}, { duration: 0.25 });
+      });
+    });
+  }
+</script>

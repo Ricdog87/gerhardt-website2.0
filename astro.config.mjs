@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://gerhardt-gmbh.de',
   trailingSlash: 'never',
-  build: { format: 'file' },
+  build: { format: 'file', inlineStylesheets: 'always' },
   adapter: vercel({ webAnalytics: { enabled: false } }),
   integrations: [sitemap()],
   image: {

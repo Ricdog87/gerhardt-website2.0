@@ -6,7 +6,11 @@
   "projektart": "neubau",
   "projektartLabel": "Neubau",
   "untertitel": "Anthrazit-Pool im Neubau",
-  "pool": { "masse": "3,50 × 8 m", "typ": "skimmer", "gegenstromanlage": true },
+  "pool": {
+    "masse": "3,50 × 8 m",
+    "typ": "skimmer",
+    "gegenstromanlage": true
+  },
   "kostenrahmen": 150000,
   "kostenLabel": "ca. 150.000 €",
   "headline": "Ein Anthrazit-Pool, weil das Haus dunkles Holz hat.",
@@ -23,5 +27,8 @@
   ],
   "cover": "../../assets/images/projekte/anthrazit-pool-koenigstein-suedtirol-holzdeck.webp",
   "coverAlt": "Anthrazitfarbenes Becken mit Holzdeck neben einer Trockenmauer, Projekt Südtirol in Königstein",
-  "alteUrl": "/pools/projekt-suedtirol"
+  "alteUrl": "/pools/projekt-suedtirol",
+  "hero": "../../assets/images/projekte/anthrazit-pool-koenigstein-suedtirol-holzdeck.webp",
+  "heroAlt": "Anthrazitfarbenes Becken mit Holzdeck neben einer Trockenmauer, Projekt Südtirol in Königstein",
+  "heroPosition": "50% 50%"
 }

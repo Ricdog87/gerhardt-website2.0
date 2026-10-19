@@ -2,7 +2,26 @@
 
 Relaunch der Website der Gerhardt GmbH (Poolbau und Gartentechnik, Wiesbaden).
 
-Astro, TypeScript, Tailwind CSS. Bilder über `astro:assets` (AVIF/WebP zur Build-Zeit), Fonts selbst gehostet (Fraunces, Hanken Grotesk). Deployment auf Vercel.
+Astro, TypeScript, Tailwind CSS, GSAP (ScrollTrigger, SplitText) und Lenis. Bilder über `astro:assets` (AVIF/WebP zur Build-Zeit), Fonts selbst gehostet (Fraunces, Hanken Grotesk). Deployment auf Vercel.
+
+## Motion
+
+Die Startseite ist als Filmsequenz inszeniert. Alles läuft über `src/scripts/motion.ts`:
+
+| Effekt | Steuerung |
+|---|---|
+| Intro-Vorhang beim ersten Besuch pro Sitzung | `Base intro`, Markup in `Hero.astro`, Klasse `.intro` aus dem Kopf-Skript |
+| Smooth Scrolling | Lenis, startet in `startMotion()` |
+| Zeilen aus der Maske | `data-split` (wird erst kurz vor dem Sichtbarwerden zerlegt) |
+| Wortweises Aufhellen | `data-scrub-words` |
+| Einblenden, Bild-Reveal | `data-reveal`, `data-reveal="image"` |
+| Parallaxe | `data-parallax="0.15"`, Rahmen mit `data-parallax-frame` |
+| Szenenwechsel hell/dunkel | `data-scene` (light, sand, dark, ink) auf Sektionen, aktiv ab der ersten Scrollbewegung |
+| Zähler | `data-count="150000"` |
+| Cursor-Label, magnetische Buttons | `data-cursor="Ansehen"`, `data-magnetic` |
+| Projektszenen, Sticky-System, Filmstreifen | eigene Skripte in `Projekte.astro`, `System.astro`, `Ablauf.astro` |
+
+Bei „Bewegung reduzieren" (Betriebssystem) und ohne JavaScript ist alles statisch und vollständig sichtbar. Fällt das Skript aus, blendet ein CSS-Sicherheitsnetz nach 3,5 s alles ein.
 
 ## Entwicklung
 
@@ -39,7 +58,8 @@ Voraussetzung: Node 22.22 oder neuer.
 
 ```bash
 npm run build && npx serve .vercel/output/static -l 4321
-node scripts/audit/screenshots.mjs http://localhost:4321 /     # Screenshots nach audit/after
+node scripts/audit/screenshots.mjs http://localhost:4321 /     # statische Screenshots nach audit/after
+node scripts/audit/scroll-frames.mjs http://localhost:4321/ audit/frames   # Filmframes beim Durchscrollen
 ```
 
 Headline-Varianten des Hero: `/?hero=B`, `/?hero=C`.

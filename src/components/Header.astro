@@ -65,23 +65,45 @@ const { overlay = false } = Astro.props;
 <style>
   .site-header {
     --header-fg: var(--color-ink-900);
+    --header-bg: var(--color-stone-50);
+    --header-line: var(--color-stone-200);
     color: var(--header-fg);
     border-bottom: 1px solid transparent;
-    transition: background-color 350ms var(--ease-out-soft), color 350ms var(--ease-out-soft), border-color 350ms var(--ease-out-soft);
+    transition: background-color 600ms var(--ease-out-soft), color 600ms var(--ease-out-soft), border-color 600ms var(--ease-out-soft), transform 700ms var(--ease-expo);
+  }
+  :global(html[data-scene='sand']) .site-header { --header-bg: var(--color-stone-200); --header-line: rgb(28 29 31 / 0.12); }
+  :global(html[data-scene='dark']) .site-header,
+  :global(html[data-scene='ink']) .site-header {
+    --header-fg: var(--color-stone-50);
+    --header-bg: var(--scene-bg);
+    --header-line: rgb(246 243 238 / 0.12);
   }
   .site-header[data-solid='true'] {
-    background: var(--color-stone-50);
-    border-bottom-color: var(--color-stone-200);
+    background: var(--header-bg);
+    border-bottom-color: var(--header-line);
   }
+  .site-header[data-hidden='true'] { transform: translateY(-101%); }
+  .site-header[data-menu='true'] {
+    --header-fg: var(--color-ink-900) !important;
+    --header-bg: var(--color-stone-50) !important;
+    --header-line: var(--color-stone-200) !important;
+  }
+  .site-header[data-menu='true'] .logo-white { opacity: 0 !important; }
+  .site-header[data-menu='true'] .logo-color { opacity: 1 !important; }
+  .site-header[data-menu='true'] .header-cta { background: var(--color-ink-900) !important; color: var(--color-stone-50) !important; }
   .site-header[data-solid='false'] {
     --header-fg: var(--color-stone-50);
     background: transparent;
   }
 
-  .logo-white { opacity: 0; transition: opacity 350ms var(--ease-out-soft); }
-  .logo-color { transition: opacity 350ms var(--ease-out-soft); }
-  .site-header[data-solid='false'] .logo-white { opacity: 1; }
-  .site-header[data-solid='false'] .logo-color { opacity: 0; }
+  .logo-white { opacity: 0; transition: opacity 600ms var(--ease-out-soft); }
+  .logo-color { transition: opacity 600ms var(--ease-out-soft); }
+  .site-header[data-solid='false'] .logo-white,
+  :global(html[data-scene='dark']) .logo-white,
+  :global(html[data-scene='ink']) .logo-white { opacity: 1; }
+  .site-header[data-solid='false'] .logo-color,
+  :global(html[data-scene='dark']) .logo-color,
+  :global(html[data-scene='ink']) .logo-color { opacity: 0; }
 
   .nav-link {
     background-image: linear-gradient(currentColor, currentColor);
@@ -94,8 +116,12 @@ const { overlay = false } = Astro.props;
 
   .header-cta { background: var(--color-ink-900); color: var(--color-stone-50); }
   .header-cta:hover { background: var(--color-water-800); }
-  .site-header[data-solid='false'] .header-cta { background: var(--color-stone-50); color: var(--color-ink-900); }
-  .site-header[data-solid='false'] .header-cta:hover { background: var(--color-stone-200); }
+  .site-header[data-solid='false'] .header-cta,
+  :global(html[data-scene='dark']) .header-cta,
+  :global(html[data-scene='ink']) .header-cta { background: var(--color-stone-50); color: var(--color-ink-900); }
+  .site-header[data-solid='false'] .header-cta:hover,
+  :global(html[data-scene='dark']) .header-cta:hover,
+  :global(html[data-scene='ink']) .header-cta:hover { background: var(--color-stone-200); }
 
   .menu-toggle .bar { transition: transform 300ms var(--ease-out-soft); }
   .menu-toggle[aria-expanded='true'] .bar:first-child { transform: translateY(5.5px) rotate(45deg); }
@@ -107,6 +133,8 @@ const { overlay = false } = Astro.props;
 </style>
 
 <script>
+  import { getLenis } from '../scripts/motion';
+
   const header = document.querySelector<HTMLElement>('.site-header');
   const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
   const menu = document.getElementById('mobile-menu');
@@ -114,9 +142,16 @@ const { overlay = false } = Astro.props;
   if (header) {
     const overlay = header.dataset.overlay === 'true';
     let menuOpen = false;
+    let lastY = window.scrollY;
     const update = () => {
-      const solid = !overlay || menuOpen || window.scrollY > 24;
-      header.dataset.solid = String(solid);
+      const y = window.scrollY;
+      header.dataset.solid = String(!overlay || menuOpen || y > 24);
+      // Beim Runterscrollen Platz machen, beim Hochscrollen sofort zurück
+      const hide = !menuOpen && y > window.innerHeight * 0.6 && y > lastY + 2;
+      const show = menuOpen || y < lastY - 2 || y < window.innerHeight * 0.6;
+      if (hide) header.dataset.hidden = 'true';
+      else if (show) header.dataset.hidden = 'false';
+      lastY = y;
     };
     update();
     window.addEventListener('scroll', update, { passive: true });
@@ -124,10 +159,13 @@ const { overlay = false } = Astro.props;
     const setMenu = (open: boolean) => {
       if (!toggle || !menu) return;
       menuOpen = open;
+      header.dataset.menu = String(open);
       toggle.setAttribute('aria-expanded', String(open));
       toggle.querySelector('.menu-toggle-text')!.textContent = open ? 'Schließen' : 'Menü';
       menu.hidden = !open;
       document.documentElement.style.overflow = open ? 'hidden' : '';
+      if (open) getLenis()?.stop();
+      else getLenis()?.start();
       update();
     };
     toggle?.addEventListener('click', () => setMenu(!menuOpen));

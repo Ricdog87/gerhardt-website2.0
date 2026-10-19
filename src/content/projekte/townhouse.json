@@ -6,7 +6,11 @@
   "projektart": "neubau",
   "projektartLabel": "Neubau",
   "untertitel": "Gartenneubau mit Pool",
-  "pool": { "masse": "3 × 7 m", "typ": "skimmer", "gegenstromanlage": true },
+  "pool": {
+    "masse": "3 × 7 m",
+    "typ": "skimmer",
+    "gegenstromanlage": true
+  },
   "kostenrahmen": 200000,
   "kostenLabel": "ca. 200.000 €",
   "headline": "Ein Garten neu gebaut, auf mehreren Ebenen.",
@@ -25,5 +29,8 @@
   ],
   "cover": "../../assets/images/projekte/skimmerpool-wiesbaden-townhouse-terrasse.webp",
   "coverAlt": "Skimmerbecken zwischen hellen Terrassenplatten und Pflanzbeeten vor einem modernen Wohnhaus, Projekt Townhouse in Wiesbaden",
-  "alteUrl": "/pools/projekt-townhouse"
+  "alteUrl": "/pools/projekt-townhouse",
+  "hero": "../../assets/images/projekte/skimmerpool-wiesbaden-townhouse-terrasse.webp",
+  "heroAlt": "Skimmerbecken zwischen hellen Terrassenplatten und Pflanzbeeten vor einem modernen Wohnhaus, Projekt Townhouse in Wiesbaden",
+  "heroPosition": "50% 50%"
 }

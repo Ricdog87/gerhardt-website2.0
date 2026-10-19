@@ -6,7 +6,10 @@
   "projektart": "bestand",
   "projektartLabel": "Bestandsgarten",
   "untertitel": "Pool im Bestandsgarten",
-  "pool": { "masse": "3 × 9 m", "typ": "skimmer" },
+  "pool": {
+    "masse": "3 × 9 m",
+    "typ": "skimmer"
+  },
   "kostenrahmen": 150000,
   "kostenLabel": "ca. 150.000 €",
   "headline": "Als wäre er schon immer hier gewesen.",
@@ -24,5 +27,8 @@
   ],
   "cover": "../../assets/images/projekte/skimmerpool-wiesbaden-provence-garten.webp",
   "coverAlt": "Langgestrecktes Skimmerbecken im Rasen neben der Terrasse eines weißen Wohnhauses, Projekt Provence in Wiesbaden",
-  "alteUrl": "/pools/projekt-provence"
+  "alteUrl": "/pools/projekt-provence",
+  "hero": "../../assets/images/projekte/skimmerpool-wiesbaden-provence-garten.webp",
+  "heroAlt": "Langgestrecktes Skimmerbecken im Rasen neben der Terrasse eines weißen Wohnhauses, Projekt Provence in Wiesbaden",
+  "heroPosition": "50% 50%"
 }

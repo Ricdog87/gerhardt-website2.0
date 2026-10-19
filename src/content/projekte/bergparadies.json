@@ -6,7 +6,11 @@
   "projektart": "bestand",
   "projektartLabel": "Bestandsgarten",
   "untertitel": "Überlaufpool im Bestandsgarten",
-  "pool": { "masse": "3,60 × 8 m", "typ": "ueberlauf", "gegenstromanlage": true },
+  "pool": {
+    "masse": "3,60 × 8 m",
+    "typ": "ueberlauf",
+    "gegenstromanlage": true
+  },
   "kostenrahmen": 200000,
   "kostenLabel": "ca. 200.000 €",
   "headline": "Aus ungenutzt wird Mittelpunkt.",
@@ -24,5 +28,8 @@
   "cover": "../../assets/images/projekte/ueberlaufpool-wiesbaden-bergparadies-villa.webp",
   "coverAlt": "Überlaufpool mit hellem Plattenbelag im Rasen, dahinter eine Altbauvilla, Projekt Bergparadies in Wiesbaden",
   "coverPosition": "50% 60%",
-  "alteUrl": "/pools/projekt-bergparadies"
+  "alteUrl": "/pools/projekt-bergparadies",
+  "hero": "../../assets/images/projekte/ueberlaufpool-wiesbaden-bergparadies-garten-quer.webp",
+  "heroAlt": "Überlaufpool im Rasen vor einer Altbauvilla, daneben Lounge-Möbel unter einem Sonnenschirm, Projekt Bergparadies in Wiesbaden",
+  "heroPosition": "50% 55%"
 }

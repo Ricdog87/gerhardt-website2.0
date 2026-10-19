@@ -28,6 +28,10 @@ const projekte = defineCollection({
       cover: image(),
       coverAlt: z.string(),
       coverPosition: z.string().default('50% 50%'),
+      /** Querformat für Vollbild-Szenen und Projekt-Hero */
+      hero: image(),
+      heroAlt: z.string(),
+      heroPosition: z.string().default('50% 50%'),
       alteUrl: z.string(),
     }),
 });

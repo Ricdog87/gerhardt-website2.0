@@ -1,6 +1,5 @@
 ---
 import Photo from '../Photo.astro';
-import SectionIntro from '../SectionIntro.astro';
 import pool from '../../assets/images/system/pool-innenliegende-treppe-detail.webp';
 import waerme from '../../assets/images/system/waermepumpe-pool-mainz.webp';
 import licht from '../../assets/images/system/gartenbeleuchtung-pollerleuchten-abend.jpg';
@@ -44,45 +43,112 @@ const parts = [
     position: '60% 50%',
   },
 ];
+const pad = (n: number) => String(n).padStart(2, '0');
 ---
 
-<section id="system" class="section" aria-labelledby="system-title">
+<section id="system" class="section bg-stone-50" data-scene="light" aria-labelledby="system-title">
   <div class="container-page">
-    <SectionIntro titleId="system-title" label="Ein System" title="Pool, Wasser, Licht und Garten. Aus einer Hand.">
-      <p>
+    <div class="max-w-[46rem]">
+      <p class="label text-sand-700" data-reveal>Ein System</p>
+      <h2 id="system-title" class="mt-5 text-display" data-split>Pool, Wasser, Licht und Garten. Aus einer Hand.</h2>
+      <p class="mt-7 text-ink-600 measure" data-reveal>
         Wir planen und bauen den gesamten technischen Ausbau als ein System, mit einer Steuerung und einem Ansprechpartner. Bei
         architektengeführten Projekten übernehmen wir diesen Teil als Fachplaner.
       </p>
-    </SectionIntro>
-  </div>
+    </div>
 
-  <div class="mt-14 md:mt-20">
-    <ol
-      class="system-track container-page flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 md:grid md:grid-cols-5 md:gap-6 md:overflow-visible md:pb-0"
-      aria-label="Bausteine des Systems"
-    >
-      {parts.map((p, i) => (
-        <li class="w-[72vw] max-w-[20rem] shrink-0 snap-start md:w-auto md:max-w-none" data-reveal style={`--reveal-delay: ${i * 70}ms`}>
-          <div class="aspect-[4/5] overflow-hidden bg-stone-200">
-            <Photo
-              src={p.img}
-              alt={p.alt}
-              widths={[320, 480, 640]}
-              sizes="(min-width: 1440px) 260px, (min-width: 768px) 18vw, 72vw"
-              class="h-full w-full object-cover"
-              style={`object-position: ${p.position}`}
-            />
-          </div>
-          <p class="label mt-5 text-ink-600">{String(i + 1).padStart(2, '0')}</p>
-          <h3 class="mt-2 font-display text-[1.5rem] leading-tight">{p.title}</h3>
-          <p class="mt-3 text-small text-ink-600">{p.text}</p>
-        </li>
-      ))}
-    </ol>
+    <div class="mt-16 md:mt-24 lg:grid lg:grid-cols-12 lg:gap-x-6">
+      <!-- Desktop: Bild bleibt stehen und wechselt mit dem aktiven Baustein -->
+      <div class="hidden lg:col-span-6 lg:block">
+        <div class="sticky top-[14vh] h-[72vh] overflow-hidden bg-stone-200" data-system-media>
+          {parts.map((p, i) => (
+            <div class="system-img absolute inset-0" data-system-img={i} data-state={i === 0 ? 'active' : 'future'}>
+              <Photo
+                src={p.img}
+                alt={p.alt}
+                widths={[640, 960, 1280]}
+                sizes="(min-width: 1440px) 680px, 46vw"
+                class="h-full w-full object-cover"
+                style={`object-position: ${p.position}`}
+              />
+            </div>
+          ))}
+          <p class="label absolute bottom-5 left-5 z-10 bg-stone-50 px-3 py-2 tabular-nums text-ink-900" aria-hidden="true">
+            <span data-system-index>01</span> / {pad(parts.length)}
+          </p>
+        </div>
+      </div>
+
+      <ol class="lg:col-span-5 lg:col-start-8" aria-label="Bausteine des Systems">
+        {parts.map((p, i) => (
+          <li class="system-item border-t border-stone-200 py-10 lg:flex lg:min-h-[72vh] lg:flex-col lg:justify-center lg:border-t-0 lg:py-0" data-system-item={i}>
+            <div class="mb-6 aspect-[4/3] overflow-hidden bg-stone-200 lg:hidden" data-reveal="image">
+              <Photo
+                src={p.img}
+                alt={p.alt}
+                widths={[480, 768, 1080]}
+                sizes="100vw"
+                class="h-full w-full object-cover"
+                style={`object-position: ${p.position}`}
+              />
+            </div>
+            <p class="label text-sand-700">{pad(i + 1)}</p>
+            <h3 class="mt-3 text-display">{p.title}</h3>
+            <p class="mt-5 max-w-[38ch] text-lead text-ink-600">{p.text}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
   </div>
 </section>
 
 <style>
-  .system-track { scrollbar-width: none; scroll-padding-inline: var(--gutter); }
-  .system-track::-webkit-scrollbar { display: none; }
+  /* Vergangene Bilder bleiben darunter stehen, das aktive schiebt sich von unten darüber */
+  .system-img { clip-path: inset(100% 0 0 0); z-index: 0; }
+  .system-img[data-state='past'] { clip-path: inset(0 0 0 0); z-index: 1; }
+  .system-img[data-state='active'] { clip-path: inset(0 0 0 0); z-index: 2; }
+  .system-img img { transform: scale(1.12); }
+  .system-img[data-state='active'] img,
+  .system-img[data-state='past'] img { transform: scale(1); }
+  :global(.motion) .system-img { transition: clip-path 1200ms var(--ease-expo); }
+  :global(.motion) .system-img img { transition: transform 1800ms var(--ease-expo); }
+  :global(.motion) .system-item { transition: opacity 700ms var(--ease-out-soft); }
+  :global(.motion) [data-system-live='true'] .system-item { opacity: 0.25; }
+  :global(.motion) [data-system-live='true'] .system-item[data-active='true'] { opacity: 1; }
+  @media (max-width: 63.99rem) {
+    :global(.motion) .system-item { opacity: 1; }
+  }
 </style>
+
+<script>
+  import { ScrollTrigger, startMotion } from '../../scripts/motion';
+
+  startMotion();
+
+  const items = [...document.querySelectorAll<HTMLElement>('[data-system-item]')];
+  const imgs = [...document.querySelectorAll<HTMLElement>('[data-system-img]')];
+  const index = document.querySelector<HTMLElement>('[data-system-index]');
+
+  const activate = (i: number) => {
+    items.forEach((el, j) => (el.dataset.active = String(i === j)));
+    imgs.forEach((el, j) => {
+      el.dataset.state = j === i ? 'active' : j < i ? 'past' : 'future';
+    });
+    if (index) index.textContent = String(i + 1).padStart(2, '0');
+  };
+
+  const section = document.getElementById('system');
+  activate(0);
+  items.forEach((item, i) => {
+    ScrollTrigger.create({
+      trigger: item,
+      start: 'top 55%',
+      end: 'bottom 55%',
+      onToggle: (self) => {
+        if (!self.isActive) return;
+        if (section) section.dataset.systemLive = 'true';
+        activate(i);
+      },
+    });
+  });
+</script>

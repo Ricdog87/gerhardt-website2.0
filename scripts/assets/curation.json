@@ -66,10 +66,6 @@
       "to": "system/poolsteuerung-display-wasserwerte.webp"
     },
     {
-      "from": "poolbau-kosten/2026_03_BAUSTELLEN_BAD CAMBERG (Bodenplatte giessen)-07274.jpg",
-      "to": "ablauf/bodenplatte-poolbau-bad-camberg.jpg"
-    },
-    {
       "from": "pools-galerie/2026_04_KOEN_Anlieferung--3.webp",
       "to": "ablauf/poolbecken-anlieferung-kran.webp"
     },
@@ -86,6 +82,34 @@
       "from": "logo-black.png",
       "to": "brand/logo-gerhardt-weiss.png",
       "bearbeitung": "aus logo-black.png abgeleitet: auf 1100 px skaliert, alle Pixel weiß, Transparenz erhalten (gleiche Geometrie wie farbiges Logo)"
+    },
+    {
+      "from": "projekte/bergparadies/hero-01.webp",
+      "to": "projekte/ueberlaufpool-wiesbaden-bergparadies-garten-quer.webp"
+    },
+    {
+      "from": "projekte/naturstein/gallery-17.webp",
+      "to": "projekte/naturstein-pool-wiesbaden-pergola-quer.webp"
+    },
+    {
+      "from": "projekte/naturstein/proof-05.webp",
+      "to": "cta/naturstein-pool-wiesbaden-abend-holzdeck.webp"
+    },
+    {
+      "from": "projekte/naturstein/proof-01.webp",
+      "to": "ablauf/ausgangslage-folienbecken-naturstein.webp"
+    },
+    {
+      "from": "mega-unternehmen.jpg",
+      "to": "ablauf/gartenplanung-entwurf-bildschirm.jpg"
+    },
+    {
+      "from": "poolbau-kosten/2026_04_KOEN_Anlieferung--2.webp",
+      "to": "ablauf/luftbild-poolbecken-kran-garten.webp"
+    },
+    {
+      "from": "projekte/bergparadies/hero-05.webp",
+      "to": "ablauf/uebergabe-pool-bergparadies-lounge.webp"
     }
   ]
 }

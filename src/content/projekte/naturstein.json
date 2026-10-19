@@ -7,7 +7,11 @@
   "sanierung": true,
   "projektartLabel": "Bestandsgarten · Sanierung",
   "untertitel": "Sanierung und Gesamtausführung",
-  "pool": { "masse": "4 × 9 m", "typ": "skimmer", "gegenstromanlage": true },
+  "pool": {
+    "masse": "4 × 9 m",
+    "typ": "skimmer",
+    "gegenstromanlage": true
+  },
   "kostenrahmen": 300000,
   "kostenLabel": "ca. 300.000 €",
   "headline": "Vom Folienbecken zum Naturstein-Pool.",
@@ -27,5 +31,8 @@
   "cover": "../../assets/images/projekte/naturstein-pool-wiesbaden-terrasse.webp",
   "coverAlt": "Pool mit Plattenbelag vor einer hohen Natursteinmauer mit Liegen, Projekt Naturstein in Wiesbaden",
   "coverPosition": "50% 55%",
-  "alteUrl": "/pools/projekt-naturstein"
+  "alteUrl": "/pools/projekt-naturstein",
+  "hero": "../../assets/images/projekte/naturstein-pool-wiesbaden-pergola-quer.webp",
+  "heroAlt": "Pool mit hellem Plattenbelag zwischen hoher Natursteinmauer und Pergola, Projekt Naturstein in Wiesbaden",
+  "heroPosition": "50% 60%"
 }

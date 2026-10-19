@@ -18,11 +18,14 @@
   --color-ink-600: #55575b;    /* Sekundärtext (6,5:1 auf stone-50) */
   --color-water-800: #1f3a40;  /* dunkle Sektionen, Footer */
   --color-water-200: #b8c2c2;  /* Sekundärtext auf water-800 (6,6:1) */
+  --color-ink-950: #0d1416;    /* Bühne für Projektszenen, fast schwarzes Petrol */
 
   --font-display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
   --font-sans: "Hanken Grotesk Variable", "Helvetica Neue", Arial, sans-serif;
 
-  /* Fluide Skala: H1 44→96 px, H2 32→56 px, Fließtext 17→19 px */
+  /* Fluide Skala: Kino 48→140 px, H1 44→96 px, H2 32→56 px, Fließtext 17→19 px */
+  --text-cinema: clamp(3rem, 1.1rem + 7.4vw, 8.75rem);
+  --text-cinema--line-height: 0.96;
   --text-display: clamp(2.75rem, 1.55rem + 4.9vw, 6rem);
   --text-display--line-height: 1.02;
   --text-headline: clamp(2rem, 1.45rem + 2.25vw, 3.5rem);
@@ -39,6 +42,7 @@
   --text-label--line-height: 1.4;
 
   --ease-out-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 :root {
@@ -152,24 +156,108 @@
   }
 }
 
-/* Einblenden beim Scrollen. Ohne JavaScript bleibt alles sichtbar. */
-@media (prefers-reduced-motion: no-preference) {
-  .js [data-reveal] {
-    opacity: 0;
-    transform: translateY(1.5rem);
-    transition: opacity 600ms var(--ease-out-soft), transform 600ms var(--ease-out-soft);
-    transition-delay: var(--reveal-delay, 0ms);
-  }
-  .js [data-reveal="image"] {
-    opacity: 1;
-    transform: none;
-    clip-path: inset(0 0 100% 0);
-    transition: clip-path 900ms var(--ease-out-soft);
-    transition-delay: var(--reveal-delay, 0ms);
-  }
-  .js [data-reveal].is-visible {
-    opacity: 1;
-    transform: none;
-    clip-path: inset(0 0 0 0);
-  }
+/* Einblenden beim Scrollen. Nur mit aktiver Bewegung (.motion); ohne JavaScript und bei reduzierter Bewegung bleibt alles sichtbar. */
+.motion [data-reveal] {
+  opacity: 0;
+  transform: translateY(2.5rem);
+  transition: opacity 1100ms var(--ease-expo), transform 1100ms var(--ease-expo);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.motion [data-reveal="image"] {
+  opacity: 1;
+  transform: none;
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 1400ms var(--ease-expo);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.motion [data-reveal="image"] img:not([data-parallax]) {
+  transform: scale(1.18);
+  transition: transform 2200ms var(--ease-expo);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.motion [data-reveal="image"].is-visible img:not([data-parallax]) { transform: scale(1); }
+.motion [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+  clip-path: inset(0 0 0 0);
+}
+
+/* ---------- Film: Szenen, Korn, Sicherheitsnetz ---------- */
+
+/* Szenenfarben. Die Seite blendet beim Scrollen zwischen hell und dunkel über (Motion-Modul setzt data-scene). */
+:root { --scene-bg: var(--color-stone-50); }
+html[data-scene="light"] { --scene-bg: var(--color-stone-50); }
+html[data-scene="sand"] { --scene-bg: var(--color-stone-200); }
+html[data-scene="dark"] { --scene-bg: var(--color-water-800); }
+html[data-scene="ink"] { --scene-bg: var(--color-ink-950); }
+
+/* Erst wenn die Szenensteuerung läuft, werden Sektionshintergründe transparent. Ohne JS bleiben sie wie gestaltet. */
+html.scenes-ready body {
+  background-color: var(--scene-bg);
+  transition: background-color 800ms var(--ease-out-soft);
+}
+html.scenes-ready [data-scene] { background-color: transparent; }
+
+/* Elemente, die das Motion-Modul selbst einblendet. Beim Intro liegt der Hero-Text sichtbar unter dem Vorhang. */
+.motion [data-split],
+.motion [data-hero-in] { visibility: hidden; }
+.motion.intro #hero-title,
+.motion.intro [data-hero-in] { visibility: visible; }
+
+/* Sicherheitsnetz: Startet das Motion-Modul nicht (motion-ready fehlt), wird nach 3,5 s alles sichtbar. */
+.motion:not(.motion-ready) :is([data-reveal], [data-split], [data-hero-in]) {
+  animation: motion-fallback 0s 3.5s forwards;
+}
+@keyframes motion-fallback {
+  to { visibility: visible; opacity: 1; transform: none; clip-path: none; }
+}
+
+/* Filmkorn */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  z-index: 3;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.11;
+  mix-blend-mode: overlay;
+  animation: grain 900ms steps(6) infinite;
+}
+@keyframes grain {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-4%, 3%); }
+  40% { transform: translate(3%, -5%); }
+  60% { transform: translate(-2%, 6%); }
+  80% { transform: translate(5%, 2%); }
+  100% { transform: translate(0, 0); }
+}
+
+/* Maskierte Zeilen von SplitText */
+.split-mask { overflow: clip; padding-bottom: 0.08em; margin-bottom: -0.08em; }
+
+/* Cursor-Label über Bildern (nur Maus) */
+.cursor-label {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  width: 6.5rem;
+  height: 6.5rem;
+  margin: -3.25rem 0 0 -3.25rem;
+  border-radius: 9999px;
+  background: var(--color-stone-50);
+  color: var(--color-ink-900);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  pointer-events: none;
+  transform: scale(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain::after { animation: none; }
 }

@@ -29,6 +29,7 @@ Status: `offen` · `Vorschlag liegt vor` (Freigabe nötig) · `in Vorschau verwe
 | E8 | Unternehmensfilm (YouTube) | offen | Auf `/ueber-uns` mit Zwei-Klick-Lösung weiterverwenden? |
 | E9 | Referenzliste öffentlich/gewerblich | offen | Auf `/ueber-uns` behalten; Freigabe, ob Firmennamen (Lufthansa, Deutsche Börse …) weiter genannt werden dürfen. |
 | E10 | Hero-Headline | offen | A „Pools, die zum Haus gehören." ist Standard. Varianten ansehen: Vorschau-URL mit `?hero=B` oder `?hero=C`. |
+| E12 | Bewegung und Effekte | in Vorschau verwendet | Auf Wunsch filmischer als im Briefing („dezent, keine Parallaxe"): Intro, Szenenwechsel, Parallaxe, Filmstreifen. Bei „Bewegung reduzieren" ist alles aus. |
 | E11 | Angepasste Projekttexte | Vorschlag liegt vor | Verbotene Wörter ersetzt: „Gartenoase" → „Überlaufpool im Bestandsgarten", „Wohlfühloase" → „der Ort, der das Haus in den Mittelpunkt rückt", „High-End-Pool" → „Naturstein-Pool". Rest wörtlich übernommen. |
 
 ## Inhalte vom Kunden
@@ -49,6 +50,7 @@ Status: `offen` · `Vorschlag liegt vor` (Freigabe nötig) · `in Vorschau verwe
 | C12 | `[[FAQ_NICHT_LOHNEND]]` Antwort auf „Wann lohnt sich ein Projekt nicht?" | offen | Im Briefing erwähnt, auf der Live-Seite nicht vorhanden |
 | C13 | Original-Shootingdateien 2026 in voller Auflösung | offen | Webbilder max. ca. 2.400 px, für Full-bleed knapp |
 | C14 | Logo als SVG | offen | Live nur PNG (3669 px). Die weiße Variante ist aus dem farbigen PNG abgeleitet. |
+| C16 | Bewegtbild für den Hero: 10–20 s ruhige Kamerafahrt oder Drohnenflug in der Dämmerung, ohne Ton | offen | Hebt den Filmcharakter auf die nächste Stufe. Der vorhandene Unternehmensfilm liegt nur auf YouTube und darf ohne Einwilligung nicht automatisch laufen. |
 | C15 | Abendaufnahmen weiterer Projekte | offen | Alle drei Hero-Bilder stammen vom Projekt Naturstein, weil nur dort Dämmerungsaufnahmen existieren. Besonders gefragt: Bergparadies, Provence. Optional Drohnenaufnahmen. |
 
 ## Recht (Prüfung durch Kunde / Anwalt / DSB)
