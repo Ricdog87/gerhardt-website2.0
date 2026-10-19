@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "@fontsource-variable/fraunces/opsz.css";
-@import "@fontsource-variable/hanken-grotesk/wght.css";
 
 /* Designsystem: Kalkstein, Anthrazit, tiefes Petrol. Fotos tragen die Seite. */
 @theme {
@@ -20,8 +18,8 @@
   --color-water-200: #b8c2c2;  /* Sekundärtext auf water-800 (6,6:1) */
   --color-ink-950: #0d1416;    /* Bühne für Projektszenen, fast schwarzes Petrol */
 
-  --font-display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
-  --font-sans: "Hanken Grotesk Variable", "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-hanken), Arial, sans-serif;
 
   /* Fluide Skala: Kino 48→140 px, H1 44→96 px, H2 32→56 px, Fließtext 17→19 px */
   --text-cinema: clamp(3rem, 1.1rem + 7.4vw, 8.75rem);
@@ -166,21 +164,23 @@
 .motion [data-reveal="image"] {
   opacity: 1;
   transform: none;
+  transition: none;
+}
+/* Zugeklappt wird das Bild, nicht der Rahmen: So bleibt der Rahmen für den IntersectionObserver messbar. */
+.motion [data-reveal="image"] img {
   clip-path: inset(0 0 100% 0);
-  transition: clip-path 1400ms var(--ease-expo);
+  transition: clip-path 1400ms var(--ease-expo), transform 2200ms var(--ease-expo);
   transition-delay: var(--reveal-delay, 0ms);
 }
-.motion [data-reveal="image"] img:not([data-parallax]) {
-  transform: scale(1.18);
-  transition: transform 2200ms var(--ease-expo);
-  transition-delay: var(--reveal-delay, 0ms);
-}
+.motion [data-reveal="image"] img:not([data-parallax]) { transform: scale(1.18); }
+.motion [data-reveal="image"].is-visible img { clip-path: inset(0 0 0 0); }
 .motion [data-reveal="image"].is-visible img:not([data-parallax]) { transform: scale(1); }
 .motion [data-reveal].is-visible {
   opacity: 1;
   transform: none;
-  clip-path: inset(0 0 0 0);
 }
+/* Parallax-Bilder: GSAP setzt transform, also keine CSS-Transition darauf */
+.motion [data-reveal="image"] img[data-parallax] { transition: clip-path 1400ms var(--ease-expo); }
 
 /* ---------- Film: Szenen, Korn, Sicherheitsnetz ---------- */
 
@@ -211,25 +211,32 @@ html.scenes-ready [data-scene] { background-color: transparent; }
 @keyframes motion-fallback {
   to { visibility: visible; opacity: 1; transform: none; clip-path: none; }
 }
+.motion:not(.motion-ready) [data-reveal="image"] img { animation: motion-fallback 0s 3.5s forwards; }
+
+/* Animierte Großbilder auf eigene GPU-Ebenen */
+.motion :is([data-hero-camera], [data-hero-media], .hero-img, .scene-img, .strip-img, img[data-parallax]) { will-change: transform; }
 
 /* Filmkorn */
 .grain::after {
   content: "";
   position: absolute;
-  inset: -50%;
+  inset: -12%;
   z-index: 3;
   pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  opacity: 0.11;
-  mix-blend-mode: overlay;
+  /* Vorgerenderte Rausch-Kachel statt SVG-Filter: wird nicht bei jedem Frame neu gerastert */
+  background: url("/grain.webp") repeat;
+  background-size: 128px 128px;
+  opacity: 0.05;
+  mix-blend-mode: screen;
+  will-change: transform;
   animation: grain 900ms steps(6) infinite;
 }
 @keyframes grain {
   0% { transform: translate(0, 0); }
-  20% { transform: translate(-4%, 3%); }
-  40% { transform: translate(3%, -5%); }
-  60% { transform: translate(-2%, 6%); }
-  80% { transform: translate(5%, 2%); }
+  20% { transform: translate(-5%, 4%); }
+  40% { transform: translate(4%, -6%); }
+  60% { transform: translate(-3%, 7%); }
+  80% { transform: translate(6%, 3%); }
   100% { transform: translate(0, 0); }
 }
 
@@ -258,6 +265,7 @@ html.scenes-ready [data-scene] { background-color: transparent; }
   transform: scale(0);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .grain::after { animation: none; }
+/* Kein Flimmern bei reduzierter Bewegung und auf Touch-Geräten (spart dort Arbeit pro Frame) */
+@media (prefers-reduced-motion: reduce), (hover: none) {
+  .grain::after { animation: none; will-change: auto; }
 }

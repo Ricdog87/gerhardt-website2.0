@@ -18,8 +18,19 @@ export function getLenis() {
   return lenis;
 }
 
+/** Scrollen sperren und freigeben, mit oder ohne Lenis */
+export function lockScroll(locked: boolean) {
+  if (lenis) {
+    if (locked) lenis.stop();
+    else lenis.start();
+  } else {
+    document.documentElement.style.overflow = locked ? 'hidden' : '';
+  }
+}
+
 export function initSmoothScroll() {
-  if (reduced || lenis) return;
+  // Auf Touch-Geräten scrollt der Finger nativ; Lenis würde dort nur Rechenzeit kosten
+  if (reduced || lenis || !finePointer) return;
   lenis = new Lenis({ lerp: 0.085, smoothWheel: true, anchors: { offset: -72 }, autoRaf: false });
   lenis.on('scroll', ScrollTrigger.update);
   gsap.ticker.add((time) => lenis?.raf(time * 1000));
@@ -68,9 +79,24 @@ function afterFirstScroll(fn: () => void) {
   else window.addEventListener('scroll', fn, { once: true, passive: true });
 }
 
-/** Erst zerlegen, wenn das Element in die Nähe des Viewports kommt: spart Arbeit beim Laden */
-function whenNear(el: HTMLElement, fn: () => void) {
-  ScrollTrigger.create({ trigger: el, start: 'top bottom+=35%', once: true, onEnter: fn });
+/** Einmalig ausführen, sobald ein Element den (erweiterten) Viewport erreicht. IntersectionObserver statt
+ * ScrollTrigger, damit beim Neuvermessen nicht Dutzende Trigger Layout erzwingen. */
+function observeOnce(el: Element, rootMargin: string, fn: () => void) {
+  const io = new IntersectionObserver(
+    (entries) => {
+      if (entries.some((e) => e.isIntersecting)) {
+        io.disconnect();
+        fn();
+      }
+    },
+    { rootMargin },
+  );
+  io.observe(el);
+}
+
+/** Erst ausführen, wenn das Element in die Nähe des Viewports kommt: spart Arbeit beim Laden */
+export function whenNear(el: HTMLElement, fn: () => void) {
+  observeOnce(el, '0px 0px 35% 0px', fn);
 }
 
 function initSplits() {
@@ -79,12 +105,10 @@ function initSplits() {
   });
 }
 
-/** data-reveal: Einblenden per ScrollTrigger (misst die Box, daher auch für zugeklappte Bilder mit clip-path) */
+/** data-reveal: Einblenden, sobald das Element ins Bild kommt (bei Bildern ist das Bild darin zugeklappt, nicht der Rahmen) */
 function initReveals() {
-  ScrollTrigger.batch('[data-reveal]', {
-    start: 'top 92%',
-    once: true,
-    onEnter: (els) => els.forEach((el) => el.classList.add('is-visible')),
+  document.querySelectorAll('[data-reveal]').forEach((el) => {
+    observeOnce(el, '0px 0px -8% 0px', () => el.classList.add('is-visible'));
   });
 }
 
@@ -275,11 +299,13 @@ export function startMotion() {
   });
   // Komponenten legen ihre Szenen danach an. Reihenfolge der Trigger nach Position sortieren und
   // nach dem Laden von Webfonts und Bildern neu vermessen.
+  // ScrollTrigger vermisst beim load-Event ohnehin neu. Nur Webfonts, die danach eintreffen, brauchen eine Extra-Runde.
   requestAnimationFrame(() => {
     initScenes();
     ScrollTrigger.sort();
-    ScrollTrigger.refresh();
+    if (document.readyState === 'complete') ScrollTrigger.refresh();
   });
-  document.fonts?.ready.then(() => ScrollTrigger.refresh());
-  window.addEventListener('load', () => ScrollTrigger.refresh());
+  document.fonts?.ready.then(() => {
+    if (document.readyState === 'complete') ScrollTrigger.refresh();
+  });
 }

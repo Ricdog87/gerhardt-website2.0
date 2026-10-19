@@ -133,7 +133,7 @@ const { overlay = false } = Astro.props;
 </style>
 
 <script>
-  import { getLenis } from '../scripts/motion';
+  import { lockScroll } from '../scripts/motion';
 
   const header = document.querySelector<HTMLElement>('.site-header');
   const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
@@ -163,9 +163,7 @@ const { overlay = false } = Astro.props;
       toggle.setAttribute('aria-expanded', String(open));
       toggle.querySelector('.menu-toggle-text')!.textContent = open ? 'Schließen' : 'Menü';
       menu.hidden = !open;
-      document.documentElement.style.overflow = open ? 'hidden' : '';
-      if (open) getLenis()?.stop();
-      else getLenis()?.start();
+      lockScroll(open);
       update();
     };
     toggle?.addEventListener('click', () => setMenu(!menuOpen));

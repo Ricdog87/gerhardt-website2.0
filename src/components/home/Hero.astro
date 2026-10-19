@@ -49,17 +49,17 @@ const pad = (n: number) => String(n).padStart(2, '0');
     </h1>
 
     <div class="mt-8 grid gap-7 md:mt-10 md:grid-cols-12 md:items-end">
-      <p class="max-w-[42ch] text-lead text-stone-50/85 md:col-span-6" data-hero-in>
+      <p class="min-h-[4lh] max-w-[42ch] text-lead text-stone-50/85 sm:min-h-[3lh] md:col-span-6" data-hero-in>
         Planung, Bau und Technik aus einer Hand. Für Bestandsgärten und Neubauten in Wiesbaden, im Taunus und in Frankfurt.
       </p>
-      <div class="flex flex-wrap gap-3 md:col-span-6 md:justify-end" data-hero-in>
+      <div class="grid gap-3 sm:flex sm:flex-wrap md:col-span-6 md:justify-end" data-hero-in>
         <a href="/anfrage" class="btn btn-light" data-magnetic>Projekt anfragen</a>
         <a href="#projekte" class="btn btn-ghost-light" data-magnetic>Projekte ansehen</a>
       </div>
     </div>
 
     <div class="mt-10 flex items-center justify-between gap-6 border-t border-stone-50/20 pt-5 text-stone-50/75 md:mt-14" data-hero-in>
-      <p class="label">Seit {company.founded} <span aria-hidden="true">·</span> Planung, Bau und Service</p>
+      <p class="label min-h-[2lh] sm:min-h-0">Seit {company.founded} <span aria-hidden="true">·</span> Planung, Bau und Service</p>
       <p class="label hidden items-center gap-3 md:flex" aria-hidden="true">
         Scrollen <span class="scroll-cue relative block h-8 w-px overflow-hidden bg-stone-50/25"><span class="absolute inset-x-0 top-0 h-1/2 bg-stone-50"></span></span>
       </p>
@@ -119,7 +119,7 @@ const pad = (n: number) => String(n).padStart(2, '0');
 </style>
 
 <script>
-  import { gsap, splitLines, reduced, startMotion, getLenis, EXPO } from '../../scripts/motion';
+  import { gsap, splitLines, reduced, startMotion, lockScroll, EXPO } from '../../scripts/motion';
 
   startMotion();
 
@@ -167,7 +167,7 @@ const pad = (n: number) => String(n).padStart(2, '0');
       } catch {
         /* privater Modus: Intro läuft dann bei jedem Besuch */
       }
-      getLenis()?.stop();
+      lockScroll(true);
       const logo = curtain.querySelector('[data-intro-logo]');
       const line = curtain.querySelector('[data-intro-line]');
       gsap
@@ -179,7 +179,7 @@ const pad = (n: number) => String(n).padStart(2, '0');
         .to(curtain.querySelector('[data-curtain="bottom"]'), { yPercent: 100, duration: 1.15, ease: 'expo.inOut' }, 0.95)
         .add(reveal(), 1.0)
         // Scrollen freigeben, sobald der Vorhang aufgeht; danach den Vorhang entfernen
-        .add(() => getLenis()?.start(), 1.6)
+        .add(() => lockScroll(false), 1.6)
         .add(() => curtain.remove(), 2.15);
     }
 
